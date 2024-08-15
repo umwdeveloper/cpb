@@ -82,11 +82,12 @@ $feedbacks = findAll("feedbacks");
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
 </head>
+
 
 <body>
     <header class="header d-md-block d-none">
@@ -655,7 +656,7 @@ $feedbacks = findAll("feedbacks");
                                                 class="form-control"
                                                 placeholder="Email">
                                         </div>
-                                        
+
                                         <div class="half-col">
                                             <label for="consumer-issue" class="text-white">Consumer
                                                 Issues</label>
@@ -690,7 +691,7 @@ $feedbacks = findAll("feedbacks");
                                                 class="form-control"
                                                 placeholder="Product or Service Complaining about">
                                         </div>
-<div >
+                                        <div>
                                             <label for="address" class="text-white">Desired Resolution</label>
                                             <select name="address"
                                                 id="address"
@@ -1016,9 +1017,9 @@ $feedbacks = findAll("feedbacks");
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
-  <script src="/assets/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+    <script src="/assets/js/app.js"></script>
     <script>
         contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
 
