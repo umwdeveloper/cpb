@@ -1,5 +1,5 @@
 <?php
-
+include_once "includes/functions.php";
 include_once "includes/mail.php";
 
 $contactFormSubmitted = false;
@@ -20,7 +20,7 @@ if (isset($_POST['contact'])) {
 
     $contactFormSubmitted = true;
 }
-
+$feedbacks = findAll("feedbacks");
 ?>
 
 <!doctype html>
@@ -170,152 +170,9 @@ if (isset($_POST['contact'])) {
         <section class="pb-lg-5 pb-4 bg-light position-relative">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-11 mx-auto">
-
-                        <form method="post" class="membership-form bg-white rounded-2 p-4">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="d-flex justify-content-center mb-4 mt-3">
-                                        <img src="assets/images/CPB-membership.png" alt=""
-                                            class="mx-auto membership-logo">
-                                    </div>
-
-
-                                    <h3 class="">Consumer Protection Bureau </h3>
-                                    <p class="text">
-                                        Consumer Protection Bureau (CPB) is a UK-registered Community Interest Company
-                                        (CIC)
-                                        operating under the <a href="" class="text-decoration-none text-secondry">CRC
-                                            Group</a>. As an independently financed
-                                        organisation, we are wholly supported by our member contributions.
-                                    </p>
-                                    <p class="text">
-                                        Our mission is to achieve justice and fairness for our members, empowering them
-                                        to effectively
-                                        defend their consumer rights. All membership fees directly support our important
-                                        work in this area.
-                                        As a member-driven organisation, we rely on individuals who share our vision to
-                                        join and support our
-                                        cause. Your membership not only provides you with valuable services but also
-                                        contributes to our
-                                        broader efforts in consumer advocacy and protection.
-                                    </p>
-                                    <p class="text">
-                                        If you are interested in learning more about how CPB membership can benefit you
-                                        and support our
-                                        mission, we would be happy to provide further details on our services.
-
-                                    </p>
-                                </div>
-                                <div class="col-lg-12 mt-3">
-                                    <h2 class="text-center secondry-heading">MEMBERSHIP APPLICATION FORM</h2>
-                                    <p class="text text-center">Please complete this form and return it electronically
-                                        to: <a href=""
-                                            class="text-decoration-none text-secondry">info@consumerprotectionbureau.co.uk.</a>
-                                    </p>
-                                </div>
-
-                                <div class="col-lg-12 mt-3">
-                                    <h2 class="text-md font-bold text-primary text-center mb-4"><b>CONTACT
-                                            INFORMATION</b>
-                                    </h2>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="mb-3">
-                                        <label for="name" class="form-label">Name</label>
-                                        <input type="text" name="name" id="name" class="form-control" placeholder=""
-                                            aria-describedby="helpId" />
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="mb-3">
-                                        <label for="email" class="form-label">Email</label>
-                                        <input type="email" name="email" id="email" class="form-control" placeholder=""
-                                            aria-describedby="helpId" />
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="mb-3">
-                                        <label for="phone" class="form-label">Telephone Number</label>
-                                        <input type="text" name="phone" id="phone" class="form-control" placeholder=""
-                                            aria-describedby="helpId" />
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="mb-3">
-                                        <label for="dob" class="form-label">Date of Birth</label>
-                                        <input type="date" name="dob" id="dob" class="form-control" placeholder=""
-                                            aria-describedby="helpId" />
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="mb-3">
-                                        <label for="address" class="form-label">Home Address</label>
-                                        <input type="text" name="address" id="address" class="form-control" placeholder=""
-                                            aria-describedby="helpId" />
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <h2 class="text-md  text-primary text-center mb-2 mt-4"><b>HANDLING FEE</b>
-                                    </h2>
-
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="fee" />
-                                        <label class="form-check-label" for="fee"> Experience exceptional value with
-                                            CPB’s
-                                            services! For just £10.00 annually, enjoy expert
-                                            dispute resolution with a transparent 15% handling
-                                            fee on the disputed amount.<br>
-                                            Compared to the high cost of hiring a lawyer, CPB
-                                            offers premier support at a fraction of the price. </label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <h2 class="text-md  text-primary text-center mb-2 mt-4"><b>PAYMENT INFORMATION</b>
-                                    </h2>
-                                    <p class="text text-center mb-0 pb-0">
-                                        Transfer to Santander<br>
-                                        Compliance and Risk Consultancy (CRC) The
-                                        Compli<br>
-                                        Account Number 96293501<br>
-                                        Sort Code 09-01-28
-
-                                    </p>
-                                </div>
-
-                                <div class="col-lg-12">
-                                    <h2 class="text-md  text-primary text-center mb-2  mt-4"><b>Member’s Declaration</b>
-                                    </h2>
-                                    <p class="text text-center">As a member of CPB I undertake to abide by the rules and
-                                        regulations of the organization and will help it
-                                        to achieve its objectives of being a consumer advocate.</p>
-                                </div>
-
-                                <div class="col-lg-12">
-                                    <div class="mb-3">
-                                        <label for="" class="form-label text-primary"><b>SIGN</b>
-                                        </label>
-                                        <canvas id="signaturePad" class="signature-pad"></canvas>
-                                        <div class="button-container d-flex justify-content-end">
-                                            <button id="clear">Clear</button>
-                                            <!-- <button id="save" class="ms-2">Save</button> -->
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="mb-3">
-                                        <label for="" class="form-label text-primary"><b>Date</b></label>
-                                        <input type="date" name="" id="" class="form-control border-0 border-bottom rounded-0" placeholder=""
-                                            aria-describedby="helpId" />
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 my-3">
-                                    <div class="d-flex justify-content-end">
-                                        <button class="main-btn">Send</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
+                    <div class="col-lg-12 mx-auto">
+ <div class="plato-form-widget" data-options="id:frn2rjc4k5g;width:100%;height:0;host:form.platoforms.com/"></div><div id="frn2rjc4k5g-loading-msg"><h2>Loading the Form...</h2></div> <script type="text/javascript"> (function(d, v){ var s = d.getElementsByTagName(v)[0], p = s.parentNode, e = d.createElement(v); e.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'static.platoforms.com/assets/dist/formbuilder.js?v=15'; p.insertBefore(e, s); })(document, 'script'); </script>
+                      
                     </div>
                 </div>
             </div>
@@ -459,7 +316,7 @@ if (isset($_POST['contact'])) {
             </div>
         </section>
 
-        <section class="py-lg-5 py-4">
+     <section class="py-lg-5 py-4">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -467,89 +324,36 @@ if (isset($_POST['contact'])) {
                             Why people believe in us
                         </h1>
                     </div>
-               <div class="col-lg-12">
+                    <div class="col-lg-12">
                         <div class="slick-slider">
-                            <div class="element element-1">
-                                <div class="amenity-card quote-card">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
+                            <?php foreach ($feedbacks as $count => $feedback): ?>
+                                <div class="element element-<?php echo ++$count; ?>">
+                                    <div class="amenity-card quote-card">
+                                        <div class="text-center mb-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
+                                                id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
+                                                <path fill="#E5BF20"
+                                                    d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
+                                                    id="1938712236"></path>
+                                            </svg>
+                                        </div>
+                                        <p class="text text-center">
+                                            “<?php echo $feedback->feedback; ?>”
+                                        </p>
+                                        <h3 class="mt-3"><?php echo $feedback->name . ", " . $feedback->location; ?></h3>
                                     </div>
-                                    <p class="text text-center">
-                                        “one of the best Consumer rights solution
-                                        company in the market, you will find best
-                                        experience here highly friendly and
-                                        professional team”
-                                    </p>
-                                    <h3 class="mt-3">Jane Faber, London</h3>
                                 </div>
-                            </div>
-                            <div class="element element-2">
-                                <div class="amenity-card quote-card">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
-                                    </div>
-                                    <p class="text text-center">
-                                        “If you are looking for a high quality
-                                        company, I highly recommend this one. They
-                                        are the very best in the field, no
-                                        compromise.”
-                                    </p>
-                                    <h3 class="mt-3">John Smith, Manchester </h3>
-                                </div>
-                            </div>
-                            <div class="element element-3">
-                                <div class="amenity-card quote-card">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
-                                    </div>
-                                    <p class="text text-center">
-                                        “The service is friendly and the results are
-                                        always of the highest quality. This is the
-                                        best company I have ever worked with.”
-                                    </p>
-                                    <h3 class="mt-3">Madelaine Taylor, Leeds</h3>
-                                </div>
-                            </div>
-                            <div class="element element-4">
-                                <div class="amenity-card quote-card">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
-                                    </div>
-                                    <p class="text text-center">
-                                        “The first time I tried this company, I was
-                                        hooked. Everything was so fabulous and easy.
-                                        I’ll never go back to anyone else.”
-                                    </p>
-                                    <h3 class="mt-3">Sheila Marks, Nottingham</h3>
-                                </div>
-                            </div>
-                            
-                          </div>
+                            <?php endforeach; ?>
+
+                        </div>
                     </div>
+
+
                 </div>
             </div>
+            </div>
+                  
         </section>
-
         <section>
             <div class="contact-area py-lg-5 py-4">
                 <div class="container py-4">
