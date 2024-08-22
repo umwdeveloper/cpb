@@ -1,5 +1,5 @@
 <?php
-
+include_once "includes/functions.php";
 include_once "includes/mail.php";
 
 $contactFormSubmitted = false;
@@ -20,7 +20,7 @@ if (isset($_POST['contact'])) {
 
     $contactFormSubmitted = true;
 }
-
+$feedbacks = findAll("feedbacks");
 
 ?>
 <!doctype html>
@@ -214,7 +214,7 @@ if (isset($_POST['contact'])) {
         </section>
 
 
-        <section class="py-lg-5 py-4 bg-light">
+      <section class="py-lg-5 py-4">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -222,87 +222,35 @@ if (isset($_POST['contact'])) {
                             Why people believe in us
                         </h1>
                     </div>
-                     <div class="col-lg-12">
+                    <div class="col-lg-12">
                         <div class="slick-slider">
-                            <div class="element element-1">
-                                <div class="amenity-card quote-card bg-light">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
+                            <?php foreach ($feedbacks as $count => $feedback): ?>
+                                <div class="element element-<?php echo ++$count; ?>">
+                                    <div class="amenity-card quote-card">
+                                        <div class="text-center mb-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
+                                                id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
+                                                <path fill="#E5BF20"
+                                                    d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
+                                                    id="1938712236"></path>
+                                            </svg>
+                                        </div>
+                                        <p class="text text-center">
+                                            “<?php echo $feedback->feedback; ?>”
+                                        </p>
+                                        <h3 class="mt-3"><?php echo $feedback->name . ", " . $feedback->location; ?></h3>
                                     </div>
-                                    <p class="text text-center">
-                                        “one of the best Consumer rights solution
-                                        company in the market, you will find best
-                                        experience here highly friendly and
-                                        professional team”
-                                    </p>
-                                    <h3 class="mt-3">Jane Faber, London</h3>
                                 </div>
-                            </div>
-                            <div class="element element-2">
-                                <div class="amenity-card quote-card bg-light">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
-                                    </div>
-                                    <p class="text text-center">
-                                        “If you are looking for a high quality
-                                        company, I highly recommend this one. They
-                                        are the very best in the field, no
-                                        compromise.”
-                                    </p>
-                                    <h3 class="mt-3">John Smith, Manchester </h3>
-                                </div>
-                            </div>
-                            <div class="element element-3">
-                                <div class="amenity-card quote-card bg-light">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
-                                    </div>
-                                    <p class="text text-center">
-                                        “The service is friendly and the results are
-                                        always of the highest quality. This is the
-                                        best company I have ever worked with.”
-                                    </p>
-                                    <h3 class="mt-3">Madelaine Taylor, Leeds</h3>
-                                </div>
-                            </div>
-                            <div class="element element-4">
-                                <div class="amenity-card quote-card bg-light">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
-                                    </div>
-                                    <p class="text text-center">
-                                        “The first time I tried this company, I was
-                                        hooked. Everything was so fabulous and easy.
-                                        I’ll never go back to anyone else.”
-                                    </p>
-                                    <h3 class="mt-3">Sheila Marks, Nottingham</h3>
-                                </div>
-                            </div>
-                            
-                          </div>
+                            <?php endforeach; ?>
+
+                        </div>
                     </div>
+
+
                 </div>
             </div>
+            </div>
+                  
         </section>
 
         <section>

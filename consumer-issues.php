@@ -128,7 +128,7 @@ if (isset($_POST['contact'])) {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="archive.html">Archive
+                            <a class="nav-link" href="archive.php">Archive
                             </a>
                         </li>
                         <li class="nav-item">
@@ -859,7 +859,7 @@ if (isset($_POST['contact'])) {
                             <a href="blog/index.php" class="text-white">Blog</a>
                         </p>
                         <p>
-                            <a href="archive.html" class="text-white">Archive</a>
+                            <a href="archive.php" class="text-white">Archive</a>
                         </p>
                         <p>
                             <a href="membership.php" class="text-white">Membership</a>
