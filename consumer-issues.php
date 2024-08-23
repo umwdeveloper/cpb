@@ -698,7 +698,40 @@ if (isset($_POST['contact'])) {
             </div>
         </section>
 
+        <section class="py-lg-5 py-4 ">
+             <div class="container">
+                <div class="row justify-content-center">
+                <div class="col-lg-12">
+                        <h1 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
+                        Visit Our Subsidiary Companies
+                        </h1>
+                  
+                </div>
+           
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://www.compliance-experts.co.uk/" target="_blank" class="text-decoration-none text-dark">
+                            <div class="amenity-card d-flex justify-content-center align-items-center flex-column"> 
+                                <img
+                                    src="assets/images/CRC-logo.png"
+                                    alt="CRC logo"   style="width:130px; height:auto;">
+                                <h1 class="mt-4 text-center text-md"  style=" font-weight:500;">Compilance and Risk Consultancy</h1>
+                            </div>
+                        </a>
+                    </div>
 
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://carehomecompliance.com/" target="_blank" class="text-decoration-none text-dark">
+                            <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
+                                <img
+                                    src="assets/images/Care Home Compilance.png"
+                                    alt="CHC logo"  style="width:100px; height:auto;">
+                                <h1 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h1>
+                            </div>
+                        </a>
+                    </div>
+             </div>
+                            </div>
+        </section>
 
         <section>
             <div class="contact-area py-lg-5 py-4">
@@ -940,7 +973,7 @@ if (isset($_POST['contact'])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
-         <script src="/assets/js/app.js"></script>
+         <script src="assets/js/app.js"></script>
      <script>
         contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
 
