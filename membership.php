@@ -354,6 +354,40 @@ $feedbacks = findAll("feedbacks");
             </div>
                   
         </section>
+        <section class="py-lg-5 py-4 bg-light">
+             <div class="container">
+                <div class="row justify-content-center">
+                <div class="col-lg-12">
+                        <h1 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
+                        Visit Our Subsidiary Companies
+                        </h1>
+                  
+                </div>
+           
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://www.compliance-experts.co.uk/" target="_blank" class="text-decoration-none text-dark">
+                            <div class="amenity-card d-flex justify-content-center align-items-center flex-column"> 
+                                <img
+                                    src="assets/images/CRC-logo.png"
+                                    alt="CRC logo"   style="width:130px; height:auto;">
+                                <h1 class="mt-4 text-center text-md"  style=" font-weight:500;">Compilance and Risk Consultancy</h1>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://carehomecompliance.com/" target="_blank" class="text-decoration-none text-dark">
+                            <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
+                                <img
+                                    src="assets/images/Care Home Compilance.png"
+                                    alt="CHC logo"  style="width:100px; height:auto;">
+                                <h1 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h1>
+                            </div>
+                        </a>
+                    </div>
+             </div>
+                            </div>
+        </section>
         <section>
             <div class="contact-area py-lg-5 py-4">
                 <div class="container py-4">
@@ -603,7 +637,7 @@ $feedbacks = findAll("feedbacks");
         crossorigin="anonymous"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
-  <script src="/assets/js/app.js"></script>
+  <script src="assets/js/app.js"></script>
     <script>
         window.onload = function() {
             const canvas = document.getElementById('signaturePad');

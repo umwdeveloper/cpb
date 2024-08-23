@@ -1,9 +1,9 @@
 <?php
 
 class Database {
-	private $server   = "mysql:host=localhost;dbname=cpb_main";
-	private $username = "CPB";
-	private $password = "consumerprotection123/";
+	private $server   = "mysql:host=localhost;dbname=cpb";
+	private $username = "root";
+	private $password = "";
 	private $options  = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,);
 	protected $conn;
 
