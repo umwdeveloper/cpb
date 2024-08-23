@@ -21,4 +21,4 @@ class Database {
 	}
 }
 
-$pdo = new Database();
+$pdo = new Database();
