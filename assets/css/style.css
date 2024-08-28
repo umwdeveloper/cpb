@@ -566,12 +566,20 @@ body {
     width: auto;
 }
 .membership-form h3{
-    font-size: 16px;
+    font-size: 26px;
     font-weight: 600;
     color: #E5BF20;
     text-align: center;
 }
+.membership-heading{
+    background-color: #223A78;
+    color: #ffdc4f !important;
+    font-size: 20px;
 
+}
+.membership-form{
+    padding:30px 70px !important;
+}
 
 .signature-pad {
     border: 1px solid #dee2e6;

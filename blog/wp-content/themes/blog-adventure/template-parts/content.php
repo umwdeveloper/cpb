@@ -25,12 +25,12 @@ $show_image = get_theme_mod('blogwaves_archive_co_featured_image',true);
     
    	<div class="content-part content">
      
-        <h3 class="title mb-20"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-        <ul class="blog-meta mb-20">
-            <?php if($show_author) { ?><li style="font-size:18px;color:black; text-transform:capitalize; font-weight:600;"><?php echo get_avatar( get_the_author_meta('email'), '30' );?><?php blogwaves_posted_by(); ?></li><?php } ?>
-           <br>
+        <h3 class="title " style="max-height:50px !important;"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+        <ul class="blog-meta  mb-20">
+            <!-- <?php if($show_author) { ?><li class="d-none" style="font-size:18px;color:black; text-transform:capitalize; font-weight:600;"><?php echo get_avatar( get_the_author_meta('email'), '30' );?><?php blogwaves_posted_by(); ?></li><?php } ?> -->
+        
           
-            <?php if($show_date) { ?><li class="mt-3"><i class="bi bi-calendar-week ml-0" style="font-size:18px;color:#E5BF20;"></i><?php blogwaves_posted_on(); ?></li><?php } ?>
+            <?php if($show_date) { ?><li class=""><i class="bi bi-calendar-week ml-0" style="font-size:18px;color:#E5BF20;"></i><?php blogwaves_posted_on(); ?></li><?php } ?>
 
             <?php if($show_comment) { ?><li class="mt-3"><i class="fa fa-comment ml-4" style="font-size:18px;color:#E5BF20;"></i> <?php echo esc_html(get_comments_number());  ?> </li><?php } ?>
         </ul>
