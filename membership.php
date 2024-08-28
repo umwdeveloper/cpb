@@ -20,6 +20,32 @@ if (isset($_POST['contact'])) {
 
     $contactFormSubmitted = true;
 }
+
+$membershipFormSubmitted = false;
+if (isset($_POST['membership'])) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $dob = $_POST['dob'];
+    $address = $_POST['address'];
+    $sign = $_POST['sign'];
+    $date = $_POST['date'];
+
+    $subject = "Membership";
+
+    $body = "<strong>Name: </strong> $name<br>" .
+        "<strong>Email: </strong> $email<br>" .
+        "<strong>Phone: </strong> $phone<br>" .
+        "<strong>Date of Birth: </strong> $dob<br>" .
+        "<strong>Address: </strong> $address<br>" .
+        "<strong>Signature: </strong> $sign<br>" .
+        "<strong>Date: </strong> $date";
+
+    $msg2 = sendMail($email, $name, $subject, $body);
+
+    $membershipFormSubmitted = true;
+}
+
 $feedbacks = findAll("feedbacks");
 ?>
 
@@ -172,7 +198,7 @@ $feedbacks = findAll("feedbacks");
                 <div class="row">
                     <div class="col-lg-11 mx-auto">
 
-                        <form class="membership-form bg-white rounded-2 shadow">
+                        <form method="post" class="membership-form bg-white rounded-2 shadow" id="membership-form">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="d-flex  mb-4 mt-3">
@@ -222,36 +248,36 @@ $feedbacks = findAll("feedbacks");
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mb-3">
-                                        <label for="" class="form-label">Name</label>
-                                        <input type="text" name="" id="" class="form-control" placeholder=""
+                                        <label for="name" class="form-label">Name</label>
+                                        <input required type="text" name="name" id="name" class="form-control" placeholder=""
                                             aria-describedby="helpId" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mb-3">
-                                        <label for="" class="form-label">Email</label>
-                                        <input type="email" name="" id="" class="form-control" placeholder=""
+                                        <label for="email" class="form-label">Email</label>
+                                        <input required type="email" name="email" id="email" class="form-control" placeholder=""
                                             aria-describedby="helpId" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mb-3">
-                                        <label for="" class="form-label">Telephone Number</label>
-                                        <input type="text" name="" id="" class="form-control" placeholder=""
+                                        <label for="phone" class="form-label">Telephone Number</label>
+                                        <input required type="text" name="phone" id="phone" class="form-control" placeholder=""
                                             aria-describedby="helpId" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mb-3">
-                                        <label for="" class="form-label">Date of Birth</label>
-                                        <input type="date" name="" id="" class="form-control" placeholder=""
+                                        <label for="dob" class="form-label">Date of Birth</label>
+                                        <input required type="date" name="dob" id="dob" class="form-control" placeholder=""
                                             aria-describedby="helpId" />
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="mb-3">
-                                        <label for="" class="form-label">Home Address</label>
-                                        <input type="text" name="" id="" class="form-control" placeholder=""
+                                        <label for="address" class="form-label">Home Address</label>
+                                        <input required type="text" name="address" id="address" class="form-control" placeholder=""
                                             aria-describedby="helpId" />
                                     </div>
                                 </div>
@@ -264,7 +290,7 @@ $feedbacks = findAll("feedbacks");
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-check border p-3 ps-5">
-                                        <input class="form-check-input" type="checkbox" value="" id="fee" />
+                                        <input required class="form-check-input" type="checkbox" value="" id="fee" />
                                         <label class="form-check-label" for="fee"> Experience exceptional value with
                                             CPB’s
                                             services! For just £10.00 annually, enjoy expert
@@ -297,9 +323,9 @@ $feedbacks = findAll("feedbacks");
 
                                 <div class="col-lg-6">
                                     <div class="mb-3">
-                                        <label for="" class="form-label text-primary"><b>SIGN</b>
+                                        <label for="sign" class="form-label text-primary"><b>SIGN</b>
                                         </label>
-                                        <input type="text" name="" id=""
+                                        <input required type="text" name="sign" id="sign"
                                             class="form-control border-0 border-bottom rounded-0 " placeholder=""
                                             aria-describedby="helpId" />
                                         <!--   <canvas id="signaturePad" class="signature-pad"></canvas>
@@ -311,15 +337,22 @@ $feedbacks = findAll("feedbacks");
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mb-3">
-                                        <label for="" class="form-label text-primary"><b>Date</b></label>
-                                        <input type="date" name="" id=""
+                                        <label for="date" class="form-label text-primary"><b>Date</b></label>
+                                        <input required type="date" name="date" id="date"
                                             class="form-control border-0 border-bottom rounded-0 " placeholder=""
                                             aria-describedby="helpId" />
                                     </div>
                                 </div>
                                 <div class="col-lg-12 my-3">
+                                    <?php if (isset($_POST['membership'])): ?>
+                                        <?php if ($msg2['status'] == 'success'): ?>
+                                            <p class="alert alert-success text-center"><?php echo $msg2['message'] ?></p>
+                                        <?php else: ?>
+                                            <p class="alert alert-danger text-center"><?php echo $msg2['message'] ?></p>
+                                        <?php endif; ?>
+                                    <?php endif; ?>
                                     <div class="d-flex justify-content-end">
-                                        <button class="main-btn">Send</button>
+                                        <button class="main-btn" name="membership">Send</button>
                                     </div>
                                 </div>
                             </div>
@@ -497,22 +530,22 @@ $feedbacks = findAll("feedbacks");
                     <div class="col-lg-12">
                         <div class="slick-slider">
                             <?php foreach ($feedbacks as $count => $feedback): ?>
-                            <div class="element element-<?php echo ++$count; ?>">
-                                <div class="amenity-card quote-card">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
+                                <div class="element element-<?php echo ++$count; ?>">
+                                    <div class="amenity-card quote-card">
+                                        <div class="text-center mb-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
+                                                id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
+                                                <path fill="#E5BF20"
+                                                    d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
+                                                    id="1938712236"></path>
+                                            </svg>
+                                        </div>
+                                        <p class="text text-center">
+                                            “<?php echo $feedback->feedback; ?>”
+                                        </p>
+                                        <h3 class="mt-3"><?php echo $feedback->name . ", " . $feedback->location; ?></h3>
                                     </div>
-                                    <p class="text text-center">
-                                        “<?php echo $feedback->feedback; ?>”
-                                    </p>
-                                    <h3 class="mt-3"><?php echo $feedback->name . ", " . $feedback->location; ?></h3>
                                 </div>
-                            </div>
                             <?php endforeach; ?>
 
                         </div>
@@ -606,11 +639,11 @@ $feedbacks = findAll("feedbacks");
                             <div class="contact-content ps-lg-5">
                                 <div class="contact-form">
                                     <?php if (isset($_POST['contact'])): ?>
-                                    <?php if ($msg['status'] == 'success'): ?>
-                                    <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
-                                    <?php else: ?>
-                                    <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
-                                    <?php endif; ?>
+                                        <?php if ($msg['status'] == 'success'): ?>
+                                            <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
+                                        <?php else: ?>
+                                            <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
+                                        <?php endif; ?>
                                     <?php endif; ?>
                                     <form method="post" class="contact-validation-active" id="contact-form"
                                         novalidate="novalidate">
@@ -791,66 +824,78 @@ $feedbacks = findAll("feedbacks");
     <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
     <script src="assets/js/app.js"></script>
     <script>
-    window.onload = function() {
-        const canvas = document.getElementById('signaturePad');
-        const ctx = canvas.getContext('2d');
+        window.onload = function() {
+            const canvas = document.getElementById('signaturePad');
+            const ctx = canvas.getContext('2d');
 
-        let isDrawing = false;
+            let isDrawing = false;
 
-        canvas.width = canvas.offsetWidth;
-        canvas.height = canvas.offsetHeight;
+            canvas.width = canvas.offsetWidth;
+            canvas.height = canvas.offsetHeight;
 
-        // Set up the drawing context
-        ctx.strokeStyle = '#000';
-        ctx.lineWidth = 2;
+            // Set up the drawing context
+            ctx.strokeStyle = '#000';
+            ctx.lineWidth = 2;
 
-        // Start drawing on mouse down
-        canvas.addEventListener('mousedown', (e) => {
-            isDrawing = true;
-            ctx.beginPath();
-            ctx.moveTo(e.offsetX, e.offsetY);
-        });
+            // Start drawing on mouse down
+            canvas.addEventListener('mousedown', (e) => {
+                isDrawing = true;
+                ctx.beginPath();
+                ctx.moveTo(e.offsetX, e.offsetY);
+            });
 
-        // Draw on mouse move
-        canvas.addEventListener('mousemove', (e) => {
-            if (isDrawing) {
-                ctx.lineTo(e.offsetX, e.offsetY);
-                ctx.stroke();
-            }
-        });
+            // Draw on mouse move
+            canvas.addEventListener('mousemove', (e) => {
+                if (isDrawing) {
+                    ctx.lineTo(e.offsetX, e.offsetY);
+                    ctx.stroke();
+                }
+            });
 
-        // Stop drawing on mouse up
-        canvas.addEventListener('mouseup', () => {
-            isDrawing = false;
-        });
+            // Stop drawing on mouse up
+            canvas.addEventListener('mouseup', () => {
+                isDrawing = false;
+            });
 
-        // Clear the canvas
-        document.getElementById('clear').addEventListener('click', () => {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-        });
+            // Clear the canvas
+            document.getElementById('clear').addEventListener('click', () => {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+            });
 
-        // Save the signature as an image
-        document.getElementById('save').addEventListener('click', () => {
-            const dataURL = canvas.toDataURL('image/png');
-            const link = document.createElement('a');
-            link.href = dataURL;
-            link.download = 'signature.png';
-            link.click();
-        });
-    };
+            // Save the signature as an image
+            document.getElementById('save').addEventListener('click', () => {
+                const dataURL = canvas.toDataURL('image/png');
+                const link = document.createElement('a');
+                link.href = dataURL;
+                link.download = 'signature.png';
+                link.click();
+            });
+        };
     </script>
     <script>
-    contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
+        contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
 
-    if (contactFormSubmitted) {
-        const element = document.getElementById("contact-form");
-        if (element) {
-            element.scrollIntoView({
-                behavior: 'smooth', // smooth scrolling
-                block: 'center' // align to the top of the element
-            });
+        if (contactFormSubmitted) {
+            const element = document.getElementById("contact-form");
+            if (element) {
+                element.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center'
+                });
+            }
         }
-    }
+
+        membershipFormSubmitted = <?php echo json_encode($membershipFormSubmitted); ?>;
+
+        if (membershipFormSubmitted) {
+            const element = document.getElementById("membership-form");
+            if (element) {
+                element.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'end'
+                });
+            }
+        }
     </script>
 </body>
 

@@ -42,7 +42,7 @@ function sendMail($to, $name, $subject, $body) {
         $mail->send();
         return ['status' => 'success', 'message' => 'Form has been submitted'];
     } catch (Exception $e) {
-        echo $e->getMessage();
+        // echo $e->getMessage();
         return ['status' => 'error', 'message' => 'Form could not be submitted. Try again later.'];
     }
 }
