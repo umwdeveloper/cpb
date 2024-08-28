@@ -170,13 +170,166 @@ $feedbacks = findAll("feedbacks");
         <section class="pb-lg-5 pb-4 bg-light position-relative">
             <div class="container">
                 <div class="row">
+                    <div class="col-lg-11 mx-auto">
+
+                        <form class="membership-form bg-white rounded-2 p-4 shadow">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="d-flex justify-content-center mb-4 mt-3">
+                                        <img src="assets/images/CPB-membership.png" alt=""
+                                            class="mx-auto membership-logo">
+                                    </div>
+
+
+                                    <h3 class="">Consumer Protection Bureau </h3>
+                                    <p class="text">
+                                        Consumer Protection Bureau (CPB) is a UK-registered Community Interest Company
+                                        (CIC)
+                                        operating under the <a href="" class="text-decoration-none text-secondry">CRC
+                                            Group</a>. As an independently financed
+                                        organisation, we are wholly supported by our member contributions.
+                                    </p>
+                                    <p class="text">
+                                        Our mission is to achieve justice and fairness for our members, empowering them
+                                        to effectively
+                                        defend their consumer rights. All membership fees directly support our important
+                                        work in this area.
+                                        As a member-driven organisation, we rely on individuals who share our vision to
+                                        join and support our
+                                        cause. Your membership not only provides you with valuable services but also
+                                        contributes to our
+                                        broader efforts in consumer advocacy and protection.
+                                    </p>
+                                    <p class="text">
+                                        If you are interested in learning more about how CPB membership can benefit you
+                                        and support our
+                                        mission, we would be happy to provide further details on our services.
+
+                                    </p>
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <h2 class="text-center secondry-heading">MEMBERSHIP APPLICATION FORM</h2>
+                                    <p class="text text-center">Please complete this form and return it electronically
+                                        to: <a href=""
+                                            class="text-decoration-none text-secondry">info@consumerprotectionbureau.co.uk.</a>
+                                    </p>
+                                </div>
+
+                                <div class="col-lg-12 mt-3">
+                                    <h2 class="text-md font-bold text-primary text-center mb-4"><b>CONTACT
+                                            INFORMATION</b>
+                                    </h2>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="" class="form-label">Name</label>
+                                        <input type="text" name="" id="" class="form-control" placeholder=""
+                                            aria-describedby="helpId" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="" class="form-label">Email</label>
+                                        <input type="email" name="" id="" class="form-control" placeholder=""
+                                            aria-describedby="helpId" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="" class="form-label">Telephone Number</label>
+                                        <input type="text" name="" id="" class="form-control" placeholder=""
+                                            aria-describedby="helpId" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="" class="form-label">Date of Birth</label>
+                                        <input type="date" name="" id="" class="form-control" placeholder=""
+                                            aria-describedby="helpId" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="mb-3">
+                                        <label for="" class="form-label">Home Address</label>
+                                        <input type="text" name="" id="" class="form-control" placeholder=""
+                                            aria-describedby="helpId" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <h2 class="text-md  text-primary text-center mb-2 mt-4"><b>HANDLING FEE</b>
+                                    </h2>
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="fee" />
+                                        <label class="form-check-label" for="fee"> Experience exceptional value with
+                                            CPB’s
+                                            services! For just £10.00 annually, enjoy expert
+                                            dispute resolution with a transparent 15% handling
+                                            fee on the disputed amount.<br>
+                                            Compared to the high cost of hiring a lawyer, CPB
+                                            offers premier support at a fraction of the price. </label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <h2 class="text-md  text-primary text-center mb-2 mt-4"><b>PAYMENT INFORMATION</b>
+                                    </h2>
+                                    <p class="text text-center mb-0 pb-0">
+                                        Transfer to Santander<br>
+                                        Compliance and Risk Consultancy (CRC) The
+                                        Compli<br>
+                                        Account Number 96293501<br>
+                                        Sort Code 09-01-28
+
+                                    </p>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <h2 class="text-md  text-primary text-center mb-2  mt-4"><b>Member’s Declaration</b>
+                                    </h2>
+                                    <p class="text text-center">As a member of CPB I undertake to abide by the rules and
+                                        regulations of the organization and will help it
+                                        to achieve its objectives of being a consumer advocate.</p>
+                                </div>
+                            
+                                <div class="col-lg-12">
+                                    <div class="mb-3">
+                                        <label for="" class="form-label text-primary"><b>SIGN</b>
+                                        </label>
+                                        <canvas id="signaturePad" class="signature-pad"></canvas>
+                                        <div class="button-container d-flex justify-content-end">
+                                            <button id="clear">Clear</button>
+                                            <!-- <button id="save" class="ms-2">Save</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="mb-3">
+                                        <label for="" class="form-label text-primary"><b>Date</b></label>
+                                        <input type="date" name="" id="" class="form-control border-0 border-bottom rounded-0" placeholder=""
+                                            aria-describedby="helpId" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 my-3">
+                                    <div class="d-flex justify-content-end">
+                                        <button class="main-btn">Send</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="pb-lg-5 pb-4 bg-light position-relative">
+            <div class="container">
+                <div class="row">
                     <div class="col-lg-12 mx-auto">
  <div class="plato-form-widget" data-options="id:frn2rjc4k5g;width:100%;height:0;host:form.platoforms.com/"></div><div id="frn2rjc4k5g-loading-msg"><h2>Loading the Form...</h2></div> <script type="text/javascript"> (function(d, v){ var s = d.getElementsByTagName(v)[0], p = s.parentNode, e = d.createElement(v); e.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'static.platoforms.com/assets/dist/formbuilder.js?v=15'; p.insertBefore(e, s); })(document, 'script'); </script>
                       
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
             <div class="container pb-5 ">
                 <div class="row mb-lg-0 mb-4">
