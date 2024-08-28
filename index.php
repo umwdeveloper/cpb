@@ -155,7 +155,7 @@ $feedbacks = findAll("feedbacks");
                             <a class="nav-link" href="consumer-issues.php">Consumer Issues
                             </a>
                         </li>
-                        <!-- <li class="nav-item dropdown">
+                        <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Resources
@@ -165,11 +165,11 @@ $feedbacks = findAll("feedbacks");
                                 <li><a class="dropdown-item nav-link" href="#">Advocacy</a></li>
                                 <li><a class="dropdown-item nav-link" href="#">Success Stories</a></li>
                             </ul>
-                        </li> -->
-                        <li class="nav-item">
+                        </li>
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="blog/index.php">Blog
                             </a>
-                        </li>
+                        </li> -->
 
                         <li class="nav-item">
                             <a class="nav-link" href="archive.php">Archive
