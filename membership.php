@@ -300,7 +300,8 @@ $feedbacks = findAll("feedbacks");
                                             offers premier support at a fraction of the price. </label>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 p-4 border ">
+                                <div class="col-lg-6   ">
+                                    <div class="padding p-4 border">
                                     <h2 class="text-md  text-primary  mb-2 mt-0 pt-0"><b>PAYMENT INFORMATION</b>
                                     </h2>
                                     <p class="text  mb-0 pb-0">
@@ -311,6 +312,7 @@ $feedbacks = findAll("feedbacks");
                                         Sort Code 09-01-28
 
                                     </p>
+                                    </div>
                                 </div>
 
                                 <div class="col-lg-12">
