@@ -3,3 +3,4 @@ includes/config.php
 *.pdf
 assets/PDFs/*.pdf
 blog/wp-config.php
+includes/connection.php
