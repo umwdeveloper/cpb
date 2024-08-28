@@ -46,7 +46,7 @@ $feedbacks = findAll("feedbacks");
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -217,7 +217,7 @@ $feedbacks = findAll("feedbacks");
 
                                 <div class="col-lg-12 mt-3">
                                     <h2 class="membership-heading text-center mb-4">CONTACT
-                                            INFORMATION
+                                        INFORMATION
                                     </h2>
                                 </div>
                                 <div class="col-lg-6">
@@ -256,13 +256,14 @@ $feedbacks = findAll("feedbacks");
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <h2 class="membership-heading text-center mb-3 mt-4">HANDLING FEE & PAYMENT INFORMATION
+                                    <h2 class="membership-heading text-center mb-3 mt-4">HANDLING FEE & PAYMENT
+                                        INFORMATION
                                     </h2>
 
-                                   
+
                                 </div>
                                 <div class="col-lg-6">
-                                <div class="form-check border p-3 ps-5">
+                                    <div class="form-check border p-3 ps-5">
                                         <input class="form-check-input" type="checkbox" value="" id="fee" />
                                         <label class="form-check-label" for="fee"> Experience exceptional value with
                                             CPB’s
@@ -293,24 +294,26 @@ $feedbacks = findAll("feedbacks");
                                         regulations of the organization and will help it
                                         to achieve its objectives of being a consumer advocate.</p>
                                 </div>
-                            
+
                                 <div class="col-lg-6">
                                     <div class="mb-3">
                                         <label for="" class="form-label text-primary"><b>SIGN</b>
                                         </label>
-                                      <input type="text" name="" id="" class="form-control border-0 border-bottom rounded-0 " placeholder=""
-                                        aria-describedby="helpId" />
+                                        <input type="text" name="" id=""
+                                            class="form-control border-0 border-bottom rounded-0 " placeholder=""
+                                            aria-describedby="helpId" />
                                         <!--   <canvas id="signaturePad" class="signature-pad"></canvas>
                                         <div class="button-container d-flex justify-content-end">
                                             <button id="clear">Clear</button> -->
-                                            <!-- <button id="save" class="ms-2">Save</button> -->
+                                        <!-- <button id="save" class="ms-2">Save</button> -->
                                         <!-- </div> -->
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mb-3">
                                         <label for="" class="form-label text-primary"><b>Date</b></label>
-                                        <input type="date" name="" id="" class="form-control border-0 border-bottom rounded-0 " placeholder=""
+                                        <input type="date" name="" id=""
+                                            class="form-control border-0 border-bottom rounded-0 " placeholder=""
                                             aria-describedby="helpId" />
                                     </div>
                                 </div>
@@ -381,15 +384,15 @@ $feedbacks = findAll("feedbacks");
                 <div class="row  mb-lg-0 mb-4">
                     <div
                         class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3">
-                        <img src="assets/images/leadership-amico.png" alt=""
-                            class="consumer-img  object-fit-contain">
+                        <img src="assets/images/leadership-amico.png" alt="" class="consumer-img  object-fit-contain">
                     </div>
                     <div class="col-lg-8 px-0 bg-white d-flex align-items-center">
                         <div class="service-white-card service-card py-lg-5 py-3">
 
                             <h3 class="text-start">Expert Guidance</h3>
                             <p class="text ">
-                                Our panel of experts is here to provide comprehensive advice on legal matters, product/service-related concerns, and assistance with claims.
+                                Our panel of experts is here to provide comprehensive advice on legal matters,
+                                product/service-related concerns, and assistance with claims.
                             </p>
 
                         </div>
@@ -402,7 +405,8 @@ $feedbacks = findAll("feedbacks");
 
                             <h3 class="text-start">Dispute Resolution</h3>
                             <p class="text ">
-                                Whether it's a contractual issue or a dispute over faulty goods, CPB stands as your reliable resource for swift and effective resolutions.
+                                Whether it's a contractual issue or a dispute over faulty goods, CPB stands as your
+                                reliable resource for swift and effective resolutions.
                             </p>
 
                         </div>
@@ -416,15 +420,15 @@ $feedbacks = findAll("feedbacks");
                 <div class="row  mb-lg-0 mb-4">
                     <div
                         class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3">
-                        <img src="assets/images/Service 24_7-amico.png" alt=""
-                            class="consumer-img  object-fit-contain">
+                        <img src="assets/images/Service 24_7-amico.png" alt="" class="consumer-img  object-fit-contain">
                     </div>
                     <div class="col-lg-8 px-0 bg-white  d-flex align-items-center">
                         <div class="service-white-card service-card py-lg-5 py-3">
 
                             <h3 class="text-start">Priority Service</h3>
                             <p class="text">
-                                As a CPB member, you receive priority service, ensuring your concerns are addressed with the urgency they rightfully deserve.
+                                As a CPB member, you receive priority service, ensuring your concerns are addressed with
+                                the urgency they rightfully deserve.
                             </p>
 
                         </div>
@@ -437,7 +441,9 @@ $feedbacks = findAll("feedbacks");
 
                             <h3 class="text-start">Protect Your Rights</h3>
                             <p class="text ">
-                                Our mission is to empower you- the consumer, in making informed decisions and asserting your rights. CPB is not just an organisation; we are your advocate, working tirelessly to ensure fairness and justice in your consumer journey.
+                                Our mission is to empower you- the consumer, in making informed decisions and asserting
+                                your rights. CPB is not just an organisation; we are your advocate, working tirelessly
+                                to ensure fairness and justice in your consumer journey.
                             </p>
                         </div>
                     </div>
@@ -460,12 +466,18 @@ $feedbacks = findAll("feedbacks");
 
                             </h1>
                             <p class="text py-2 text-white text-center ">
-                                Ready to experience a consumer journey with a partner by your side? Join CPB as a member or make a voluntary contribution – We understand that not everyone can commit to membership, and that's okay! Non-members are welcome to benefit from our services by making a voluntary contribution. For consumer issues under £1,000, a suggested contribution of £50 is appreciated. <b>The choice is yours!</b>
+                                Ready to experience a consumer journey with a partner by your side? Join CPB as a member
+                                or make a voluntary contribution – We understand that not everyone can commit to
+                                membership, and that's okay! Non-members are welcome to benefit from our services by
+                                making a voluntary contribution. For consumer issues under £1,000, a suggested
+                                contribution of £50 is appreciated. <b>The choice is yours!</b>
                                 <br>
-                                Visit our website or call us at +44 (0)203 5854002 to take the first step towards consumer empowerment.
+                                Visit our website or call us at +44 (0)203 5854002 to take the first step towards
+                                consumer empowerment.
                                 <br>
                                 <br>
-                                <b class="text-md">At CPB, we are not just protecting consumers; we are empowering lives.</b>
+                                <b class="text-md">At CPB, we are not just protecting consumers; we are empowering
+                                    lives.</b>
                             </p>
 
                         </div>
@@ -474,7 +486,7 @@ $feedbacks = findAll("feedbacks");
             </div>
         </section>
 
-     <section class="py-lg-5 py-4">
+        <section class="py-lg-5 py-4">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -485,22 +497,22 @@ $feedbacks = findAll("feedbacks");
                     <div class="col-lg-12">
                         <div class="slick-slider">
                             <?php foreach ($feedbacks as $count => $feedback): ?>
-                                <div class="element element-<?php echo ++$count; ?>">
-                                    <div class="amenity-card quote-card">
-                                        <div class="text-center mb-4">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                                id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                                <path fill="#E5BF20"
-                                                    d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                    id="1938712236"></path>
-                                            </svg>
-                                        </div>
-                                        <p class="text text-center">
-                                            “<?php echo $feedback->feedback; ?>”
-                                        </p>
-                                        <h3 class="mt-3"><?php echo $feedback->name . ", " . $feedback->location; ?></h3>
+                            <div class="element element-<?php echo ++$count; ?>">
+                                <div class="amenity-card quote-card">
+                                    <div class="text-center mb-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
+                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
+                                            <path fill="#E5BF20"
+                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
+                                                id="1938712236"></path>
+                                        </svg>
                                     </div>
+                                    <p class="text text-center">
+                                        “<?php echo $feedback->feedback; ?>”
+                                    </p>
+                                    <h3 class="mt-3"><?php echo $feedback->name . ", " . $feedback->location; ?></h3>
                                 </div>
+                            </div>
                             <?php endforeach; ?>
 
                         </div>
@@ -513,38 +525,38 @@ $feedbacks = findAll("feedbacks");
                   
         </section>
         <section class="py-lg-5 py-4 bg-light">
-             <div class="container">
+            <div class="container">
                 <div class="row justify-content-center">
-                <div class="col-lg-12">
+                    <div class="col-lg-12">
                         <h1 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
-                        Visit Our Subsidiary Companies
+                            Visit Our Subsidiary Companies
                         </h1>
-                  
-                </div>
-           
+
+                    </div>
+
                     <div class="col-lg-4 col-md-6 mb-3">
-                        <a href="https://www.compliance-experts.co.uk/" target="_blank" class="text-decoration-none text-dark">
-                            <div class="amenity-card d-flex justify-content-center align-items-center flex-column"> 
-                                <img
-                                    src="assets/images/CRC-logo.png"
-                                    alt="CRC logo"   style="width:130px; height:auto;">
-                                <h1 class="mt-4 text-center text-md"  style=" font-weight:500;">Compilance and Risk Consultancy</h1>
+                        <a href="https://www.compliance-experts.co.uk/" target="_blank"
+                            class="text-decoration-none text-dark">
+                            <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
+                                <img src="assets/images/CRC-logo.png" alt="CRC logo" style="width:130px; height:auto;">
+                                <h1 class="mt-4 text-center text-md" style=" font-weight:500;">Compilance and Risk
+                                    Consultancy</h1>
                             </div>
                         </a>
                     </div>
 
                     <div class="col-lg-4 col-md-6 mb-3">
-                        <a href="https://carehomecompliance.com/" target="_blank" class="text-decoration-none text-dark">
+                        <a href="https://carehomecompliance.com/" target="_blank"
+                            class="text-decoration-none text-dark">
                             <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
-                                <img
-                                    src="assets/images/Care Home Compilance.png"
-                                    alt="CHC logo"  style="width:100px; height:auto;">
+                                <img src="assets/images/Care Home Compilance.png" alt="CHC logo"
+                                    style="width:100px; height:auto;">
                                 <h1 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h1>
                             </div>
                         </a>
                     </div>
-             </div>
-                            </div>
+                </div>
+            </div>
         </section>
         <section>
             <div class="contact-area py-lg-5 py-4">
@@ -594,35 +606,27 @@ $feedbacks = findAll("feedbacks");
                             <div class="contact-content ps-lg-5">
                                 <div class="contact-form">
                                     <?php if (isset($_POST['contact'])): ?>
-                                        <?php if ($msg['status'] == 'success'): ?>
-                                            <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
-                                        <?php else: ?>
-                                            <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
-                                        <?php endif; ?>
+                                    <?php if ($msg['status'] == 'success'): ?>
+                                    <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
+                                    <?php else: ?>
+                                    <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
                                     <?php endif; ?>
-                                    <form method="post"
-                                        class="contact-validation-active"
-                                        id="contact-form"
+                                    <?php endif; ?>
+                                    <form method="post" class="contact-validation-active" id="contact-form"
                                         novalidate="novalidate">
                                         <div class="half-col">
                                             <label for="Name" class="text-white">Name</label>
-                                            <input type="text" name="name"
-                                                id="name"
-                                                class="form-control"
+                                            <input type="text" name="name" id="name" class="form-control"
                                                 placeholder="Your Name">
                                         </div>
                                         <div class="half-col">
                                             <label for="phone" class="text-white">Phone Number</label>
-                                            <input type="text" name="phone"
-                                                id="phone"
-                                                class="form-control"
+                                            <input type="text" name="phone" id="phone" class="form-control"
                                                 placeholder="Phone">
                                         </div>
                                         <div>
                                             <label for="email" class="text-white">Email</label>
-                                            <input type="email" name="email"
-                                                id="email"
-                                                class="form-control"
+                                            <input type="email" name="email" id="email" class="form-control"
                                                 placeholder="Email">
                                         </div>
 
@@ -630,16 +634,13 @@ $feedbacks = findAll("feedbacks");
 
                                         <div>
                                             <label for="msg" class="text-white">Message</label>
-                                            <textarea class="form-control"
-                                                name="msg" id="msg"
+                                            <textarea class="form-control" name="msg" id="msg"
                                                 placeholder="Message"></textarea>
                                         </div>
                                         <div class="submit-btn-wrapper">
-                                            <button type="submit" name="contact"
-                                                class="main-btn">Send</button>
+                                            <button type="submit" name="contact" class="main-btn">Send</button>
                                             <div id="loader">
-                                                <i
-                                                    class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+                                                <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                             </div>
                                         </div>
                                     </form>
@@ -653,9 +654,7 @@ $feedbacks = findAll("feedbacks");
     </main>
 
     <!-- Footer -->
-    <footer
-        class="text-center text-lg-start text-white footer-text"
-        style="background-color: #223a78ef;">
+    <footer class="text-center text-lg-start text-white footer-text" style="background-color: #223a78ef;">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
             <!-- Section: Links -->
@@ -720,7 +719,8 @@ $feedbacks = findAll("feedbacks");
                     <!-- Grid column -->
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                        <p class=""><i class="fas fa-envelope mr-3"></i> <span class="text-sm">info@consumerprotectionbureau.co.uk</span> </p>
+                        <p class=""><i class="fas fa-envelope mr-3"></i> <span
+                                class="text-sm">info@consumerprotectionbureau.co.uk</span> </p>
                         <p class=""><i class="fas fa-phone mr-3"></i> +44 (0)2035854002</p>
                         <p class=""><i class="fas fa-home mr-3"></i> 83 VICTORIA STREET
 
@@ -755,24 +755,18 @@ $feedbacks = findAll("feedbacks");
                     <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                         <!-- Facebook -->
                         <a href="https://web.facebook.com/people/Consumer-Protection-Bureau/100089017255764/"
-                            class="btn btn-outline-light btn-floating m-1"
-                            class="text-white"
-                            role="button"
+                            class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"
                             target="_blank"><i class="fab fa-facebook-f"></i></a>
 
                         <!-- Twitter -->
                         <a href="https://x.com/i/flow/login?redirect_after_login=%2Fconsume60578813"
-                            class="btn btn-outline-light btn-floating m-1"
-                            class="text-white"
-                            role="button"
+                            class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"
                             target="_blank"><i class="fab fa-twitter"></i></a>
 
                         <!-- Google -->
-                        <a href="https://www.linkedin.com/in/consumer-protection-bureau-595632261/"
-                            target="_blank"
-                            class="btn btn-outline-light btn-floating m-1"
-                            class="text-white"
-                            role="button"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/consumer-protection-bureau-595632261/" target="_blank"
+                            class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-linkedin"></i></a>
 
 
                     </div>
@@ -787,78 +781,76 @@ $feedbacks = findAll("feedbacks");
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
-  <script src="assets/js/app.js"></script>
-    <script>
-        window.onload = function() {
-            const canvas = document.getElementById('signaturePad');
-            const ctx = canvas.getContext('2d');
-
-            let isDrawing = false;
-
-            canvas.width = canvas.offsetWidth;
-            canvas.height = canvas.offsetHeight;
-
-            // Set up the drawing context
-            ctx.strokeStyle = '#000';
-            ctx.lineWidth = 2;
-
-            // Start drawing on mouse down
-            canvas.addEventListener('mousedown', (e) => {
-                isDrawing = true;
-                ctx.beginPath();
-                ctx.moveTo(e.offsetX, e.offsetY);
-            });
-
-            // Draw on mouse move
-            canvas.addEventListener('mousemove', (e) => {
-                if (isDrawing) {
-                    ctx.lineTo(e.offsetX, e.offsetY);
-                    ctx.stroke();
-                }
-            });
-
-            // Stop drawing on mouse up
-            canvas.addEventListener('mouseup', () => {
-                isDrawing = false;
-            });
-
-            // Clear the canvas
-            document.getElementById('clear').addEventListener('click', () => {
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-            });
-
-            // Save the signature as an image
-            document.getElementById('save').addEventListener('click', () => {
-                const dataURL = canvas.toDataURL('image/png');
-                const link = document.createElement('a');
-                link.href = dataURL;
-                link.download = 'signature.png';
-                link.click();
-            });
-        };
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
     </script>
-       <script>
-        contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+    window.onload = function() {
+        const canvas = document.getElementById('signaturePad');
+        const ctx = canvas.getContext('2d');
 
-        if (contactFormSubmitted) {
-            const element = document.getElementById("contact-form");
-            if (element) {
-                element.scrollIntoView({
-                    behavior: 'smooth', // smooth scrolling
-                    block: 'center' // align to the top of the element
-                });
+        let isDrawing = false;
+
+        canvas.width = canvas.offsetWidth;
+        canvas.height = canvas.offsetHeight;
+
+        // Set up the drawing context
+        ctx.strokeStyle = '#000';
+        ctx.lineWidth = 2;
+
+        // Start drawing on mouse down
+        canvas.addEventListener('mousedown', (e) => {
+            isDrawing = true;
+            ctx.beginPath();
+            ctx.moveTo(e.offsetX, e.offsetY);
+        });
+
+        // Draw on mouse move
+        canvas.addEventListener('mousemove', (e) => {
+            if (isDrawing) {
+                ctx.lineTo(e.offsetX, e.offsetY);
+                ctx.stroke();
             }
-        }
+        });
 
-      
+        // Stop drawing on mouse up
+        canvas.addEventListener('mouseup', () => {
+            isDrawing = false;
+        });
+
+        // Clear the canvas
+        document.getElementById('clear').addEventListener('click', () => {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        });
+
+        // Save the signature as an image
+        document.getElementById('save').addEventListener('click', () => {
+            const dataURL = canvas.toDataURL('image/png');
+            const link = document.createElement('a');
+            link.href = dataURL;
+            link.download = 'signature.png';
+            link.click();
+        });
+    };
+    </script>
+    <script>
+    contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
+
+    if (contactFormSubmitted) {
+        const element = document.getElementById("contact-form");
+        if (element) {
+            element.scrollIntoView({
+                behavior: 'smooth', // smooth scrolling
+                block: 'center' // align to the top of the element
+            });
+        }
+    }
     </script>
 </body>
 
