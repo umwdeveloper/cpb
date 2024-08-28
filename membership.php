@@ -172,16 +172,16 @@ $feedbacks = findAll("feedbacks");
                 <div class="row">
                     <div class="col-lg-11 mx-auto">
 
-                        <form class="membership-form bg-white rounded-2 p-4 shadow">
+                        <form class="membership-form bg-white rounded-2 shadow">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <div class="d-flex justify-content-center mb-4 mt-3">
+                                    <div class="d-flex  mb-4 mt-3">
                                         <img src="assets/images/CPB-membership.png" alt=""
-                                            class="mx-auto membership-logo">
+                                            class="me-auto membership-logo">
                                     </div>
 
 
-                                    <h3 class="">Consumer Protection Bureau </h3>
+                                    <h3 class="text-decoration-underline mb-4">Consumer Protection Bureau </h3>
                                     <p class="text">
                                         Consumer Protection Bureau (CPB) is a UK-registered Community Interest Company
                                         (CIC)
@@ -208,16 +208,16 @@ $feedbacks = findAll("feedbacks");
                                     </p>
                                 </div>
                                 <div class="col-lg-12 mt-3">
-                                    <h2 class="text-center secondry-heading">MEMBERSHIP APPLICATION FORM</h2>
-                                    <p class="text text-center">Please complete this form and return it electronically
+                                    <h2 class="text-center membership-heading mb-4">MEMBERSHIP APPLICATION FORM</h2>
+                                    <p class="text">Please complete this form and return it electronically
                                         to: <a href=""
-                                            class="text-decoration-none text-secondry">info@consumerprotectionbureau.co.uk.</a>
+                                            class="text-decoration-none text-primary">info@consumerprotectionbureau.co.uk.</a>
                                     </p>
                                 </div>
 
                                 <div class="col-lg-12 mt-3">
-                                    <h2 class="text-md font-bold text-primary text-center mb-4"><b>CONTACT
-                                            INFORMATION</b>
+                                    <h2 class="membership-heading text-center mb-4">CONTACT
+                                            INFORMATION
                                     </h2>
                                 </div>
                                 <div class="col-lg-6">
@@ -256,10 +256,13 @@ $feedbacks = findAll("feedbacks");
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <h2 class="text-md  text-primary text-center mb-2 mt-4"><b>HANDLING FEE</b>
+                                    <h2 class="membership-heading text-center mb-3 mt-4">HANDLING FEE & PAYMENT INFORMATION
                                     </h2>
 
-                                    <div class="form-check">
+                                   
+                                </div>
+                                <div class="col-lg-6">
+                                <div class="form-check border p-3 ps-5">
                                         <input class="form-check-input" type="checkbox" value="" id="fee" />
                                         <label class="form-check-label" for="fee"> Experience exceptional value with
                                             CPB’s
@@ -270,10 +273,10 @@ $feedbacks = findAll("feedbacks");
                                             offers premier support at a fraction of the price. </label>
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
-                                    <h2 class="text-md  text-primary text-center mb-2 mt-4"><b>PAYMENT INFORMATION</b>
+                                <div class="col-lg-6 p-4 border ">
+                                    <h2 class="text-md  text-primary  mb-2 mt-0 pt-0"><b>PAYMENT INFORMATION</b>
                                     </h2>
-                                    <p class="text text-center mb-0 pb-0">
+                                    <p class="text  mb-0 pb-0">
                                         Transfer to Santander<br>
                                         Compliance and Risk Consultancy (CRC) The
                                         Compli<br>
@@ -284,30 +287,30 @@ $feedbacks = findAll("feedbacks");
                                 </div>
 
                                 <div class="col-lg-12">
-                                    <h2 class="text-md  text-primary text-center mb-2  mt-4"><b>Member’s Declaration</b>
+                                    <h2 class="membership-heading text-center mb-3  mt-4">Member’s Declaration
                                     </h2>
                                     <p class="text text-center">As a member of CPB I undertake to abide by the rules and
                                         regulations of the organization and will help it
                                         to achieve its objectives of being a consumer advocate.</p>
                                 </div>
                             
-                                <div class="col-lg-12">
+                                <div class="col-lg-6">
                                     <div class="mb-3">
                                         <label for="" class="form-label text-primary"><b>SIGN</b>
                                         </label>
-                                      <input type="text" name="" id="" class="form-control" placeholder=""
+                                      <input type="text" name="" id="" class="form-control border-0 border-bottom rounded-0 " placeholder=""
                                         aria-describedby="helpId" />
                                         <!--   <canvas id="signaturePad" class="signature-pad"></canvas>
                                         <div class="button-container d-flex justify-content-end">
                                             <button id="clear">Clear</button> -->
                                             <!-- <button id="save" class="ms-2">Save</button> -->
-                                        <!-- </div>
-                                    </div> -->
+                                        <!-- </div> -->
+                                    </div>
                                 </div>
-                                <div class="col-lg-12">
+                                <div class="col-lg-6">
                                     <div class="mb-3">
                                         <label for="" class="form-label text-primary"><b>Date</b></label>
-                                        <input type="date" name="" id="" class="form-control border-0 border-bottom rounded-0" placeholder=""
+                                        <input type="date" name="" id="" class="form-control border-0 border-bottom rounded-0 " placeholder=""
                                             aria-describedby="helpId" />
                                     </div>
                                 </div>
