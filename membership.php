@@ -295,12 +295,14 @@ $feedbacks = findAll("feedbacks");
                                     <div class="mb-3">
                                         <label for="" class="form-label text-primary"><b>SIGN</b>
                                         </label>
-                                        <canvas id="signaturePad" class="signature-pad"></canvas>
+                                      <input type="text" name="" id="" class="form-control" placeholder=""
+                                        aria-describedby="helpId" />
+                                        <!--   <canvas id="signaturePad" class="signature-pad"></canvas>
                                         <div class="button-container d-flex justify-content-end">
-                                            <button id="clear">Clear</button>
+                                            <button id="clear">Clear</button> -->
                                             <!-- <button id="save" class="ms-2">Save</button> -->
-                                        </div>
-                                    </div>
+                                        <!-- </div>
+                                    </div> -->
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="mb-3">
