@@ -1,5 +1,5 @@
 <?php
-
+include_once "includes/functions.php";
 include_once "includes/mail.php";
 
 $contactFormSubmitted = false;
@@ -20,7 +20,7 @@ if (isset($_POST['contact'])) {
 
     $contactFormSubmitted = true;
 }
-
+$feedbacks = findAll("feedbacks");
 
 ?>
 <!doctype html>
@@ -120,7 +120,7 @@ if (isset($_POST['contact'])) {
                             <a class="nav-link" href="why-choose-us.php">Why Choose Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="consumer-issues.html">Consumer Issues
+                            <a class="nav-link" href="consumer-issues.php">Consumer Issues
                             </a>
                         </li>
 
@@ -129,7 +129,7 @@ if (isset($_POST['contact'])) {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="archive.html">Archive
+                            <a class="nav-link" href="archive.php">Archive
                             </a>
                         </li>
                         <li class="nav-item">
@@ -214,7 +214,7 @@ if (isset($_POST['contact'])) {
         </section>
 
 
-        <section class="py-lg-5 py-4 bg-light">
+      <section class="py-lg-5 py-4">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -222,89 +222,70 @@ if (isset($_POST['contact'])) {
                             Why people believe in us
                         </h1>
                     </div>
-                     <div class="col-lg-12">
+                    <div class="col-lg-12">
                         <div class="slick-slider">
-                            <div class="element element-1">
-                                <div class="amenity-card quote-card bg-light">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
+                            <?php foreach ($feedbacks as $count => $feedback): ?>
+                                <div class="element element-<?php echo ++$count; ?>">
+                                    <div class="amenity-card quote-card">
+                                        <div class="text-center mb-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
+                                                id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
+                                                <path fill="#E5BF20"
+                                                    d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
+                                                    id="1938712236"></path>
+                                            </svg>
+                                        </div>
+                                        <p class="text text-center">
+                                            “<?php echo $feedback->feedback; ?>”
+                                        </p>
+                                        <h3 class="mt-3"><?php echo $feedback->name . ", " . $feedback->location; ?></h3>
                                     </div>
-                                    <p class="text text-center">
-                                        “one of the best Consumer rights solution
-                                        company in the market, you will find best
-                                        experience here highly friendly and
-                                        professional team”
-                                    </p>
-                                    <h3 class="mt-3">Jane Faber, London</h3>
                                 </div>
-                            </div>
-                            <div class="element element-2">
-                                <div class="amenity-card quote-card bg-light">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
-                                    </div>
-                                    <p class="text text-center">
-                                        “If you are looking for a high quality
-                                        company, I highly recommend this one. They
-                                        are the very best in the field, no
-                                        compromise.”
-                                    </p>
-                                    <h3 class="mt-3">John Smith, Manchester </h3>
-                                </div>
-                            </div>
-                            <div class="element element-3">
-                                <div class="amenity-card quote-card bg-light">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
-                                    </div>
-                                    <p class="text text-center">
-                                        “The service is friendly and the results are
-                                        always of the highest quality. This is the
-                                        best company I have ever worked with.”
-                                    </p>
-                                    <h3 class="mt-3">Madelaine Taylor, Leeds</h3>
-                                </div>
-                            </div>
-                            <div class="element element-4">
-                                <div class="amenity-card quote-card bg-light">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
-                                    </div>
-                                    <p class="text text-center">
-                                        “The first time I tried this company, I was
-                                        hooked. Everything was so fabulous and easy.
-                                        I’ll never go back to anyone else.”
-                                    </p>
-                                    <h3 class="mt-3">Sheila Marks, Nottingham</h3>
-                                </div>
-                            </div>
-                            
-                          </div>
+                            <?php endforeach; ?>
+
+                        </div>
                     </div>
+
+
                 </div>
             </div>
+            </div>
+                  
         </section>
+        <section class="py-lg-5 py-4 bg-light">
+             <div class="container">
+                <div class="row justify-content-center">
+                <div class="col-lg-12">
+                        <h1 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
+                        Visit Our Subsidiary Companies
+                        </h1>
+                  
+                </div>
+           
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://www.compliance-experts.co.uk/" target="_blank" class="text-decoration-none text-dark">
+                            <div class="amenity-card d-flex justify-content-center align-items-center flex-column"> 
+                                <img
+                                    src="assets/images/CRC-logo.png"
+                                    alt="CRC logo"   style="width:130px; height:auto;">
+                                <h1 class="mt-4 text-center text-md"  style=" font-weight:500;">Compilance and Risk Consultancy</h1>
+                            </div>
+                        </a>
+                    </div>
 
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://carehomecompliance.com/" target="_blank" class="text-decoration-none text-dark">
+                            <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
+                                <img
+                                    src="assets/images/Care Home Compilance.png"
+                                    alt="CHC logo"  style="width:100px; height:auto;">
+                                <h1 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h1>
+                            </div>
+                        </a>
+                    </div>
+             </div>
+                            </div>
+        </section>
         <section>
             <div class="contact-area py-lg-5 py-4">
                 <div class="container py-4">
@@ -458,13 +439,13 @@ if (isset($_POST['contact'])) {
                             Other
                         </h6>
                         <p class="">
-                            <a href="consumer-issues.html" class="text-white">Consumer Issues</a>
+                            <a href="consumer-issues.php" class="text-white">Consumer Issues</a>
                         </p>
                         <p>
                             <a href="blog/index.php" class="text-white">Blog</a>
                         </p>
                         <p>
-                            <a href="archive.html" class="text-white">Archive</a>
+                            <a href="archive.php" class="text-white">Archive</a>
                         </p>
                         <p>
                             <a href="membership.php" class="text-white">Membership</a>
@@ -547,7 +528,7 @@ if (isset($_POST['contact'])) {
         crossorigin="anonymous"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
-  <script src="/assets/js/app.js"></script>
+  <script src="assets/js/app.js"></script>
    <script>
         contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
 

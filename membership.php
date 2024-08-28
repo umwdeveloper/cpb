@@ -1,5 +1,5 @@
 <?php
-
+include_once "includes/functions.php";
 include_once "includes/mail.php";
 
 $contactFormSubmitted = false;
@@ -20,7 +20,7 @@ if (isset($_POST['contact'])) {
 
     $contactFormSubmitted = true;
 }
-
+$feedbacks = findAll("feedbacks");
 ?>
 
 <!doctype html>
@@ -46,7 +46,7 @@ if (isset($_POST['contact'])) {
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -172,16 +172,16 @@ if (isset($_POST['contact'])) {
                 <div class="row">
                     <div class="col-lg-11 mx-auto">
 
-                        <form method="post" class="membership-form bg-white rounded-2 p-4">
+                        <form class="membership-form bg-white rounded-2 shadow">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <div class="d-flex justify-content-center mb-4 mt-3">
+                                    <div class="d-flex  mb-4 mt-3">
                                         <img src="assets/images/CPB-membership.png" alt=""
-                                            class="mx-auto membership-logo">
+                                            class="me-auto membership-logo">
                                     </div>
 
 
-                                    <h3 class="">Consumer Protection Bureau </h3>
+                                    <h3 class="text-decoration-underline mb-4">Consumer Protection Bureau </h3>
                                     <p class="text">
                                         Consumer Protection Bureau (CPB) is a UK-registered Community Interest Company
                                         (CIC)
@@ -208,58 +208,62 @@ if (isset($_POST['contact'])) {
                                     </p>
                                 </div>
                                 <div class="col-lg-12 mt-3">
-                                    <h2 class="text-center secondry-heading">MEMBERSHIP APPLICATION FORM</h2>
-                                    <p class="text text-center">Please complete this form and return it electronically
+                                    <h2 class="text-center membership-heading mb-4">MEMBERSHIP APPLICATION FORM</h2>
+                                    <p class="text">Please complete this form and return it electronically
                                         to: <a href=""
-                                            class="text-decoration-none text-secondry">info@consumerprotectionbureau.co.uk.</a>
+                                            class="text-decoration-none text-primary">info@consumerprotectionbureau.co.uk.</a>
                                     </p>
                                 </div>
 
                                 <div class="col-lg-12 mt-3">
-                                    <h2 class="text-md font-bold text-primary text-center mb-4"><b>CONTACT
-                                            INFORMATION</b>
+                                    <h2 class="membership-heading text-center mb-4">CONTACT
+                                        INFORMATION
                                     </h2>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mb-3">
-                                        <label for="name" class="form-label">Name</label>
-                                        <input type="text" name="name" id="name" class="form-control" placeholder=""
+                                        <label for="" class="form-label">Name</label>
+                                        <input type="text" name="" id="" class="form-control" placeholder=""
                                             aria-describedby="helpId" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mb-3">
-                                        <label for="email" class="form-label">Email</label>
-                                        <input type="email" name="email" id="email" class="form-control" placeholder=""
+                                        <label for="" class="form-label">Email</label>
+                                        <input type="email" name="" id="" class="form-control" placeholder=""
                                             aria-describedby="helpId" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mb-3">
-                                        <label for="phone" class="form-label">Telephone Number</label>
-                                        <input type="text" name="phone" id="phone" class="form-control" placeholder=""
+                                        <label for="" class="form-label">Telephone Number</label>
+                                        <input type="text" name="" id="" class="form-control" placeholder=""
                                             aria-describedby="helpId" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mb-3">
-                                        <label for="dob" class="form-label">Date of Birth</label>
-                                        <input type="date" name="dob" id="dob" class="form-control" placeholder=""
+                                        <label for="" class="form-label">Date of Birth</label>
+                                        <input type="date" name="" id="" class="form-control" placeholder=""
                                             aria-describedby="helpId" />
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="mb-3">
-                                        <label for="address" class="form-label">Home Address</label>
-                                        <input type="text" name="address" id="address" class="form-control" placeholder=""
+                                        <label for="" class="form-label">Home Address</label>
+                                        <input type="text" name="" id="" class="form-control" placeholder=""
                                             aria-describedby="helpId" />
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <h2 class="text-md  text-primary text-center mb-2 mt-4"><b>HANDLING FEE</b>
+                                    <h2 class="membership-heading text-center mb-3 mt-4">HANDLING FEE & PAYMENT
+                                        INFORMATION
                                     </h2>
 
-                                    <div class="form-check">
+
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-check border p-3 ps-5">
                                         <input class="form-check-input" type="checkbox" value="" id="fee" />
                                         <label class="form-check-label" for="fee"> Experience exceptional value with
                                             CPB’s
@@ -270,10 +274,10 @@ if (isset($_POST['contact'])) {
                                             offers premier support at a fraction of the price. </label>
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
-                                    <h2 class="text-md  text-primary text-center mb-2 mt-4"><b>PAYMENT INFORMATION</b>
+                                <div class="col-lg-6 p-4 border ">
+                                    <h2 class="text-md  text-primary  mb-2 mt-0 pt-0"><b>PAYMENT INFORMATION</b>
                                     </h2>
-                                    <p class="text text-center mb-0 pb-0">
+                                    <p class="text  mb-0 pb-0">
                                         Transfer to Santander<br>
                                         Compliance and Risk Consultancy (CRC) The
                                         Compli<br>
@@ -284,28 +288,32 @@ if (isset($_POST['contact'])) {
                                 </div>
 
                                 <div class="col-lg-12">
-                                    <h2 class="text-md  text-primary text-center mb-2  mt-4"><b>Member’s Declaration</b>
+                                    <h2 class="membership-heading text-center mb-3  mt-4">Member’s Declaration
                                     </h2>
                                     <p class="text text-center">As a member of CPB I undertake to abide by the rules and
                                         regulations of the organization and will help it
                                         to achieve its objectives of being a consumer advocate.</p>
                                 </div>
 
-                                <div class="col-lg-12">
+                                <div class="col-lg-6">
                                     <div class="mb-3">
                                         <label for="" class="form-label text-primary"><b>SIGN</b>
                                         </label>
-                                        <canvas id="signaturePad" class="signature-pad"></canvas>
+                                        <input type="text" name="" id=""
+                                            class="form-control border-0 border-bottom rounded-0 " placeholder=""
+                                            aria-describedby="helpId" />
+                                        <!--   <canvas id="signaturePad" class="signature-pad"></canvas>
                                         <div class="button-container d-flex justify-content-end">
-                                            <button id="clear">Clear</button>
-                                            <!-- <button id="save" class="ms-2">Save</button> -->
-                                        </div>
+                                            <button id="clear">Clear</button> -->
+                                        <!-- <button id="save" class="ms-2">Save</button> -->
+                                        <!-- </div> -->
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
+                                <div class="col-lg-6">
                                     <div class="mb-3">
                                         <label for="" class="form-label text-primary"><b>Date</b></label>
-                                        <input type="date" name="" id="" class="form-control border-0 border-bottom rounded-0" placeholder=""
+                                        <input type="date" name="" id=""
+                                            class="form-control border-0 border-bottom rounded-0 " placeholder=""
                                             aria-describedby="helpId" />
                                     </div>
                                 </div>
@@ -320,6 +328,16 @@ if (isset($_POST['contact'])) {
                 </div>
             </div>
         </section>
+        <!-- <section class="pb-lg-5 pb-4 bg-light position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto">
+ <div class="plato-form-widget" data-options="id:frn2rjc4k5g;width:100%;height:0;host:form.platoforms.com/"></div><div id="frn2rjc4k5g-loading-msg"><h2>Loading the Form...</h2></div> <script type="text/javascript"> (function(d, v){ var s = d.getElementsByTagName(v)[0], p = s.parentNode, e = d.createElement(v); e.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'static.platoforms.com/assets/dist/formbuilder.js?v=15'; p.insertBefore(e, s); })(document, 'script'); </script>
+                      
+                    </div>
+                </div>
+            </div>
+        </section> -->
         <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
             <div class="container pb-5 ">
                 <div class="row mb-lg-0 mb-4">
@@ -366,15 +384,15 @@ if (isset($_POST['contact'])) {
                 <div class="row  mb-lg-0 mb-4">
                     <div
                         class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3">
-                        <img src="assets/images/leadership-amico.png" alt=""
-                            class="consumer-img  object-fit-contain">
+                        <img src="assets/images/leadership-amico.png" alt="" class="consumer-img  object-fit-contain">
                     </div>
                     <div class="col-lg-8 px-0 bg-white d-flex align-items-center">
                         <div class="service-white-card service-card py-lg-5 py-3">
 
                             <h3 class="text-start">Expert Guidance</h3>
                             <p class="text ">
-                                Our panel of experts is here to provide comprehensive advice on legal matters, product/service-related concerns, and assistance with claims.
+                                Our panel of experts is here to provide comprehensive advice on legal matters,
+                                product/service-related concerns, and assistance with claims.
                             </p>
 
                         </div>
@@ -387,7 +405,8 @@ if (isset($_POST['contact'])) {
 
                             <h3 class="text-start">Dispute Resolution</h3>
                             <p class="text ">
-                                Whether it's a contractual issue or a dispute over faulty goods, CPB stands as your reliable resource for swift and effective resolutions.
+                                Whether it's a contractual issue or a dispute over faulty goods, CPB stands as your
+                                reliable resource for swift and effective resolutions.
                             </p>
 
                         </div>
@@ -401,15 +420,15 @@ if (isset($_POST['contact'])) {
                 <div class="row  mb-lg-0 mb-4">
                     <div
                         class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3">
-                        <img src="assets/images/Service 24_7-amico.png" alt=""
-                            class="consumer-img  object-fit-contain">
+                        <img src="assets/images/Service 24_7-amico.png" alt="" class="consumer-img  object-fit-contain">
                     </div>
                     <div class="col-lg-8 px-0 bg-white  d-flex align-items-center">
                         <div class="service-white-card service-card py-lg-5 py-3">
 
                             <h3 class="text-start">Priority Service</h3>
                             <p class="text">
-                                As a CPB member, you receive priority service, ensuring your concerns are addressed with the urgency they rightfully deserve.
+                                As a CPB member, you receive priority service, ensuring your concerns are addressed with
+                                the urgency they rightfully deserve.
                             </p>
 
                         </div>
@@ -422,7 +441,9 @@ if (isset($_POST['contact'])) {
 
                             <h3 class="text-start">Protect Your Rights</h3>
                             <p class="text ">
-                                Our mission is to empower you- the consumer, in making informed decisions and asserting your rights. CPB is not just an organisation; we are your advocate, working tirelessly to ensure fairness and justice in your consumer journey.
+                                Our mission is to empower you- the consumer, in making informed decisions and asserting
+                                your rights. CPB is not just an organisation; we are your advocate, working tirelessly
+                                to ensure fairness and justice in your consumer journey.
                             </p>
                         </div>
                     </div>
@@ -445,12 +466,18 @@ if (isset($_POST['contact'])) {
 
                             </h1>
                             <p class="text py-2 text-white text-center ">
-                                Ready to experience a consumer journey with a partner by your side? Join CPB as a member or make a voluntary contribution – We understand that not everyone can commit to membership, and that's okay! Non-members are welcome to benefit from our services by making a voluntary contribution. For consumer issues under £1,000, a suggested contribution of £50 is appreciated. <b>The choice is yours!</b>
+                                Ready to experience a consumer journey with a partner by your side? Join CPB as a member
+                                or make a voluntary contribution – We understand that not everyone can commit to
+                                membership, and that's okay! Non-members are welcome to benefit from our services by
+                                making a voluntary contribution. For consumer issues under £1,000, a suggested
+                                contribution of £50 is appreciated. <b>The choice is yours!</b>
                                 <br>
-                                Visit our website or call us at +44 (0)203 5854002 to take the first step towards consumer empowerment.
+                                Visit our website or call us at +44 (0)203 5854002 to take the first step towards
+                                consumer empowerment.
                                 <br>
                                 <br>
-                                <b class="text-md">At CPB, we are not just protecting consumers; we are empowering lives.</b>
+                                <b class="text-md">At CPB, we are not just protecting consumers; we are empowering
+                                    lives.</b>
                             </p>
 
                         </div>
@@ -467,9 +494,10 @@ if (isset($_POST['contact'])) {
                             Why people believe in us
                         </h1>
                     </div>
-               <div class="col-lg-12">
+                    <div class="col-lg-12">
                         <div class="slick-slider">
-                            <div class="element element-1">
+                            <?php foreach ($feedbacks as $count => $feedback): ?>
+                            <div class="element element-<?php echo ++$count; ?>">
                                 <div class="amenity-card quote-card">
                                     <div class="text-center mb-4">
                                         <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
@@ -480,76 +508,56 @@ if (isset($_POST['contact'])) {
                                         </svg>
                                     </div>
                                     <p class="text text-center">
-                                        “one of the best Consumer rights solution
-                                        company in the market, you will find best
-                                        experience here highly friendly and
-                                        professional team”
+                                        “<?php echo $feedback->feedback; ?>”
                                     </p>
-                                    <h3 class="mt-3">Jane Faber, London</h3>
+                                    <h3 class="mt-3"><?php echo $feedback->name . ", " . $feedback->location; ?></h3>
                                 </div>
                             </div>
-                            <div class="element element-2">
-                                <div class="amenity-card quote-card">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
-                                    </div>
-                                    <p class="text text-center">
-                                        “If you are looking for a high quality
-                                        company, I highly recommend this one. They
-                                        are the very best in the field, no
-                                        compromise.”
-                                    </p>
-                                    <h3 class="mt-3">John Smith, Manchester </h3>
-                                </div>
+                            <?php endforeach; ?>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            </div>
+                  
+        </section>
+        <section class="py-lg-5 py-4 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <h1 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
+                            Visit Our Subsidiary Companies
+                        </h1>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://www.compliance-experts.co.uk/" target="_blank"
+                            class="text-decoration-none text-dark">
+                            <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
+                                <img src="assets/images/CRC-logo.png" alt="CRC logo" style="width:130px; height:auto;">
+                                <h1 class="mt-4 text-center text-md" style=" font-weight:500;">Compilance and Risk
+                                    Consultancy</h1>
                             </div>
-                            <div class="element element-3">
-                                <div class="amenity-card quote-card">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
-                                    </div>
-                                    <p class="text text-center">
-                                        “The service is friendly and the results are
-                                        always of the highest quality. This is the
-                                        best company I have ever worked with.”
-                                    </p>
-                                    <h3 class="mt-3">Madelaine Taylor, Leeds</h3>
-                                </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://carehomecompliance.com/" target="_blank"
+                            class="text-decoration-none text-dark">
+                            <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
+                                <img src="assets/images/Care Home Compilance.png" alt="CHC logo"
+                                    style="width:100px; height:auto;">
+                                <h1 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h1>
                             </div>
-                            <div class="element element-4">
-                                <div class="amenity-card quote-card">
-                                    <div class="text-center mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                            <path fill="#E5BF20"
-                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                id="1938712236"></path>
-                                        </svg>
-                                    </div>
-                                    <p class="text text-center">
-                                        “The first time I tried this company, I was
-                                        hooked. Everything was so fabulous and easy.
-                                        I’ll never go back to anyone else.”
-                                    </p>
-                                    <h3 class="mt-3">Sheila Marks, Nottingham</h3>
-                                </div>
-                            </div>
-                            
-                          </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
-
         <section>
             <div class="contact-area py-lg-5 py-4">
                 <div class="container py-4">
@@ -598,35 +606,27 @@ if (isset($_POST['contact'])) {
                             <div class="contact-content ps-lg-5">
                                 <div class="contact-form">
                                     <?php if (isset($_POST['contact'])): ?>
-                                        <?php if ($msg['status'] == 'success'): ?>
-                                            <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
-                                        <?php else: ?>
-                                            <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
-                                        <?php endif; ?>
+                                    <?php if ($msg['status'] == 'success'): ?>
+                                    <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
+                                    <?php else: ?>
+                                    <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
                                     <?php endif; ?>
-                                    <form method="post"
-                                        class="contact-validation-active"
-                                        id="contact-form"
+                                    <?php endif; ?>
+                                    <form method="post" class="contact-validation-active" id="contact-form"
                                         novalidate="novalidate">
                                         <div class="half-col">
                                             <label for="Name" class="text-white">Name</label>
-                                            <input type="text" name="name"
-                                                id="name"
-                                                class="form-control"
+                                            <input type="text" name="name" id="name" class="form-control"
                                                 placeholder="Your Name">
                                         </div>
                                         <div class="half-col">
                                             <label for="phone" class="text-white">Phone Number</label>
-                                            <input type="text" name="phone"
-                                                id="phone"
-                                                class="form-control"
+                                            <input type="text" name="phone" id="phone" class="form-control"
                                                 placeholder="Phone">
                                         </div>
                                         <div>
                                             <label for="email" class="text-white">Email</label>
-                                            <input type="email" name="email"
-                                                id="email"
-                                                class="form-control"
+                                            <input type="email" name="email" id="email" class="form-control"
                                                 placeholder="Email">
                                         </div>
 
@@ -634,16 +634,13 @@ if (isset($_POST['contact'])) {
 
                                         <div>
                                             <label for="msg" class="text-white">Message</label>
-                                            <textarea class="form-control"
-                                                name="msg" id="msg"
+                                            <textarea class="form-control" name="msg" id="msg"
                                                 placeholder="Message"></textarea>
                                         </div>
                                         <div class="submit-btn-wrapper">
-                                            <button type="submit" name="contact"
-                                                class="main-btn">Send</button>
+                                            <button type="submit" name="contact" class="main-btn">Send</button>
                                             <div id="loader">
-                                                <i
-                                                    class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+                                                <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                             </div>
                                         </div>
                                     </form>
@@ -657,9 +654,7 @@ if (isset($_POST['contact'])) {
     </main>
 
     <!-- Footer -->
-    <footer
-        class="text-center text-lg-start text-white footer-text"
-        style="background-color: #223a78ef;">
+    <footer class="text-center text-lg-start text-white footer-text" style="background-color: #223a78ef;">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
             <!-- Section: Links -->
@@ -724,7 +719,8 @@ if (isset($_POST['contact'])) {
                     <!-- Grid column -->
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                        <p class=""><i class="fas fa-envelope mr-3"></i> <span class="text-sm">info@consumerprotectionbureau.co.uk</span> </p>
+                        <p class=""><i class="fas fa-envelope mr-3"></i> <span
+                                class="text-sm">info@consumerprotectionbureau.co.uk</span> </p>
                         <p class=""><i class="fas fa-phone mr-3"></i> +44 (0)2035854002</p>
                         <p class=""><i class="fas fa-home mr-3"></i> 83 VICTORIA STREET
 
@@ -759,24 +755,18 @@ if (isset($_POST['contact'])) {
                     <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                         <!-- Facebook -->
                         <a href="https://web.facebook.com/people/Consumer-Protection-Bureau/100089017255764/"
-                            class="btn btn-outline-light btn-floating m-1"
-                            class="text-white"
-                            role="button"
+                            class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"
                             target="_blank"><i class="fab fa-facebook-f"></i></a>
 
                         <!-- Twitter -->
                         <a href="https://x.com/i/flow/login?redirect_after_login=%2Fconsume60578813"
-                            class="btn btn-outline-light btn-floating m-1"
-                            class="text-white"
-                            role="button"
+                            class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"
                             target="_blank"><i class="fab fa-twitter"></i></a>
 
                         <!-- Google -->
-                        <a href="https://www.linkedin.com/in/consumer-protection-bureau-595632261/"
-                            target="_blank"
-                            class="btn btn-outline-light btn-floating m-1"
-                            class="text-white"
-                            role="button"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/consumer-protection-bureau-595632261/" target="_blank"
+                            class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-linkedin"></i></a>
 
 
                     </div>
@@ -791,78 +781,76 @@ if (isset($_POST['contact'])) {
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
-  <script src="/assets/js/app.js"></script>
-    <script>
-        window.onload = function() {
-            const canvas = document.getElementById('signaturePad');
-            const ctx = canvas.getContext('2d');
-
-            let isDrawing = false;
-
-            canvas.width = canvas.offsetWidth;
-            canvas.height = canvas.offsetHeight;
-
-            // Set up the drawing context
-            ctx.strokeStyle = '#000';
-            ctx.lineWidth = 2;
-
-            // Start drawing on mouse down
-            canvas.addEventListener('mousedown', (e) => {
-                isDrawing = true;
-                ctx.beginPath();
-                ctx.moveTo(e.offsetX, e.offsetY);
-            });
-
-            // Draw on mouse move
-            canvas.addEventListener('mousemove', (e) => {
-                if (isDrawing) {
-                    ctx.lineTo(e.offsetX, e.offsetY);
-                    ctx.stroke();
-                }
-            });
-
-            // Stop drawing on mouse up
-            canvas.addEventListener('mouseup', () => {
-                isDrawing = false;
-            });
-
-            // Clear the canvas
-            document.getElementById('clear').addEventListener('click', () => {
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-            });
-
-            // Save the signature as an image
-            document.getElementById('save').addEventListener('click', () => {
-                const dataURL = canvas.toDataURL('image/png');
-                const link = document.createElement('a');
-                link.href = dataURL;
-                link.download = 'signature.png';
-                link.click();
-            });
-        };
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
     </script>
-       <script>
-        contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+    window.onload = function() {
+        const canvas = document.getElementById('signaturePad');
+        const ctx = canvas.getContext('2d');
 
-        if (contactFormSubmitted) {
-            const element = document.getElementById("contact-form");
-            if (element) {
-                element.scrollIntoView({
-                    behavior: 'smooth', // smooth scrolling
-                    block: 'center' // align to the top of the element
-                });
+        let isDrawing = false;
+
+        canvas.width = canvas.offsetWidth;
+        canvas.height = canvas.offsetHeight;
+
+        // Set up the drawing context
+        ctx.strokeStyle = '#000';
+        ctx.lineWidth = 2;
+
+        // Start drawing on mouse down
+        canvas.addEventListener('mousedown', (e) => {
+            isDrawing = true;
+            ctx.beginPath();
+            ctx.moveTo(e.offsetX, e.offsetY);
+        });
+
+        // Draw on mouse move
+        canvas.addEventListener('mousemove', (e) => {
+            if (isDrawing) {
+                ctx.lineTo(e.offsetX, e.offsetY);
+                ctx.stroke();
             }
-        }
+        });
 
-      
+        // Stop drawing on mouse up
+        canvas.addEventListener('mouseup', () => {
+            isDrawing = false;
+        });
+
+        // Clear the canvas
+        document.getElementById('clear').addEventListener('click', () => {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        });
+
+        // Save the signature as an image
+        document.getElementById('save').addEventListener('click', () => {
+            const dataURL = canvas.toDataURL('image/png');
+            const link = document.createElement('a');
+            link.href = dataURL;
+            link.download = 'signature.png';
+            link.click();
+        });
+    };
+    </script>
+    <script>
+    contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
+
+    if (contactFormSubmitted) {
+        const element = document.getElementById("contact-form");
+        if (element) {
+            element.scrollIntoView({
+                behavior: 'smooth', // smooth scrolling
+                block: 'center' // align to the top of the element
+            });
+        }
+    }
     </script>
 </body>
 

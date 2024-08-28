@@ -357,3 +357,233 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php on line 51
+[23-Aug-2024 07:08:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php:92
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(52): findAll('feedbacks')
+#1 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php on line 92
+[23-Aug-2024 07:08:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php:92
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(52): findAll('feedbacks')
+#1 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php on line 92
+[23-Aug-2024 07:16:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/about.php(2): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/why-choose-us.php(2): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:16:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:19:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:19:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:19:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:19:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:19:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:19:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:19:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:19:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:19:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:19:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  new Database() in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php:24
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php(12): include_once()
+#1 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once('/home/xmg3ydcsj...')
+#2 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php on line 24
+[23-Aug-2024 07:23:03 UTC] PHP Warning:  include_once(/home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php): failed to open stream: No such file or directory in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php on line 12
+[23-Aug-2024 07:23:03 UTC] PHP Warning:  include_once(): Failed opening '/home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/connection.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php on line 12
+[23-Aug-2024 07:23:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function open() on null in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php:21
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once()
+#1 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php on line 21
+[23-Aug-2024 07:23:03 UTC] PHP Warning:  include_once(/home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/../includes/connection.php): failed to open stream: No such file or directory in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php on line 12
+[23-Aug-2024 07:23:03 UTC] PHP Warning:  include_once(): Failed opening '/home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/../includes/connection.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php on line 12
+[23-Aug-2024 07:23:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function open() on null in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php:21
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once()
+#1 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php on line 21
+[23-Aug-2024 07:23:05 UTC] PHP Warning:  include_once(/home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/../includes/connection.php): failed to open stream: No such file or directory in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php on line 12
+[23-Aug-2024 07:23:05 UTC] PHP Warning:  include_once(): Failed opening '/home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/../includes/connection.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php on line 12
+[23-Aug-2024 07:23:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function open() on null in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php:21
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once()
+#1 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php on line 21
+[23-Aug-2024 07:23:06 UTC] PHP Warning:  include_once(/home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/../includes/connection.php): failed to open stream: No such file or directory in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php on line 12
+[23-Aug-2024 07:23:06 UTC] PHP Warning:  include_once(): Failed opening '/home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/../includes/connection.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php on line 12
+[23-Aug-2024 07:23:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function open() on null in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php:21
+Stack trace:
+#0 /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/index.php(3): include_once()
+#1 {main}
+  thrown in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/includes/functions.php on line 21
