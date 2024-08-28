@@ -789,5 +789,8 @@ body {
         padding:20px 20px !important;
     }
     
-   
+    .membership-form h3{
+        font-size: 18px;
+  
+    }
 }
