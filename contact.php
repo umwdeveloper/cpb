@@ -321,9 +321,9 @@ if (isset($_POST['contact'])) {
                 <div class="row">
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-1 font-weight-bold bg-white p-3 rounded-2 mb-lg-0 mb-2">
+                        <div class="text-uppercase mb-1 font-weight-bold bg-white p-3 rounded-2 mb-lg-0 mb-2">
                             <img src="assets/images/Logo - PNG.png" alt="" class="img-fluid footer-img">
-                        </h6>
+                        </div>
                         <p>
                             BUSINESS HOURS:<br> MONDAY TO FRIDAY 9:00-5:00
                         </p>

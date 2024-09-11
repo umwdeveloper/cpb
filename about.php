@@ -151,76 +151,82 @@ $feedbacks = findAll("feedbacks");
     <main>
 
 
-        <section class="py-lg-5 py-4 bg-light about-hero">
-            <div class="container">
-                <div class="row justify-content-center align-items-start">
-                    <div class="col-lg-9 mx-auto mb-lg-5 mb-3">
-                        <h1 class="main-heading text-center text-uppercase  mt-2">
-                            the Consumer Protection Bureau (CPB)
-                        </h1>
-                        <p class="text-lg text-center">
-                            Founded in 2011, Stands as a community-focused organiSation and serves as the corporate
-                            social responsibility arm of <a href="" class="text-decoration-none text-secondry">CRC</a>.
-                        </p>
-                    </div>
-                </div>
+    <section class="py-lg-5 py-4 bg-light about-hero">
+    <div class="container">
+        <div class="row justify-content-center align-items-start  mb-lg-5 mb-3">
+            <div class="col-lg-10 mx-auto">
+                <h1 class="main-heading text-center text-uppercase mt-2">
+                    The Consumer Protection Bureau (CPB)
+                </h1>
+                <p class="text-lg text-center">
+                    Founded in 2011, the Consumer Protection Bureau (CPB) stands as a community-focused organisation
+                    and serves as the corporate social responsibility arm of <a href="" class="text-decoration-none text-secondry">CRC</a>. 
+                   
+                </p>
+             
             </div>
-        </section>
-        <section class="pb-lg-5 pb-4 bg-light position-relative">
-            <div class="white-background"></div>
-            <div class="container">
-                <div class="row position-relative align-items-center white-bg">
+            <div class="col-lg-12">
+            <p class="text-md text-center">
+                As a prominent advocate for consumer protection in the UK, we are dedicated to upholding consumer rights and ensuring compliance with consumer protection laws. Our mission is to address consumer complaints effectively and work towards fair resolutions for all customer complaints.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
-                    <div class="col-lg-7">
-                        <h1 class="main-heading text-uppercase text-white mt-2">
-                            About Us
-                        </h1>
-                        <p class="text mt-4 text-white">
-                            Established in 2011, the Consumer Protection Bureau (CPB) is a Community Interest Company,
-                            incorporated and registered in the United Kingdom. As the Social Corporate Responsibility
-                            wing of CRC, CPB emerged under the visionary leadership of Yousouf Jhugroo, former CEO of
-                            the Institute for Consumer Protection (ICP), bringing with it a legacy of over three decades
-                            in the consumer protection arena.
-                        </p>
-                        <p class="text text-white">
-                            CPB is not just an organisation; we are your ally in the consumer world. Our sole focus is
-                            protection of your economic interest and safety. We are not influenced by industry funding,
-                            ensuring that our dedication is solely to you, the consumer.
-                        </p>
-                        <p class="text text-white">
-                            At CPB, we are deeply committed, driven by a passion to empower consumers and drive fairness
-                            in the marketplace. With a rich heritage and a forward-looking approach, we continue to
-                            evolve, ensuring your rights are protected, and your voice is heard.
-                        </p>
-                        <a href="membership.php" class="secondry-heading text-uppercase text-center text-white">
-                            Join us on this transformative journey
-                        </a>
-                        <p class="text-md mt-3 text-white">
-                            CPB, where consumer empowerment meets a legacy of experience.
-                        </p>
-                    </div>
-                    <div class="col-lg-4 ms-auto d-flex justify-content-center mt-lg-0 mt-4">
-                        <div class="about-card">
-                            <img src="assets/images/yousaf-consumer-protection-bureau-ceo.webp" alt=""
-                                class="mx-auto img-fluid">
-                            <h3 class="mt-3 text-center ">Yousouf Jhugroo</h3>
-                            <p class="text-md  text-center mb-0 ">
-                                Chairman and CEO
-                            </p>
-                        </div>
-                    </div>
+<section class="pb-lg-5 pb-4 bg-light position-relative">
+    <div class="white-background"></div>
+    <div class="container">
+        <div class="row position-relative align-items-center white-bg">
+            <div class="col-lg-7">
+                <h2 class="main-heading text-uppercase text-white mt-2">
+                    About Us
+                </h2>
+                <p class="text mt-4 text-white">
+                    Established in 2011, the Consumer Protection Bureau (CPB) is a Community Interest Company,
+                    incorporated and registered in the United Kingdom. As the Social Corporate Responsibility
+                    wing of CRC, CPB emerged under the visionary leadership of Yousouf Jhugroo, former CEO of
+                    the Institute for Consumer Protection (ICP), bringing with it a legacy of over three decades
+                    in consumer protection in the UK. Our focus is on upholding consumer rights and advocating for effective consumer protection laws to address and resolve any consumer complaints.
+                </p>
+                <p class="text text-white">
+                    CPB is not just an organisation; we are your ally in the consumer world. Our sole focus is
+                    the protection of your economic interests and safety. We operate independently from industry funding,
+                    ensuring that our dedication is solely to you, the consumer. Whether you face issues related to faulty products or poor service, we are here to help resolve any customer complaints with the utmost commitment.
+                </p>
+                <p class="text text-white">
+                    At CPB, we are deeply committed to empowering consumers and driving fairness in the marketplace. With a rich heritage and a forward-looking approach, we continue to evolve to ensure your rights are protected and your voice is heard in the face of any consumer protection issues.
+                </p>
+                <a href="membership.php" class="secondry-heading text-uppercase text-center text-white">
+                    Join us on this transformative journey
+                </a>
+                <p class="text-md mt-3 text-white">
+                    CPB, where consumer empowerment meets a legacy of experience in consumer protection UK.
+                </p>
+            </div>
+            <div class="col-lg-4 ms-auto d-flex justify-content-center mt-lg-0 mt-4">
+                <div class="about-card">
+                    <img src="assets/images/yousaf-consumer-protection-bureau-ceo.webp" alt="Yousouf Jhugroo" class="mx-auto img-fluid">
+                    <h3 class="mt-3 text-center">Yousouf Jhugroo</h3>
+                    <p class="text-md text-center mb-0">
+                        Chairman and CEO
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
+
+
 
 
       <section class="py-lg-5 py-4">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
+                        <h2 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
                             Why people believe in us
-                        </h1>
+                        </h2>
                     </div>
                     <div class="col-lg-12">
                         <div class="slick-slider">
@@ -256,9 +262,9 @@ $feedbacks = findAll("feedbacks");
              <div class="container">
                 <div class="row justify-content-center">
                 <div class="col-lg-12">
-                        <h1 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
+                        <h2 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
                         Visit Our Subsidiary Companies
-                        </h1>
+                        </h2>
                   
                 </div>
            
@@ -268,7 +274,7 @@ $feedbacks = findAll("feedbacks");
                                 <img
                                     src="assets/images/CRC-logo.png"
                                     alt="CRC logo"   style="width:130px; height:auto;">
-                                <h1 class="mt-4 text-center text-md"  style=" font-weight:500;">Compilance and Risk Consultancy</h1>
+                                <h3 class="mt-4 text-center text-md"  style=" font-weight:500;">Compilance and Risk Consultancy</h3>
                             </div>
                         </a>
                     </div>
@@ -279,7 +285,7 @@ $feedbacks = findAll("feedbacks");
                                 <img
                                     src="assets/images/Care Home Compilance.png"
                                     alt="CHC logo"  style="width:100px; height:auto;">
-                                <h1 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h1>
+                                <h3 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h3>
                             </div>
                         </a>
                     </div>
@@ -402,9 +408,9 @@ $feedbacks = findAll("feedbacks");
                 <div class="row">
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-1 font-weight-bold bg-white p-3 rounded-2 mb-lg-0 mb-2">
+                        <div class="text-uppercase mb-1 font-weight-bold bg-white p-3 rounded-2 mb-lg-0 mb-2">
                             <img src="assets/images/Logo - PNG.png" alt="" class="img-fluid footer-img">
-                        </h6>
+                        </div>
                         <p>
                             BUSINESS HOURS:<br> MONDAY TO FRIDAY 9:00-5:00
                         </p>

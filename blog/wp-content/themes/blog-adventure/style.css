@@ -96,6 +96,7 @@
 .wp-blog-section .blog-wrap .content-part .category-name a{
     background: #1031ff;
     border: #1031ff;
+    display: none;
 }
 .comments-area .comment-body div.reply a:hover{
     color: #1031ff;
