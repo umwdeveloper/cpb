@@ -173,7 +173,7 @@ if (isset($_POST['contact'])) {
                     <div class="col-lg-8 px-0 bg-white order-lg-1 order-2 ">
                         <div class="service-white-card service-card py-lg-5 py-3">
 
-                            <h3 class="text-start">Consumer Rights</h3>
+                            <h2 class="text-start">Consumer Rights</h2>
                             <p class="text ">
                                 The law protects your consumer rights when you buy goods or services.
 
@@ -234,7 +234,7 @@ if (isset($_POST['contact'])) {
                     <div class="col-lg-8 px-0 bg-white ">
                         <div class="service-white-card service-card py-lg-5 py-3">
 
-                            <h3 class="text-start">Online Shopping</h3>
+                            <h2 class="text-start">Online Shopping</h2>
                             <p class="text ">
                                 Online Shopping is convenient, but it can be harder to sort out problems, especially if
                                 you buy from online locally or internationally.
@@ -287,7 +287,7 @@ if (isset($_POST['contact'])) {
                     <div class="col-lg-8 px-0 bg-white order-lg-1 order-2 ">
                         <div class="service-white-card service-card py-lg-5 py-3">
 
-                            <h3 class="text-start">Tips for Buying Vehicles</h3>
+                            <h2 class="text-start">Tips for Buying Vehicles</h2>
                             <p class="text ">
                                 In the UK we have strong consumer law, and if you’ve bought a new car, you’re well
                                 protected by comprehensive legislation. Not everyone knows just how far-reaching this
@@ -349,7 +349,7 @@ if (isset($_POST['contact'])) {
                     <div class="col-lg-8 px-0 bg-white ">
                         <div class="service-white-card service-card py-lg-5 py-3">
 
-                            <h3 class="text-start">Property Renovation and Repair</h3>
+                            <h2 class="text-start">Property Renovation and Repair</h2>
 
                             <ul class="issues-list">
                                 <li>
@@ -428,7 +428,7 @@ if (isset($_POST['contact'])) {
                     <div class="col-lg-8 px-0 bg-white order-lg-1 order-2 ">
                         <div class="service-white-card service-card py-lg-5 py-3">
 
-                            <h3 class="text-start">Faulty Products</h3>
+                            <h2 class="text-start">Faulty Products</h2>
                             <p class="text ">
                                 It's good to know your rights on faulty products.
                                 <br>
@@ -513,7 +513,7 @@ if (isset($_POST['contact'])) {
                     <div class="col-lg-8 px-0 bg-white ">
                         <div class="service-white-card service-card py-lg-5 py-3">
 
-                            <h3 class="text-start">Loans & Debt Rights</h3>
+                            <h2 class="text-start">Loans & Debt Rights</h2>
 
                             <ul class="issues-list">
                                 <li>
@@ -595,7 +595,7 @@ if (isset($_POST['contact'])) {
                     <div class="col-lg-8 px-0 bg-white order-lg-1 order-2 ">
                         <div class="service-white-card service-card py-lg-5 py-3">
 
-                            <h3 class="text-start">Repair, Replace & Refund</h3>
+                            <h2 class="text-start">Repair, Replace & Refund</h2>
                             <p class="text ">
                                 If a customer has ‘accepted’ an item, but later discovers a fault, you may have to
                                 repair or replace it. The customer can still reject the item after it’s been repaired or
@@ -643,7 +643,7 @@ if (isset($_POST['contact'])) {
                     <div class="col-lg-8 px-0 bg-white ">
                         <div class="service-white-card service-card py-lg-5 py-3">
 
-                            <h3 class="text-start">Scam Safe</h3>
+                            <h2 class="text-start">Scam Safe</h2>
                             <p class="text">
                                 <b>Common financial scams </b>
                             </p>
@@ -702,9 +702,9 @@ if (isset($_POST['contact'])) {
              <div class="container">
                 <div class="row justify-content-center">
                 <div class="col-lg-12">
-                        <h1 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
+                        <h2 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
                         Visit Our Subsidiary Companies
-                        </h1>
+                        </h2>
                   
                 </div>
            
@@ -714,7 +714,7 @@ if (isset($_POST['contact'])) {
                                 <img
                                     src="assets/images/CRC-logo.png"
                                     alt="CRC logo"   style="width:130px; height:auto;">
-                                <h1 class="mt-4 text-center text-md"  style=" font-weight:500;">Compilance and Risk Consultancy</h1>
+                                <h3 class="mt-4 text-center text-md"  style=" font-weight:500;">Compilance and Risk Consultancy</h3>
                             </div>
                         </a>
                     </div>
@@ -725,7 +725,7 @@ if (isset($_POST['contact'])) {
                                 <img
                                     src="assets/images/Care Home Compilance.png"
                                     alt="CHC logo"  style="width:100px; height:auto;">
-                                <h1 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h1>
+                                <h3 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h3>
                             </div>
                         </a>
                     </div>
@@ -849,9 +849,9 @@ if (isset($_POST['contact'])) {
                 <div class="row">
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-1 font-weight-bold bg-white p-3 rounded-2 mb-lg-0 mb-2">
+                        <div class="text-uppercase mb-1 font-weight-bold bg-white p-3 rounded-2 mb-lg-0 mb-2">
                             <img src="assets/images/Logo - PNG.png" alt="" class="img-fluid footer-img">
-                        </h6>
+                        </div>
                         <p>
                             BUSINESS HOURS:<br> MONDAY TO FRIDAY 9:00-5:00
                         </p>

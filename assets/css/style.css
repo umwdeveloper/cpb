@@ -43,7 +43,7 @@ body {
     font-family: var(--secondry-font) !important;
 }
 
-.carousel-text h3 {
+.carousel-text h2 {
     font-size: 22px;
     font-weight: 500;
     text-transform: capitalize !important;
@@ -217,7 +217,7 @@ body {
 }
 .amenity-card h3{
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 600 !important;
   text-align: center;
   margin-bottom: 0px;
 } 
@@ -536,7 +536,7 @@ body {
     padding:10px 25px;
 }
 
-.service-card h3{
+.service-card h2{
     font-size: 22px;
     font-weight: 600;
     color: var(--primary);
@@ -629,6 +629,9 @@ body {
 .text-secondry{
     color: var(--secondry) !important;
 }
+.font-weight-bold{
+    font-weight: 600 !important;
+}
 @media only screen and (min-width:1900px){
   body{
     max-width: 1440px;
@@ -692,7 +695,7 @@ body {
         font-size: 26px;
     }
 
-    .carousel-text h3 {
+    .carousel-text h2 {
         font-size: 24px;
     }
    

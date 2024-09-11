@@ -147,29 +147,27 @@ if (isset($_POST['contact'])) {
 
     </div>
     <main>
-
-
-        <section class="py-lg-5 py-4 bg-light about-hero">
-            <div class="container">
-                <div class="row justify-content-center align-items-start">
-                    <div class="col-lg-10 mx-auto ">
-                        <h1 class="main-heading text-center text-uppercase  mt-2">
-                            Archives
-                        </h1>
-                        <p class="text-md text-center">
-                            Explore to find valuable PDFs on various consumer rights and fair business practices.
-                            These resources offer detailed information and insights to support your needs.
-                        </p>
-                    </div>
-                </div>
+    <section class="py-lg-5 py-4 bg-light about-hero">
+    <div class="container">
+        <div class="row justify-content-center align-items-start">
+            <div class="col-lg-10 mx-auto ">
+                <h1 class="main-heading text-center text-uppercase mt-2">
+                    Archives
+                </h1>
+                <p class="text-md text-center">
+                    Explore our archives to find valuable PDFs on various consumer rights, consumer protection laws, and fair business practices. These resources offer detailed information and insights, empowering you to protect your consumer rights and navigate the marketplace confidently.
+                </p>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
+
         <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
             <div class="container pb-5 ">
                 <div class="row mb-lg-0 mb-4">
                     <div class="col-lg-12 ">
                         <div class="bg-white service-card py-3 px-4 shadow rounded-2">
-                            <h1 class="main-heading mb-2">CONSOMAG 12</h1>
+                            <h2 class="main-heading mb-2">CONSOMAG 12</h2>
                             <iframe src="assets/PDFs/CONSO-JAN 12.pdf" frameborder="0" width="100%"
                                 height="500px"></iframe>
                         </div>
@@ -177,34 +175,34 @@ if (isset($_POST['contact'])) {
 
                     <div class="col-lg-12 mt-4">
                         <div class="bg-white service-card py-3  shadow rounded-2">
-                            <h1 class="main-heading mb-2">CONSOMAG 04</h1>
+                            <h2 class="main-heading mb-2">CONSOMAG 04</h2>
                             <iframe src="assets/PDFs/Cosno4.pdf" frameborder="0" width="100%" height="500px"></iframe>
                         </div>
                     </div>
 
                     <div class="col-lg-12 mt-4">
                         <div class="bg-white service-card py-3  shadow rounded-2">
-                            <h1 class="main-heading mb-2">CONSOMAG 07</h1>
+                            <h2 class="main-heading mb-2">CONSOMAG 07</h2>
                             <iframe src="assets/PDFs/cosno7.pdf" frameborder="0" width="100%" height="500px"></iframe>
                         </div>
                     </div>
 
                     <div class="col-lg-12 mt-4">
                         <div class="bg-white service-card py-3  shadow rounded-2">
-                            <h1 class="main-heading mb-2">CONSOMAG 08</h1>
+                            <h2 class="main-heading mb-2">CONSOMAG 08</h2>
                             <iframe src="assets/PDFs/COSNO-8.pdf" frameborder="0" width="100%" height="500px"></iframe>
                         </div>
                     </div>
 
                     <div class="col-lg-12 mt-4">
                         <div class="bg-white service-card py-3  shadow rounded-2">
-                            <h1 class="main-heading mb-2">CONSOMAG 10</h1>
+                            <h2 class="main-heading mb-2">CONSOMAG 10</h2>
                             <iframe src="assets/PDFs/Conso-10.pdf" frameborder="0" width="100%" height="500px"></iframe>
                         </div>
                     </div>
                     <div class="col-lg-12 mt-4">
                         <div class="bg-white service-card py-3  shadow rounded-2">
-                            <h1 class="main-heading mb-2">CONSOMAG 11</h1>
+                            <h2 class="main-heading mb-2">CONSOMAG 11</h2>
                             <iframe src="assets/PDFs/Conso-11.pdf" frameborder="0" width="100%" height="500px"></iframe>
                         </div>
                     </div>
@@ -216,9 +214,9 @@ if (isset($_POST['contact'])) {
              <div class="container">
                 <div class="row justify-content-center">
                 <div class="col-lg-12">
-                        <h1 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
+                        <h2 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
                         Visit Our Subsidiary Companies
-                        </h1>
+                        </h2>
                   
                 </div>
            
@@ -228,7 +226,7 @@ if (isset($_POST['contact'])) {
                                 <img
                                     src="assets/images/CRC-logo.png"
                                     alt="CRC logo"   style="width:130px; height:auto;">
-                                <h1 class="mt-4 text-center text-md"  style=" font-weight:500;">Compilance and Risk Consultancy</h1>
+                                <h3 class="mt-4 text-center text-md"  style=" font-weight:500;">Compilance and Risk Consultancy</h3>
                             </div>
                         </a>
                     </div>
@@ -239,7 +237,7 @@ if (isset($_POST['contact'])) {
                                 <img
                                     src="assets/images/Care Home Compilance.png"
                                     alt="CHC logo"  style="width:100px; height:auto;">
-                                <h1 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h1>
+                                <h3 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h3>
                             </div>
                         </a>
                     </div>
@@ -363,9 +361,9 @@ if (isset($_POST['contact'])) {
                 <div class="row">
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-1 font-weight-bold bg-white p-3 rounded-2 mb-lg-0 mb-2">
+                        <div class="text-uppercase mb-1 font-weight-bold bg-white p-3 rounded-2 mb-lg-0 mb-2">
                             <img src="assets/images/Logo - PNG.png" alt="" class="img-fluid footer-img">
-                        </h6>
+                        </div>
                         <p>
                             BUSINESS HOURS:<br> MONDAY TO FRIDAY 9:00-5:00
                         </p>

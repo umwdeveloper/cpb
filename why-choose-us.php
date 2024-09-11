@@ -150,151 +150,130 @@ $feedbacks = findAll("feedbacks");
     </div>
     <main>
 
-
-        <section class="py-lg-5 py-4 bg-light about-hero">
-            <div class="container">
-                <div class="row justify-content-center align-items-start">
-                    <div class="col-lg-10 mx-auto ">
-                        <h1 class="main-heading text-center text-uppercase  mt-2">
-                            Why Choose CPB?
-                        </h1>
-                        <p class="text-md text-center">
-                            CPB is an independent non-governmental organisation set up to safeguard consumers' rights
-                            and ensure fair business practices. Here are some reasons why you might choose to support or
-                            value the services of the Consumer Protection Bureau.
-                        </p>
-                    </div>
-                </div>
+    <section class="py-lg-5 py-4 bg-light about-hero">
+    <div class="container">
+        <div class="row justify-content-center align-items-start">
+            <div class="col-lg-11 mx-auto">
+                <h1 class="main-heading text-center text-uppercase mt-2">
+                    Why Choose CPB?
+                </h1>
+                <p class="text-md text-center">
+                    The Consumer Protection Bureau (CPB) is an independent non-governmental organisation dedicated to safeguarding consumer rights and ensuring fair business practices. As a leading advocate for consumer protection in the UK, we are committed to upholding consumer protection laws and addressing consumer complaints. Supporting CPB means aligning with a trusted entity focused on resolving customer complaints and promoting fairness in the marketplace.
+                </p>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
+
         <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
             <div class="container pb-5">
                 <div class="row pb-4">
-                    <div class="col-lg-4 px-0 bg-white">
-                        <div class="service-white-card service-card">
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/images/services/Customer relationship management-bro.png" alt=""
-                                    class="service-img mx-auto">
-                            </div>
-                            <h3>Consumer Advocacy </h3>
-                            <p class="text text-center">
-                                CPB advocate for consumers. We work to ensure that consumers are treated fairly in the
-                                marketplace and are protected from fraudulent or deceptive practices. CPB provide
-                                consumers with recourse in case they encounter issues with products or services.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 px-0 bg-img">
-                        <div class="service-white-card service-card">
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/images/services/Justice-bro.png" alt="" class="service-img mx-auto">
-                            </div>
-                            <h3 class="text-white">Preventing Unfair Practices</h3>
-                            <p class="text text-center text-white">
-                                Beyond advocacy, we actively work to prevent fraudulent, deceptive, and unfair practices
-                                in the marketplace. Through vigilant market monitoring, we identify and challenge
-                                practices that harm consumers and the environment, pushing for their removal or
-                                modification.
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-lg-4 px-0 bg-white">
+    <div class="service-white-card service-card">
+        <div class="d-flex justify-content-center">
+            <img src="assets/images/services/Customer relationship management-bro.png" alt="" class="service-img mx-auto">
+        </div>
+        <h2>Consumer Advocacy</h2>
+        <p class="text text-center">
+            At the Consumer Protection Bureau (CPB), our consumer advocacy efforts are central to our mission. We work diligently to uphold consumer rights and provide support when addressing consumer complaints. As part of our commitment, we ensure that you are protected from deceptive practices and have access to the resources needed to resolve issues with products or services.
+        </p>
+    </div>
+</div>
+<div class="col-lg-4 px-0 bg-img">
+    <div class="service-white-card service-card">
+        <div class="d-flex justify-content-center">
+            <img src="assets/images/services/Justice-bro.png" alt="" class="service-img mx-auto">
+        </div>
+        <h2 class="text-white">Preventing Unfair Practices</h2>
+        <p class="text text-center text-white">
+            Beyond advocacy, the Consumer Protection Bureau (CPB) actively works to prevent unfair and deceptive practices. We focus on enforcing consumer protection laws to ensure that businesses adhere to fair practices, thus safeguarding consumer protection UK-wide. Our vigilant monitoring helps identify and challenge practices that could harm consumers.
+        </p>
+    </div>
+</div>
+<div class="col-lg-4 px-0 bg-white">
+    <div class="service-white-card service-card">
+        <div class="d-flex justify-content-center">
+            <img src="assets/images/services/Security On-rafiki.svg" alt="" class="service-img mx-auto">
+        </div>
+        <h2>Product Safety</h2>
+        <p class="text text-center">
+            CPB is dedicated to ensuring product safety through stringent regulations. We monitor compliance with consumer protection laws to prevent the sale of unsafe or harmful products. By upholding high safety standards, we help protect consumers' rights and address any concerns related to faulty products.
+        </p>
+    </div>
+</div>
 
-                    <div class="col-lg-4 px-0 bg-white">
-                        <div class="service-white-card service-card">
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/images/services/Security On-rafiki.svg" alt=""
-                                    class="service-img mx-auto">
-                            </div>
-                            <h3> Product Safety </h3>
-                            <p class="text text-center">
-                                CPB often monitor and regulate product safety standards. This is important for consumers
-                                as it helps prevent the sale of unsafe or harmful products in the market. </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 px-0 bg-img">
-                        <div class="service-white-card service-card">
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/images/services/Money stress-rafiki.svg" alt=""
-                                    class="service-img mx-auto">
-                            </div>
-                            <h3 class="text-white">Financial Protection</h3>
-                            <p class="text text-center text-white">
-                                CPB monitor financial institutions to ensure they adhere to fair lending practices and
-                                protect consumers from predatory financial activities. </p>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-4 px-0 bg-white">
-                        <div class="service-white-card service-card">
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/images/services/Business solution-amico.png" alt=""
-                                    class="service-img mx-auto">
-                            </div>
-                            <h3> Dispute Resolution </h3>
-                            <p class="text text-center">
-                                We provide mechanisms for dispute resolution between consumers and businesses. This is
-                                particularly helpful in cases where consumers feel they have been treated unfairly or
-                                have encountered problems with a product or service.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 px-0 bg-img">
-                        <div class="service-white-card service-card">
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/images/services/Marketplace-bro.png" alt=""
-                                    class="service-img mx-auto">
-                            </div>
-                            <h3 class="text-white">Market Stability</h3>
-                            <p class="text text-center text-white">
-                                By regulating and monitoring business practices, CPB contribute to the overall stability
-                                of the market. This is beneficial for both consumers and businesses, fostering an
-                                environment of trust and reliability.
-                            </p>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-4 px-0 bg-white">
-                        <div class="service-white-card service-card">
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/images/services/Law firm-bro.png" alt="" class="service-img mx-auto">
-                            </div>
-                            <h3>Legal Framework</h3>
-                            <p class="text text-center">
-                                CPB work within a legal framework that sets out the rights and responsibilities of both
-                                consumers and businesses. This legal framework helps establish a standard for ethical
-                                business conduct.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 px-0 bg-img">
-                        <div class="service-white-card service-card">
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/images/services/Digital transformation-pana.png" alt=""
-                                    class="service-img mx-auto">
-                            </div>
-                            <h3 class="text-white">Transparent</h3>
-                            <p class="text text-center text-white">
-                                We believe in transparency and clarity in all our interactions. No hidden fees, no
-                                surprises – just straightforward assistance.
-                            </p>
-                        </div>
-                    </div>
+<div class="col-lg-4 px-0 bg-img">
+    <div class="service-white-card service-card">
+        <div class="d-flex justify-content-center">
+            <img src="assets/images/services/Money stress-rafiki.svg" alt="" class="service-img mx-auto">
+        </div>
+        <h2 class="text-white">Financial Protection</h2>
+        <p class="text text-center text-white">
+            At the Consumer Protection Bureau (CPB), we monitor financial institutions to ensure they adhere to fair lending practices and protect consumers from predatory financial activities. Our focus on financial protection helps enforce consumer protection laws and safeguards your economic interests.
+        </p>
+    </div>
+</div>
+<div class="col-lg-4 px-0 bg-white">
+    <div class="service-white-card service-card">
+        <div class="d-flex justify-content-center">
+            <img src="assets/images/services/Business solution-amico.png" alt="" class="service-img mx-auto">
+        </div>
+        <h2>Dispute Resolution</h2>
+        <p class="text text-center">
+            CPB provides effective mechanisms for dispute resolution between consumers and businesses. This service is crucial when addressing consumer complaints or customer complaints related to unfair treatment or issues with products and services. We help ensure that your consumer rights are upheld.
+        </p>
+    </div>
+</div>
+<div class="col-lg-4 px-0 bg-img">
+    <div class="service-white-card service-card">
+        <div class="d-flex justify-content-center">
+            <img src="assets/images/services/Marketplace-bro.png" alt="" class="service-img mx-auto">
+        </div>
+        <h2 class="text-white">Market Stability</h2>
+        <p class="text text-center text-white">
+            By regulating and monitoring business practices, CPB contributes to the overall stability of the market. Our efforts help maintain a fair and reliable marketplace, benefiting both consumers and businesses. This commitment supports consumer protection UK-wide and fosters an environment of trust.
+        </p>
+    </div>
+</div>
 
-                    <div class="col-lg-4 px-0 bg-white">
-                        <div class="service-white-card service-card">
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/images/services/Environmental audit-rafiki.png" alt=""
-                                    class="service-img mx-auto">
-                            </div>
-                            <h3>Environmental Stewardship </h3>
-                            <p class="text text-center">
-                                We actively promote eco-consumption, striving to protect both consumers' economic
-                                interests and the planet. Our collaborations with world organisations like Consumers
-                                International and other global consumer groups underscore our dedication to sustainable
-                                practices.
-                            </p>
-                        </div>
-                    </div>
+
+
+
+<div class="col-lg-4 px-0 bg-white">
+    <div class="service-white-card service-card">
+        <div class="d-flex justify-content-center">
+            <img src="assets/images/services/Law firm-bro.png" alt="" class="service-img mx-auto">
+        </div>
+        <h2>Legal Framework</h2>
+        <p class="text text-center">
+            The Consumer Protection Bureau (CPB) operates within a robust legal framework that defines the rights and responsibilities of both consumers and businesses. This framework upholds consumer protection laws, ensuring ethical business conduct and the protection of consumer rights across the UK.
+        </p>
+    </div>
+</div>
+<div class="col-lg-4 px-0 bg-img">
+    <div class="service-white-card service-card">
+        <div class="d-flex justify-content-center">
+            <img src="assets/images/services/Digital transformation-pana.png" alt="" class="service-img mx-auto">
+        </div>
+        <h2 class="text-white">Transparent</h2>
+        <p class="text text-center text-white">
+            At CPB, we prioritize transparency in all our interactions. We ensure that there are no hidden fees or surprises, offering clear and straightforward assistance to address any consumer complaint or customer complaint effectively.
+        </p>
+    </div>
+</div>
+<div class="col-lg-4 px-0 bg-white">
+    <div class="service-white-card service-card">
+        <div class="d-flex justify-content-center">
+            <img src="assets/images/services/Environmental audit-rafiki.png" alt="" class="service-img mx-auto">
+        </div>
+        <h2>Environmental Stewardship</h2>
+        <p class="text text-center">
+            CPB actively promotes eco-consumption and environmental stewardship. We aim to protect both consumers' economic interests and the planet. Our collaborations with global consumer groups, like Consumers International, highlight our commitment to sustainable practices and adherence to consumer protection UK-wide.
+        </p>
+    </div>
+</div>
 
                 </div>
             </div>
@@ -413,9 +392,9 @@ $feedbacks = findAll("feedbacks");
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
+                        <h2 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
                             Why people believe in us
-                        </h1>
+                        </h2>
                     </div>
                     <div class="col-lg-12">
                         <div class="slick-slider">
@@ -444,16 +423,15 @@ $feedbacks = findAll("feedbacks");
 
                 </div>
             </div>
-            </div>
-                  
+            </div>    
         </section>
         <section class="py-lg-5 py-4 bg-light">
              <div class="container">
                 <div class="row justify-content-center">
                 <div class="col-lg-12">
-                        <h1 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
+                        <h2 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
                         Visit Our Subsidiary Companies
-                        </h1>
+                        </h2>
                   
                 </div>
            
@@ -463,7 +441,7 @@ $feedbacks = findAll("feedbacks");
                                 <img
                                     src="assets/images/CRC-logo.png"
                                     alt="CRC logo"   style="width:130px; height:auto;">
-                                <h1 class="mt-4 text-center text-md"  style=" font-weight:500;">Compilance and Risk Consultancy</h1>
+                                <h3 class="mt-4 text-center text-md"  style=" font-weight:500;">Compilance and Risk Consultancy</h3>
                             </div>
                         </a>
                     </div>
@@ -474,7 +452,7 @@ $feedbacks = findAll("feedbacks");
                                 <img
                                     src="assets/images/Care Home Compilance.png"
                                     alt="CHC logo"  style="width:100px; height:auto;">
-                                <h1 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h1>
+                                <h3 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h3>
                             </div>
                         </a>
                     </div>
@@ -597,9 +575,9 @@ $feedbacks = findAll("feedbacks");
                 <div class="row">
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-1 font-weight-bold bg-white p-3 rounded-2 mb-lg-0 mb-2">
+                        <div class="text-uppercase mb-1 font-weight-bold bg-white p-3 rounded-2 mb-lg-0 mb-2">
                             <img src="assets/images/Logo - PNG.png" alt="" class="img-fluid footer-img">
-                        </h6>
+                        </div>
                         <p>
                             BUSINESS HOURS:<br> MONDAY TO FRIDAY 9:00-5:00
                         </p>
