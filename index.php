@@ -197,12 +197,12 @@ $feedbacks = findAll("feedbacks");
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner ">
                     <div class="carousel-item ">
-                        <img src="assets/images/Group 1000004718 (5).png" class=" w-100 d-lg-block d-none"
+                        <img src="assets/images/consumer-protection-bureau.png" class=" w-100 d-lg-block d-none"
                             alt="Banner-1">
-                        <img src="assets/images/iMAGE+1-1920w.webp" class=" w-100 d-lg-none d-block" alt="banner-2">
+                        <img src="assets/images/consumer-protection-bureau-mobile.webp" class=" w-100 d-lg-none d-block" alt="banner-2">
                     </div>
                     <div class="carousel-item carousel-item2 active">
-                        <img src="assets/images/photo+2-96f6f8ca-1920w.webp" class="d-block w-100" alt="banner-2">
+                        <img src="assets/images/consumer-rights.webp" class="d-block w-100" alt="banner-2">
                     </div>
 
                 </div>
@@ -236,7 +236,7 @@ $feedbacks = findAll("feedbacks");
                     <div class="col-lg-3 col-md-6 mb-lg-0 mb-3">
                         <div class="feature-cards-card">
                             <div class="icon">
-                                <img src="assets/images/Secure data-bro.png" alt class="img-fluid">
+                                <img src="assets/images/consumer protection uk.png" alt class="img-fluid">
                             </div>
                             <h2 class="mt-3">Safety and Reliability </h2>
                             <p class="mb-0 pb-0">
@@ -248,7 +248,7 @@ $feedbacks = findAll("feedbacks");
                     <div class="col-lg-3 col-md-6 mb-lg-0 mb-3">
                         <div class="feature-cards-card">
                             <div class="icon">
-                                <img src="assets/images/Money stress-rafiki.png" alt class="img-fluid">
+                                <img src="assets/images/consumer protection uk (2).png" alt class="img-fluid">
                             </div>
                             <h2 class="mt-3">Affordability </h2>
                             <p class="mb-0 pb-0">
@@ -260,7 +260,7 @@ $feedbacks = findAll("feedbacks");
                     <div class="col-lg-3 col-md-6 mb-lg-0 mb-3">
                         <div class="feature-cards-card">
                             <div class="icon">
-                                <img src="assets/images/Law firm-amico.png" alt class="img-fluid">
+                                <img src="assets/images/consumer protection uk (3).png" alt class="img-fluid">
                             </div>
                             <h2 class="mt-3">Compliance</h2>
                             <p class="mb-0 pb-0">
@@ -322,7 +322,7 @@ $feedbacks = findAll("feedbacks");
                                 <div class="d-flex align-items-start">
                                     <div class="me-3">
                                         <div class="do-icon">
-                                            <img src="assets/images/income.png" alt="Economic interests icon"
+                                            <img src="assets/images/consumer financial law.png" alt="Economic interests icon"
                                                 class="about-icon">
                                         </div>
                                     </div>
@@ -338,7 +338,7 @@ $feedbacks = findAll("feedbacks");
                                 <div class="d-flex align-items-start">
                                     <div class="me-3">
                                         <div class="do-icon">
-                                            <img src="assets/images/key.png" alt="Effective remedies icon"
+                                            <img src="assets/images/consumer rights.png" alt="Effective remedies icon"
                                                 class="about-icon">
                                         </div>
                                     </div>
@@ -353,7 +353,7 @@ $feedbacks = findAll("feedbacks");
                         </ul>
                     </div>
                     <div class="col-lg-6">
-                        <img src="assets/images/about (2).png" alt="About CPB image"
+                        <img src="assets/images/about consumer protection bureau.png" alt="About CPB image"
                             class="img-fluid ps-lg-4 d-lg-block d-none">
                     </div>
                 </div>
@@ -442,7 +442,7 @@ $feedbacks = findAll("feedbacks");
                     <div
                         class="col-lg-2 col-md-4 col-6 mb-3 d-flex flex-column justify-content-center align-items-center">
                         <div class="commitment-icon">
-                            <img src="assets/images/income.png" alt="Value for money icon">
+                            <img src="assets/images/consumer financial law.png" alt="Value for money icon">
                         </div>
                         <div>
                             <h3 class="mt-3 text-center commitment-text">Value for Money</h3>
@@ -474,7 +474,7 @@ $feedbacks = findAll("feedbacks");
                     <div class="col-lg-3 col-md-6 col-6 mb-3">
                         <a href="consumer-issues.php#online-shopping" class="text-decoration-none text-dark">
                             <div class="amenity-card">
-                                <img src="assets/images/aminities/Online shopping-amico.png" alt class="img-fluid">
+                                <img src="assets/images/aminities/Online shopping-consumer rights uk.png" alt class="img-fluid">
                                 <h3 class="mt-3">Online Shopping</h3>
                             </div>
                         </a>
@@ -483,7 +483,7 @@ $feedbacks = findAll("feedbacks");
                     <div class="col-lg-3 col-md-6 col-6 mb-3">
                         <a href="consumer-issues.php#tips-for-buy-vehical" class="text-decoration-none text-dark">
                             <div class="amenity-card">
-                                <img src="assets/images/aminities/Vehicle Sale-pana.png" alt class="img-fluid">
+                                <img src="assets/images/aminities/Vehicle Sale-consumer rights uk.png" alt class="img-fluid">
                                 <h3 class="mt-3">Tips for Buying Vehicles</h3>
                             </div>
                         </a>
@@ -493,7 +493,7 @@ $feedbacks = findAll("feedbacks");
                         <a href="consumer-issues.php#property-renovation-and-repair"
                             class="text-decoration-none text-dark">
                             <div class="amenity-card">
-                                <img src="assets/images/aminities/Build your home-amico (1).png" alt class="img-fluid">
+                                <img src="assets/images/aminities/consumer rights uk .png" alt class="img-fluid">
                                 <h3 class="mt-3">Property Renovation and
                                     Repair</h3>
                             </div>
@@ -503,7 +503,7 @@ $feedbacks = findAll("feedbacks");
                     <div class="col-lg-3 col-md-6 col-6 mb-3">
                         <a href="consumer-issues.php#faulty-products" class="text-decoration-none text-dark">
                             <div class="amenity-card">
-                                <img src="assets/images/aminities/Product iteration-amico.png" alt class="img-fluid">
+                                <img src="assets/images/aminities/consumer rights uk (4).png" alt class="img-fluid">
                                 <h3 class="mt-3">Faulty Products</h3>
                             </div>
                         </a>
@@ -512,7 +512,7 @@ $feedbacks = findAll("feedbacks");
                     <div class="col-lg-3 col-md-6 col-6 mb-3">
                         <a href="consumer-issues.php#loans-debt-rights" class="text-decoration-none text-dark">
                             <div class="amenity-card">
-                                <img src="assets/images/aminities/Money stress-amico.png" alt class="img-fluid">
+                                <img src="assets/images/aminities/consumer rights uk (5).png" alt class="img-fluid">
                                 <h3 class="mt-3">Loans & Debt</h3>
                             </div>
                         </a>
@@ -520,7 +520,7 @@ $feedbacks = findAll("feedbacks");
                     <div class="col-lg-3 col-md-6 col-6 mb-3">
                         <a href="consumer-issues.php#consumer-rights" class="text-decoration-none text-dark">
                             <div class="amenity-card">
-                                <img src="assets/images/aminities/Justice-amico.png" alt class="img-fluid">
+                                <img src="assets/images/aminities/consumer rights uk.png" alt class="img-fluid">
                                 <h3 class="mt-3">Consumer Rights</h3>
                             </div>
                         </a>

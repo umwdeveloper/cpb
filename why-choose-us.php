@@ -47,7 +47,7 @@ $feedbacks = findAll("feedbacks");
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -150,130 +150,169 @@ $feedbacks = findAll("feedbacks");
     </div>
     <main>
 
-    <section class="py-lg-5 py-4 bg-light about-hero">
-    <div class="container">
-        <div class="row justify-content-center align-items-start">
-            <div class="col-lg-11 mx-auto">
-                <h1 class="main-heading text-center text-uppercase mt-2">
-                    Why Choose CPB?
-                </h1>
-                <p class="text-md text-center">
-                    The Consumer Protection Bureau (CPB) is an independent non-governmental organisation dedicated to safeguarding consumer rights and ensuring fair business practices. As a leading advocate for consumer protection in the UK, we are committed to upholding consumer protection laws and addressing consumer complaints. Supporting CPB means aligning with a trusted entity focused on resolving customer complaints and promoting fairness in the marketplace.
-                </p>
+        <section class="py-lg-5 py-4 bg-light about-hero">
+            <div class="container">
+                <div class="row justify-content-center align-items-start">
+                    <div class="col-lg-11 mx-auto">
+                        <h1 class="main-heading text-center text-uppercase mt-2">
+                            Why Choose CPB?
+                        </h1>
+                        <p class="text-md text-center">
+                            The Consumer Protection Bureau (CPB) is an independent non-governmental organisation
+                            dedicated to safeguarding consumer rights and ensuring fair business practices. As a leading
+                            advocate for consumer protection in the UK, we are committed to upholding consumer
+                            protection laws and addressing consumer complaints. Supporting CPB means aligning with a
+                            trusted entity focused on resolving customer complaints and promoting fairness in the
+                            marketplace.
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
         <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
             <div class="container pb-5">
                 <div class="row pb-4">
-                <div class="col-lg-4 px-0 bg-white">
-    <div class="service-white-card service-card">
-        <div class="d-flex justify-content-center">
-            <img src="assets/images/services/Customer relationship management-bro.png" alt="" class="service-img mx-auto">
-        </div>
-        <h2>Consumer Advocacy</h2>
-        <p class="text text-center">
-            At the Consumer Protection Bureau (CPB), our consumer advocacy efforts are central to our mission. We work diligently to uphold consumer rights and provide support when addressing consumer complaints. As part of our commitment, we ensure that you are protected from deceptive practices and have access to the resources needed to resolve issues with products or services.
-        </p>
-    </div>
-</div>
-<div class="col-lg-4 px-0 bg-img">
-    <div class="service-white-card service-card">
-        <div class="d-flex justify-content-center">
-            <img src="assets/images/services/Justice-bro.png" alt="" class="service-img mx-auto">
-        </div>
-        <h2 class="text-white">Preventing Unfair Practices</h2>
-        <p class="text text-center text-white">
-            Beyond advocacy, the Consumer Protection Bureau (CPB) actively works to prevent unfair and deceptive practices. We focus on enforcing consumer protection laws to ensure that businesses adhere to fair practices, thus safeguarding consumer protection UK-wide. Our vigilant monitoring helps identify and challenge practices that could harm consumers.
-        </p>
-    </div>
-</div>
-<div class="col-lg-4 px-0 bg-white">
-    <div class="service-white-card service-card">
-        <div class="d-flex justify-content-center">
-            <img src="assets/images/services/Security On-rafiki.svg" alt="" class="service-img mx-auto">
-        </div>
-        <h2>Product Safety</h2>
-        <p class="text text-center">
-            CPB is dedicated to ensuring product safety through stringent regulations. We monitor compliance with consumer protection laws to prevent the sale of unsafe or harmful products. By upholding high safety standards, we help protect consumers' rights and address any concerns related to faulty products.
-        </p>
-    </div>
-</div>
+                    <div class="col-lg-4 px-0 bg-white">
+                        <div class="service-white-card service-card">
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/services/consumer protection uk.png" alt=""
+                                    class="service-img mx-auto">
+                            </div>
+                            <h2>Consumer Advocacy</h2>
+                            <p class="text text-center">
+                                At the Consumer Protection Bureau (CPB), our consumer advocacy efforts are central to
+                                our mission. We work diligently to uphold consumer rights and provide support when
+                                addressing consumer complaints. As part of our commitment, we ensure that you are
+                                protected from deceptive practices and have access to the resources needed to resolve
+                                issues with products or services.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 px-0 bg-img">
+                        <div class="service-white-card service-card">
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/services/consumer protection uk(1).png" alt="" class="service-img mx-auto">
+                            </div>
+                            <h2 class="text-white">Preventing Unfair Practices</h2>
+                            <p class="text text-center text-white">
+                                Beyond advocacy, the Consumer Protection Bureau (CPB) actively works to prevent unfair
+                                and deceptive practices. We focus on enforcing consumer protection laws to ensure that
+                                businesses adhere to fair practices, thus safeguarding consumer protection UK-wide. Our
+                                vigilant monitoring helps identify and challenge practices that could harm consumers.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 px-0 bg-white">
+                        <div class="service-white-card service-card">
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/services/consumer protection uk(2).svg" alt=""
+                                    class="service-img mx-auto">
+                            </div>
+                            <h2>Product Safety</h2>
+                            <p class="text text-center">
+                                CPB is dedicated to ensuring product safety through stringent regulations. We monitor
+                                compliance with consumer protection laws to prevent the sale of unsafe or harmful
+                                products. By upholding high safety standards, we help protect consumers' rights and
+                                address any concerns related to faulty products.
+                            </p>
+                        </div>
+                    </div>
 
 
 
-<div class="col-lg-4 px-0 bg-img">
-    <div class="service-white-card service-card">
-        <div class="d-flex justify-content-center">
-            <img src="assets/images/services/Money stress-rafiki.svg" alt="" class="service-img mx-auto">
-        </div>
-        <h2 class="text-white">Financial Protection</h2>
-        <p class="text text-center text-white">
-            At the Consumer Protection Bureau (CPB), we monitor financial institutions to ensure they adhere to fair lending practices and protect consumers from predatory financial activities. Our focus on financial protection helps enforce consumer protection laws and safeguards your economic interests.
-        </p>
-    </div>
-</div>
-<div class="col-lg-4 px-0 bg-white">
-    <div class="service-white-card service-card">
-        <div class="d-flex justify-content-center">
-            <img src="assets/images/services/Business solution-amico.png" alt="" class="service-img mx-auto">
-        </div>
-        <h2>Dispute Resolution</h2>
-        <p class="text text-center">
-            CPB provides effective mechanisms for dispute resolution between consumers and businesses. This service is crucial when addressing consumer complaints or customer complaints related to unfair treatment or issues with products and services. We help ensure that your consumer rights are upheld.
-        </p>
-    </div>
-</div>
-<div class="col-lg-4 px-0 bg-img">
-    <div class="service-white-card service-card">
-        <div class="d-flex justify-content-center">
-            <img src="assets/images/services/Marketplace-bro.png" alt="" class="service-img mx-auto">
-        </div>
-        <h2 class="text-white">Market Stability</h2>
-        <p class="text text-center text-white">
-            By regulating and monitoring business practices, CPB contributes to the overall stability of the market. Our efforts help maintain a fair and reliable marketplace, benefiting both consumers and businesses. This commitment supports consumer protection UK-wide and fosters an environment of trust.
-        </p>
-    </div>
-</div>
+                    <div class="col-lg-4 px-0 bg-img">
+                        <div class="service-white-card service-card">
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/services/consumer protection uk(3).svg" alt=""
+                                    class="service-img mx-auto">
+                            </div>
+                            <h2 class="text-white">Financial Protection</h2>
+                            <p class="text text-center text-white">
+                                At the Consumer Protection Bureau (CPB), we monitor financial institutions to ensure
+                                they adhere to fair lending practices and protect consumers from predatory financial
+                                activities. Our focus on financial protection helps enforce consumer protection laws and
+                                safeguards your economic interests.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 px-0 bg-white">
+                        <div class="service-white-card service-card">
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/services/consumer protection uk(4).png" alt=""
+                                    class="service-img mx-auto">
+                            </div>
+                            <h2>Dispute Resolution</h2>
+                            <p class="text text-center">
+                                CPB provides effective mechanisms for dispute resolution between consumers and
+                                businesses. This service is crucial when addressing consumer complaints or customer
+                                complaints related to unfair treatment or issues with products and services. We help
+                                ensure that your consumer rights are upheld.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 px-0 bg-img">
+                        <div class="service-white-card service-card">
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/services/consumer protection uk(5).png" alt=""
+                                    class="service-img mx-auto">
+                            </div>
+                            <h2 class="text-white">Market Stability</h2>
+                            <p class="text text-center text-white">
+                                By regulating and monitoring business practices, CPB contributes to the overall
+                                stability of the market. Our efforts help maintain a fair and reliable marketplace,
+                                benefiting both consumers and businesses. This commitment supports consumer protection
+                                UK-wide and fosters an environment of trust.
+                            </p>
+                        </div>
+                    </div>
 
 
 
 
-<div class="col-lg-4 px-0 bg-white">
-    <div class="service-white-card service-card">
-        <div class="d-flex justify-content-center">
-            <img src="assets/images/services/Law firm-bro.png" alt="" class="service-img mx-auto">
-        </div>
-        <h2>Legal Framework</h2>
-        <p class="text text-center">
-            The Consumer Protection Bureau (CPB) operates within a robust legal framework that defines the rights and responsibilities of both consumers and businesses. This framework upholds consumer protection laws, ensuring ethical business conduct and the protection of consumer rights across the UK.
-        </p>
-    </div>
-</div>
-<div class="col-lg-4 px-0 bg-img">
-    <div class="service-white-card service-card">
-        <div class="d-flex justify-content-center">
-            <img src="assets/images/services/Digital transformation-pana.png" alt="" class="service-img mx-auto">
-        </div>
-        <h2 class="text-white">Transparent</h2>
-        <p class="text text-center text-white">
-            At CPB, we prioritize transparency in all our interactions. We ensure that there are no hidden fees or surprises, offering clear and straightforward assistance to address any consumer complaint or customer complaint effectively.
-        </p>
-    </div>
-</div>
-<div class="col-lg-4 px-0 bg-white">
-    <div class="service-white-card service-card">
-        <div class="d-flex justify-content-center">
-            <img src="assets/images/services/Environmental audit-rafiki.png" alt="" class="service-img mx-auto">
-        </div>
-        <h2>Environmental Stewardship</h2>
-        <p class="text text-center">
-            CPB actively promotes eco-consumption and environmental stewardship. We aim to protect both consumers' economic interests and the planet. Our collaborations with global consumer groups, like Consumers International, highlight our commitment to sustainable practices and adherence to consumer protection UK-wide.
-        </p>
-    </div>
-</div>
+                    <div class="col-lg-4 px-0 bg-white">
+                        <div class="service-white-card service-card">
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/services/consumer protection uk(6).png" alt="" class="service-img mx-auto">
+                            </div>
+                            <h2>Legal Framework</h2>
+                            <p class="text text-center">
+                                The Consumer Protection Bureau (CPB) operates within a robust legal framework that
+                                defines the rights and responsibilities of both consumers and businesses. This framework
+                                upholds consumer protection laws, ensuring ethical business conduct and the protection
+                                of consumer rights across the UK.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 px-0 bg-img">
+                        <div class="service-white-card service-card">
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/services/consumer protection uk(7).png" alt=""
+                                    class="service-img mx-auto">
+                            </div>
+                            <h2 class="text-white">Transparent</h2>
+                            <p class="text text-center text-white">
+                                At CPB, we prioritize transparency in all our interactions. We ensure that there are no
+                                hidden fees or surprises, offering clear and straightforward assistance to address any
+                                consumer complaint or customer complaint effectively.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 px-0 bg-white">
+                        <div class="service-white-card service-card">
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/services/consumer protection uk(8).png" alt=""
+                                    class="service-img mx-auto">
+                            </div>
+                            <h2>Environmental Stewardship</h2>
+                            <p class="text text-center">
+                                CPB actively promotes eco-consumption and environmental stewardship. We aim to protect
+                                both consumers' economic interests and the planet. Our collaborations with global
+                                consumer groups, like Consumers International, highlight our commitment to sustainable
+                                practices and adherence to consumer protection UK-wide.
+                            </p>
+                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -388,7 +427,7 @@ $feedbacks = findAll("feedbacks");
             </div>
         </section>
 
-       <section class="py-lg-5 py-4">
+        <section class="py-lg-5 py-4">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -399,22 +438,22 @@ $feedbacks = findAll("feedbacks");
                     <div class="col-lg-12">
                         <div class="slick-slider">
                             <?php foreach ($feedbacks as $count => $feedback): ?>
-                                <div class="element element-<?php echo ++$count; ?>">
-                                    <div class="amenity-card quote-card">
-                                        <div class="text-center mb-4">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
-                                                id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
-                                                <path fill="#E5BF20"
-                                                    d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
-                                                    id="1938712236"></path>
-                                            </svg>
-                                        </div>
-                                        <p class="text text-center">
-                                            “<?php echo $feedback->feedback; ?>”
-                                        </p>
-                                        <h3 class="mt-3"><?php echo $feedback->name . ", " . $feedback->location; ?></h3>
+                            <div class="element element-<?php echo ++$count; ?>">
+                                <div class="amenity-card quote-card">
+                                    <div class="text-center mb-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 1664 1792"
+                                            id="1076841621" class="svg u_1076841621" data-icon-name="fa-quote-right">
+                                            <path fill="#E5BF20"
+                                                d="M768 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zM1664 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"
+                                                id="1938712236"></path>
+                                        </svg>
                                     </div>
+                                    <p class="text text-center">
+                                        “<?php echo $feedback->feedback; ?>”
+                                    </p>
+                                    <h3 class="mt-3"><?php echo $feedback->name . ", " . $feedback->location; ?></h3>
                                 </div>
+                            </div>
                             <?php endforeach; ?>
 
                         </div>
@@ -426,40 +465,40 @@ $feedbacks = findAll("feedbacks");
             </div>    
         </section>
         <section class="py-lg-5 py-4 bg-light">
-             <div class="container">
+            <div class="container">
                 <div class="row justify-content-center">
-                <div class="col-lg-12">
+                    <div class="col-lg-12">
                         <h2 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
-                        Visit Our Subsidiary Companies
+                            Visit Our Subsidiary Companies
                         </h2>
-                  
-                </div>
-           
+
+                    </div>
+
                     <div class="col-lg-4 col-md-6 mb-3">
-                        <a href="https://www.compliance-experts.co.uk/" target="_blank" class="text-decoration-none text-dark">
-                            <div class="amenity-card d-flex justify-content-center align-items-center flex-column"> 
-                                <img
-                                    src="assets/images/CRC-logo.png"
-                                    alt="CRC logo"   style="width:130px; height:auto;">
-                                <h3 class="mt-4 text-center text-md"  style=" font-weight:500;">Compilance and Risk Consultancy</h3>
+                        <a href="https://www.compliance-experts.co.uk/" target="_blank"
+                            class="text-decoration-none text-dark">
+                            <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
+                                <img src="assets/images/CRC-logo.png" alt="CRC logo" style="width:130px; height:auto;">
+                                <h3 class="mt-4 text-center text-md" style=" font-weight:500;">Compilance and Risk
+                                    Consultancy</h3>
                             </div>
                         </a>
                     </div>
 
                     <div class="col-lg-4 col-md-6 mb-3">
-                        <a href="https://carehomecompliance.com/" target="_blank" class="text-decoration-none text-dark">
+                        <a href="https://carehomecompliance.com/" target="_blank"
+                            class="text-decoration-none text-dark">
                             <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
-                                <img
-                                    src="assets/images/Care Home Compilance.png"
-                                    alt="CHC logo"  style="width:100px; height:auto;">
+                                <img src="assets/images/Care Home Compilance.png" alt="CHC logo"
+                                    style="width:100px; height:auto;">
                                 <h3 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h3>
                             </div>
                         </a>
                     </div>
-             </div>
-                            </div>
+                </div>
+            </div>
         </section>
-           <section>
+        <section>
             <div class="contact-area py-lg-5 py-4">
                 <div class="container py-4">
                     <div class="row ">
@@ -503,39 +542,31 @@ $feedbacks = findAll("feedbacks");
 
                             </div>
                         </div>
-                          <div class="col col-lg-7 col-md-12 col-sm-12">
+                        <div class="col col-lg-7 col-md-12 col-sm-12">
                             <div class="contact-content ps-lg-5">
                                 <div class="contact-form">
                                     <?php if (isset($_POST['contact'])): ?>
-                                        <?php if ($msg['status'] == 'success'): ?>
-                                            <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
-                                        <?php else: ?>
-                                            <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
-                                        <?php endif; ?>
+                                    <?php if ($msg['status'] == 'success'): ?>
+                                    <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
+                                    <?php else: ?>
+                                    <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
                                     <?php endif; ?>
-                                    <form method="post"
-                                        class="contact-validation-active"
-                                        id="contact-form"
+                                    <?php endif; ?>
+                                    <form method="post" class="contact-validation-active" id="contact-form"
                                         novalidate="novalidate">
                                         <div class="half-col">
                                             <label for="Name" class="text-white">Name</label>
-                                            <input type="text" name="name"
-                                                id="name"
-                                                class="form-control"
+                                            <input type="text" name="name" id="name" class="form-control"
                                                 placeholder="Your Name">
                                         </div>
                                         <div class="half-col">
                                             <label for="phone" class="text-white">Phone Number</label>
-                                            <input type="text" name="phone"
-                                                id="phone"
-                                                class="form-control"
+                                            <input type="text" name="phone" id="phone" class="form-control"
                                                 placeholder="Phone">
                                         </div>
                                         <div>
                                             <label for="email" class="text-white">Email</label>
-                                            <input type="email" name="email"
-                                                id="email"
-                                                class="form-control"
+                                            <input type="email" name="email" id="email" class="form-control"
                                                 placeholder="Email">
                                         </div>
 
@@ -543,16 +574,13 @@ $feedbacks = findAll("feedbacks");
 
                                         <div>
                                             <label for="msg" class="text-white">Message</label>
-                                            <textarea class="form-control"
-                                                name="msg" id="msg"
+                                            <textarea class="form-control" name="msg" id="msg"
                                                 placeholder="Message"></textarea>
                                         </div>
                                         <div class="submit-btn-wrapper">
-                                            <button type="submit" name="contact"
-                                                class="main-btn">Send</button>
+                                            <button type="submit" name="contact" class="main-btn">Send</button>
                                             <div id="loader">
-                                                <i
-                                                    class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+                                                <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                             </div>
                                         </div>
                                     </form>
@@ -693,29 +721,27 @@ $feedbacks = findAll("feedbacks");
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
-  <script src="assets/js/app.js"></script>
-     <script>
-        contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
+    <script src="assets/js/app.js"></script>
+    <script>
+    contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
 
-        if (contactFormSubmitted) {
-            const element = document.getElementById("contact-form");
-            if (element) {
-                element.scrollIntoView({
-                    behavior: 'smooth', // smooth scrolling
-                    block: 'center' // align to the top of the element
-                });
-            }
+    if (contactFormSubmitted) {
+        const element = document.getElementById("contact-form");
+        if (element) {
+            element.scrollIntoView({
+                behavior: 'smooth', // smooth scrolling
+                block: 'center' // align to the top of the element
+            });
         }
-
-
+    }
     </script>
 </body>
 
