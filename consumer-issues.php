@@ -46,7 +46,7 @@ if (isset($_POST['contact'])) {
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -221,14 +221,14 @@ if (isset($_POST['contact'])) {
                     </div>
                     <div
                         class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center order-lg-2 order-1">
-                        <img src="assets/images/aminities/Justice-amico.png" alt=""
+                        <img src="assets/images/aminities/consumer rights uk.png" alt=""
                             class="consumer-img  object-fit-contain">
                     </div>
                 </div>
                 <div class="row  mb-lg-0 mb-4" id="online-shopping">
                     <div
                         class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3">
-                        <img src="assets/images/aminities/Online shopping-amico.png" alt=""
+                        <img src="assets/images/aminities/Online shopping-consumer rights uk.png" alt=""
                             class="consumer-img  object-fit-contain">
                     </div>
                     <div class="col-lg-8 px-0 bg-white ">
@@ -336,14 +336,14 @@ if (isset($_POST['contact'])) {
                     </div>
                     <div
                         class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3 order-lg-2 order-1">
-                        <img src="assets/images/aminities/Vehicle Sale-pana.png" alt=""
+                        <img src="assets/images/aminities/Vehicle Sale-consumer rights uk.png" alt=""
                             class="consumer-img  object-fit-contain">
                     </div>
                 </div>
                 <div class="row  mb-lg-0 mb-4" id="property-renovation-and-repair">
                     <div
                         class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3">
-                        <img src="assets/images/aminities/Build your home-amico (1).png" alt=""
+                        <img src="assets/images/aminities/consumer rights uk .png" alt=""
                             class="consumer-img  object-fit-contain">
                     </div>
                     <div class="col-lg-8 px-0 bg-white ">
@@ -500,14 +500,14 @@ if (isset($_POST['contact'])) {
                     </div>
                     <div
                         class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3 order-lg-2 order-1">
-                        <img src="assets/images/aminities/Product iteration-amico.png" alt=""
+                        <img src="assets/images/aminities/consumer rights uk (4).png" alt=""
                             class="consumer-img  object-fit-contain">
                     </div>
                 </div>
                 <div class="row  mb-lg-0 mb-4" id="loans-debt-rights">
                     <div
                         class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3">
-                        <img src="assets/images/aminities/Money stress-amico.png" alt=""
+                        <img src="assets/images/aminities/consumer rights uk (5).png" alt=""
                             class="consumer-img  object-fit-contain">
                     </div>
                     <div class="col-lg-8 px-0 bg-white ">
@@ -699,38 +699,38 @@ if (isset($_POST['contact'])) {
         </section>
 
         <section class="py-lg-5 py-4 ">
-             <div class="container">
+            <div class="container">
                 <div class="row justify-content-center">
-                <div class="col-lg-12">
+                    <div class="col-lg-12">
                         <h2 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
-                        Visit Our Subsidiary Companies
+                            Visit Our Subsidiary Companies
                         </h2>
-                  
-                </div>
-           
+
+                    </div>
+
                     <div class="col-lg-4 col-md-6 mb-3">
-                        <a href="https://www.compliance-experts.co.uk/" target="_blank" class="text-decoration-none text-dark">
-                            <div class="amenity-card d-flex justify-content-center align-items-center flex-column"> 
-                                <img
-                                    src="assets/images/CRC-logo.png"
-                                    alt="CRC logo"   style="width:130px; height:auto;">
-                                <h3 class="mt-4 text-center text-md"  style=" font-weight:500;">Compilance and Risk Consultancy</h3>
+                        <a href="https://www.compliance-experts.co.uk/" target="_blank"
+                            class="text-decoration-none text-dark">
+                            <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
+                                <img src="assets/images/CRC-logo.png" alt="CRC logo" style="width:130px; height:auto;">
+                                <h3 class="mt-4 text-center text-md" style=" font-weight:500;">Compilance and Risk
+                                    Consultancy</h3>
                             </div>
                         </a>
                     </div>
 
                     <div class="col-lg-4 col-md-6 mb-3">
-                        <a href="https://carehomecompliance.com/" target="_blank" class="text-decoration-none text-dark">
+                        <a href="https://carehomecompliance.com/" target="_blank"
+                            class="text-decoration-none text-dark">
                             <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
-                                <img
-                                    src="assets/images/Care Home Compilance.png"
-                                    alt="CHC logo"  style="width:100px; height:auto;">
+                                <img src="assets/images/Care Home Compilance.png" alt="CHC logo"
+                                    style="width:100px; height:auto;">
                                 <h3 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h3>
                             </div>
                         </a>
                     </div>
-             </div>
-                            </div>
+                </div>
+            </div>
         </section>
 
         <section>
@@ -777,39 +777,31 @@ if (isset($_POST['contact'])) {
 
                             </div>
                         </div>
-                                                 <div class="col col-lg-7 col-md-12 col-sm-12">
+                        <div class="col col-lg-7 col-md-12 col-sm-12">
                             <div class="contact-content ps-lg-5">
                                 <div class="contact-form">
                                     <?php if (isset($_POST['contact'])): ?>
-                                        <?php if ($msg['status'] == 'success'): ?>
-                                            <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
-                                        <?php else: ?>
-                                            <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
-                                        <?php endif; ?>
+                                    <?php if ($msg['status'] == 'success'): ?>
+                                    <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
+                                    <?php else: ?>
+                                    <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
                                     <?php endif; ?>
-                                    <form method="post"
-                                        class="contact-validation-active"
-                                        id="contact-form"
+                                    <?php endif; ?>
+                                    <form method="post" class="contact-validation-active" id="contact-form"
                                         novalidate="novalidate">
                                         <div class="half-col">
                                             <label for="Name" class="text-white">Name</label>
-                                            <input type="text" name="name"
-                                                id="name"
-                                                class="form-control"
+                                            <input type="text" name="name" id="name" class="form-control"
                                                 placeholder="Your Name">
                                         </div>
                                         <div class="half-col">
                                             <label for="phone" class="text-white">Phone Number</label>
-                                            <input type="text" name="phone"
-                                                id="phone"
-                                                class="form-control"
+                                            <input type="text" name="phone" id="phone" class="form-control"
                                                 placeholder="Phone">
                                         </div>
                                         <div>
                                             <label for="email" class="text-white">Email</label>
-                                            <input type="email" name="email"
-                                                id="email"
-                                                class="form-control"
+                                            <input type="email" name="email" id="email" class="form-control"
                                                 placeholder="Email">
                                         </div>
 
@@ -817,16 +809,13 @@ if (isset($_POST['contact'])) {
 
                                         <div>
                                             <label for="msg" class="text-white">Message</label>
-                                            <textarea class="form-control"
-                                                name="msg" id="msg"
+                                            <textarea class="form-control" name="msg" id="msg"
                                                 placeholder="Message"></textarea>
                                         </div>
                                         <div class="submit-btn-wrapper">
-                                            <button type="submit" name="contact"
-                                                class="main-btn">Send</button>
+                                            <button type="submit" name="contact" class="main-btn">Send</button>
                                             <div id="loader">
-                                                <i
-                                                    class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+                                                <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                             </div>
                                         </div>
                                     </form>
@@ -967,26 +956,25 @@ if (isset($_POST['contact'])) {
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
-         <script src="assets/js/app.js"></script>
-     <script>
-        contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/app.js"></script>
+    <script>
+    contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
 
-        if (contactFormSubmitted) {
-            const element = document.getElementById("contact-form");
-            if (element) {
-                element.scrollIntoView({
-                    behavior: 'smooth', // smooth scrolling
-                    block: 'center' // align to the top of the element
-                });
-            }
+    if (contactFormSubmitted) {
+        const element = document.getElementById("contact-form");
+        if (element) {
+            element.scrollIntoView({
+                behavior: 'smooth', // smooth scrolling
+                block: 'center' // align to the top of the element
+            });
         }
-
+    }
     </script>
 </body>
 

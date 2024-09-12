@@ -411,14 +411,14 @@ $feedbacks = findAll("feedbacks");
                     </div>
                     <div
                         class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center order-lg-2 order-1">
-                        <img src="assets/images/New team members-pana.png" alt=""
+                        <img src="assets/images/contact consumer protection.png" alt=""
                             class="consumer-img  object-fit-contain">
                     </div>
                 </div>
                 <div class="row  mb-lg-0 mb-4">
                     <div
                         class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3">
-                        <img src="assets/images/leadership-amico.png" alt="" class="consumer-img object-fit-contain">
+                        <img src="assets/images/contact consumer protection uk.png" alt="" class="consumer-img object-fit-contain">
                     </div>
                     <div class="col-lg-8 px-0 bg-white d-flex align-items-center">
                         <div class="service-white-card service-card py-lg-5 py-3">
@@ -446,7 +446,7 @@ $feedbacks = findAll("feedbacks");
                     </div>
                     <div
                         class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3 order-lg-2 order-1">
-                        <img src="assets/images/Business solution-bro.png" alt=""
+                        <img src="assets/images/contact consumer protection uk(1).png" alt=""
                             class="consumer-img object-fit-contain">
                     </div>
                 </div>
@@ -482,7 +482,7 @@ $feedbacks = findAll("feedbacks");
                     </div>
                     <div
                         class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3 order-lg-2 order-1">
-                        <img src="assets/images/services/Law firm-bro.png" alt=""
+                        <img src="assets/images/services/consumer protection uk(6).png" alt=""
                             class="consumer-img object-fit-contain">
                     </div>
                 </div>
