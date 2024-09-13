@@ -15,10 +15,12 @@
 <html <?php language_attributes(); ?> class="js no-svg">
 
 <head>
+<title>Blog - Consumer Protection Bureau (CPB)</title>
+
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
-
+     <meta name="description" content="Stay informed with the latest articles on consumer protection laws, rights, and complaint resolutions in the UK. ">
     <?php wp_head(); ?>
     <!-- <link rel="stylesheet" href="../assets/css/style.css"> -->
     <link
@@ -39,7 +41,8 @@
             integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
             <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-              <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+            <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/blog/">
+              <link rel="icon" type="image/x-icon" href="<?php echo ROOT_PATH ?>assets/images/favicon.ico">
 </head>
 
 <body <?php body_class(); ?>>
