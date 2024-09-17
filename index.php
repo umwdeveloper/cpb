@@ -412,7 +412,7 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-3 col-md-6 col-6 mb-3">
                     <a href="consumer-issues.php#consumer-rights" class="text-decoration-none text-dark">
                         <div class="amenity-card">
-                            <img src="assets/images/aminities/consumer rights uk.png" alt="Consumer Rights" class="img-fluid">
+                            <img src="assets/images/aminities/consumer rights uk.png" alt="Consumer Rights Protection" class="img-fluid">
                             <h3 class="mt-3">Consumer Rights</h3>
                         </div>
                     </a>

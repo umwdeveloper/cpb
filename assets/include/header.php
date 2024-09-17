@@ -20,20 +20,20 @@
                         <div class="text-white social-icon">
                             <!-- Facebook -->
                             <a data-mdb-ripple-init target="_blank" class="btn text-white btn-floating m-1"
-                                style="background-color: #3b5998;"
-                                href="https://web.facebook.com/people/Consumer-Protection-Bureau/100089017255764/"
+                                style="background-color: #3b5998;" 
+                                href="https://web.facebook.com/people/Consumer-Protection-Bureau/100089017255764/" aria-label="Facebook"
                                 role="button"><i class="fab fa-facebook-f"></i></a>
 
                             <!-- Twitter -->
                             <a data-mdb-ripple-init target="_blank" class="btn text-white btn-floating m-1"
                                 style="background-color: #55acee;"
-                                href="https://x.com/i/flow/login?redirect_after_login=%2Fconsume60578813"
+                                href="https://x.com/i/flow/login?redirect_after_login=%2Fconsume60578813" aria-label="Twitter"
                                 role="button"><i class="fab fa-twitter"></i></a>
 
                             <!-- Linkedin -->
                             <a data-mdb-ripple-init target="_blank" class="btn text-white btn-floating m-1"
                                 style="background-color: #0082ca;"
-                                href="https://www.linkedin.com/in/consumer-protection-bureau-595632261/"
+                                href="https://www.linkedin.com/in/consumer-protection-bureau-595632261/" aria-label="LinkedIn"
                                 role="button"><i class="fab fa-linkedin-in"></i></a>
 
                         </div>
