@@ -21,7 +21,7 @@
 
                    <!-- Grid column -->
                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                       <h6 class="text-uppercase mb-4 font-weight-bold">Quick Links</h6>
+                       <h2 class="text-uppercase mb-4 font-weight-bold footer-heading">Quick Links</h2>
                        <p>
                            <a href="/" class="text-white">Home</a>
                        </p>
@@ -41,9 +41,9 @@
 
                    <!-- Grid column -->
                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                       <h6 class="text-uppercase mb-4 font-weight-bold">
+                       <h2 class="text-uppercase mb-4 font-weight-bold footer-heading">
                            Other
-                       </h6>
+                       </h2>
                        <p class="">
                            <a href="consumer-issues.php" class="text-white">Consumer Issues</a>
                        </p>
@@ -63,7 +63,7 @@
 
                    <!-- Grid column -->
                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                       <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                       <h2 class="text-uppercase mb-4 font-weight-bold footer-heading">Contact</h2>
                        <p class=""><i class="fas fa-envelope mr-3"></i> <span
                                class="text-sm">info@consumerprotectionbureau.co.uk</span> </p>
                        <p class=""><i class="fas fa-phone mr-3"></i> +44 (0)2035854002</p>
@@ -101,16 +101,16 @@
                        <!-- Facebook -->
                        <a href="https://web.facebook.com/people/Consumer-Protection-Bureau/100089017255764/"
                            class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"
-                           target="_blank"><i class="fab fa-facebook-f"></i></a>
+                           aria-label="Facebook"  target="_blank"><i class="fab fa-facebook-f"></i></a>
 
                        <!-- Twitter -->
                        <a href="https://x.com/i/flow/login?redirect_after_login=%2Fconsume60578813"
                            class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"
-                           target="_blank"><i class="fab fa-twitter"></i></a>
+                           aria-label="Twitter"   target="_blank"><i class="fab fa-twitter"></i></a>
 
                        <!-- Google -->
                        <a href="https://www.linkedin.com/in/consumer-protection-bureau-595632261/" target="_blank"
-                           class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                       aria-label="LinkedIn"     class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
                                class="fab fa-linkedin"></i></a>
 
 
