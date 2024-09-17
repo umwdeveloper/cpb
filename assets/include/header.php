@@ -48,7 +48,7 @@
         <nav class="navbar navbar-expand-xl navbar-light ">
             <div class="container menu-header-container">
                 <a class="navbar-brand" href="/">
-                    <img src="assets/images/Logo - Source File.png" alt class="img-fluid ">
+                    <img src="assets/images/Logo - Source File.png" alt="Consumer Protection Bureau Logo" class="img-fluid ">
                 </a>
                 <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
