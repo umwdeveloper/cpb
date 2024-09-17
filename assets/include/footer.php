@@ -9,7 +9,7 @@
                    <!-- Grid column -->
                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                        <div class="text-uppercase mb-1 font-weight-bold bg-white p-3 rounded-2 mb-lg-0 mb-2">
-                           <img src="assets/images/Logo - PNG.png" alt="" class="img-fluid footer-img">
+                           <img src="assets/images/Logo - PNG.png" alt="Consumer Protection Bureau Logo" class="img-fluid footer-img">
                        </div>
                        <p>
                            BUSINESS HOURS:<br> MONDAY TO FRIDAY 9:00-5:00
