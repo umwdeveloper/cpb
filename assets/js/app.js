@@ -36,3 +36,21 @@ $(".slick-slider").slick({
         // instead of a settings object
       ]
 });
+
+  $(document).ready(function() {
+    // Get the current URL path (e.g., 'index.php', 'about.php')
+    var currentPage = window.location.pathname.split("/").pop();
+
+    // If no file name in the path, default to index.php
+    if (currentPage == "") {
+        currentPage = "index.php";
+    }
+
+    // Add 'active' class to the corresponding link
+    $('.nav-link').each(function() {
+        var linkPage = $(this).attr('href');
+        if (linkPage === currentPage) {
+            $(this).addClass('active-nav');
+        }
+    });
+});
