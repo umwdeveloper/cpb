@@ -43,7 +43,7 @@ $(document).ready(function () {
 
   // If no file name in the path, default to index.php
   if (currentPage == "") {
-    currentPage = "index.php";
+    currentPage = "/";
   }
 
   // Add 'active' class to the corresponding link
