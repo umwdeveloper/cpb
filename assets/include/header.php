@@ -1,4 +1,3 @@
-
 <body>
     <header class="header d-md-block d-none">
         <div class="container">
@@ -59,7 +58,7 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active-nav" href="/" aria-current="page">Home</a>
+                            <a class="nav-link" href="/" aria-current="page">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.php">About</a>

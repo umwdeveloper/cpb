@@ -32,7 +32,8 @@ $feedbacks = findAll("feedbacks");
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name='description' content='The Consumer Protection Bureau provides expert guidance on consumer rights, protection laws, and resolving consumer and customer complaints in the UK.'/>
+    <meta name='description'
+        content='The Consumer Protection Bureau provides expert guidance on consumer rights, protection laws, and resolving consumer and customer complaints in the UK.' />
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -84,8 +85,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-4 px-0 bg-white">
                     <div class="service-white-card service-card">
                         <div class="d-flex justify-content-center">
-                            <img src="assets/images/services/consumer protection uk.png" alt="Consumer Protection Service 1"
-                                class="service-img mx-auto">
+                            <img src="assets/images/services/consumer protection uk.png"
+                                alt="Consumer Protection Service 1" class="service-img mx-auto">
                         </div>
                         <h2>Consumer Advocacy</h2>
                         <p class="text text-center">
@@ -100,8 +101,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-4 px-0 bg-img">
                     <div class="service-white-card service-card">
                         <div class="d-flex justify-content-center">
-                            <img src="assets/images/services/consumer protection uk(1).png" alt="Consumer Protection Service 2"
-                                class="service-img mx-auto">
+                            <img src="assets/images/services/consumer protection uk(1).png"
+                                alt="Consumer Protection Service 2" class="service-img mx-auto">
                         </div>
                         <h2 class="text-white">Preventing Unfair Practices</h2>
                         <p class="text text-center text-white">
@@ -115,8 +116,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-4 px-0 bg-white">
                     <div class="service-white-card service-card">
                         <div class="d-flex justify-content-center">
-                            <img src="assets/images/services/consumer protection uk(2).svg" alt="Consumer Protection Service 3"
-                                class="service-img mx-auto">
+                            <img src="assets/images/services/consumer protection uk(2).svg"
+                                alt="Consumer Protection Service 3" class="service-img mx-auto">
                         </div>
                         <h2>Product Safety</h2>
                         <p class="text text-center">
@@ -133,8 +134,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-4 px-0 bg-img">
                     <div class="service-white-card service-card">
                         <div class="d-flex justify-content-center">
-                            <img src="assets/images/services/consumer protection uk(3).svg" alt="Consumer Protection Service 4"
-                                class="service-img mx-auto">
+                            <img src="assets/images/services/consumer protection uk(3).svg"
+                                alt="Consumer Protection Service 4" class="service-img mx-auto">
                         </div>
                         <h2 class="text-white">Financial Protection</h2>
                         <p class="text text-center text-white">
@@ -148,8 +149,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-4 px-0 bg-white">
                     <div class="service-white-card service-card">
                         <div class="d-flex justify-content-center">
-                            <img src="assets/images/services/consumer protection uk(4).png" alt="Consumer Protection Service 5"
-                                class="service-img mx-auto">
+                            <img src="assets/images/services/consumer protection uk(4).png"
+                                alt="Consumer Protection Service 5" class="service-img mx-auto">
                         </div>
                         <h2>Dispute Resolution</h2>
                         <p class="text text-center">
@@ -163,8 +164,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-4 px-0 bg-img">
                     <div class="service-white-card service-card">
                         <div class="d-flex justify-content-center">
-                            <img src="assets/images/services/consumer protection uk(5).png" alt="Consumer Protection Service 6"
-                                class="service-img mx-auto">
+                            <img src="assets/images/services/consumer protection uk(5).png"
+                                alt="Consumer Protection Service 6" class="service-img mx-auto">
                         </div>
                         <h2 class="text-white">Market Stability</h2>
                         <p class="text text-center text-white">
@@ -182,8 +183,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-4 px-0 bg-white">
                     <div class="service-white-card service-card">
                         <div class="d-flex justify-content-center">
-                            <img src="assets/images/services/consumer protection uk(6).png" alt="Consumer Protection Service 7"
-                                class="service-img mx-auto">
+                            <img src="assets/images/services/consumer protection uk(6).png"
+                                alt="Consumer Protection Service 7" class="service-img mx-auto">
                         </div>
                         <h2>Legal Framework</h2>
                         <p class="text text-center">
@@ -197,8 +198,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-4 px-0 bg-img">
                     <div class="service-white-card service-card">
                         <div class="d-flex justify-content-center">
-                            <img src="assets/images/services/consumer protection uk(7).png" alt="Consumer Protection Service 8"
-                                class="service-img mx-auto">
+                            <img src="assets/images/services/consumer protection uk(7).png"
+                                alt="Consumer Protection Service 8" class="service-img mx-auto">
                         </div>
                         <h2 class="text-white">Transparent</h2>
                         <p class="text text-center text-white">
@@ -211,8 +212,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-4 px-0 bg-white">
                     <div class="service-white-card service-card">
                         <div class="d-flex justify-content-center">
-                            <img src="assets/images/services/consumer protection uk(8).png" alt="Consumer Protection Service 9"
-                                class="service-img mx-auto">
+                            <img src="assets/images/services/consumer protection uk(8).png"
+                                alt="Consumer Protection Service 9" class="service-img mx-auto">
                         </div>
                         <h2>Environmental Stewardship</h2>
                         <p class="text text-center">
