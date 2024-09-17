@@ -31,7 +31,8 @@ $feedbacks = findAll("feedbacks");
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name='description' content='Founded in 2011, Consumer Protection Bureau upholds consumer rights, enforces protection laws, and addresses consumer and customer complaints for fair resolutions.'/>
+    <meta name='description'
+        content='Founded in 2011, Consumer Protection Bureau upholds consumer rights, enforces protection laws, and addresses consumer and customer complaints for fair resolutions.' />
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -56,8 +57,6 @@ $feedbacks = findAll("feedbacks");
 
 <?php include 'assets/include/header.php'; ?>
 <main>
-
-
     <section class="py-lg-5 py-4 bg-light about-hero">
         <div class="container">
             <div class="row justify-content-center align-items-start  mb-lg-5 mb-3">
@@ -122,8 +121,8 @@ $feedbacks = findAll("feedbacks");
                 </div>
                 <div class="col-lg-4 ms-auto d-flex justify-content-center mt-lg-0 mt-4">
                     <div class="about-card">
-                        <img src="assets/images/yousaf-consumer-protection-bureau-ceo.webp" alt="Yousouf Jhugroo CEO Consumer Protection Bureau"
-                            class="mx-auto img-fluid">
+                        <img src="assets/images/yousaf-consumer-protection-bureau-ceo.webp"
+                            alt="Yousouf Jhugroo CEO Consumer Protection Bureau" class="mx-auto img-fluid">
                         <h3 class="mt-3 text-center">Yousouf Jhugroo</h3>
                         <p class="text-md text-center mb-0">
                             Chairman and CEO

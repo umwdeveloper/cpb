@@ -23,7 +23,7 @@
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Quick Links</h6>
                         <p>
-                            <a href="index.php" class="text-white">Home</a>
+                            <a href="/" class="text-white">Home</a>
                         </p>
                         <p>
                             <a href="about.php" class="text-white">About Us</a>
@@ -48,7 +48,7 @@
                             <a href="consumer-issues.php" class="text-white">Consumer Issues</a>
                         </p>
                         <p>
-                            <a href="blog/index.php" class="text-white">Blog</a>
+                            <a href="blog/" class="text-white">Blog</a>
                         </p>
                         <p>
                             <a href="archive.php" class="text-white">Archive</a>
