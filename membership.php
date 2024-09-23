@@ -196,7 +196,7 @@ $feedbacks = findAll("feedbacks");
                                     <input required class="form-check-input" type="checkbox" value="" id="fee" />
                                     <label class="form-check-label" for="fee"> Experience exceptional value with
                                         CPB’s
-                                        services! For just £10.00 annually, enjoy expert
+                                        services! For just £50.00 annually, enjoy expert
                                         dispute resolution with a transparent 15% handling
                                         fee on the disputed amount.<br>
                                         Compared to the high cost of hiring a lawyer, CPB
