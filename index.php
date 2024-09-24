@@ -61,7 +61,8 @@ $feedbacks = findAll("feedbacks");
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name='description' content='The Consumer Protection Bureau empowers consumers, upholds consumer rights, enforces consumer protection laws, and addresses consumer and customer complaints with precision.'/>
+    <meta name='description'
+        content='The Consumer Protection Bureau empowers consumers, upholds consumer rights, enforces consumer protection laws, and addresses consumer and customer complaints with precision.' />
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
@@ -131,7 +132,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-3 col-md-6 mb-lg-0 mb-3">
                     <div class="feature-cards-card">
                         <div class="icon">
-                            <img src="assets/images/consumer protection uk.png" alt="Consumer protection UK 1" class="img-fluid">
+                            <img src="assets/images/consumer protection uk.png" alt="Consumer protection UK 1"
+                                class="img-fluid">
                         </div>
                         <h2 class="mt-3">Safety and Reliability </h2>
                         <p class="mb-0 pb-0">
@@ -143,7 +145,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-3 col-md-6 mb-lg-0 mb-3">
                     <div class="feature-cards-card">
                         <div class="icon">
-                            <img src="assets/images/consumer protection uk (2).png" alt="Consumer protection UK 2" class="img-fluid">
+                            <img src="assets/images/consumer protection uk (2).png" alt="Consumer protection UK 2"
+                                class="img-fluid">
                         </div>
                         <h2 class="mt-3">Affordability </h2>
                         <p class="mb-0 pb-0">
@@ -155,7 +158,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-3 col-md-6 mb-lg-0 mb-3">
                     <div class="feature-cards-card">
                         <div class="icon">
-                            <img src="assets/images/consumer protection uk (3).png" alt="Consumer protection UK 3" class="img-fluid">
+                            <img src="assets/images/consumer protection uk (3).png" alt="Consumer protection UK 3"
+                                class="img-fluid">
                         </div>
                         <h2 class="mt-3">Compliance</h2>
                         <p class="mb-0 pb-0">
@@ -167,7 +171,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-3 col-md-6 mb-lg-0 mb-3">
                     <div class="feature-cards-card">
                         <div class="icon">
-                            <img src="assets/images/Environmental audit-pana.png" alt="Consumer protection UK 4" class="img-fluid">
+                            <img src="assets/images/Environmental audit-pana.png" alt="Consumer protection UK 4"
+                                class="img-fluid">
                         </div>
                         <h2 class="mt-3">Sustainability</h2>
                         <p class="mb-0 pb-0">
@@ -202,8 +207,8 @@ $feedbacks = findAll("feedbacks");
                             <div class="d-flex align-items-start">
                                 <div class="me-3">
                                     <div class="do-icon">
-                                        <img src="assets/images/consumer-protection.png" alt="Safeguard Consumer Rights icon"
-                                            class="about-icon">
+                                        <img src="assets/images/consumer-protection.png"
+                                            alt="Safeguard Consumer Rights icon" class="about-icon">
                                     </div>
                                 </div>
                                 <p class="text">
@@ -233,8 +238,8 @@ $feedbacks = findAll("feedbacks");
                             <div class="d-flex align-items-start">
                                 <div class="me-3">
                                     <div class="do-icon">
-                                        <img src="assets/images/consumer rights.png" alt="Consumer protection Effective remedies icon"
-                                            class="about-icon">
+                                        <img src="assets/images/consumer rights.png"
+                                            alt="Consumer protection Effective remedies icon" class="about-icon">
                                     </div>
                                 </div>
                                 <p class="text">
@@ -332,7 +337,8 @@ $feedbacks = findAll("feedbacks");
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 mb-3 d-flex flex-column justify-content-center align-items-center">
                     <div class="commitment-icon">
-                        <img src="assets/images/consumer financial law.png" alt="Consumer protection Value for money icon">
+                        <img src="assets/images/consumer financial law.png"
+                            alt="Consumer protection Value for money icon">
                     </div>
                     <div>
                         <h3 class="mt-3 text-center commitment-text">Value for Money</h3>
@@ -364,8 +370,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-3 col-md-6 col-6 mb-3">
                     <a href="consumer-issues.php#online-shopping" class="text-decoration-none text-dark">
                         <div class="amenity-card">
-                            <img src="assets/images/aminities/Online shopping-consumer rights uk.png" alt="consumer protection laws UK Online Shopping"
-                                class="img-fluid">
+                            <img src="assets/images/aminities/Online shopping-consumer rights uk.png"
+                                alt="consumer protection laws UK Online Shopping" class="img-fluid">
                             <h3 class="mt-3">Online Shopping</h3>
                         </div>
                     </a>
@@ -374,8 +380,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-3 col-md-6 col-6 mb-3">
                     <a href="consumer-issues.php#tips-for-buy-vehical" class="text-decoration-none text-dark">
                         <div class="amenity-card">
-                            <img src="assets/images/aminities/Vehicle Sale-consumer rights uk.png" alt="consumer protection Tips for Buying Vehicles "
-                                class="img-fluid">
+                            <img src="assets/images/aminities/Vehicle Sale-consumer rights uk.png"
+                                alt="consumer protection Tips for Buying Vehicles " class="img-fluid">
                             <h3 class="mt-3">Tips for Buying Vehicles</h3>
                         </div>
                     </a>
@@ -395,7 +401,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-3 col-md-6 col-6 mb-3">
                     <a href="consumer-issues.php#faulty-products" class="text-decoration-none text-dark">
                         <div class="amenity-card">
-                            <img src="assets/images/aminities/consumer rights uk (4).png" alt="Consumer Protection laws for Faulty Products" class="img-fluid">
+                            <img src="assets/images/aminities/consumer rights uk (4).png"
+                                alt="Consumer Protection laws for Faulty Products" class="img-fluid">
                             <h3 class="mt-3">Faulty Products</h3>
                         </div>
                     </a>
@@ -404,7 +411,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-3 col-md-6 col-6 mb-3">
                     <a href="consumer-issues.php#loans-debt-rights" class="text-decoration-none text-dark">
                         <div class="amenity-card">
-                            <img src="assets/images/aminities/consumer rights uk (5).png" alt="Consumer Rights for Loans & Debt " class="img-fluid">
+                            <img src="assets/images/aminities/consumer rights uk (5).png"
+                                alt="Consumer Rights for Loans & Debt " class="img-fluid">
                             <h3 class="mt-3">Loans & Debt</h3>
                         </div>
                     </a>
@@ -412,7 +420,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-3 col-md-6 col-6 mb-3">
                     <a href="consumer-issues.php#consumer-rights" class="text-decoration-none text-dark">
                         <div class="amenity-card">
-                            <img src="assets/images/aminities/consumer rights uk.png" alt="Consumer Rights Protection" class="img-fluid">
+                            <img src="assets/images/aminities/consumer rights uk.png" alt="Consumer Rights Protection"
+                                class="img-fluid">
                             <h3 class="mt-3">Consumer Rights</h3>
                         </div>
                     </a>
@@ -420,7 +429,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-3 col-md-6 col-6 mb-3">
                     <a href="consumer-issues.php#repair-replace-refund" class="text-decoration-none text-dark">
                         <div class="amenity-card">
-                            <img src="assets/images/aminities/Refund-amico.png" alt="Consumer Rights to Repair, Replace & Refund" class="img-fluid">
+                            <img src="assets/images/aminities/Refund-amico.png"
+                                alt="Consumer Rights to Repair, Replace & Refund" class="img-fluid">
                             <h3 class="mt-3">Repair, Replace & Refund</h3>
                         </div>
                     </a>
@@ -428,7 +438,8 @@ $feedbacks = findAll("feedbacks");
                 <div class="col-lg-3 col-md-6 col-6 mb-3">
                     <a href="consumer-issues.php#scam-safe" class="text-decoration-none text-dark">
                         <div class="amenity-card">
-                            <img src="assets/images/aminities/Scared-pana.png" alt="Consumer Protection for Scam " class="img-fluid">
+                            <img src="assets/images/aminities/Scared-pana.png" alt="Consumer Protection for Scam "
+                                class="img-fluid">
                             <h3 class="mt-3">Scam Safe</h3>
                         </div>
                     </a>
@@ -561,7 +572,7 @@ $feedbacks = findAll("feedbacks");
             </div>
         </div>
     </section>
-    <section class="py-lg-5 py-4">
+    <section class="py-lg-5 py-4 ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -600,6 +611,89 @@ $feedbacks = findAll("feedbacks");
               
     </section>
     <section class="py-lg-5 py-4 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <h2 class="main-heading text-uppercase mb-3 ">
+                        Frequently Asked Questions
+                    </h2>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="faq.php#faq-1" class="faq-text text-decoration-none ">
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> What is the Consumer Protection
+                                Bureau (CPB)?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="faq.php#faq-2" class="faq-text text-decoration-none ">
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> How does the CPB work?
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="faq.php#faq-3" class="faq-text text-decoration-none ">
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> What benefits does CPB offer to consumers?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="faq.php#faq-4" class="faq-text text-decoration-none ">
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> How does CPB help consumers with claims?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="faq.php#faq-5" class="faq-text text-decoration-none ">
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> How much does CPB charge for its services?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="faq.php#faq-6" class="faq-text text-decoration-none ">
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> How do I become a member of CPB?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="faq.php#faq-7" class="faq-text text-decoration-none ">
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> What kind of complaints can I bring to CPB?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="faq.php#faq-8" class="faq-text text-decoration-none ">
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i>What laws and regulations does CPB ensure compliance with?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="faq.php#faq-9" class="faq-text text-decoration-none ">
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i>  Who does CPB work with?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="faq.php#faq-10" class="faq-text text-decoration-none ">
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> What should I do if I have a complaint?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="faq.php#faq-11" class="faq-text text-decoration-none ">
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> How do I file claims with CPB?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="faq.php#faq-12" class="faq-text text-decoration-none ">
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> How long does the claims process take?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="faq.php#faq-13" class="faq-text text-decoration-none ">
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> Can I cancel my CPB membership?
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-5">
+                    <img src="assets/images/FAQ/Problem solving-pana.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-lg-5 py-4">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
