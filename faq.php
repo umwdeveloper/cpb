@@ -119,14 +119,14 @@ $feedbacks = findAll("feedbacks");
                 </div>
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center order-lg-2 order-1">
-                    <img src="assets/images/faq/1.png"
+                    <img src="assets/images/FAQ/1.png"
                         alt="Consumer Protection Bureau Membership Benefits" class="consumer-img  object-fit-contain">
                 </div>
             </div>
             <div class="row  mb-lg-0 mb-4" id="faq-2">
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3">
-                    <img src="assets/images/faq/2 (2).png"
+                    <img src="assets/images/FAQ/2 (2).png"
                         alt="Expert Guidance from Consumer Protection Bureau" class="consumer-img object-fit-contain">
                 </div>
                 <div class="col-lg-8 px-0 bg-white d-flex align-items-center">
@@ -182,7 +182,7 @@ $feedbacks = findAll("feedbacks");
                 </div>
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3 order-lg-2 order-1">
-                    <img src="assets/images/faq/3.png"
+                    <img src="assets/images/FAQ/3.png"
                         alt="Consumer Protection for Dispute Resolution" class="consumer-img object-fit-contain">
                 </div>
             </div>
@@ -190,7 +190,7 @@ $feedbacks = findAll("feedbacks");
             <div class="row  mb-lg-0 mb-4" id="faq-4">
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3">
-                    <img src="assets/images/faq/4.png" alt="Priority Service for Consumer Protection"
+                    <img src="assets/images/FAQ/4.png" alt="Priority Service for Consumer Protection"
                         class="consumer-img object-fit-contain">
                 </div>
                 <div class="col-lg-8 px-0 bg-white d-flex align-items-center">
@@ -247,7 +247,7 @@ $feedbacks = findAll("feedbacks");
                 </div>
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3 order-lg-2 order-1">
-                    <img src="assets/images/faq/5.png" alt="Protect Your Consumer Rights"
+                    <img src="assets/images/FAQ/5.png" alt="Protect Your Consumer Rights"
                         class="consumer-img object-fit-contain">
                 </div>
             </div>
@@ -255,7 +255,7 @@ $feedbacks = findAll("feedbacks");
             <div class="row  mb-lg-0 mb-4" id="faq-6">
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3">
-                    <img src="assets/images/faq/7.png" alt="Priority Service for Consumer Protection"
+                    <img src="assets/images/FAQ/7.png" alt="Priority Service for Consumer Protection"
                         class="consumer-img object-fit-contain">
                 </div>
                 <div class="col-lg-8 px-0 bg-white d-flex align-items-center">
@@ -308,7 +308,7 @@ $feedbacks = findAll("feedbacks");
                 </div>
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3 order-lg-2 order-1">
-                    <img src="assets/images/faq/6.png" alt="Protect Your Consumer Rights"
+                    <img src="assets/images/FAQ/6.png" alt="Protect Your Consumer Rights"
                         class="consumer-img object-fit-contain">
                 </div>
             </div>
@@ -317,7 +317,7 @@ $feedbacks = findAll("feedbacks");
             <div class="row  mb-lg-0 mb-4" id="faq-8">
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3">
-                    <img src="assets/images/faq/8.png" alt="Priority Service for Consumer Protection"
+                    <img src="assets/images/FAQ/8.png" alt="Priority Service for Consumer Protection"
                         class="consumer-img object-fit-contain">
                 </div>
                 <div class="col-lg-8 px-0 bg-white d-flex align-items-center">
@@ -405,7 +405,7 @@ $feedbacks = findAll("feedbacks");
                 </div>
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3 order-lg-2 order-1">
-                    <img src="assets/images/faq/9.png" alt="Protect Your Consumer Rights"
+                    <img src="assets/images/FAQ/9.png" alt="Protect Your Consumer Rights"
                         class="consumer-img object-fit-contain">
                 </div>
             </div>
@@ -413,7 +413,7 @@ $feedbacks = findAll("feedbacks");
             <div class="row  mb-lg-0 mb-4" id="faq-10">
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3">
-                    <img src="assets/images/faq/10.png" alt="Priority Service for Consumer Protection"
+                    <img src="assets/images/FAQ/10.png" alt="Priority Service for Consumer Protection"
                         class="consumer-img object-fit-contain">
                 </div>
                 <div class="col-lg-8 px-0 bg-white d-flex align-items-center">
@@ -525,7 +525,7 @@ $feedbacks = findAll("feedbacks");
                 </div>
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3 order-lg-2 order-1">
-                    <img src="assets/images/faq/11.png" alt="Protect Your Consumer Rights"
+                    <img src="assets/images/FAQ/11.png" alt="Protect Your Consumer Rights"
                         class="consumer-img object-fit-contain">
                 </div>
             </div>
@@ -533,7 +533,7 @@ $feedbacks = findAll("feedbacks");
             <div class="row mb-lg-0 mb-4" id="faq-12">
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3 order-lg-1 order-2">
-                    <img src="assets/images/faq/12.png" alt="Protect Your Consumer Rights"
+                    <img src="assets/images/FAQ/12.png" alt="Protect Your Consumer Rights"
                         class="consumer-img object-fit-contain">
                 </div>
                 <div class="col-lg-8 px-0 bg-white order-lg-2 order-1 d-flex align-items-center">
@@ -644,7 +644,7 @@ $feedbacks = findAll("feedbacks");
                 </div>
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3 order-lg-2 order-1">
-                    <img src="assets/images/faq/13.png" alt="Protect Your Consumer Rights"
+                    <img src="assets/images/FAQ/13.png" alt="Protect Your Consumer Rights"
                         class="consumer-img object-fit-contain">
                 </div>
             </div>
