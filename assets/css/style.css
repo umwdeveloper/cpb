@@ -635,6 +635,18 @@ body {
 .footer-heading{
     font-size: 18px;
 }
+.faq-text{
+    font-size: 18px;
+    font-weight: 500;
+    color: black !important;
+}
+.faq-text:hover{
+    text-decoration: underline !important;
+}
+.faq-text i{
+    font-size: 20px;
+    color: #223A78;
+}
 @media only screen and (min-width:1900px){
   body{
     max-width: 1440px;
