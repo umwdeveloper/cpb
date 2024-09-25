@@ -232,19 +232,24 @@ $feedbacks = findAll("feedbacks");
             </div>
 
             <div class="row  mb-lg-0 mb-4" id="faq-5">
-                <div class="col-lg-8 px-0 bg-white order-lg-1 order-2 d-flex align-items-center">
-                    <div class="service-white-card service-card py-lg-5 py-3">
-                        <h2 class="text-start">5. How much does CPB charge for its services?</h2>
-                        <p class="text mb-0 pb-0">
-                            <strong>Yearly membership:</strong> £10
-                        </p>
-                        <p class="text">
-                            <strong>Service charge:</strong> We charge 15% on any refund or compensation successfully
-                            recouped from suppliers or service providers on behalf of unsatisfied consumers. This charge
-                            applies only when we secure a successful outcome for your claim.
-                        </p>
-                    </div>
-                </div>
+            <div class="col-lg-8 px-0 bg-white order-lg-1 order-2 d-flex align-items-center">
+    <div class="service-white-card service-card py-lg-5 py-3">
+        <h2 class="text-start">5. How much does CPB charge for its services?</h2>
+        <p class="text mb-0 pb-0">
+            <strong>Yearly membership:</strong>
+        </p>
+        <ul class="text mb-0 pb-2">
+            <li><strong>Individuals:</strong> £50</li>
+            <li><strong>Small companies:</strong> £100</li>
+            <li><strong>Medium-sized companies:</strong> £300</li>
+            <li><strong>Large companies:</strong> £1000</li>
+        </ul>
+        <p class="text">
+            <strong>Service charge:</strong> We charge 15% on any refund or compensation successfully recouped from suppliers or service providers on behalf of unsatisfied consumers. This charge applies only when we secure a successful outcome for your claim.
+        </p>
+    </div>
+</div>
+
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3 order-lg-2 order-1">
                     <img src="assets/images/FAQ/5.png" alt="Protect Your Consumer Rights"
