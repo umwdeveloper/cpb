@@ -67,9 +67,13 @@
                             <a class="nav-link" href="why-choose-us.php">Why Choose Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="consumer-issues.php">Consumer Issues
+                            <a class="nav-link" href="membership.php">membership
                             </a>
                         </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="consumer-issues.php">Consumer Issues
+                            </a>
+                        </li> -->
                         <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -81,19 +85,35 @@
                                 <li><a class="dropdown-item nav-link" href="#">Success Stories</a></li>
                             </ul>
                         </li> -->
-                        <li class="nav-item">
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Learn More
+                            </a>
+                            <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item nav-link" href="blog/index.php">Blog</a></li>
+                                <!-- <li><a class="dropdown-item nav-link" href="#">Advocacy</a></li> -->
+                                <li><a class="dropdown-item nav-link" href="archive.php">Archive</a></li>
+                                <li>
+                                    <a class="dropdown-item nav-link" href="consumer-issues.php">Consumer Issues</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item nav-link" href="faq.php">FAQ
+                                    </a>
+                                </li>
+                                <!-- <li><a class="dropdown-item nav-link" href="#">Success Stories</a></li> -->
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="blog/">Blog
                             </a>
-                        </li>
+                        </li> -->
 
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="archive.php">Archive
                             </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="membership.php">membership
-                            </a>
-                        </li>
+                        </li> -->
+                     
                         <li class="nav-item pb-xl-0 pb-3">
                             <a class="nav-link" href="contact.php">Contact
                             </a>
