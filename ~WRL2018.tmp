@@ -4,6 +4,5 @@ Disallow: /index.php
 Disallow: /blog/category/ 
 Disallow: /blog/author/ 
 Disallow: /blog/archive/
-Disallow: /blog/assets/ PDFs/
 Disallow: /cgi-bin/
 Sitemap: https://www.consumerprotectionbureau.co.uk/sitemap.xml
