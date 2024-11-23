@@ -4,3 +4,4 @@ includes/config.php
 assets/PDFs/*.pdf
 blog/wp-config.php
 includes/connection.php
+includes/mail.php
