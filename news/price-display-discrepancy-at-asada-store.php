@@ -321,21 +321,7 @@ if (isset($_POST['contact'])) {
     </section>
 
 
-    <section class="py-lg-5 py-4 bg-light about-hero">
-        <div class="container">
-            <div class="row justify-content-center align-items-start">
-                <div class="col-lg-10 mx-auto text-center">
-                    <!-- <span class="text-danger text-center alert-text">CONSUMER ALERT NEWS</span> -->
-                    <h1 class="news-heading text-center text-uppercase  mt-2">
-                        Price Display Discrepancy at Asda Store
-                    </h1>
-                    <h2 class="text-md text-center mb-1">
-                        Consumer Watchdog- CPB Calls for Fair Treatment</h2>
-                    <p class="text-md text-gray text-secondry">Crawley 24th November 2024</p>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
 
     <section class="py-lg-5 py-4 ">
