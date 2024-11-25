@@ -92,7 +92,9 @@
                             </a>
                             <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item nav-link" href="blog/index.php">Blog</a></li>
-                                <!-- <li><a class="dropdown-item nav-link" href="#">Advocacy</a></li> -->
+                                <li><a class="dropdown-item nav-link" href="news/">Consumer Alert News</a></li>
+                                <li><a class="dropdown-item nav-link" href="advocacy.php">Advocacy</a></li>
+
                                 <li><a class="dropdown-item nav-link" href="archive.php">Archive</a></li>
                                 <li>
                                     <a class="dropdown-item nav-link" href="consumer-issues.php">Consumer Issues</a>

@@ -27,11 +27,11 @@ if (isset($_POST['contact'])) {
 <html lang="en">
 
 <head>
-    <title>Archives - Consumer Protection Bureau (CPB)</title>
+    <title>Advocacy - Consumer Protection Bureau (CPB)</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+     <meta name="description" content="Consumer advocacy by Consumer Protection Bureau UK: Protecting rights and resolving complaints under UK consumer laws">
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
