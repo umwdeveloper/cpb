@@ -117,7 +117,7 @@ if (isset($_POST['contact'])) {
                     <a href="https://www.compliance-experts.co.uk/" target="_blank"
                         class="text-decoration-none text-dark">
                         <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
-                            <img src="assets/images/CRC-logo.png" alt="CRC logo" style="width:130px; height:auto;">
+                            <img src="../assets/images/CRC-logo.png" alt="CRC logo" style="width:130px; height:auto;">
                             <h1 class="mt-4 text-center text-md" style=" font-weight:500;">Compilance and Risk
                                 Consultancy</h1>
                         </div>
@@ -127,7 +127,7 @@ if (isset($_POST['contact'])) {
                 <div class="col-lg-4 col-md-6 mb-3">
                     <a href="https://carehomecompliance.com/" target="_blank" class="text-decoration-none text-dark">
                         <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
-                            <img src="assets/images/Care Home Compilance.png" alt="CHC logo"
+                            <img src="../assets/images/Care Home Compilance.png" alt="CHC logo"
                                 style="width:100px; height:auto;">
                             <h1 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h1>
                         </div>
