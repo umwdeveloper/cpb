@@ -48,7 +48,7 @@
         <nav class="navbar navbar-expand-xl navbar-light ">
             <div class="container menu-header-container">
                 <a class="navbar-brand" href="/">
-                    <img src="assets/images/Logo - Source File.png" alt="Consumer Protection Bureau Logo" class="img-fluid ">
+                    <img src="../assets/images/Logo - Source File.png" alt="Consumer Protection Bureau Logo" class="img-fluid ">
                 </a>
                 <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -58,16 +58,16 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="/" aria-current="page">Home</a>
+                            <a class="nav-link" href="../" aria-current="page">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.php">About</a>
+                            <a class="nav-link" href="../about.php">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="why-choose-us.php">Why Choose Us</a>
+                            <a class="nav-link" href="../why-choose-us.php">Why Choose Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="membership.php">membership
+                            <a class="nav-link" href="../membership.php">membership
                             </a>
                         </li>
                         <!-- <li class="nav-item">
@@ -91,15 +91,15 @@
                                 Learn More
                             </a>
                             <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item nav-link" href="blog/index.php">Blog</a></li>
-                                <li><a class="dropdown-item nav-link" href="news/index.php">Consumer Alert News</a></li>
-                                <li><a class="dropdown-item nav-link" href="advocacy.php">Advocacy</a></li>
-                                <li><a class="dropdown-item nav-link" href="archive.php">Archive</a></li>
+                                <li><a class="dropdown-item nav-link" href="../blog/index.php">Blog</a></li>
+                                <li><a class="dropdown-item nav-link" href="./">Consumer Alert News</a></li>
+                                <li><a class="dropdown-item nav-link" href="../advocacy.php">Advocacy</a></li>
+                                <li><a class="dropdown-item nav-link" href="../archive.php">Archive</a></li>
                                 <li>
-                                    <a class="dropdown-item nav-link" href="consumer-issues.php">Consumer Issues</a>
+                                    <a class="dropdown-item nav-link" href="../consumer-issues.php">Consumer Issues</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item nav-link" href="faq.php">FAQ
+                                    <a class="dropdown-item nav-link" href="../faq.php">FAQ
                                     </a>
                                 </li>
                                 <!-- <li><a class="dropdown-item nav-link" href="#">Success Stories</a></li> -->
@@ -116,7 +116,7 @@
                         </li> -->
                      
                         <li class="nav-item pb-xl-0 pb-3">
-                            <a class="nav-link" href="contact.php">Contact
+                            <a class="nav-link" href="../contact.php">Contact
                             </a>
                         </li>
 
