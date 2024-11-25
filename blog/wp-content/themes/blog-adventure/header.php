@@ -15,34 +15,36 @@
 <html <?php language_attributes(); ?> class="js no-svg">
 
 <head>
-<title>Blog - Consumer Protection Bureau (CPB)</title>
+    <title>Blog - Consumer Protection Bureau (CPB)</title>
 
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
-     <meta name="description" content="Stay informed with the latest articles on consumer protection laws, rights, and complaint resolutions in the UK. ">
+    <meta name="description"
+        content="Stay informed with the latest articles on consumer protection laws, rights, and complaint resolutions in the UK. ">
     <?php wp_head(); ?>
     <!-- <link rel="stylesheet" href="../assets/css/style.css"> -->
-    <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-            <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-            <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/blog/">
-              <link rel="icon" type="image/x-icon" href="<?php echo ROOT_PATH ?>assets/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/blog/">
+    <link rel="icon" type="image/x-icon" href="<?php echo ROOT_PATH ?>assets/images/favicon.ico">
+    <style>
+        .js .menu-toggle, .js .dropdown-toggle{
+            display:block !important;
+            /* width: 100px !important; */
+        }
+    </style>
 </head>
 
 <body <?php body_class(); ?>>
@@ -54,7 +56,8 @@
     } ?>
 
     <div id="page" class="site-wrapper site">
-        <a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e('Skip to content', 'blog-adventure'); ?></a>
+        <a class="skip-link screen-reader-text"
+            href="#primary"><?php esc_html_e('Skip to content', 'blog-adventure'); ?></a>
         <?php
         $show_topheader = get_theme_mod('blogwaves_top_header_display', true);
         $show_topheader_menu = get_theme_mod('blogwaves_top_header_menu_display', true);
@@ -86,13 +89,22 @@
 
                             <div class="text-white social-icon">
                                 <!-- Facebook -->
-                                <a data-mdb-ripple-init target="_blank" class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="https://web.facebook.com/people/Consumer-Protection-Bureau/100089017255764/" role="button"><i class="fab fa-facebook-f"></i></a>
+                                <a data-mdb-ripple-init target="_blank" class="btn text-white btn-floating m-1"
+                                    style="background-color: #3b5998;"
+                                    href="https://web.facebook.com/people/Consumer-Protection-Bureau/100089017255764/"
+                                    role="button"><i class="fab fa-facebook-f"></i></a>
 
                                 <!-- Twitter -->
-                                <a data-mdb-ripple-init target="_blank" class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="https://x.com/i/flow/login?redirect_after_login=%2Fconsume60578813" role="button"><i class="fab fa-twitter"></i></a>
+                                <a data-mdb-ripple-init target="_blank" class="btn text-white btn-floating m-1"
+                                    style="background-color: #55acee;"
+                                    href="https://x.com/i/flow/login?redirect_after_login=%2Fconsume60578813"
+                                    role="button"><i class="fab fa-twitter"></i></a>
 
                                 <!-- Linkedin -->
-                                <a data-mdb-ripple-init target="_blank" class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="https://www.linkedin.com/in/consumer-protection-bureau-595632261/" role="button"><i class="fab fa-linkedin-in"></i></a>
+                                <a data-mdb-ripple-init target="_blank" class="btn text-white btn-floating m-1"
+                                    style="background-color: #0082ca;"
+                                    href="https://www.linkedin.com/in/consumer-protection-bureau-595632261/"
+                                    role="button"><i class="fab fa-linkedin-in"></i></a>
 
                             </div>
 
@@ -108,13 +120,16 @@
                     <a class="navbar-brand" href="#">
                         <img src="<?php echo ROOT_PATH ?>assets/images/Logo - Source File.png" alt class="img-fluid ">
                     </a>
-                    <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="collapsibleNavId">
                         <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link " href="<?php echo ROOT_PATH ?>index.php" aria-current="page">Home</a>
+                                <a class="nav-link " href="<?php echo ROOT_PATH ?>index.php"
+                                    aria-current="page">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="<?php echo ROOT_PATH ?>about.php">About</a>
@@ -122,22 +137,35 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="<?php echo ROOT_PATH ?>why-choose-us.php">Why Choose Us</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="<?php echo ROOT_PATH ?>consumer-issues.php">Consumer Issues
-                                </a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link active-nav" href="<?php echo ROOT_PATH ?>blog">Blog
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="<?php echo ROOT_PATH ?>archive.php">Archive
-                                </a>
-                            </li>
+                   
                             <li class="nav-item">
                                 <a class="nav-link" href="<?php echo ROOT_PATH ?>membership.php">membership
                                 </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle position-relative" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Learn More
+                                </a>
+                                <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item nav-link active-nav"
+                                            href="<?php echo ROOT_PATH ?>blog">Blog</a></li>
+                                    <li><a class="dropdown-item nav-link"
+                                            href="<?php echo ROOT_PATH ?>news/">Consumer Alert News</a></li>
+                                    <li><a class="dropdown-item nav-link"
+                                            href="<?php echo ROOT_PATH ?>advocacy.php">Advocacy</a></li>
+                                    <li><a class="dropdown-item nav-link"
+                                            href="<?php echo ROOT_PATH ?>archive.php">Archive</a></li>
+                                    <li>
+                                        <a class="dropdown-item nav-link"
+                                            href="<?php echo ROOT_PATH ?>consumer-issues.php">Consumer Issues</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item nav-link" href="<?php echo ROOT_PATH ?>faq.php">FAQ
+                                        </a>
+                                    </li>
+                                    <!-- <li><a class="dropdown-item nav-link" href="#">Success Stories</a></li> -->
+                                </ul>
                             </li>
                             <li class="nav-item pb-xl-0 pb-3">
                                 <a class="nav-link" href="<?php echo ROOT_PATH ?>contact.php">Contact
