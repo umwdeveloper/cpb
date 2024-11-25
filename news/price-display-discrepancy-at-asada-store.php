@@ -28,7 +28,8 @@ if (isset($_POST['contact'])) {
 
 <head>
     <title>Price Display Discrepancy at Asda Store - Consumer Alert News - (CPB)</title>
-    <meta name="description" content="Stay updated with the Consumer Protection Bureau UK. Explore the latest consumer alerts, UK consumer laws, and protection tips from a trusted agency.">
+    <meta name="description"
+        content="Stay updated with the Consumer Protection Bureau UK. Explore the latest consumer alerts, UK consumer laws, and protection tips from a trusted agency.">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -47,8 +48,10 @@ if (isset($_POST['contact'])) {
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/news/price-display-discrepancy-at-asada-store.php">
-
+    <link rel="canonical"
+        href="https://www.consumerprotectionbureau.co.uk/news/price-display-discrepancy-at-asada-store.php">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
@@ -56,236 +59,284 @@ if (isset($_POST['contact'])) {
 <?php include 'assets/include/header.php'; ?>
 <main>
 
+    <section class="py-lg-5 py-4 bg-light about-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto news-wrapper p-0">
+                    <img src="assets/images/consumer-protection-bureau-alert-news.png" alt="" class="w-100 h-auto">
+
+                    <div class="px-lg-5 ">
+                        <h1 class="news-heading text-uppercase  my-3">
+                            Price Display Discrepancy at <span class="text-alert"> Asda Store
+
+                            </span>
+                        </h1>
+                        <img src="../assets/images/news/consumer-protection-bureau-alert-news-Asda Store.jpeg"
+                            alt="Consumet Protection Bureau Uk Alert News about Asda Store "
+                            class="w-100 asada-image shadow ">
+                        <div class="row mt-4 mb-4">
+
+                            <div class="col-lg-4 bg-dark text-white">
+                                <h3 class="text-md text-bold mt-4 text-inform">Consumer Rights and Responsibilities
+                                </h3>
+                                <p class="text2 mb-0">
+                                    Under consumer protection laws, retailers must ensure price displays are clear,
+                                    accurate, and
+                                    not misleading. When discrepancies occur, consumers have the right to:
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p class="text2 mb-0 pb-0">
+                                            Challenge incorrect pricing
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="text2 mb-0 pb-0">
+                                            Request verification of displayed prices
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2 mb-0 pb-0">
+                                            Provide evidence (such as photographs) of displayed prices
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2 mb-0 pb-0">
+                                            Escalate issues to store management
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2 mb-0 pb-0">
+                                            Report persistent problems to consumer protection authorities
+
+                                        </p>
+                                    </li>
+
+                                </ul>
+
+                                <h3 class="text-md text-bold mt-3 text-inform">Key Takeaways
+
+                                </h3>
+                                <p class="text2 mb-1 pb-0">
+                                    This case demonstrates several crucial points for consumers:
+                                </p>
+                                <ol>
+                                    <li>
+                                        <p class="text2 mb-1 pb-0">
+                                            <b>Always check prices: </b>Compare displayed prices with those charged at
+                                            checkout
+
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="text2 mb-1 pb-0">
+                                            <b>Keep evidence:</b> When possible, photograph price displays if they seem
+                                            unusually
+                                            low or if you suspect potential issues
+
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2 mb-1 pb-0">
+                                            <b> Stand firm:</b> Politely but firmly insist on your consumer rights
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2 mb-1 pb-0">
+                                            <b>Escalate when necessary: </b>Don't hesitate to request supervisor or
+                                            manager
+                                            intervention
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2 mb-1 pb-0">
+                                            <b> Report violations:</b> Document and report systematic pricing issues to
+                                            relevant
+                                            consumer protection organisations
+
+                                        </p>
+                                    </li>
+
+                                </ol>
+                                <h3 class="text-md text-bold mt-4 text-inform">Consumer Action Points </h3>
+                                <p class="text2 mb-0 pb-0">
+                                    If you encounter price discrepancies:
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p class="text2 mb-0 pb-0">
+                                            Immediately bring it to the attention of store staff
+
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="text2 mb-0 pb-0">
+                                            Request verification of the displayed price
+
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2 mb-0 pb-0">
+                                            Document the discrepancy with photos if possible
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2 mb-0 pb-0">
+                                            Ask to speak with a manager if initial attempts to resolve the issue are
+                                            unsuccessful
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2 mb-0 pb-0">
+                                            Report significant or repeated violations to consumer protection authorities
+
+                                        </p>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                            <div class="col-lg-8">
+                                <div class="">
+                                    <p class="text-lg mb-0 pb-0" style="line-height:30px !important"><b>Consumer
+                                            Watchdog- CPB Calls for Fair Treatment</b></p>
+                                    <p class="text-sm text-gray text-secondry">Crawley 24th November 2024</p>
+                                </div>
+                                <h3 class="text-md text-bold  text-alert text-start">Standing Up for Consumer
+                                    Rights: Misleading Pricing at Asda</h3>
+                                <p class="text">
+                                    In an incident happened today at an Asda store in West Sussex, a vigilant consumer
+                                    successfully
+                                    challenged misleading price labelling, highlighting the importance of consumer
+                                    awareness and
+                                    advocacy. The case serves as a reminder that shoppers must remain alert and prepared
+                                    to assert
+                                    their rights when faced with pricing discrepancies.
+                                </p>
+                                <div class="">
+                                    <h3 class="text-md text-bold text-alert">The Incident</h3>
+                                    <p class="text">
+                                        A customer visiting the West Sussex Asda store selected pineapples clearly
+                                        labelled at £0.99
+                                        each (as shown on the photo below). However, upon reaching the checkout, they
+                                        were charged £1.91
+                                        per pineapple - nearly double the displayed price. When the customer questioned
+                                        this
+                                        discrepancy, the following events unfolded:
+                                    </p>
+                                    <ol>
+                                        <li>
+                                            <p class="text">
+                                                The customer immediately raised the issue with the cashier, citing the
+                                                displayed price
+                                            </p>
+                                        </li>
+
+                                        <li>
+                                            <p class="text">
+                                                A supervisor was called to verify the customer's claim
+
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text">
+                                                The supervisor confirmed the £0.99 price display
+
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text">
+                                                Despite this confirmation, customer service initially refused to honour
+                                                the displayed
+                                                price
+
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text">
+                                                Only after the customer identified themselves as a Consumer Protection
+                                                Bureau (CPB)
+                                                member and provided photographic evidence did management agree to honour
+                                                the advertised
+                                                price
+
+                                            </p>
+                                        </li>
+
+                                    </ol>
+                                </div>
+
+                                <div class="">
+                                    <h3 class="text-md text-bold text-alert">A Pattern of Concern</h3>
+                                    <p class="text">
+                                        This incident is particularly troubling as it appears to be part of a broader
+                                        pattern. Similar
+                                        pricing discrepancies have been reported at Asda stores previously, raising
+                                        concerns about
+                                        systematic issues in price display accuracy. Consumers who don't carefully check
+                                        their receipts
+                                        may unknowingly pay more than the advertised prices.
+                                    </p>
+                                </div>
+                                <h3 class="text-md text-bold mt-4 text-alert">Moving Forward</h3>
+                                <p class="text">
+                                    The <b>Consumer Protection Bureau</b> continues to monitor such incidents and
+                                    encourages consumers to
+                                    report similar experiences. Remember: your vigilance not only protects your own
+                                    rights but also
+                                    helps maintain fair trading practices for all consumers.
+                                </p>
+
+                                <p class="text-md text-alert">
+                                    Remember, an informed and assertive consumer is the best defence against unfair
+                                    trading
+                                    practices. Don't hesitate to stand up for your rights - they exist to protect you.
+                                </p>
+                                <p class="text2">
+                                    This article was published by the Consumer Protection Bureau as part of our ongoing
+                                    commitment
+                                    to consumer advocacy and education.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="py-lg-5 py-4 bg-light about-hero">
         <div class="container">
             <div class="row justify-content-center align-items-start">
                 <div class="col-lg-10 mx-auto text-center">
-                    <span class="text-danger text-center alert-text">Consumer Alert: </span>
-                    <h1 class="main-heading text-center text-uppercase  mt-2">
-                    Price Display Discrepancy at Asda Store
+                    <!-- <span class="text-danger text-center alert-text">CONSUMER ALERT NEWS</span> -->
+                    <h1 class="news-heading text-center text-uppercase  mt-2">
+                        Price Display Discrepancy at Asda Store
                     </h1>
                     <h2 class="text-md text-center mb-1">
-                    Consumer Watchdog- CPB Calls for Fair Treatment</h2>
+                        Consumer Watchdog- CPB Calls for Fair Treatment</h2>
                     <p class="text-md text-gray text-secondry">Crawley 24th November 2024</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
-        <div class="container pb-5 ">
-            <div class="row mb-lg-0 mb-4">
-                <div class="col-lg-12">
-                   <h3 class="text-md text-bold">Standing Up for Consumer Rights: Misleading Pricing at Asda</h3>
-                   <p class="text">
-                   In an incident happened today at an Asda store in West Sussex, a vigilant consumer successfully challenged misleading price labelling, highlighting the importance of consumer awareness and advocacy. The case serves as a reminder that shoppers must remain alert and prepared to assert their rights when faced with pricing discrepancies.
-                   </p>
-                   <img src="../assets/images/news/consumer-protection-bureau-alert-news-Asda Store.jpeg"
-                             alt="Consumet Protection Bureau Uk Alert News about Asda Store " 
-                             class="w-100">
-                </div>
-                
-                <div class="col-lg-12">
-                   <h3 class="text-md text-bold mt-4">The Incident</h3>
-                   <p class="text">
-                   A customer visiting the West Sussex Asda store selected pineapples clearly labelled at £0.99 each (as shown on the photo below). However, upon reaching the checkout, they were charged £1.91 per pineapple - nearly double the displayed price. When the customer questioned this discrepancy, the following events unfolded:
-                   </p>
-                   <ol>
-                    <li>
-                        <p class="text">
-                        The customer immediately raised the issue with the cashier, citing the displayed price
-                        </p>
-                    </li>
 
-                    <li>
-                        <p class="text">
-                        A supervisor was called to verify the customer's claim
-
-                        </p>
-                    </li>
-                    <li>
-                        <p class="text">
-                        The supervisor confirmed the £0.99 price display
-
-                        </p>
-                    </li>
-                    <li>
-                        <p class="text">
-                        Despite this confirmation, customer service initially refused to honour the displayed price
-
-                        </p>
-                    </li>
-                    <li>
-                        <p class="text">
-                        Only after the customer identified themselves as a Consumer Protection Bureau (CPB) member and provided photographic evidence did management agree to honour the advertised price
-
-                        </p>
-                    </li>
-                 
-                   </ol>
-                </div>
-
-                <div class="col-lg-12">
-                <h3 class="text-md text-bold">A Pattern of Concern</h3>
-                   <p class="text">
-                   This incident is particularly troubling as it appears to be part of a broader pattern. Similar pricing discrepancies have been reported at Asda stores previously, raising concerns about systematic issues in price display accuracy. Consumers who don't carefully check their receipts may unknowingly pay more than the advertised prices.
-                   </p>
-                </div>
-                <div class="col-lg-12">
-                <img src="assets/images/Consumer Protection Bureau UK - Consumer Laws UK.jpg"
-                             alt="Consumer Protection Laws UK " 
-                             class="w-100">
-
-
-                             <h3 class="text-md text-bold mt-4">Consumer Rights and Responsibilities
-
-</h3>
-                   <p class="text">
-                   Under consumer protection laws, retailers must ensure price displays are clear, accurate, and not misleading. When discrepancies occur, consumers have the right to:
-
-
-                   </p>
-                   <ul>
-                    <li>
-                        <p class="text">
-                        Challenge incorrect pricing
-                        </p>
-                    </li>
-
-                    <li>
-                        <p class="text">
-                        Request verification of displayed prices
-
-                        </p>
-                    </li>
-                    <li>
-                        <p class="text">
-                        Provide evidence (such as photographs) of displayed prices
-
-                        </p>
-                    </li>
-                    <li>
-                        <p class="text">
-                        Escalate issues to store management
-
-                        </p>
-                    </li>
-                    <li>
-                        <p class="text">
-                        Report persistent problems to consumer protection authorities
-
-                        </p>
-                    </li>
-                 
-                   </ul>
-
-                   <h3 class="text-md text-bold mt-4">Key Takeaways
-
-</h3>
-                   <p class="text">
-                   This case demonstrates several crucial points for consumers:
-                   </p>
-                   <ol>
-                    <li>
-                        <p class="text">
-                        <b>Always check prices: </b>Compare displayed prices with those charged at checkout
-
-                        </p>
-                    </li>
-
-                    <li>
-                        <p class="text">
-                        <b>Keep evidence:</b> When possible, photograph price displays if they seem unusually low or if you suspect potential issues
-
-
-                        </p>
-                    </li>
-                    <li>
-                        <p class="text">
-                       <b> Stand firm:</b> Politely but firmly insist on your consumer rights
-
-                        </p>
-                    </li>
-                    <li>
-                        <p class="text">
-                        <b>Escalate when necessary: </b>Don't hesitate to request supervisor or manager intervention
-
-                        </p>
-                    </li>
-                    <li>
-                        <p class="text">
-                       <b> Report violations:</b> Document and report systematic pricing issues to relevant consumer protection organisations
-
-                        </p>
-                    </li>
-                 
-                   </ol>
-
-                   
-                   <h3 class="text-md text-bold mt-4">Moving Forward</h3>
-                   <p class="text">
-                   The Consumer Protection Bureau continues to monitor such incidents and encourages consumers to report similar experiences. Remember: your vigilance not only protects your own rights but also helps maintain fair trading practices for all consumers.
-                   </p>
-
-                   <h3 class="text-md text-bold mt-4">Consumer Action Points
-
-
-
-</h3>
-                   <p class="text">
-                   If you encounter price discrepancies:
-
-
-                   </p>
-                   <ul>
-                    <li>
-                        <p class="text">
-                        Immediately bring it to the attention of store staff
-
-                        </p>
-                    </li>
-
-                    <li>
-                        <p class="text">
-                        Request verification of the displayed price
-
-
-                        </p>
-                    </li>
-                    <li>
-                        <p class="text">
-                        Document the discrepancy with photos if possible
-
-                        </p>
-                    </li>
-                    <li>
-                        <p class="text">
-                        Ask to speak with a manager if initial attempts to resolve the issue are unsuccessful
-
-                        </p>
-                    </li>
-                    <li>
-                        <p class="text">
-                        Report significant or repeated violations to consumer protection authorities
-
-                        </p>
-                    </li>
-                 
-                   </ul>
-                   <p class="text-md">
-                   Remember, an informed and assertive consumer is the best defence against unfair trading practices. Don't hesitate to stand up for your rights - they exist to protect you.
-                   </p>
-                   <p class="text-md">
-                   This article was published by the Consumer Protection Bureau as part of our ongoing commitment to consumer advocacy and education.
-
-
-                   </p>
-                </div>
-                
-
-            </div>
-        </div>
-    </section>
 
     <section class="py-lg-5 py-4 ">
         <div class="container">

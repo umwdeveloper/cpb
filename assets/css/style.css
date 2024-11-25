@@ -707,6 +707,37 @@ body {
     font-weight: 600;
 
 }
+.news-wrapper{
+    border: 1px solid var(--primary);
+    background-color: #FEE8CF;
+}
+.news-heading{
+    color: var(--primary);
+    font-size: 48px;
+    font-weight: 700 !important;
+    font-family: "Montserrat", sans-serif;
+   color: black;
+}
+.news-heading span{
+    font-weight: 900;
+}
+.asada-image{
+    border: 2px solid #E00606;
+    border-radius: 3px;
+}
+.text-alert{
+    color: #E00606;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.text-inform{
+    color: #FFF101;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.text2{
+    font-size: 14px;
+}
 @media only screen and (min-width:1900px){
   body{
     max-width: 1440px;
