@@ -239,26 +239,26 @@ if (isset($_POST['contact'])) {
                                     </p>
                                     <ol>
                                         <li>
-                                            <p class="text">
+                                            <p class="text mb-0 pb-0">
                                                 The customer immediately raised the issue with the cashier, citing the
                                                 displayed price
                                             </p>
                                         </li>
 
                                         <li>
-                                            <p class="text">
+                                            <p class="text mb-0 pb-0">
                                                 A supervisor was called to verify the customer's claim
 
                                             </p>
                                         </li>
                                         <li>
-                                            <p class="text">
+                                            <p class="text mb-0 pb-0">
                                                 The supervisor confirmed the £0.99 price display
 
                                             </p>
                                         </li>
                                         <li>
-                                            <p class="text">
+                                            <p class="text mb-0 pb-0">
                                                 Despite this confirmation, customer service initially refused to honour
                                                 the displayed
                                                 price
@@ -266,7 +266,7 @@ if (isset($_POST['contact'])) {
                                             </p>
                                         </li>
                                         <li>
-                                            <p class="text">
+                                            <p class="text mb-0 pb-0">
                                                 Only after the customer identified themselves as a Consumer Protection
                                                 Bureau (CPB)
                                                 member and provided photographic evidence did management agree to honour
