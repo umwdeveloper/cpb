@@ -261,23 +261,24 @@ $feedbacks = findAll("feedbacks");
 
 
     </section>
-    
+
 
     <section class="alert-news-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="home-alert d-flex align-items-center ">
-                        <div class="d-flex  align-items-center">
-                           <div class="announcement-iameg">
-                           <img src="assets/images/cpb-announcement.png"
-                           alt="consumer protection bureau uk news alrts"  class="img-fluid cpb-announcement">
-                           </div>
-                            <div class="home-alert-text ms-4">
+                        <div class="d-flex flex-lg-row flex-column align-items-center">
+                            <div class="announcement-iameg">
+                                <img src="assets/images/cpb-announcement.png"
+                                    alt="consumer protection bureau uk news alrts" class="img-fluid cpb-announcement">
+                            </div>
+                            <div class="home-alert-text ms-lg-4">
                                 <h2 class="mb-3">CONSUMER <span>ALERT</span> NEWS</h2>
-                                <div >
+                                <div>
                                     <a href="news/price-display-discrepancy-at-asada-store.php">
-                                       Price Display Discrepancy at <span>Asda Store</span> <span><i class="bi bi-chevron-double-right"></i></span>
+                                        Price Display Discrepancy at <span>Asda Store</span> <span><i
+                                                class="bi bi-chevron-double-right"></i></span>
                                     </a>
                                 </div>
                             </div>
@@ -657,17 +658,20 @@ $feedbacks = findAll("feedbacks");
 
                         <li>
                             <a href="faq.php#faq-3" class="faq-text text-decoration-none ">
-                                <i class="bi bi-arrow-right-circle-fill me-2"></i> What benefits does CPB offer to consumers?
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> What benefits does CPB offer to
+                                consumers?
                             </a>
                         </li>
                         <li>
                             <a href="faq.php#faq-4" class="faq-text text-decoration-none ">
-                                <i class="bi bi-arrow-right-circle-fill me-2"></i> How does CPB help consumers with claims?
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> How does CPB help consumers with
+                                claims?
                             </a>
                         </li>
                         <li>
                             <a href="faq.php#faq-5" class="faq-text text-decoration-none ">
-                                <i class="bi bi-arrow-right-circle-fill me-2"></i> How much does CPB charge for its services?
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> How much does CPB charge for its
+                                services?
                             </a>
                         </li>
                         <li>
@@ -677,22 +681,25 @@ $feedbacks = findAll("feedbacks");
                         </li>
                         <li>
                             <a href="faq.php#faq-7" class="faq-text text-decoration-none ">
-                                <i class="bi bi-arrow-right-circle-fill me-2"></i> What kind of complaints can I bring to CPB?
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> What kind of complaints can I bring
+                                to CPB?
                             </a>
                         </li>
                         <li>
                             <a href="faq.php#faq-8" class="faq-text text-decoration-none ">
-                                <i class="bi bi-arrow-right-circle-fill me-2"></i>What laws and regulations does CPB ensure compliance with?
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i>What laws and regulations does CPB
+                                ensure compliance with?
                             </a>
                         </li>
                         <li>
                             <a href="faq.php#faq-9" class="faq-text text-decoration-none ">
-                                <i class="bi bi-arrow-right-circle-fill me-2"></i>  Who does CPB work with?
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> Who does CPB work with?
                             </a>
                         </li>
                         <li>
                             <a href="faq.php#faq-10" class="faq-text text-decoration-none ">
-                                <i class="bi bi-arrow-right-circle-fill me-2"></i> What should I do if I have a complaint?
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> What should I do if I have a
+                                complaint?
                             </a>
                         </li>
                         <li>
@@ -702,7 +709,8 @@ $feedbacks = findAll("feedbacks");
                         </li>
                         <li>
                             <a href="faq.php#faq-12" class="faq-text text-decoration-none ">
-                                <i class="bi bi-arrow-right-circle-fill me-2"></i> How long does the claims process take?
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> How long does the claims process
+                                take?
                             </a>
                         </li>
                         <li>

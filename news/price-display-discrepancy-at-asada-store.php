@@ -65,7 +65,7 @@ if (isset($_POST['contact'])) {
                 <div class="col-lg-10 mx-auto news-wrapper p-0">
                     <img src="assets/images/consumer-protection-bureau-alert-news.png" alt="" class="w-100 h-auto">
 
-                    <div class="px-lg-5 ">
+                    <div class="px-lg-5 px-3">
                         <h1 class="news-heading text-uppercase  my-3">
                             Price Display Discrepancy at <span class="text-alert"> Asda Store
 
@@ -76,7 +76,7 @@ if (isset($_POST['contact'])) {
                             class="w-100 asada-image shadow ">
                         <div class="row mt-4 mb-4">
 
-                            <div class="col-lg-4 bg-dark text-white">
+                            <div class="col-lg-4 bg-dark text-white order-lg-1 order-2">
                                 <h3 class="text-md text-bold mt-4 text-inform">Consumer Rights and Responsibilities
                                 </h3>
                                 <p class="text2 mb-0">
@@ -209,7 +209,7 @@ if (isset($_POST['contact'])) {
 
                             </div>
 
-                            <div class="col-lg-8">
+                            <div class="col-lg-8 order-lg-2 order-1">
                                 <div class="">
                                     <p class="text-lg mb-0 pb-0" style="line-height:30px !important"><b>Consumer
                                             Watchdog- CPB Calls for Fair Treatment</b></p>
