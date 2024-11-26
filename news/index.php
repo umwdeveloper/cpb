@@ -89,7 +89,7 @@ if (isset($_POST['contact'])) {
                             <p class="text mb-0 pb-0">
                             In an incident happened today at an Asda store in West Sussex, a vigilant consumer successfully challenged misleading price labelling, highlighting the importance of consumer awareness and advocacy. The case serves as a reminder that shoppers must remain alert and prepared to assert their rights when faced with pricing discrepancies.
                             </p>
-                            <div class="news-card-btn mt-4 mb-2">
+                            <div class="news-card-btn mt-4 mb-2 text-end">
                             <a href="price-display-discrepancy-at-asada-store.php" class="news-alert-btn">Read More</a>
                          </div>
                          </div>

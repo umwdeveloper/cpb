@@ -70,10 +70,10 @@
                             <a class="nav-link" href="membership.php">membership
                             </a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="consumer-issues.php">Consumer Issues
+                        <li class="nav-item">
+                            <a class="nav-link news-menu" href="news/">Consumer Alert News
                             </a>
-                        </li> -->
+                        </li>
                         <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -92,7 +92,7 @@
                             </a>
                             <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item nav-link" href="blog/index.php">Blog</a></li>
-                                <li><a class="dropdown-item nav-link" href="news/">Consumer Alert News</a></li>
+                                <!-- <li><a class="dropdown-item nav-link" href="news/">Consumer Alert News</a></li> -->
                                 <li><a class="dropdown-item nav-link" href="advocacy.php">Advocacy</a></li>
 
                                 <li><a class="dropdown-item nav-link" href="archive.php">Archive</a></li>
