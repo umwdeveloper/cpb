@@ -28,7 +28,8 @@ if (isset($_POST['contact'])) {
 
 <head>
     <title>Price Display Discrepancy at Asda Store - Consumer Alert News - (CPB)</title>
-    <meta name="description" content="Stay updated with the Consumer Protection Bureau UK. Explore the latest consumer alerts, UK consumer laws, and protection tips from a trusted agency.">
+    <meta name="description"
+        content="Stay updated with the Consumer Protection Bureau UK. Explore the latest consumer alerts, UK consumer laws, and protection tips from a trusted agency.">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -47,7 +48,8 @@ if (isset($_POST['contact'])) {
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/news/price-display-discrepancy-at-asada-store.php">
+    <link rel="canonical"
+        href="https://www.consumerprotectionbureau.co.uk/news/price-display-discrepancy-at-asada-store.php">
 
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -62,10 +64,11 @@ if (isset($_POST['contact'])) {
             <div class="row justify-content-center align-items-start">
                 <div class="col-lg-10 mx-auto ">
                     <h1 class="main-heading text-center text-uppercase  mt-2">
-                    Consumer Alerts and News
+                        Consumer Alerts and News
                     </h1>
                     <p class="text-md text-center">
-                    Stay informed with the latest updates on UK consumer protection laws, scam alerts, product recalls, and industry news to help safeguard your rights and make informed decisions.
+                        Stay informed with the latest updates on UK consumer protection laws, scam alerts, product
+                        recalls, and industry news to help safeguard your rights and make informed decisions.
                     </p>
                 </div>
             </div>
@@ -76,28 +79,31 @@ if (isset($_POST['contact'])) {
             <div class="row mb-lg-0 mb-4">
                 <div class="col-lg-4">
                     <div class="news-card shadow-sm">
-                         <div class="news-card-image">
+                        <div class="news-card-image">
                             <img src="../assets/images/news/consumer-protection-bureau-alert-news-Asda Store.jpeg"
-                             alt="Consumet Protection Bureau Uk Alert News about Asda Store " 
-                             class="">
-                         </div>
-                         <div class="news-card-text">
+                                alt="Consumet Protection Bureau Uk Alert News about Asda Store " class="">
+                        </div>
+                        <div class="news-card-text">
                             <span>24th November 2024</span>
                             <h2>
-                            Price Display Discrepancy at Asda Store
+                                Price Display Discrepancy at Asda Store
                             </h2>
                             <p class="text mb-0 pb-0">
-                            In an incident happened today at an Asda store in West Sussex, a vigilant consumer successfully challenged misleading price labelling, highlighting the importance of consumer awareness and advocacy. The case serves as a reminder that shoppers must remain alert and prepared to assert their rights when faced with pricing discrepancies.
+                                In an incident happened today at an Asda store in West Sussex, a vigilant consumer
+                                successfully challenged misleading price labelling, highlighting the importance of
+                                consumer awareness and advocacy. The case serves as a reminder that shoppers must remain
+                                alert and prepared to assert their rights when faced with pricing discrepancies.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                            <a href="price-display-discrepancy-at-asada-store.php" class="news-alert-btn">Read More</a>
-                         </div>
-                         </div>
-                       
+                                <a href="price-display-discrepancy-at-asada-store.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
-                
+
 
             </div>
         </div>

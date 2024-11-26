@@ -261,26 +261,26 @@ $feedbacks = findAll("feedbacks");
 
 
     </section>
-    <section class="fight-section">
+    
+
+    <section class="alert-news-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 ">
-                    <div class="fight-card text-center px-lg-5">
-                        <h2 class="secondry-heading text-white">
-                            FIGHTING FOR CONSUMER RIGHTS SINCE 2011
-
-                        </h2>
-                        <p class="text py-2 text-white text-center ">
-                            Do you currently have a consumer complaint against a service provider, retailer, or
-                            product manufacturer,
-                            and the outcome is unsatisfactory?We can help you exercise your consumer rights and
-                            navigate consumer
-                            protection laws to get the resolution you deserve.
-
-                        </p>
-                        <div class="mt-4 text-center">
-                            <a href="contact.php" class="main-btn text-white">Contact
-                                Us</a>
+                <div class="col-lg-12">
+                    <div class="home-alert d-flex align-items-center ">
+                        <div class="d-flex  align-items-center">
+                           <div class="announcement-iameg">
+                           <img src="assets/images/cpb-announcement.png"
+                           alt="consumer protection bureau uk news alrts"  class="img-fluid cpb-announcement">
+                           </div>
+                            <div class="home-alert-text ms-4">
+                                <h2 class="mb-3">CONSUMER <span>ALERT</span> NEWS</h2>
+                                <div >
+                                    <a href="news/price-display-discrepancy-at-asada-store.php">
+                                       Price Display Discrepancy at <span>Asda Store</span> <span><i class="bi bi-chevron-double-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -355,11 +355,36 @@ $feedbacks = findAll("feedbacks");
             </div>
         </div>
     </section>
+    <section class="fight-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="fight-card text-center px-lg-5">
+                        <h2 class="secondry-heading text-white">
+                            FIGHTING FOR CONSUMER RIGHTS SINCE 2011
 
+                        </h2>
+                        <p class="text py-2 text-white text-center ">
+                            Do you currently have a consumer complaint against a service provider, retailer, or
+                            product manufacturer,
+                            and the outcome is unsatisfactory?We can help you exercise your consumer rights and
+                            navigate consumer
+                            protection laws to get the resolution you deserve.
+
+                        </p>
+                        <div class="mt-4 text-center">
+                            <a href="contact.php" class="main-btn text-white">Contact
+                                Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <section class="py-lg-5 py-4 bg-light">
-        <div class="container">
+        <div class="container pt-5">
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="main-heading text-center text-uppercase mb-lg-5 mb-3 mt-2">
