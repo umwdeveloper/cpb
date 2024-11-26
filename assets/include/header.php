@@ -88,7 +88,7 @@
                             <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Learn More
+                                 More
                             </a>
                             <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item nav-link" href="blog/index.php">Blog</a></li>

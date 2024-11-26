@@ -703,6 +703,14 @@ body {
     animation: rainbow-animation2 250s linear infinite, zoom-animation2 2s ease-in-out infinite;
  
 }
+.news-menu{
+    background-image: 
+    linear-gradient(to right, red,green,#223A78 ,yellow, red); 
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  animation: rainbow-animation 150s linear infinite, zoom-animation 2s ease-in-out infinite;
+ 
+}
 @keyframes rainbow-animation2 {
     to {
         background-position: 4500vh;
@@ -756,14 +764,7 @@ body {
 .text2{
     font-size: 14px;
 }
-.news-menu{
-    background-image: 
-    linear-gradient(to right, red,green,#223A78 ,yellow, red); 
-  -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;  
-  animation: rainbow-animation 150s linear infinite, zoom-animation 2s ease-in-out infinite;
- 
-}
+
 
 .home-alert{
     background: url('../images/CPB-alrt-news.png');

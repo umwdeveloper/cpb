@@ -46,6 +46,28 @@
             display:block !important;
             /* width: 100px !important; */
         }
+        .news-menu{
+    background-image: 
+    linear-gradient(to right, red,green,#223A78 ,yellow, red); 
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  animation: rainbow-animation 150s linear infinite, zoom-animation 2s ease-in-out infinite;
+ 
+}
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+
+@keyframes zoom-animation {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
     </style>
 
 </head>
@@ -150,16 +172,19 @@
                                 <a class="nav-link" href="<?php echo ROOT_PATH ?>membership.php">membership
                                 </a>
                             </li>
+                            <li class="nav-item">
+                            <a class="nav-link news-menu" href="<?php echo ROOT_PATH ?>news/">Consumer Alert News
+                            </a>
+                        </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle position-relative" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    Learn More
+                                   More
                                 </a>
                                 <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item nav-link active-nav"
                                             href="<?php echo ROOT_PATH ?>blog">Blog</a></li>
-                                    <li><a class="dropdown-item nav-link"
-                                            href="<?php echo ROOT_PATH ?>news/">Consumer Alert News</a></li>
+                                   
                                     <li><a class="dropdown-item nav-link"
                                             href="<?php echo ROOT_PATH ?>advocacy.php">Advocacy</a></li>
                                     <li><a class="dropdown-item nav-link"
