@@ -765,6 +765,20 @@ body {
 .shopping-tips ul{
     list-style: disc;
 }
+.subtitle-bullet{
+    padding-left: 30px;
+    position: relative;
+}
+.subtitle-bullet::before{
+    content: ' ';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background-color: #223A78;
+}
 .w-700{
     font-weight: 700;
 }

@@ -71,7 +71,7 @@ if (isset($_POST['contact'])) {
                             Smart Shopping Tips for <span class="text-alert"> Black Friday & Cyber Monday </span>
 
                         </h1>
-                        <h4>Avoid Overspending and Protect Yourself from Scams</h4>
+                        <h4 class="subtitle-bullet">Avoid Overspending and Protect Yourself from Scams</h4>
                         <p class="text">
                             Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24) present a fantastic opportunity to score big savings, but it’s
                             important to approach the sales with caution. With a little planning and awareness, you can
