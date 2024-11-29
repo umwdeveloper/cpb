@@ -768,6 +768,7 @@ body {
 .subtitle-bullet{
     padding-left: 30px;
     position: relative;
+    font-size: 25px;
 }
 .subtitle-bullet::before{
     content: ' ';
@@ -791,7 +792,15 @@ body {
     font-size: 14px;
 }
 
-
+.alert-news-section{
+    margin-top: -60px;
+    position: relative;
+    z-index: 10;
+}
+.slick-next:before,
+.slick-prev:before{
+    color: #223A78 !important;
+}
 .home-alert{
     background: url('../images/CPB-alrt-news.png');
     background-size: cover;
@@ -803,7 +812,7 @@ body {
     padding: 30px 30px;
     border-radius: 6px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-      margin-top: -60px;
+     
 }
 .cpb-announcement{
     height: 200px;
@@ -813,7 +822,7 @@ body {
     font-family: "Montserrat", sans-serif !important;
     font-weight: 700 !important;
     background-image: 
-    linear-gradient(to right, red,green,white ,yellow, red); 
+    linear-gradient(to right, red,white ,yellow, red); 
   -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
   animation: rainbow-animation 150s linear infinite;
@@ -874,7 +883,14 @@ body {
 }
 @media only screen and (max-width:1200px) {
     .home-alert-text h2{
-        font-size: 42px;
+        font-size: 32px;
+    }
+    .home-alert{
+        min-height: 540px !important;
+        background:linear-gradient(#223a78a4,#223A78), url('../images/contact-form.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
     }
     .home-alert-text a{
         font-size: 24px;
@@ -982,8 +998,22 @@ body {
     .navbar {
         padding: 0px;
     }
+    .subtitle-bullet{
+        padding-left: 25px;
+        font-size: 20px;
+    }
 
-
+    .slick-next:before,
+    .slick-prev:before{
+        color: white !important;
+    }
+    
+    .slick-next{
+       right: 13px !important;
+    }
+    .slick-prev{
+        left: 13px !important
+    }
     .menu-header-container {
         border-radius: 0px;
     }

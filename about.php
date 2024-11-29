@@ -145,7 +145,7 @@ $feedbacks = findAll("feedbacks");
                     </h2>
                 </div>
                 <div class="col-lg-12">
-                    <div class="slick-slider">
+                    <div class="slick-slider quote-slider">
                         <?php foreach ($feedbacks as $count => $feedback): ?>
                         <div class="element element-<?php echo ++$count; ?>">
                             <div class="amenity-card quote-card">

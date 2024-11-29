@@ -77,7 +77,7 @@ if (isset($_POST['contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4">
-                <div class="col-lg-4">
+                <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
                             <img src="../assets/images/news/consumer-protection-bureau-alert-news-Asda Store.jpeg"
@@ -103,7 +103,31 @@ if (isset($_POST['contact'])) {
                     </div>
                 </div>
 
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image">
+                            <img src="../assets/images/news/black-friday.webp"
+                                alt="Consumet Protection Bureau Uk Alert News about Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24)  " class="">
+                        </div>
+                        <div class="news-card-text">
+                            <span class="" style="opacity:0">Black Friday (29th Nov 24) </span>
+                            <h2>
+                            Avoid Overspending and Protect Yourself from Scams
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                            Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24) present a fantastic opportunity to
+                            score big savings, but it’s
+                            important to approach the sales with caution. With a little planning and awareness, you can
+                            make wise purchases, avoid poor-quality products, and steer clear of fraud.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="black-friday-tips.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
 
             </div>
         </div>

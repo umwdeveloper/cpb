@@ -71,9 +71,10 @@ if (isset($_POST['contact'])) {
                             Smart Shopping Tips for <span class="text-alert"> Black Friday & Cyber Monday </span>
 
                         </h1>
-                        <h4 class="subtitle-bullet">Avoid Overspending and Protect Yourself from Scams</h4>
+                        <h3 class="subtitle-bullet">Avoid Overspending and Protect Yourself from Scams</h3>
                         <p class="text">
-                            Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24) present a fantastic opportunity to score big savings, but it’s
+                            Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24) present a fantastic opportunity to
+                            score big savings, but it’s
                             important to approach the sales with caution. With a little planning and awareness, you can
                             make wise purchases, avoid poor-quality products, and steer clear of fraud.
                         </p>
@@ -204,7 +205,8 @@ if (isset($_POST['contact'])) {
                                                 list.</li>
                                         </ul>
                                     </li>
-                                    <li><span class="text-md text-bold text-primary w-700">2. Research Prices to Spot Genuine
+                                    <li><span class="text-md text-bold text-primary w-700">2. Research Prices to Spot
+                                            Genuine
                                             Deals:</span>
                                         <ul>
                                             <li class="text2">Use price comparison tools or apps to verify discounts.
@@ -224,7 +226,8 @@ if (isset($_POST['contact'])) {
                                             <li class="text2">Avoid buying items solely because they’re discounted.</li>
                                         </ul>
                                     </li>
-                                    <li><span class="text-md text-bold text-primary w-700">4. Be Cautious About Faulty or
+                                    <li><span class="text-md text-bold text-primary w-700">4. Be Cautious About Faulty
+                                            or
                                             Low-Quality Products:</span>
                                         <ul>
                                             <li class="text2">Watch out for sellers who offload defective or refurbished
@@ -245,7 +248,8 @@ if (isset($_POST['contact'])) {
                                                 be true,” it likely is.</li>
                                         </ul>
                                     </li>
-                                    <li><span class="text-md text-bold text-primary w-700">6. Inspect Products Before Buying
+                                    <li><span class="text-md text-bold text-primary w-700">6. Inspect Products Before
+                                            Buying
                                             (In-Store & Online):</span>
                                         <ul>
                                             <li class="text2">Examine physical items for damage or defects.</li>
@@ -253,7 +257,8 @@ if (isset($_POST['contact'])) {
                                                 online purchases.</li>
                                         </ul>
                                     </li>
-                                    <li><span class="text-md text-bold text-primary w-700">7. Factor in Hidden Costs:</span>
+                                    <li><span class="text-md text-bold text-primary w-700">7. Factor in Hidden
+                                            Costs:</span>
                                         <ul>
                                             <li class="text2">Be mindful of additional fees like shipping or handling
                                                 charges.</li>
@@ -269,7 +274,8 @@ if (isset($_POST['contact'])) {
                                                 period.</li>
                                         </ul>
                                     </li>
-                                    <li><span class="text-md text-bold text-primary w-700">9. Understand Return and Refund
+                                    <li><span class="text-md text-bold text-primary w-700">9. Understand Return and
+                                            Refund
                                             Policies:</span>
                                         <ul>
                                             <li class="text2">Always review return policies, especially for discounted

@@ -1,4 +1,4 @@
-$(".slick-slider").slick({
+$(".quote-slider").slick({
   slidesToShow: 3,
   infinite: true,
   slidesToScroll: 1,
@@ -36,7 +36,18 @@ $(".slick-slider").slick({
     // instead of a settings object
   ]
 });
-
+$(".news-slick").slick({
+  slidesToShow: 1,
+  infinite: true,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  // nav:false,
+  dots: false,
+  arrows: true,
+prevArrow: '<button class="slick-prev" aria-label="Previous" type="button">❮</button>',
+    nextArrow: '<button class="slick-next" aria-label="Next" type="button">❯</button>'
+});
 $(document).ready(function () {
   // Get the current URL path (e.g., 'index.php', 'about.php')
   var currentPage = window.location.pathname.split("/").pop();

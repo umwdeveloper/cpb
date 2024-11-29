@@ -79,6 +79,9 @@ $feedbacks = findAll("feedbacks");
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/">
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -267,23 +270,58 @@ $feedbacks = findAll("feedbacks");
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="home-alert d-flex align-items-center ">
-                        <div class="d-flex flex-lg-row flex-column align-items-center">
-                            <div class="announcement-iameg">
-                                <img src="assets/images/cpb-announcement.png"
-                                    alt="consumer protection bureau uk news alrts" class="img-fluid cpb-announcement">
+                    <div class="news-slick slick-slider  ">
+                        <div>
+                            <div class="home-alert d-flex align-items-center ">
+                                <div class="d-flex flex-lg-row flex-column align-items-center">
+                                    <div class="announcement-iameg">
+                                        <img src="assets/images/cpb-announcement.png"
+                                            alt="consumer protection bureau uk news alrts"
+                                            class="img-fluid cpb-announcement">
+                                    </div>
+                                    <div class="home-alert-text ms-lg-4">
+                                        <h2 class="mb-3">CONSUMER <span>ALERT</span> NEWS</h2>
+                                        <div>
+                                            <a href="news/price-display-discrepancy-at-asada-store.php">
+                                                Price Display Discrepancy at <span>Asda Store</span> <span><i
+                                                        class="bi bi-chevron-double-right"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="home-alert-text ms-lg-4">
-                                <h2 class="mb-3">CONSUMER <span>ALERT</span> NEWS</h2>
-                                <div>
-                                    <a href="news/price-display-discrepancy-at-asada-store.php">
-                                        Price Display Discrepancy at <span>Asda Store</span> <span><i
-                                                class="bi bi-chevron-double-right"></i></span>
-                                    </a>
+                        </div>
+                        <div>
+                            <div class="home-alert d-flex align-items-center ">
+                                <div class="d-flex flex-lg-row flex-column align-items-center">
+                                    <div class="announcement-iameg">
+
+                                        <img src="assets/images/black-friday-sale.png"
+                                            alt="Black Friday & Cyber Monday - Consumer protection bureau"
+                                            class="img-fluid cpb-announcement">
+                                    </div>
+                                    <div class="home-alert-text ms-lg-4">
+                                        <a href="news/black-friday-tips.php">
+                                        Smart Shopping Tips for
+                                            <h2 class="mb-3">
+                                                 <span class="text-alert"> Black Friday (29th Nov
+                                                    24)
+                                                    /Cyber Monday(2nd Dec 24) </span>
+
+                                            </h2>
+                                            <div>
+
+                                                Avoid Overspending and Protect Yourself from <span>Scams</span>
+                                                <span><i class="bi bi-chevron-double-right"></i></span>
+
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -607,7 +645,7 @@ $feedbacks = findAll("feedbacks");
                     </h2>
                 </div>
                 <div class="col-lg-12">
-                    <div class="slick-slider">
+                    <div class="slick-slider quote-slider">
                         <?php foreach ($feedbacks as $count => $feedback): ?>
                         <div class="element element-<?php echo ++$count; ?>">
                             <div class="amenity-card quote-card">
