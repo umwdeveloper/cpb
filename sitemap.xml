@@ -9,47 +9,68 @@
 
 <url>
   <loc>https://www.consumerprotectionbureau.co.uk/</loc>
-  <lastmod>2024-11-21T13:39:11+00:00</lastmod>
+  <lastmod>2024-11-29T15:26:28+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.consumerprotectionbureau.co.uk/about.php</loc>
-  <lastmod>2024-11-21T13:39:11+00:00</lastmod>
+  <lastmod>2024-11-29T15:26:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.consumerprotectionbureau.co.uk/why-choose-us.php</loc>
-  <lastmod>2024-11-21T13:39:11+00:00</lastmod>
+  <lastmod>2024-11-29T15:26:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.consumerprotectionbureau.co.uk/membership.php</loc>
-  <lastmod>2024-11-21T13:39:11+00:00</lastmod>
+  <lastmod>2024-11-29T15:26:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.consumerprotectionbureau.co.uk/news/</loc>
+  <lastmod>2024-11-29T15:26:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.consumerprotectionbureau.co.uk/blog/</loc>
-  <lastmod>2024-11-21T13:39:11+00:00</lastmod>
+  <lastmod>2024-11-29T15:26:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.consumerprotectionbureau.co.uk/advocacy.php</loc>
+  <lastmod>2024-11-29T15:26:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.consumerprotectionbureau.co.uk/archive.php</loc>
-  <lastmod>2024-11-21T13:39:11+00:00</lastmod>
+  <lastmod>2024-11-29T15:26:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.consumerprotectionbureau.co.uk/consumer-issues.php</loc>
-  <lastmod>2024-11-21T13:39:11+00:00</lastmod>
+  <lastmod>2024-11-29T15:26:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.consumerprotectionbureau.co.uk/faq.php</loc>
-  <lastmod>2024-11-21T13:39:11+00:00</lastmod>
+  <lastmod>2024-11-29T15:26:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.consumerprotectionbureau.co.uk/contact.php</loc>
-  <lastmod>2024-11-21T13:39:11+00:00</lastmod>
+  <lastmod>2024-11-29T15:26:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.consumerprotectionbureau.co.uk/news/price-display-discrepancy-at-asada-store.php</loc>
+  <lastmod>2024-11-29T15:26:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://www.consumerprotectionbureau.co.uk/news/black-friday-tips.php</loc>
+  <lastmod>2024-11-29T15:26:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 </urlset>
