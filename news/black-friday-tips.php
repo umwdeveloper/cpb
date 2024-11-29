@@ -63,62 +63,68 @@ if (isset($_POST['contact'])) {
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 mx-auto news-wrapper p-0 bg-gold">
-                    <img src="../assets/images/news/shopping-tips-black-friday.png" alt="Black Friday & Cyber Monday - Consumer protection bureau" class="w-100 h-auto">
+                    <img src="../assets/images/news/shopping-tips-black-friday.png"
+                        alt="Black Friday & Cyber Monday - Consumer protection bureau" class="w-100 h-auto">
 
                     <div class="px-lg-4 mx-2 px-3">
                         <h1 class="news-heading text-uppercase  my-3">
-                        Smart Shopping Tips for <span class="text-alert"> Black Friday & Cyber Monday </span>
-                         
+                            Smart Shopping Tips for <span class="text-alert"> Black Friday & Cyber Monday </span>
+
                         </h1>
                         <h5>Avoid Overspending and Protect Yourself from Scams</h5>
                         <p class="text">
-                        Black Friday/Cyber Monday present a fantastic opportunity to score big savings, but it’s important to approach the sales with caution. With a little planning and awareness, you can make wise purchases, avoid poor-quality products, and steer clear of fraud.
+                            Black Friday/Cyber Monday present a fantastic opportunity to score big savings, but it’s
+                            important to approach the sales with caution. With a little planning and awareness, you can
+                            make wise purchases, avoid poor-quality products, and steer clear of fraud.
                         </p>
                         <!-- <img src="../assets/images/news/consumer-protection-bureau-alert-news-Asda Store.jpeg"
                             alt="Consumet Protection Bureau Uk Alert News about Asda Store "
                             class="w-100 asada-image shadow "> -->
                         <div class="row mt-4 mb-4">
 
-                            <div class="col-lg-4 bg-dark text-white order-lg-1 order-2">
+                            <div class="col-lg-4 bg-primary text-white order-lg-1 order-2">
                                 <h3 class="text-md text-bold mt-3 text-inform">Consumer Rights
                                 </h3>
                                 <p class="text2 mb-0">
-                                At the <b>Consumer Protection Bureau</b>, we believe that informed consumers are empowered consumers. Understanding your rights and responsibilities is key to making confident purchasing decisions and resolving any issues that arise.
+                                    At the <b>Consumer Protection Bureau</b>, we believe that informed consumers are
+                                    empowered consumers. Understanding your rights and responsibilities is key to making
+                                    confident purchasing decisions and resolving any issues that arise.
 
 
-                            </p>
+                                </p>
                                 <ul>
                                     <li>
                                         <p class="text2 mb-0 pb-0">
-                                        <b>Safety:</b> Buy products that are safe and meet quality standards.
+                                            <b>Safety:</b> Buy products that are safe and meet quality standards.
                                         </p>
                                     </li>
 
                                     <li>
                                         <p class="text2 mb-0 pb-0">
-                                        <b>Information:</b> Access clear and accurate details about products and services.
+                                            <b>Information:</b> Access clear and accurate details about products and
+                                            services.
                                         </p>
                                     </li>
                                     <li>
                                         <p class="text2 mb-0 pb-0">
-                                       <b> Choice:</b> Enjoy a variety of options at fair prices.
+                                            <b> Choice:</b> Enjoy a variety of options at fair prices.
 
                                         </p>
                                     </li>
                                     <li>
                                         <p class="text2 mb-0 pb-0">
-                                        <b>Redress:</b> Request repair, replacement, or refunds for defective items.
+                                            <b>Redress:</b> Request repair, replacement, or refunds for defective items.
                                         </p>
                                     </li>
                                     <li>
                                         <p class="text2 mb-0 pb-0">
-                                        <b>Education:</b> Learn about your rights to make informed decisions.
+                                            <b>Education:</b> Learn about your rights to make informed decisions.
 
                                         </p>
                                     </li>
                                     <li>
                                         <p class="text2 mb-0 pb-0">
-                                        <b>Be Heard:</b> Raise concerns and have them addressed fairly.
+                                            <b>Be Heard:</b> Raise concerns and have them addressed fairly.
                                         </p>
                                     </li>
                                 </ul>
@@ -127,39 +133,44 @@ if (isset($_POST['contact'])) {
 
                                 </h3>
                                 <p class="text2 mb-1 pb-0">
-                                At the Consumer Protection Bureau, we are dedicated to protecting and empowering you:
+                                    At the Consumer Protection Bureau, we are dedicated to protecting and empowering
+                                    you:
 
                                 </p>
                                 <ol>
-                               
+
 
                                     <li>
                                         <p class="text2 mb-1 pb-0">
-                                           <b> Educate You:</b> Provide resources on your rights and smart shopping tips.
+                                            <b> Educate You:</b> Provide resources on your rights and smart shopping
+                                            tips.
                                         </p>
                                     </li>
                                     <li>
                                         <p class="text2 mb-1 pb-0">
-                                            <b>Resolve Complaints:</b> Help settle disputes with sellers or service providers.
+                                            <b>Resolve Complaints:</b> Help settle disputes with sellers or service
+                                            providers.
                                         </p>
                                     </li>
                                     <li>
                                         <p class="text2 mb-1 pb-0">
-                                        <b>Legal Support:</b> Offer guidance on legal options for serious issues.
-
-
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="text2 mb-1 pb-0">
-                                       <b> Raise Awareness:</b> Keep you updated on scams and new consumer protections.
+                                            <b>Legal Support:</b> Offer guidance on legal options for serious issues.
 
 
                                         </p>
                                     </li>
                                     <li>
                                         <p class="text2 mb-1 pb-0">
-                                        <b>Assist with Refunds: </b>Support you in securing returns, refunds, or compensation.
+                                            <b> Raise Awareness:</b> Keep you updated on scams and new consumer
+                                            protections.
+
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2 mb-1 pb-0">
+                                            <b>Assist with Refunds: </b>Support you in securing returns, refunds, or
+                                            compensation.
 
 
 
@@ -169,89 +180,118 @@ if (isset($_POST['contact'])) {
                                         </p>
                                     </li>
                                 </ol>
-                               
+
                                 <div class="text-center py-3 pb-4">
-                                <a href="../contact.php" class="main-btn">Contact CPB</a>
+                                    <a href="../contact.php" class="main-btn">Contact CPB</a>
                                 </div>
 
                             </div>
 
                             <div class="col-lg-8 order-lg-2 order-1">
                                 <div class="">
-                                    <p class="text-lg mb-0 pb-0" style="line-height:30px !important"><b>Essential Shopping Tips to Keep You Safe and Smart This Black Friday & Cyber Monday</b></p>
-                                    <p class="text-sm text-danger mt-2 ">Crawley 29th November 2024</p>
+                                    <p class="text-lg mb-0 pb-0" style="line-height:30px !important"><b>Essential
+                                            Shopping Tips to Keep You Safe and Smart This Black Friday & Cyber
+                                            Monday</b></p>
                                 </div>
-                                <ul class="list-unstyled">
-            <li><span class="text-md text-bold text-alert">1. Set a Budget and Stick to It:</span> 
-                <ul>
-                    <li class="text2">Decide on a maximum spending limit before shopping.</li>
-                    <li class="text2">Focus on items you genuinely need or have been planning to purchase.</li>
-                    <li class="text2">Avoid impulse buying by comparing deals with your planned list.</li>
-                </ul>
-            </li>
-            <li><span class="text-md text-bold text-alert">2. Research Prices to Spot Genuine Deals:</span>
-                <ul>
-                    <li class="text2">Use price comparison tools or apps to verify discounts.</li>
-                    <li class="text2">Look out for inflated original prices and misleading “deals.”</li>
-                    <li class="text2">Monitor product prices before the sale period to identify true savings.</li>
-                </ul>
-            </li>
-            <li><span class="text-md text-bold text-alert">3. Prioritise Quality Over Discounts:</span>
-                <ul>
-                    <li class="text2">A low price doesn’t always mean good value.</li>
-                    <li class="text2">Read product reviews, check ratings, and assess brand reputations.</li>
-                    <li class="text2">Avoid buying items solely because they’re discounted.</li>
-                </ul>
-            </li>
-            <li><span class="text-md text-bold text-alert">4. Be Cautious About Faulty or Low-Quality Products:</span>
-                <ul>
-                    <li class="text2">Watch out for sellers who offload defective or refurbished items.</li>
-                    <li class="text2">Check for a valid manufacturer warranty.</li>
-                    <li class="text2">Confirm the store’s return and refund policies.</li>
-                    <li class="text2">Review the product condition carefully (new vs. refurbished).</li>
-                    <li class="text2">Read genuine customer reviews on third-party platforms.</li>
-                </ul>
-            </li>
-            <li><span class="text-md text-bold text-alert">5. Beware of Flash Sales and Deceptive Tactics:</span>
-                <ul>
-                    <li class="text2">Flash sales can create a sense of urgency—don’t rush.</li>
-                    <li class="text2">Evaluate if the deal is genuine. If it feels “too good to be true,” it likely is.</li>
-                </ul>
-            </li>
-            <li><span class="text-md text-bold text-alert">6. Inspect Products Before Buying (In-Store & Online):</span>
-                <ul>
-                    <li class="text2">Examine physical items for damage or defects.</li>
-                    <li class="text2">Understand the store’s return and exchange policies for online purchases.</li>
-                </ul>
-            </li>
-            <li><span class="text-md text-bold text-alert">7. Factor in Hidden Costs:</span>
-                <ul>
-                    <li class="text2">Be mindful of additional fees like shipping or handling charges.</li>
-                    <li class="text2">Calculate the total cost before completing your purchase.</li>
-                </ul>
-            </li>
-            <li><span class="text-md text-bold text-alert">8. Resist the Pressure to Rush:</span>
-                <ul>
-                    <li class="text2">Take time to assess the deal and its value.</li>
-                    <li class="text2">A better offer might be available later in the sale period.</li>
-                </ul>
-            </li>
-            <li><span class="text-md text-bold text-alert">9. Understand Return and Refund Policies:</span>
-                <ul>
-                    <li class="text2">Always review return policies, especially for discounted items.</li>
-                    <li class="text2">Reliable retailers should offer a clear and fair return process.</li>
-                </ul>
-            </li>
-            <li><span class="text-md text-bold text-alert">10. Protect Yourself from Scams:</span>
-                <ul>
-                    <li class="text2">Shop only on secure websites (look for “https” and the padlock icon).</li>
-                    <li class="text2">Avoid clicking on links from unsolicited emails or unknown retailers.</li>
-                    <li class="text2">Trust your instincts: if an offer seems suspicious, it’s best to skip it.</li>
-                </ul>
-            </li>
-        </ul>
-                           
-                              
+                                <ul class="list-unstyled mt-4 shopping-tips">
+                                    <li><span class="text-md text-bold text-primary w-700">1. Set a Budget and Stick to
+                                            It:</span>
+                                        <ul class="">
+                                            <li class="text2">Decide on a maximum spending limit before shopping.</li>
+                                            <li class="text2">Focus on items you genuinely need or have been planning to
+                                                purchase.</li>
+                                            <li class="text2">Avoid impulse buying by comparing deals with your planned
+                                                list.</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="text-md text-bold text-primary w-700">2. Research Prices to Spot Genuine
+                                            Deals:</span>
+                                        <ul>
+                                            <li class="text2">Use price comparison tools or apps to verify discounts.
+                                            </li>
+                                            <li class="text2">Look out for inflated original prices and misleading
+                                                “deals.”</li>
+                                            <li class="text2">Monitor product prices before the sale period to identify
+                                                true savings.</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="text-md text-bold text-primary w-700">3. Prioritise Quality Over
+                                            Discounts:</span>
+                                        <ul>
+                                            <li class="text2">A low price doesn’t always mean good value.</li>
+                                            <li class="text2">Read product reviews, check ratings, and assess brand
+                                                reputations.</li>
+                                            <li class="text2">Avoid buying items solely because they’re discounted.</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="text-md text-bold text-primary w-700">4. Be Cautious About Faulty or
+                                            Low-Quality Products:</span>
+                                        <ul>
+                                            <li class="text2">Watch out for sellers who offload defective or refurbished
+                                                items.</li>
+                                            <li class="text2">Check for a valid manufacturer warranty.</li>
+                                            <li class="text2">Confirm the store’s return and refund policies.</li>
+                                            <li class="text2">Review the product condition carefully (new vs.
+                                                refurbished).</li>
+                                            <li class="text2">Read genuine customer reviews on third-party platforms.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="text-md text-bold text-primary w-700">5. Beware of Flash Sales and
+                                            Deceptive Tactics:</span>
+                                        <ul>
+                                            <li class="text2">Flash sales can create a sense of urgency—don’t rush.</li>
+                                            <li class="text2">Evaluate if the deal is genuine. If it feels “too good to
+                                                be true,” it likely is.</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="text-md text-bold text-primary w-700">6. Inspect Products Before Buying
+                                            (In-Store & Online):</span>
+                                        <ul>
+                                            <li class="text2">Examine physical items for damage or defects.</li>
+                                            <li class="text2">Understand the store’s return and exchange policies for
+                                                online purchases.</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="text-md text-bold text-primary w-700">7. Factor in Hidden Costs:</span>
+                                        <ul>
+                                            <li class="text2">Be mindful of additional fees like shipping or handling
+                                                charges.</li>
+                                            <li class="text2">Calculate the total cost before completing your purchase.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="text-md text-bold text-primary w-700">8. Resist the Pressure to
+                                            Rush:</span>
+                                        <ul>
+                                            <li class="text2">Take time to assess the deal and its value.</li>
+                                            <li class="text2">A better offer might be available later in the sale
+                                                period.</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="text-md text-bold text-primary w-700">9. Understand Return and Refund
+                                            Policies:</span>
+                                        <ul>
+                                            <li class="text2">Always review return policies, especially for discounted
+                                                items.</li>
+                                            <li class="text2">Reliable retailers should offer a clear and fair return
+                                                process.</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="text-md text-bold text-primary w-700">10. Protect Yourself from
+                                            Scams:</span>
+                                        <ul>
+                                            <li class="text2">Shop only on secure websites (look for “https” and the
+                                                padlock icon).</li>
+                                            <li class="text2">Avoid clicking on links from unsolicited emails or unknown
+                                                retailers.</li>
+                                            <li class="text2">Trust your instincts: if an offer seems suspicious, it’s
+                                                best to skip it.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+
                             </div>
                         </div>
 
@@ -263,7 +303,7 @@ if (isset($_POST['contact'])) {
     </section>
 
 
-   
+
 
 
     <section class="py-lg-5 py-4 ">
