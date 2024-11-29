@@ -73,7 +73,7 @@ if (isset($_POST['contact'])) {
                         </h1>
                         <h5>Avoid Overspending and Protect Yourself from Scams</h5>
                         <p class="text">
-                            Black Friday/Cyber Monday present a fantastic opportunity to score big savings, but it’s
+                            Black Friday (29th Nov24) /Cyber Monday(2nd Dec 24) present a fantastic opportunity to score big savings, but it’s
                             important to approach the sales with caution. With a little planning and awareness, you can
                             make wise purchases, avoid poor-quality products, and steer clear of fraud.
                         </p>
