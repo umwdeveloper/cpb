@@ -737,6 +737,9 @@ body {
     border: 1px solid var(--primary);
     background-color: #FEE8CF;
 }
+.bg-gold{
+    background-color: #ffd9007e !important;
+}
 .news-heading{
     color: var(--primary);
     font-size: 48px;
