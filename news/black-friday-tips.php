@@ -27,7 +27,7 @@ if (isset($_POST['contact'])) {
 <html lang="en">
 
 <head>
-    <title>Price Display Discrepancy at Asda Store - Consumer Alert News - (CPB)</title>
+    <title>Shopping Tips for Black Friday  /Cyber Monday - Consumer Alert News - (CPB)</title>
     <meta name="description"
         content="Stay updated with the Consumer Protection Bureau UK. Explore the latest consumer alerts, UK consumer laws, and protection tips from a trusted agency.">
     <!-- Required meta tags -->
@@ -49,7 +49,7 @@ if (isset($_POST['contact'])) {
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="canonical"
-        href="https://www.consumerprotectionbureau.co.uk/news/price-display-discrepancy-at-asada-store.php">
+        href="https://www.consumerprotectionbureau.co.uk/news/black-friday-tips.php">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
