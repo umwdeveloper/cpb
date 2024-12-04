@@ -160,7 +160,7 @@ if (isset($_POST['contact'])) {
 
                             <div class="col-lg-4 bg-primary text-white order-lg-1 order-2">
                                 <h3 class="text-md text-bold mt-3 text-inform">
-                                    How CPB Can Help with Restaurant Service Charges
+                                    How CPB Can Help with Unjustified Restaurant Service Charges
                                 </h3>
                                 <p class="text2 mb-0">
                                     If you encounter any issues with service charges at restaurants, the
@@ -218,7 +218,7 @@ if (isset($_POST['contact'])) {
                                     your rights, reach out to us:</p>
                                 <ul class="text2 ps-0 ms-0">
                                     <li>+44 (0)2035854002</li>
-                                    <li><a href="mailto:info@consumerprotectionbureau.co.uk" class="text-white">info@consumerprotectionbureau.co.uk</a></li>
+                                    <li><a href="mailto:info@consumerprotectionbureau.co.uk" class="text-whit">info@consumerprotectionbureau.co.uk</a></li>
                                     
                                 </ul>
 
