@@ -157,7 +157,6 @@ if (isset($_POST['contact'])) {
                             alt="Consumet Protection Bureau Uk Alert News about Asda Store "
                             class="w-100 asada-image shadow "> -->
                         <div class="row mt-4 mb-4">
-
                             <div class="col-lg-4 bg-primary text-white order-lg-1 order-2">
                                 <h3 class="text-md text-bold mt-3 text-inform">
                                     How CPB Can Help with Unjustified Restaurant Service Charges
@@ -262,16 +261,16 @@ if (isset($_POST['contact'])) {
                                     for it to be removed or reduced is your right, as outlined under the Consumer
                                     Protection from Unfair Trading Regulations 2008.
                                 </p>
-                                <p class="text w-700">
+                                <div class="text shadow-sm rounded-2 bg-light p-3 border" style="bac">
                                     While service charges are common in UK restaurants, they are not mandatory unless
                                     explicitly communicated. The law requires transparency, meaning that if a charge is
                                     to be added, it must be made clear to customers at the outset. If a service charge
                                     is not mentioned before the bill is presented, diners are not obliged to pay it.
                                     Understanding these legal protections ensures a fair dining experience and helps
                                     consumers make informed decisions when eating out.
-                                </p>
+                                </div>
 
-                                <h3 class="text-md text-bold text-primary w-700">1. Consumer Protection from Unfair
+                                <h3 class="text-md text-bold text-primary w-700 mt-3">1. Consumer Protection from Unfair
                                     Trading Regulations 2008</h3>
                                 <ul class="text">
                                     <li>This legislation governs the fairness of commercial practices towards consumers.
