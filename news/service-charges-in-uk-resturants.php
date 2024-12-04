@@ -261,7 +261,7 @@ if (isset($_POST['contact'])) {
                                     for it to be removed or reduced is your right, as outlined under the Consumer
                                     Protection from Unfair Trading Regulations 2008.
                                 </p>
-                                <div class="text shadow-sm rounded-2 bg-light p-3 border" style="bac">
+                                <div class="text shadow-sm rounded-2  p-3 border" style="background-color:#FEE8CF !important;">
                                     While service charges are common in UK restaurants, they are not mandatory unless
                                     explicitly communicated. The law requires transparency, meaning that if a charge is
                                     to be added, it must be made clear to customers at the outset. If a service charge
