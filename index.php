@@ -320,6 +320,33 @@ $feedbacks = findAll("feedbacks");
                                 </div>
                             </div>
                         </div>
+
+                        <div>
+                            <div class="home-alert d-flex align-items-center ">
+                                <div class="d-flex flex-lg-row flex-column align-items-center">
+                                    <div class="announcement-iameg">
+
+                                        <img src="assets/images/resturaents-service-charges.png"
+                                            alt="Learn about service charges in UK restaurants and your rights with updates from the Consumer Protection Bureau."
+                                            class="img-fluid ">
+                                    </div>
+                                    <div class="home-alert-text ms-lg-4">
+                                        <a href="news/black-friday-tips.php">
+                                       Know Your Rights
+                                            <h2 class="mb-3">
+                                                 <span class="text-alert">  Service Charges in UK Restaurants </span>
+
+                                            </h2>
+                                            <div>
+                                            Learn about service charges in UK restaurants and your rights with updates from the Consumer Protection Bureau...
+                                                <span><i class="bi bi-chevron-double-right"></i></span>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>

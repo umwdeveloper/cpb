@@ -96,7 +96,7 @@ if (isset($_POST['contact'])) {
                                     about whether they have a choice in the matter.
                                 </p>
                                 <img src="../assets/images/news/uk-resturents-service-charges.jpg"
-                        alt="Black Friday & Cyber Monday - Consumer protection bureau" class="w-100 h-auto">
+                        alt="Uk Resturents Service Charges" class="w-100 h-auto">
                                 <h3 class="text-md text-bold text-primary w-700 mt-3">
                                     The Legal Framework on Service Charges in the UK
                                 </h3>
@@ -132,7 +132,7 @@ if (isset($_POST['contact'])) {
                                     transparent.
                                 </p>
                                 <img src="../assets/images/news/service-charges.jpg"
-                                alt="Black Friday & Cyber Monday - Consumer protection bureau" class="w-100 h-auto">
+                                alt="Consumer Protection Bureau uk Advices for Resturent UNjustified Service Charges" class="w-100 h-auto">
                                 <p class="text mt-3">
                                     If a service charge is optional, the customer should be given the opportunity to
                                     choose whether to pay it or not. If it is mandatory, this must be clearly

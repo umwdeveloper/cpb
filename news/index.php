@@ -84,12 +84,12 @@ if (isset($_POST['contact'])) {
                                 alt="Consumet Protection Bureau Uk Alert News about Asda Store " class="">
                         </div>
                         <div class="news-card-text">
-                            <span>24th November 2024</span>
+                            <!-- <span>24th November 2024</span> -->
                             <h2>
                                 Price Display Discrepancy at Asda Store
                             </h2>
                             <p class="text mb-0 pb-0">
-                                In an incident happened today at an Asda store in West Sussex, a vigilant consumer
+                            <span>(24th November 2024)</span>  In an incident happened today at an Asda store in West Sussex, a vigilant consumer
                                 successfully challenged misleading price labelling, highlighting the importance of
                                 consumer awareness and advocacy. The case serves as a reminder that shoppers must remain
                                 alert and prepared to assert their rights when faced with pricing discrepancies.
@@ -110,7 +110,7 @@ if (isset($_POST['contact'])) {
                                 alt="Consumet Protection Bureau Uk Alert News about Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24)  " class="">
                         </div>
                         <div class="news-card-text">
-                            <span class="" style="opacity:0">Black Friday (29th Nov 24) </span>
+                            <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
                             <h2>
                             Avoid Overspending and Protect Yourself from Scams
                             </h2>
@@ -129,6 +129,30 @@ if (isset($_POST['contact'])) {
                     </div>
                 </div>
 
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image">
+                            <img src="../assets/images/news/service-charges.jpg"
+                                alt="Learn about service charges in UK restaurants and your rights with updates from the Consumer Protection Bureau." class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
+                            <h2>
+                            Service Charges in UK Restaurants
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                            Service charges have become a standard feature of dining out in the UK, but many customers remain unclear about their legal obligations when it comes to paying them. Are they compulsory? And what happens if they are not clearly stated on the menu or on display?
+
+
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="service-charges-in-uk-resturants.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>
