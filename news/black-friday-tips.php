@@ -27,7 +27,7 @@ if (isset($_POST['contact'])) {
 <html lang="en">
 
 <head>
-    <title>Shopping Tips for Black Friday  /Cyber Monday - Consumer Alert News - (CPB)</title>
+    <title>Shopping Tips for Black Friday  / Cyber Monday - Consumer Alert News - (CPB)</title>
     <meta name="description"
         content="Stay updated with the Consumer Protection Bureau UK. Explore the latest consumer alerts, UK consumer laws, and protection tips from a trusted agency.">
     <!-- Required meta tags -->
@@ -71,7 +71,7 @@ if (isset($_POST['contact'])) {
                             Smart Shopping Tips for <span class="text-alert"> Black Friday & Cyber Monday </span>
 
                         </h1>
-                        <h3 class="subtitle-bullet">Avoid Overspending and Protect Yourself from Scams</h3>
+                        <h2 class="subtitle-bullet">Avoid Overspending and Protect Yourself from Scams</h2>
                         <p class="text">
                             Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24) present a fantastic opportunity to
                             score big savings, but it’s
