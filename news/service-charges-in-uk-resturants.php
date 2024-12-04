@@ -29,7 +29,7 @@ if (isset($_POST['contact'])) {
 <head>
     <title>Service Charges in UK Restaurants - Consumer Alert News - (CPB)</title>
     <meta name="description"
-        content="Stay updated with the Consumer Protection Bureau UK. Explore the latest consumer alerts, UK consumer laws, and protection tips from a trusted agency.">
+        content="Learn about service charges in UK restaurants and your rights with updates from the Consumer Protection Bureau.">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
