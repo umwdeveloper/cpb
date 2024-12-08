@@ -127,9 +127,8 @@ if (isset($_POST['contact'])) {
                         <div class="row ">
                             <div class="col col-lg-12 col-md-12 col-sm-12">
                                 <div class="contact-content ">
-                                    <h2 class="text-lg text-secondry text-uppercase text-center">Contact Form</h2>
-                                    <p class="text-white text-center mb-lg-4">Please Fill the form to get in touch
-                                        Now.</p>
+                                    <h2 class="text-lg text-secondry text-uppercase text-center">Contact </h2>
+                                    <p class="text-white text-center mb-lg-4">Please Contact using Email/Phone Number.</p>
                                     <div class="contact-form">
                                         <?php if (isset($_POST['contact'])): ?>
                                         <?php if ($msg['status'] == 'success'): ?>
@@ -138,7 +137,7 @@ if (isset($_POST['contact'])) {
                                         <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
                                         <?php endif; ?>
                                         <?php endif; ?>
-                                        <form method="post" class="contact-validation-active" id="contact-form"
+                                        <!-- <form method="post" class="contact-validation-active" id="contact-form"
                                             novalidate="novalidate">
                                             <div class="half-col">
                                                 <label for="Name" class="text-white">Name</label>
@@ -169,7 +168,7 @@ if (isset($_POST['contact'])) {
                                                     <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                                 </div>
                                             </div>
-                                        </form>
+                                        </form> -->
                                     </div>
                                 </div>
                             </div>
