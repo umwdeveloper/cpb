@@ -583,7 +583,7 @@ $feedbacks = findAll("feedbacks");
                                 <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
                                 <?php endif; ?>
                                 <?php endif; ?>
-                                <form method="post" class="contact-validation-active" id="issue-form"
+                                <!-- <form method="post" class="contact-validation-active" id="issue-form"
                                     novalidate="novalidate">
                                     <div class="half-col">
                                         <label for="Name" class="text-white">Name</label>
@@ -651,11 +651,8 @@ $feedbacks = findAll("feedbacks");
                                             <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                         </div>
                                     </div>
-                                    <!-- <div class="clearfix error-handling-messages">
-                                                <div id="success">Thank you</div>
-                                                <div id="error"> Error occurred while sending email. Please try again later. </div>
-                                            </div> -->
-                                </form>
+                                  
+                                </form> -->
                             </div>
                         </div>
                     </div>
@@ -878,7 +875,7 @@ $feedbacks = findAll("feedbacks");
                                 <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
                                 <?php endif; ?>
                                 <?php endif; ?>
-                                <form method="post" class="contact-validation-active" id="contact-form"
+                                <!-- <form method="post" class="contact-validation-active" id="contact-form"
                                     novalidate="novalidate">
                                     <div class="half-col">
                                         <label for="Name" class="text-white">Name</label>
@@ -896,8 +893,6 @@ $feedbacks = findAll("feedbacks");
                                             placeholder="Email">
                                     </div>
 
-
-
                                     <div>
                                         <label for="msg" class="text-white">Message</label>
                                         <textarea class="form-control" name="msg" id="msg"
@@ -909,7 +904,7 @@ $feedbacks = findAll("feedbacks");
                                             <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                         </div>
                                     </div>
-                                </form>
+                                </form> -->
                             </div>
                         </div>
                     </div>
