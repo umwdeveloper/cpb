@@ -81,6 +81,6 @@ $(document).on("submit", "form", function (event) {
     } else {
         // If reCAPTCHA is completed, submit the form
         // alert("reCAPTCHA completed. Submitting the form...");
-        $(this).submit(); // Remove the handler to avoid recursion and submit the form
+        this.submit(); // Remove the handler to avoid recursion and submit the form
     }
 });
