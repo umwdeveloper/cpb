@@ -44,9 +44,24 @@ if (isset($_POST['issue'])) {
         "<strong>Product or Service Complaining about: </strong> $complaintAbout" . "<br>" .
         "<strong>Nature of Complaint Complaint: </strong> $reason";
 
-    $msg = sendMail($email, $name, $subject, $body);
+    $recaptchaSecret = '6LeWW5YqAAAAAEjGUeFCrxd0-lBEUAAZR0v0q9tO';
+    $recaptchaResponse = $_POST['g-recaptcha-response'];
 
-    $issueFormSubmitted = true;
+    $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptchaSecret&response=$recaptchaResponse");
+    $responseKeys = json_decode($response, true);
+
+    if ($responseKeys["success"]) {
+        // reCAPTCHA validated
+        $msg = sendMail($email, $name, $subject, $body);
+
+        $issueFormSubmitted = true;
+    } else {
+        // reCAPTCHA failed
+        $msg['status'] = 'error';
+        $msg['message'] = "Please complete the reCAPTCHA verification.";
+
+        $issueFormSubmitted = true;
+    }
 }
 
 $feedbacks = findAll("feedbacks");
@@ -83,6 +98,8 @@ $feedbacks = findAll("feedbacks");
         integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -583,7 +600,7 @@ $feedbacks = findAll("feedbacks");
                                 <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
                                 <?php endif; ?>
                                 <?php endif; ?>
-                                <!-- <form method="post" class="contact-validation-active" id="issue-form"
+                                 <form method="post" class="contact-validation-active" id="issue-form"
                                     novalidate="novalidate">
                                     <div class="half-col">
                                         <label for="Name" class="text-white">Name</label>
@@ -645,6 +662,8 @@ $feedbacks = findAll("feedbacks");
                                         <textarea class="form-control" name="reason" id="reason"
                                             placeholder="Nature of Complaint..."></textarea>
                                     </div>
+                                    <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j"></div>
+
                                     <div class="submit-btn-wrapper">
                                         <button type="submit" name="issue" class="main-btn">Submit</button>
                                         <div id="loader">
@@ -652,7 +671,7 @@ $feedbacks = findAll("feedbacks");
                                         </div>
                                     </div>
                                   
-                                </form> -->
+                                </form> 
                             </div>
                         </div>
                     </div>
