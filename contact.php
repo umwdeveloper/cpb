@@ -16,9 +16,22 @@ if (isset($_POST['contact'])) {
         "<strong>Phone: </strong> $phone" . "<br>" .
         "<strong>Message: </strong> $msg";
 
-    $msg = sendMail($email, $name, $subject, $body);
+    $recaptchaSecret = '6LcCTJYqAAAAAF4wI1_hrvLWmnXDAxckpuNr-X6u';
+    $recaptchaResponse = $_POST['g-recaptcha-response'];
 
-    $contactFormSubmitted = true;
+    $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptchaSecret&response=$recaptchaResponse");
+    $responseKeys = json_decode($response, true);
+
+    if ($responseKeys["success"]) {
+        // reCAPTCHA validated
+        $msg = sendMail($email, $name, $subject, $body);
+
+        $contactFormSubmitted = true;
+    } else {
+        // reCAPTCHA failed
+        $msg['status'] = false;
+        $msg['message'] = "Please complete the reCAPTCHA verification.";
+    }
 }
 
 ?>
@@ -48,6 +61,7 @@ if (isset($_POST['contact'])) {
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/contact.php">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -137,7 +151,7 @@ if (isset($_POST['contact'])) {
                                         <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
                                         <?php endif; ?>
                                         <?php endif; ?>
-                                        <!-- <form method="post" class="contact-validation-active" id="contact-form"
+                                         <form method="post" class="contact-validation-active" id="contact-form"
                                             novalidate="novalidate">
                                             <div class="half-col">
                                                 <label for="Name" class="text-white">Name</label>
@@ -162,13 +176,15 @@ if (isset($_POST['contact'])) {
                                                 <textarea class="form-control" name="msg" id="msg"
                                                     placeholder="Message"></textarea>
                                             </div>
+                                            <div class="g-recaptcha" data-sitekey="6LcCTJYqAAAAAEbyOyPYcvgvn5beHQpDmSChwuBe"></div>
+
                                             <div class="submit-btn-wrapper">
                                                 <button type="submit" name="contact" class="main-btn">Send</button>
                                                 <div id="loader">
                                                     <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                                 </div>
                                             </div>
-                                        </form> -->
+                                        </form> 
                                     </div>
                                 </div>
                             </div>
