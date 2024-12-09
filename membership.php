@@ -89,9 +89,9 @@ $feedbacks = findAll("feedbacks");
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/membership.php">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <?php include 'assets/include/header.php'; ?>
@@ -435,13 +435,13 @@ $feedbacks = findAll("feedbacks");
     <section class="py-lg-5 py-4">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 mt-5">
                     <h2 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
                         Why people believe in us
                     </h2>
                 </div>
-                <div class="col-lg-12">
-                    <div class="slick-slider">
+                <div class="col-lg-12 ">
+                    <div class="slick-slider quote-slider">
                         <?php foreach ($feedbacks as $count => $feedback): ?>
                         <div class="element element-<?php echo ++$count; ?>">
                             <div class="amenity-card quote-card">

@@ -63,9 +63,9 @@ if (isset($_POST['form-contact'])) {
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/contact.php">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <?php include 'assets/include/header.php'; ?>
