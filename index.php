@@ -4,7 +4,7 @@ include_once "includes/functions.php";
 include_once "includes/mail.php";
 
 $contactFormSubmitted = false;
-if (isset($_POST['name'])) {
+if (isset($_POST['form-contact'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
@@ -38,7 +38,7 @@ if (isset($_POST['name'])) {
 }
 
 $issueFormSubmitted = false;
-if (isset($_POST['consumer-issue'])) {
+if (isset($_POST['form-issue'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
@@ -608,7 +608,7 @@ $feedbacks = findAll("feedbacks");
                     <div class="col col-lg-7 col-md-12 col-sm-12">
                         <div class="contact-content ps-lg-5">
                             <div class="contact-form">
-                                <?php if (isset($_POST['consumer-issue'])): ?>
+                                <?php if (isset($_POST['form-issue'])): ?>
                                 <?php if ($msg['status'] == 'success'): ?>
                                 <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
                                 <?php else: ?>
@@ -632,6 +632,7 @@ $feedbacks = findAll("feedbacks");
                                         <input type="email" name="email" id="email" class="form-control"
                                             placeholder="Email">
                                     </div>
+                                    <input type="hidden" name="form-issue">
 
                                     <div class="half-col">
                                         <label for="consumer-issue" class="text-white">Consumer
@@ -902,7 +903,7 @@ $feedbacks = findAll("feedbacks");
                     <div class="col col-lg-7 col-md-12 col-sm-12">
                         <div class="contact-content ps-lg-5">
                             <div class="contact-form">
-                                <?php if (isset($_POST['name'])): ?>
+                                <?php if (isset($_POST['form-contact'])): ?>
                                 <?php if ($msg['status'] == 'success'): ?>
                                 <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
                                 <?php else: ?>
@@ -926,6 +927,7 @@ $feedbacks = findAll("feedbacks");
                                         <input type="email" name="email" id="email" class="form-control"
                                             placeholder="Email">
                                     </div>
+                                    <input type="hidden" name="form-contact">
 
                                     <div>
                                         <label for="msg" class="text-white">Message</label>

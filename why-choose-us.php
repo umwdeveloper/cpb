@@ -4,22 +4,37 @@ include_once "includes/functions.php";
 include_once "includes/mail.php";
 
 $contactFormSubmitted = false;
-if (isset($_POST['contact'])) {
+if (isset($_POST['form-contact'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
-    $msg = $_POST['msg'];
+    $message = $_POST['msg'];
 
     $subject = "Contact";
 
     $body = "<strong>Name: </strong> $name" . "<br>" .
         "<strong>Email: </strong> $email" . "<br>" .
         "<strong>Phone: </strong> $phone" . "<br>" .
-        "<strong>Message: </strong> $msg";
+        "<strong>Message: </strong> $message";
 
-    $msg = sendMail($email, $name, $subject, $body);
+    $recaptchaSecret = '6LeWW5YqAAAAAEjGUeFCrxd0-lBEUAAZR0v0q9tO';
+    $recaptchaResponse = $_POST['g-recaptcha-response'];
 
-    $contactFormSubmitted = true;
+    $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptchaSecret&response=$recaptchaResponse");
+    $responseKeys = json_decode($response, true);
+
+    if ($responseKeys["success"]) {
+        // reCAPTCHA validated
+        $msg = sendMail($email, $name, $subject, $body);
+
+        $contactFormSubmitted = true;
+    } else {
+        // reCAPTCHA failed
+        $msg['status'] = 'error';
+        $msg['message'] = "Please complete the reCAPTCHA verification.";
+
+        $contactFormSubmitted = true;
+    }
 }
 $feedbacks = findAll("feedbacks");
 
@@ -52,6 +67,8 @@ $feedbacks = findAll("feedbacks");
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/why-choose-us.php">
 
 </head>
@@ -453,16 +470,16 @@ $feedbacks = findAll("feedbacks");
                         </div>
                     </div>
                     <div class="col col-lg-7 col-md-12 col-sm-12">
-                        <div class="contact-content ps-lg-5">
+                    <div class="contact-content ps-lg-5">
                             <div class="contact-form">
-                                <?php if (isset($_POST['contact'])): ?>
+                                <?php if (isset($_POST['form-issue'])): ?>
                                 <?php if ($msg['status'] == 'success'): ?>
                                 <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
                                 <?php else: ?>
                                 <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
                                 <?php endif; ?>
                                 <?php endif; ?>
-                                <form method="post" class="contact-validation-active" id="contact-form"
+                                 <form method="post" class="contact-validation-active" id="issue-form"
                                     novalidate="novalidate">
                                     <div class="half-col">
                                         <label for="Name" class="text-white">Name</label>
@@ -470,30 +487,71 @@ $feedbacks = findAll("feedbacks");
                                             placeholder="Your Name">
                                     </div>
                                     <div class="half-col">
-                                        <label for="phone" class="text-white">Phone Number</label>
+                                        <label for="phone" class="text-white">Phone</label>
                                         <input type="text" name="phone" id="phone" class="form-control"
                                             placeholder="Phone">
                                     </div>
-                                    <div>
+                                    <div class="half-col">
                                         <label for="email" class="text-white">Email</label>
                                         <input type="email" name="email" id="email" class="form-control"
                                             placeholder="Email">
                                     </div>
+                                    <input type="hidden" name="form-issue">
 
-
+                                    <div class="half-col">
+                                        <label for="consumer-issue" class="text-white">Consumer
+                                            Issues</label>
+                                        <select name="consumer-issue" id="consumer-issue" class="form-control">
+                                            <option selected>Consumer
+                                                Issues</option>
+                                            <option value="Travels">Travels</option>
+                                            <option value="Energy/Utilities">Energy/Utilities</option>
+                                            <option value="Retail">Retail</option>
+                                            <option value="Health and
+                                                    Foods">Health and
+                                                Foods</option>
+                                            <option value="Consumer Rights">Consumer Rights
+                                            </option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
 
                                     <div>
-                                        <label for="msg" class="text-white">Message</label>
-                                        <textarea class="form-control" name="msg" id="msg"
-                                            placeholder="Message"></textarea>
+                                        <label for="price" class="text-white">Price of Product/Service</label>
+                                        <input type="text" name="price" id="price" class="form-control"
+                                            placeholder="Price of Product/Service">
                                     </div>
+                                    <div>
+                                        <label for="complaint-about" class="text-white">Product or Service
+                                            Complaining about</label>
+                                        <input type="text" name="complaint-about" id="complaint-about"
+                                            class="form-control" placeholder="Product or Service Complaining about">
+                                    </div>
+                                    <div>
+                                        <label for="address" class="text-white">Desired Resolution</label>
+                                        <select name="address" id="address" class="form-control">
+                                            <option disabled selected>Desired
+                                                Resolution:</option>
+                                            <option value="Refund">Refund</option>
+                                            <option value="Repair">Repair</option>
+                                            <option value="Replacement">Replacement</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="reason" class="text-white">Nature of Complaint</label>
+                                        <textarea class="form-control" name="reason" id="reason"
+                                            placeholder="Nature of Complaint..."></textarea>
+                                    </div>
+                                    <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j"></div>
+
                                     <div class="submit-btn-wrapper">
-                                        <button type="submit" name="contact" class="main-btn">Send</button>
+                                        <button type="submit" name="issue" class="main-btn">Submit</button>
                                         <div id="loader">
                                             <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                         </div>
                                     </div>
-                                </form>
+                                  
+                                </form> 
                             </div>
                         </div>
                     </div>

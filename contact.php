@@ -3,7 +3,7 @@
 include_once "includes/mail.php";
 
 $contactFormSubmitted = false;
-if (isset($_POST['name'])) {
+if (isset($_POST['form-contact'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
@@ -146,7 +146,7 @@ if (isset($_POST['name'])) {
                                     <h2 class="text-lg text-secondry text-uppercase text-center">Contact </h2>
                                     <p class="text-white text-center mb-lg-4">Please Contact using Email/Phone Number.</p>
                                     <div class="contact-form">
-                                        <?php if (isset($_POST['name'])): ?>
+                                        <?php if (isset($_POST['form-contact'])): ?>
                                         <?php if ($msg['status'] == 'success'): ?>
                                         <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
                                         <?php else: ?>
@@ -170,6 +170,7 @@ if (isset($_POST['name'])) {
                                                 <input type="email" name="email" id="email" class="form-control"
                                                     placeholder="Email">
                                             </div>
+                                            <input type="hidden" name="form-contact">
 
 
 
