@@ -66,3 +66,21 @@ $(document).ready(function () {
   });
 });
 
+
+
+// Recaptcha 
+$(document).on("submit", "form", function (event) {
+    event.preventDefault(); // Prevent the default form submission
+    
+    // Get the reCAPTCHA response for this form
+    const recaptchaResponse = $(this).find(".g-recaptcha-response").val();
+
+    if (recaptchaResponse.length === 0) {
+        // If reCAPTCHA is not completed
+        alert("Please complete the reCAPTCHA.");
+    } else {
+        // If reCAPTCHA is completed, submit the form
+        // alert("reCAPTCHA completed. Submitting the form...");
+        $(this).off("submit").submit(); // Remove the handler to avoid recursion and submit the form
+    }
+});
