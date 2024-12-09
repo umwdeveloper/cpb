@@ -7,14 +7,14 @@ if (isset($_POST['contact'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
-    $msg = $_POST['msg'];
+    $message = $_POST['msg'];
 
     $subject = "Contact";
 
     $body = "<strong>Name: </strong> $name" . "<br>" .
         "<strong>Email: </strong> $email" . "<br>" .
         "<strong>Phone: </strong> $phone" . "<br>" .
-        "<strong>Message: </strong> $msg";
+        "<strong>Message: </strong> $message";
 
     $recaptchaSecret = '6LeWW5YqAAAAAEjGUeFCrxd0-lBEUAAZR0v0q9tO';
     $recaptchaResponse = $_POST['g-recaptcha-response'];
@@ -29,7 +29,7 @@ if (isset($_POST['contact'])) {
         $contactFormSubmitted = true;
     } else {
         // reCAPTCHA failed
-        $msg['success'] = false;
+        $msg['status'] = 'error';
         $msg['message'] = "Please complete the reCAPTCHA verification.";
     }
 }
