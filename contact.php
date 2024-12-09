@@ -3,7 +3,7 @@
 include_once "includes/mail.php";
 
 $contactFormSubmitted = false;
-if (isset($_POST['contact'])) {
+if (isset($_POST['name'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
