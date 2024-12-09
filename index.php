@@ -4,22 +4,37 @@ include_once "includes/functions.php";
 include_once "includes/mail.php";
 
 $contactFormSubmitted = false;
-if (isset($_POST['contact'])) {
+if (isset($_POST['name'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
-    $msg = $_POST['msg'];
+    $message = $_POST['msg'];
 
     $subject = "Contact";
 
     $body = "<strong>Name: </strong> $name" . "<br>" .
         "<strong>Email: </strong> $email" . "<br>" .
         "<strong>Phone: </strong> $phone" . "<br>" .
-        "<strong>Message: </strong> $msg";
+        "<strong>Message: </strong> $message";
 
-    $msg = sendMail($email, $name, $subject, $body);
+    $recaptchaSecret = '6LeWW5YqAAAAAEjGUeFCrxd0-lBEUAAZR0v0q9tO';
+    $recaptchaResponse = $_POST['g-recaptcha-response'];
 
-    $contactFormSubmitted = true;
+    $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptchaSecret&response=$recaptchaResponse");
+    $responseKeys = json_decode($response, true);
+
+    if ($responseKeys["success"]) {
+        // reCAPTCHA validated
+        $msg = sendMail($email, $name, $subject, $body);
+
+        $contactFormSubmitted = true;
+    } else {
+        // reCAPTCHA failed
+        $msg['status'] = 'error';
+        $msg['message'] = "Please complete the reCAPTCHA verification.";
+
+        $contactFormSubmitted = true;
+    }
 }
 
 $issueFormSubmitted = false;
@@ -887,14 +902,14 @@ $feedbacks = findAll("feedbacks");
                     <div class="col col-lg-7 col-md-12 col-sm-12">
                         <div class="contact-content ps-lg-5">
                             <div class="contact-form">
-                                <?php if (isset($_POST['contact'])): ?>
+                                <?php if (isset($_POST['name'])): ?>
                                 <?php if ($msg['status'] == 'success'): ?>
                                 <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
                                 <?php else: ?>
                                 <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
                                 <?php endif; ?>
                                 <?php endif; ?>
-                                <!-- <form method="post" class="contact-validation-active" id="contact-form"
+                                <form method="post" class="contact-validation-active" id="contact-form"
                                     novalidate="novalidate">
                                     <div class="half-col">
                                         <label for="Name" class="text-white">Name</label>
@@ -917,13 +932,15 @@ $feedbacks = findAll("feedbacks");
                                         <textarea class="form-control" name="msg" id="msg"
                                             placeholder="Message"></textarea>
                                     </div>
+                                    <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j"></div>
+
                                     <div class="submit-btn-wrapper">
                                         <button type="submit" name="contact" class="main-btn">Send</button>
                                         <div id="loader">
                                             <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                         </div>
                                     </div>
-                                </form> -->
+                                </form>
                             </div>
                         </div>
                     </div>
