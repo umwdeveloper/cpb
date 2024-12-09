@@ -31,6 +31,8 @@ if (isset($_POST['contact'])) {
         // reCAPTCHA failed
         $msg['status'] = 'error';
         $msg['message'] = "Please complete the reCAPTCHA verification.";
+
+        $contactFormSubmitted = true;
     }
 }
 
