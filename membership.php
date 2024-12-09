@@ -549,7 +549,7 @@ $feedbacks = findAll("feedbacks");
                     </div>
                     <div class="col col-lg-7 col-md-12 col-sm-12">
                         <div class="contact-content ps-lg-5">
-                            <div class="contact-form">
+                        <div class="contact-form">
                                 <?php if (isset($_POST['form-contact'])): ?>
                                 <?php if ($msg['status'] == 'success'): ?>
                                 <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
@@ -575,8 +575,6 @@ $feedbacks = findAll("feedbacks");
                                             placeholder="Email">
                                     </div>
                                     <input type="hidden" name="form-contact">
-
-
 
                                     <div>
                                         <label for="msg" class="text-white">Message</label>

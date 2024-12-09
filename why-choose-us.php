@@ -471,15 +471,15 @@ $feedbacks = findAll("feedbacks");
                     </div>
                     <div class="col col-lg-7 col-md-12 col-sm-12">
                     <div class="contact-content ps-lg-5">
-                            <div class="contact-form">
-                                <?php if (isset($_POST['form-issue'])): ?>
+                    <div class="contact-form">
+                                <?php if (isset($_POST['form-contact'])): ?>
                                 <?php if ($msg['status'] == 'success'): ?>
                                 <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
                                 <?php else: ?>
                                 <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
                                 <?php endif; ?>
                                 <?php endif; ?>
-                                 <form method="post" class="contact-validation-active" id="issue-form"
+                                <form method="post" class="contact-validation-active" id="contact-form"
                                     novalidate="novalidate">
                                     <div class="half-col">
                                         <label for="Name" class="text-white">Name</label>
@@ -487,71 +487,31 @@ $feedbacks = findAll("feedbacks");
                                             placeholder="Your Name">
                                     </div>
                                     <div class="half-col">
-                                        <label for="phone" class="text-white">Phone</label>
+                                        <label for="phone" class="text-white">Phone Number</label>
                                         <input type="text" name="phone" id="phone" class="form-control"
                                             placeholder="Phone">
                                     </div>
-                                    <div class="half-col">
+                                    <div>
                                         <label for="email" class="text-white">Email</label>
                                         <input type="email" name="email" id="email" class="form-control"
                                             placeholder="Email">
                                     </div>
-                                    <input type="hidden" name="form-issue">
-
-                                    <div class="half-col">
-                                        <label for="consumer-issue" class="text-white">Consumer
-                                            Issues</label>
-                                        <select name="consumer-issue" id="consumer-issue" class="form-control">
-                                            <option selected>Consumer
-                                                Issues</option>
-                                            <option value="Travels">Travels</option>
-                                            <option value="Energy/Utilities">Energy/Utilities</option>
-                                            <option value="Retail">Retail</option>
-                                            <option value="Health and
-                                                    Foods">Health and
-                                                Foods</option>
-                                            <option value="Consumer Rights">Consumer Rights
-                                            </option>
-                                            <option value="Other">Other</option>
-                                        </select>
-                                    </div>
+                                    <input type="hidden" name="form-contact">
 
                                     <div>
-                                        <label for="price" class="text-white">Price of Product/Service</label>
-                                        <input type="text" name="price" id="price" class="form-control"
-                                            placeholder="Price of Product/Service">
-                                    </div>
-                                    <div>
-                                        <label for="complaint-about" class="text-white">Product or Service
-                                            Complaining about</label>
-                                        <input type="text" name="complaint-about" id="complaint-about"
-                                            class="form-control" placeholder="Product or Service Complaining about">
-                                    </div>
-                                    <div>
-                                        <label for="address" class="text-white">Desired Resolution</label>
-                                        <select name="address" id="address" class="form-control">
-                                            <option disabled selected>Desired
-                                                Resolution:</option>
-                                            <option value="Refund">Refund</option>
-                                            <option value="Repair">Repair</option>
-                                            <option value="Replacement">Replacement</option>
-                                        </select>
-                                    </div>
-                                    <div>
-                                        <label for="reason" class="text-white">Nature of Complaint</label>
-                                        <textarea class="form-control" name="reason" id="reason"
-                                            placeholder="Nature of Complaint..."></textarea>
+                                        <label for="msg" class="text-white">Message</label>
+                                        <textarea class="form-control" name="msg" id="msg"
+                                            placeholder="Message"></textarea>
                                     </div>
                                     <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j"></div>
 
                                     <div class="submit-btn-wrapper">
-                                        <button type="submit" name="issue" class="main-btn">Submit</button>
+                                        <button type="submit" name="contact" class="main-btn">Send</button>
                                         <div id="loader">
                                             <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                         </div>
                                     </div>
-                                  
-                                </form> 
+                                </form>
                             </div>
                         </div>
                     </div>
