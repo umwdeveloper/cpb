@@ -146,7 +146,7 @@ if (isset($_POST['name'])) {
                                     <h2 class="text-lg text-secondry text-uppercase text-center">Contact </h2>
                                     <p class="text-white text-center mb-lg-4">Please Contact using Email/Phone Number.</p>
                                     <div class="contact-form">
-                                        <?php if (isset($_POST['contact'])): ?>
+                                        <?php if (isset($_POST['name'])): ?>
                                         <?php if ($msg['status'] == 'success'): ?>
                                         <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
                                         <?php else: ?>

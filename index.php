@@ -23,7 +23,7 @@ if (isset($_POST['contact'])) {
 }
 
 $issueFormSubmitted = false;
-if (isset($_POST['issue'])) {
+if (isset($_POST['consumer-issue'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
@@ -593,7 +593,7 @@ $feedbacks = findAll("feedbacks");
                     <div class="col col-lg-7 col-md-12 col-sm-12">
                         <div class="contact-content ps-lg-5">
                             <div class="contact-form">
-                                <?php if (isset($_POST['issue'])): ?>
+                                <?php if (isset($_POST['consumer-issue'])): ?>
                                 <?php if ($msg['status'] == 'success'): ?>
                                 <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
                                 <?php else: ?>
