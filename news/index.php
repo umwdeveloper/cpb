@@ -206,7 +206,7 @@ if (isset($_POST['form-contact'])) {
             </div>
         </div>
     </section>
-
+<!-- 
     <section>
         <div class="contact-area py-lg-5 py-4">
             <div class="container py-4">
@@ -300,7 +300,7 @@ if (isset($_POST['form-contact'])) {
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 </main>
 
 <?php include 'assets/include/footer.php'; ?>
