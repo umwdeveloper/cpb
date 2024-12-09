@@ -29,7 +29,7 @@ if (isset($_POST['contact'])) {
         $contactFormSubmitted = true;
     } else {
         // reCAPTCHA failed
-        $msg['status'] = false;
+        $msg['success'] = false;
         $msg['message'] = "Please complete the reCAPTCHA verification.";
     }
 }
