@@ -16,7 +16,7 @@ if (isset($_POST['contact'])) {
         "<strong>Phone: </strong> $phone" . "<br>" .
         "<strong>Message: </strong> $msg";
 
-    $recaptchaSecret = '6LcCTJYqAAAAAF4wI1_hrvLWmnXDAxckpuNr-X6u';
+    $recaptchaSecret = '6LeWW5YqAAAAAEjGUeFCrxd0-lBEUAAZR0v0q9tO';
     $recaptchaResponse = $_POST['g-recaptcha-response'];
 
     $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptchaSecret&response=$recaptchaResponse");
@@ -176,7 +176,7 @@ if (isset($_POST['contact'])) {
                                                 <textarea class="form-control" name="msg" id="msg"
                                                     placeholder="Message"></textarea>
                                             </div>
-                                            <div class="g-recaptcha" data-sitekey="6LcCTJYqAAAAAEbyOyPYcvgvn5beHQpDmSChwuBe"></div>
+                                            <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j"></div>
 
                                             <div class="submit-btn-wrapper">
                                                 <button type="submit" name="contact" class="main-btn">Send</button>
