@@ -78,8 +78,8 @@ if (isset($_POST['form-contact'])) {
     <section class="py-lg-5 py-4 bg-light about-hero">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 mx-auto news-wrapper p-0">
-                    <img src="assets/images/consumer-protection-bureau-alert-news.png" alt="" class="w-100 h-auto">
+                <div class="col-lg-10 mx-auto bg-gold p-0">
+                    <img src="../assets/images/news/adgm-fines-wazim-nazir-following-consumer-protection-bureau-intervention.png" alt="" class="w-100 h-auto">
 
                     <div class="px-lg-5 px-3">
                         <h1 class="news-heading text-uppercase  my-3">
@@ -106,12 +106,12 @@ if (isset($_POST['form-contact'])) {
                             <div class="col-lg-6">
                             <img src="../assets/images/news/Hanover Square in JVC dubai.jpg"
                             alt="Consumet Protection Bureau Uk Alert News about ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention "
-                            class="w-100 asada-image shadow ">
+                            class="w-100  shadow rounded-2 mb-lg-0 mb-3" style="border: 2px solid #223a78">
                             </div>
                             <div class="col-lg-6">
                             <img src="../assets/images/news/Platinum One Dubai.jpg"
                             alt="Consumet Protection Bureau Uk Alert News about ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention "
-                            class="w-100 asada-image shadow ">
+                            class="w-100  shadow rounded-2" style="border: 2px solid #223a78">
                             </div>
 
                             <div class="col-lg-12 order-lg-2 order-1">
@@ -159,8 +159,11 @@ if (isset($_POST['form-contact'])) {
                                         ensuring that consumer rights prevail. We are launching a vigorous campaign to
                                         challenge ACW's abusive management practices.
                                     </p>
+                                   
+                                    <div class="text shadow-sm rounded-2  p-3 border" 
+                                    style="background-color:#FEE8CF !important;">
                                     <p class="text">
-                                        We will not rest until:
+                                        <b>We will not rest until:</b>
                                     </p>
                                     <ol>
                                         <li>
@@ -186,7 +189,8 @@ if (isset($_POST['form-contact'])) {
 
                                     </ol>
                                 </div>
-                                <p class="text">
+                                </div>
+                                <p class="text mt-3">
                                     This case highlights a growing need for stringent oversight, transparent management
                                     agreements, and stronger consumer protection mechanisms in the UAE property sector.
                                     CPB will continue working with DLD and other UAE authorities to fight relentlessly
