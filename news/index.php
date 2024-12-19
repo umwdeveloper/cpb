@@ -169,6 +169,32 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
+
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image">
+                         
+                                <img src="../assets/images/news/Hanover Square in JVC dubai.jpg"
+                                    alt="Consumet Protection Bureau Uk Alert News about ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention "
+                                  >
+                            </div>
+                        <div class="news-card-text">
+                            <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
+                            <h2>
+                            ADGM Fines Wazim Nazir, Owner of ACW Following Consumer Protection Bureau's Intervention
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                            In a significant victory for consumer protection and regulatory integrity, the Abu Dhabi Global Market (ADGM) Registration Authority has imposed financial penalties on HSQ Holdings Ltd, PL1 Holdings Ltd, and their director, Mohammed Wazim Nazir, for egregious breaches of regulatory compliance.
+
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="adgm-fines-wazim-nazir-following-consumer-protection-bureau-intervention.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>

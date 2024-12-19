@@ -306,6 +306,27 @@ $feedbacks = findAll("feedbacks");
             <div class="row">
                 <div class="col-lg-12">
                     <div class="news-slick slick-slider  ">
+                    <div>
+                            <div class="home-alert d-flex align-items-center ">
+                                <div class="d-flex flex-lg-row flex-column align-items-center">
+                                    <div class="announcement-iameg" style="min-width:280px">
+                                        <img src="assets/images/cpb-announcement.png"
+                                            alt="consumer protection bureau uk news alrts"
+                                            class="img-fluid cpb-announcement">
+                                    </div>
+                                    <div class="home-alert-text ms-lg-4">
+                                        <h2 class="mb-3">Justice Served</h2>
+                                        <div>
+                                            <a href="news/price-display-discrepancy-at-asada-store.php">
+                                            ADGM Fines Wazim Nazir, Owner of ACW Following Consumer Protection Bureau's Intervention
+                                             <span><i
+                                                        class="bi bi-chevron-double-right"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div>
                             <div class="home-alert d-flex align-items-center ">
                                 <div class="d-flex flex-lg-row flex-column align-items-center">
