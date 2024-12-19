@@ -507,6 +507,9 @@ body {
 .text-md{
     font-size: 20px;
 }
+.text-md-l{
+    font-size: 22px;
+}
 .white-background{
     background-color: var(--primary);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -984,6 +987,9 @@ body {
     }
     .text-md{
         font-size: 18px;
+    }
+    .text-md-l{
+        font-size: 20px;
     }
     .text-lg{
         font-size: 20px;

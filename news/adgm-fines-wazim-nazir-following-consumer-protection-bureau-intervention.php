@@ -42,7 +42,7 @@ if (isset($_POST['form-contact'])) {
 <html lang="en">
 
 <head>
-    <title>ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention - Consumer Alert News - (CPB)
+    <title>ADGM Fines Wazim Nazir, Owner of ACW Following Consumer Protection Bureau's Intervention - Consumer Alert News - (CPB)
     </title>
     <meta name="description"
         content="Stay updated with the Consumer Protection Bureau UK. Explore the latest consumer alerts, UK consumer laws, and protection tips from a trusted agency.">
@@ -68,7 +68,7 @@ if (isset($_POST['form-contact'])) {
         href="https://www.consumerprotectionbureau.co.uk/news/price-display-discrepancy-at-asada-store.php">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
     <link rel="stylesheet" href="../assets/css/style.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -87,7 +87,7 @@ if (isset($_POST['form-contact'])) {
                     <div class="px-lg-5 px-3">
                         <h1 class="news-heading   my-3 baskervville-regular">
                             <span class="text-alert">Justice Served: </span>
-                            ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention
+                            ADGM Fines Wazim Nazir, Owner of ACW Following Consumer Protection Bureau's Intervention
                             </span>
                         </h1>
                         <p class="text w-700">
@@ -117,15 +117,86 @@ if (isset($_POST['form-contact'])) {
                                     class="w-100  shadow rounded-2" style="border: 2px solid #223a78">
                             </div>
 
-                            <div class="col-lg-12 order-lg-2 order-1">
+                            <div class="col-lg-4 mt-3  order-lg-1 order-2">
+                                <div class="px-3 py-3 rounded-2 bg-primary text-white order-lg-1 order-2 ">
+                                    <h3 class="text-md text-bold  text-inform baskervville-regular"><b>
+                                    Need Assistance or Have Questions?
+                                    Contact Us
+                                    </b>
+                                    </h3>
+                                    <p class="text2 mb-0">
+                                        At the Consumer Protection Bureau, we are dedicated to safeguarding consumer
+                                        rights and promoting fairness across all industries. If you believe you have
+                                        been affected by unfair practices or need guidance in navigating consumer rights
+                                        issues, our team is here to assist you.
+                                    </p>
+                                    <p class="text2">
+                                        Whether it's related to financial misconduct, fraud prevention, or disputes with
+                                        businesses, we provide expert advice and hands-on support to ensure your
+                                        concerns are addressed effectively.
+                                    </p>
+                                    <h3 class="text-md text-bold  text-inform mt-3 baskervville-regular"><b>How We Can Help:</b>
+                                    </h3>
+                                    <ul class="ps-0 ms-3">
+                                        <li>
+                                            <p class="text2 mb-0 pb-0">
+                                                <b>Report Issues:</b> Share details about your experience, and we’ll
+                                                investigate potential violations.
 
-                                <h3 class="text-md text-bold  text-primary w-700 text-start mt-4">
+                                            </p>
+                                        </li>
+
+                                        <li>
+                                            <p class="text2 mb-0 pb-0">
+                                                <b> Claim Assistance:</b> If you’ve been financially impacted, we can
+                                                help guide you through filing claims.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text2 mb-0 pb-0">
+                                                <b>Guidance on Rights:</b> Understand your rights as a consumer and the
+                                                actions you can take.
+
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text2 mb-0 pb-0">
+                                                <b>Support in Disputes:</b> Our specialists can mediate disputes between
+                                                you and businesses or entities.
+
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <h3 class="text-md text-bold  text-inform mt-3 baskervville-regular"><b>Contact Us Today:</b>
+                                    </h3>
+                                    <ul class="text2 ps-0 ms-0 list-unstyled" >
+                                        <li>+44 (0)2035854002</li>
+                                        <li><a href="mailto:info@consumerprotectionbureau.co.uk"
+                                                class="text-white">info@consumerprotectionbureau.co.uk</a></li>
+
+                                    </ul>
+                                    <p class="text2">
+                                        Your trust and satisfaction are our top priorities. Don’t hesitate to get in
+                                        touch—we’re here to ensure you receive the support and justice you deserve.
+
+
+                                    </p>
+                                    <div class="text-center py-3 pb-4">
+                                        <a href="../contact.php" class="main-btn">Contact CPB</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-8 order-lg-2 order-1">
+
+                                <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4">
                                     CPB's Role in Exposing the Fraud
                                 </h3>
                                 <p class="text">
                                     This case came to light only after the <b>Compliance and Risk Consultancy (CRC)</b>
                                     group,
-                                    through its Consumer Protection Bureau (CPB), intervened. When Wazim Nazir sought to
+                                    through its <b>Consumer Protection Bureau (CPB)</b>, intervened. When <b>Wazim Nazir, Owner of ACW</b>
+                                    sought to
                                     voluntarily wind up HSQ and PL1, <b>CRC raised formal objections </b> and mobilised
                                     affected
                                     property owners to challenge the application. Many owners provided statements and
@@ -141,7 +212,7 @@ if (isset($_POST['form-contact'])) {
                                     unified consumer action when supported by organisations like CPB.
                                 </p>
                                 <div>
-                                    <h3 class="text-md text-bold text-primary w-700">Fighting for Consumer Rights and
+                                    <h3 class="text-md-l text-bold text-primary w-700">Fighting for Consumer Rights and
                                         Justice
                                     </h3>
                                     <p class="text">
@@ -154,7 +225,8 @@ if (isset($_POST['form-contact'])) {
                                         Nazir.
                                     </p>
                                     <p class="text">
-                                        This SPA binds owners to ACW's management for <b>20 years</b> with no exit options—a
+                                        This SPA binds owners to ACW's management for <b>20 years</b> with no exit
+                                        options—a
                                         clause that not only deprives owners of their legal rights but also locks them
                                         into years of financial distress. ACW continues to rent out the apartments
                                         without providing owners with any meaningful <b>Return on Investment (ROI)</b>.
@@ -163,54 +235,84 @@ if (isset($_POST['form-contact'])) {
                                     </p>
                                 </div>
                                 <div class="">
-                                    <h3 class="text-md text-bold text-primary w-700">ACW: The Next Battle for Consumer Rights
+                                    <h3 class="text-md-l text-bold text-primary w-700">ACW: The Next Battle for Consumer
+                                        Rights
                                     </h3>
                                     <p class="text">
-                                    While this decision marks progress, the fight is far from over. The property owners of HSQ and PL1 remain in a dire situation. Their apartments are managed by ACW, owned by Wazim Nazir, a company operating under a deeply flawed Sales and Purchase Agreement (SPA). This SPA includes abusive clauses, denying owners any exit option and binding them to ACW's management for an astonishing 20 years.
+                                        While this decision marks progress, the fight is far from over. The property
+                                        owners of HSQ and PL1 remain in a dire situation. Their apartments are managed
+                                        by ACW, owned by Wazim Nazir, a company operating under a deeply flawed Sales
+                                        and Purchase Agreement (SPA). This SPA includes abusive clauses, denying owners
+                                        any exit option and binding them to ACW's management for an astonishing 20
+                                        years.
                                     </p>
                                     <p class="text">
-                                    Most owners are angry and disappointed. Their properties are rented out, yet they have received little to no ROI for several years. Only a small handful are receiving minimal returns, which amount to little more than peanuts compared to market expectations. This untenable situation has shattered trust and further exacerbated financial losses for already frustrated owners.
+                                        Most owners are angry and disappointed. Their properties are rented out, yet
+                                        they have received little to no ROI for several years. Only a small handful are
+                                        receiving minimal returns, which amount to little more than peanuts compared to
+                                        market expectations. This untenable situation has shattered trust and further
+                                        exacerbated financial losses for already frustrated owners.
                                     </p>
-                                    <h3 class="text-md text-bold text-primary w-700">CPB Will Take Action</h3>
+
+
+                                </div>
+
+                              
+
+                            </div>
+
+                            <div class="col-lg-12  order-lg-3 order-3">
+                                    <h3 class="text-md-l text-bold text-primary w-700">CPB Will Take Action</h3>
                                     <p class="text">
-                                    The Consumer Protection Bureau, as part of the CRC Group, is committed to ensuring that consumer rights prevail. We are launching a vigorous campaign to challenge ACW's abusive management practices.
+                                        The Consumer Protection Bureau, as part of the CRC Group, is committed to
+                                        ensuring that consumer rights prevail. We are launching a vigorous campaign to
+                                        challenge ACW's abusive management practices.
                                     </p>
 
                                     <div class="text shadow-sm rounded-2  p-3 border"
                                         style="background-color:#FEE8CF !important;">
-                                        <h3 class="text-md text-bold text-primary w-700">CPB’s Consumer Rights Campaign</h3>
+                                        <h3 class="text-md-l text-bold text-primary w-700">CPB’s Consumer Rights Campaign
+                                        </h3>
                                         <p class="text">
                                             <b>As the consumer protection advocate, CPB will:</b>
                                         </p>
                                         <ol>
                                             <li>
                                                 <p class="text mb-0 pb-0">
-                                                <b>ACW is ousted</b> as the manager of <b>Hanover Square Central and Platinum One (PL1)</b> properties.
+                                                    <b>ACW is ousted</b> as the manager of <b>Hanover Square Central and
+                                                        Platinum One (PL1)</b> properties.
                                                 </p>
                                             </li>
 
                                             <li>
                                                 <p class="text mb-0 pb-0">
-                                                <b>Dubai authorities</b> step in to dismantle exploitative SPAs that lock owners into long-term, one-sided agreements.
+                                                    <b>Dubai authorities</b> step in to dismantle exploitative SPAs that
+                                                    lock owners into long-term, one-sided agreements.
 
                                                 </p>
                                             </li>
                                             <li>
                                                 <p class="text mb-0 pb-0">
-                                                <b>Property owners</b> take over their apartments as they rightfully and legally deserve.
+                                                    <b>Property owners</b> take over their apartments as they rightfully
+                                                    and legally deserve.
                                                 </p>
                                             </li>
 
                                         </ol>
+                                     
                                     </div>
+                                    <p class="text mt-3">
+                                            This case highlights a growing need for stringent oversight, transparent
+                                            management
+                                            agreements, and stronger consumer protection mechanisms in the UAE property
+                                            sector.
+                                            CPB will continue working with DLD and other UAE authorities to fight
+                                            relentlessly
+                                            for fairness, accountability, and justice for all affected property owners.
+                                        </p>
                                 </div>
-                                <p class="text mt-3">
-                                This case highlights a growing need for stringent oversight, transparent management agreements, and stronger consumer protection mechanisms in the UAE property sector. CPB will continue working with DLD and other UAE authorities to fight relentlessly for fairness, accountability, and justice for all affected property owners.
-                                </p>
 
-
-                            </div>
-                        </div>
+                           </div>
 
                     </div>
 
