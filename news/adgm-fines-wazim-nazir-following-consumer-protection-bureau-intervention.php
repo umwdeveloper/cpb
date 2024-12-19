@@ -85,7 +85,7 @@ if (isset($_POST['form-contact'])) {
                         alt="" class="w-100 h-auto">
 
                     <div class="px-lg-5 px-3">
-                        <h1 class="news-heading text-uppercase  my-3 baskervville-regular">
+                        <h1 class="news-heading   my-3 baskervville-regular">
                             <span class="text-alert">Justice Served: </span>
                             ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention
                             </span>
