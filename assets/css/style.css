@@ -846,6 +846,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 @keyframes rainbow-animation {
     to {
         background-position: 4500vh;
@@ -1071,3 +1072,9 @@ body {
   
     }
 }
+
+.baskervville-regular {
+    font-family: "Baskervville", serif !important;
+    font-weight: 400;
+    font-style: normal;
+  }

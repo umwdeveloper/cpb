@@ -42,7 +42,8 @@ if (isset($_POST['form-contact'])) {
 <html lang="en">
 
 <head>
-    <title>ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention - Consumer Alert News - (CPB)</title>
+    <title>ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention - Consumer Alert News - (CPB)
+    </title>
     <meta name="description"
         content="Stay updated with the Consumer Protection Bureau UK. Explore the latest consumer alerts, UK consumer laws, and protection tips from a trusted agency.">
     <!-- Required meta tags -->
@@ -67,27 +68,29 @@ if (isset($_POST['form-contact'])) {
         href="https://www.consumerprotectionbureau.co.uk/news/price-display-discrepancy-at-asada-store.php">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
     <link rel="stylesheet" href="../assets/css/style.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <?php include 'assets/include/header.php'; ?>
-<main>
+<main class="baskervville-regular">
 
     <section class="py-lg-5 py-4 bg-light about-hero">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 mx-auto bg-gold p-0">
-                    <img src="../assets/images/news/adgm-fines-wazim-nazir-following-consumer-protection-bureau-intervention.png" alt="" class="w-100 h-auto">
+                    <img src="../assets/images/news/adgm-fines-wazim-nazir-following-consumer-protection-bureau-intervention.png"
+                        alt="" class="w-100 h-auto">
 
                     <div class="px-lg-5 px-3">
-                        <h1 class="news-heading text-uppercase  my-3">
+                        <h1 class="news-heading text-uppercase  my-3 baskervville-regular">
                             <span class="text-alert">Justice Served: </span>
                             ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention
                             </span>
                         </h1>
-                        <p class="text">
+                        <p class="text w-700">
                             In a significant victory for consumer protection and regulatory integrity, the Abu Dhabi
                             Global Market (ADGM) Registration Authority has imposed financial penalties on HSQ Holdings
                             Ltd, PL1 Holdings Ltd, and their director, Mohammed Wazim Nazir, for egregious breaches of
@@ -101,28 +104,30 @@ if (isset($_POST['form-contact'])) {
                             false information, concealing ongoing disputes with property owners and continuing
                             operations post-application.
                         </p>
-                        
+
                         <div class="row mt-4 mb-4">
-                            <div class="col-lg-6">
-                            <img src="../assets/images/news/Hanover Square in JVC dubai.jpg"
-                            alt="Consumet Protection Bureau Uk Alert News about ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention "
-                            class="w-100  shadow rounded-2 mb-lg-0 mb-3" style="border: 2px solid #223a78">
+                            <div class="col-lg-12">
+                                <img src="../assets/images/news/Hanover Square in JVC dubai.jpg"
+                                    alt="Consumet Protection Bureau Uk Alert News about ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention "
+                                    class="w-100  shadow rounded-2  mb-3" style="border: 2px solid #223a78">
                             </div>
-                            <div class="col-lg-6">
-                            <img src="../assets/images/news/Platinum One Dubai.jpg"
-                            alt="Consumet Protection Bureau Uk Alert News about ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention "
-                            class="w-100  shadow rounded-2" style="border: 2px solid #223a78">
+                            <div class="col-lg-12">
+                                <img src="../assets/images/news/Platinum One Dubai.jpg"
+                                    alt="Consumet Protection Bureau Uk Alert News about ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention "
+                                    class="w-100  shadow rounded-2" style="border: 2px solid #223a78">
                             </div>
 
                             <div class="col-lg-12 order-lg-2 order-1">
-                            
+
                                 <h3 class="text-md text-bold  text-primary w-700 text-start mt-4">
                                     CPB's Role in Exposing the Fraud
                                 </h3>
                                 <p class="text">
-                                    This case came to light only after the Compliance and Risk Consultancy (CRC) group,
+                                    This case came to light only after the <b>Compliance and Risk Consultancy (CRC)</b>
+                                    group,
                                     through its Consumer Protection Bureau (CPB), intervened. When Wazim Nazir sought to
-                                    voluntarily wind up HSQ and PL1, CRC raised formal objections and mobilised affected
+                                    voluntarily wind up HSQ and PL1, <b>CRC raised formal objections </b> and mobilised
+                                    affected
                                     property owners to challenge the application. Many owners provided statements and
                                     depositions to ADGM with CPB's assistance, exposing Nazir's misconduct and systemic
                                     violations. Without this organised and strategic push, Nazir and his entities might
@@ -135,66 +140,72 @@ if (isset($_POST['form-contact'])) {
                                     This is not just a victory for justice but also a stark reminder of the power of
                                     unified consumer action when supported by organisations like CPB.
                                 </p>
+                                <div>
+                                    <h3 class="text-md text-bold text-primary w-700">Fighting for Consumer Rights and
+                                        Justice
+                                    </h3>
+                                    <p class="text">
+                                        While the ADGM decision serves as a critical win, the plight of property owners
+                                        at <b> Hanover Square Central and Platinum One (PL1) </b> remains unresolved.
+                                        CPB has
+                                        identified significant consumer rights violations stemming from the exploitative
+                                        <b>Sales and Purchase Agreement (SPA)</b> imposed by ACW, a company owned by
+                                        Wazim
+                                        Nazir.
+                                    </p>
+                                    <p class="text">
+                                        This SPA binds owners to ACW's management for <b>20 years</b> with no exit options—a
+                                        clause that not only deprives owners of their legal rights but also locks them
+                                        into years of financial distress. ACW continues to rent out the apartments
+                                        without providing owners with any meaningful <b>Return on Investment (ROI)</b>.
+                                        Frustration is widespread: only a small fraction of owners receive minimal
+                                        returns, while the majority have suffered losses with no clear remedy in sight.
+                                    </p>
+                                </div>
                                 <div class="">
                                     <h3 class="text-md text-bold text-primary w-700">ACW: The Next Battle for Consumer Rights
                                     </h3>
                                     <p class="text">
-                                        While this decision marks progress, the fight is far from over. The property
-                                        owners of HSQ and PL1 remain in a dire situation. Their apartments are managed
-                                        by ACW, owned by Wazim Nazir, a company operating under a deeply flawed Sales
-                                        and Purchase Agreement (SPA). This SPA includes abusive clauses, denying owners
-                                        any exit option and binding them to ACW's management for an astonishing 20
-                                        years.
+                                    While this decision marks progress, the fight is far from over. The property owners of HSQ and PL1 remain in a dire situation. Their apartments are managed by ACW, owned by Wazim Nazir, a company operating under a deeply flawed Sales and Purchase Agreement (SPA). This SPA includes abusive clauses, denying owners any exit option and binding them to ACW's management for an astonishing 20 years.
                                     </p>
                                     <p class="text">
-                                        Most owners are angry and disappointed. Their properties are rented out, yet
-                                        they have received little to no ROI for several years. Only a small handful are
-                                        receiving minimal returns, which amount to little more than peanuts compared to
-                                        market expectations. This untenable situation has shattered trust and further
-                                        exacerbated financial losses for already frustrated owners.
+                                    Most owners are angry and disappointed. Their properties are rented out, yet they have received little to no ROI for several years. Only a small handful are receiving minimal returns, which amount to little more than peanuts compared to market expectations. This untenable situation has shattered trust and further exacerbated financial losses for already frustrated owners.
                                     </p>
                                     <h3 class="text-md text-bold text-primary w-700">CPB Will Take Action</h3>
                                     <p class="text">
-                                        The Consumer Protection Bureau, as part of the CRC Group, is committed to
-                                        ensuring that consumer rights prevail. We are launching a vigorous campaign to
-                                        challenge ACW's abusive management practices.
+                                    The Consumer Protection Bureau, as part of the CRC Group, is committed to ensuring that consumer rights prevail. We are launching a vigorous campaign to challenge ACW's abusive management practices.
                                     </p>
-                                   
-                                    <div class="text shadow-sm rounded-2  p-3 border" 
-                                    style="background-color:#FEE8CF !important;">
-                                    <p class="text">
-                                        <b>We will not rest until:</b>
-                                    </p>
-                                    <ol>
-                                        <li>
-                                            <p class="text mb-0 pb-0">
-                                                ACW is ousted as the manager of Hanover Square Central and Platinum One
-                                                (PL1) properties.
-                                            </p>
-                                        </li>
 
-                                        <li>
-                                            <p class="text mb-0 pb-0">
-                                                Dubai authorities step in to dismantle exploitative SPAs that lock
-                                                owners into long-term, one-sided agreements.
+                                    <div class="text shadow-sm rounded-2  p-3 border"
+                                        style="background-color:#FEE8CF !important;">
+                                        <h3 class="text-md text-bold text-primary w-700">CPB’s Consumer Rights Campaign</h3>
+                                        <p class="text">
+                                            <b>As the consumer protection advocate, CPB will:</b>
+                                        </p>
+                                        <ol>
+                                            <li>
+                                                <p class="text mb-0 pb-0">
+                                                <b>ACW is ousted</b> as the manager of <b>Hanover Square Central and Platinum One (PL1)</b> properties.
+                                                </p>
+                                            </li>
 
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p class="text mb-0 pb-0">
-                                                Property owners take over their apartments as they rightfully and
-                                                legally deserve.
-                                            </p>
-                                        </li>
+                                            <li>
+                                                <p class="text mb-0 pb-0">
+                                                <b>Dubai authorities</b> step in to dismantle exploitative SPAs that lock owners into long-term, one-sided agreements.
 
-                                    </ol>
-                                </div>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="text mb-0 pb-0">
+                                                <b>Property owners</b> take over their apartments as they rightfully and legally deserve.
+                                                </p>
+                                            </li>
+
+                                        </ol>
+                                    </div>
                                 </div>
                                 <p class="text mt-3">
-                                    This case highlights a growing need for stringent oversight, transparent management
-                                    agreements, and stronger consumer protection mechanisms in the UAE property sector.
-                                    CPB will continue working with DLD and other UAE authorities to fight relentlessly
-                                    for fairness, accountability, and justice for all affected property owners.
+                                This case highlights a growing need for stringent oversight, transparent management agreements, and stronger consumer protection mechanisms in the UAE property sector. CPB will continue working with DLD and other UAE authorities to fight relentlessly for fairness, accountability, and justice for all affected property owners.
                                 </p>
 
 
