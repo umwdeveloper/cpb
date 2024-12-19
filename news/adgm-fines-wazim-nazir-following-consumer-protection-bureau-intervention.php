@@ -65,7 +65,7 @@ if (isset($_POST['form-contact'])) {
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="canonical"
-        href="https://www.consumerprotectionbureau.co.uk/news/price-display-discrepancy-at-asada-store.php">
+        href="https://www.consumerprotectionbureau.co.uk/news/adgm-fines-wazim-nazir-following-consumer-protection-bureau-intervention.php">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
