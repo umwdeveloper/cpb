@@ -113,13 +113,13 @@
                 <!-- Grid column -->
                 <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                     <!-- Facebook -->
-                    <a href="https://web.facebook.com/people/Consumer-Protection-Bureau/100089017255764/" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://web.facebook.com/profile.php?id=61570163952467" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button" target="_blank"><i class="fab fa-facebook-f"></i></a>
 
                     <!-- Twitter -->
-                    <a href="https://x.com/i/flow/login?redirect_after_login=%2Fconsume60578813" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <!-- <a href="https://x.com/i/flow/login?redirect_after_login=%2Fconsume60578813" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button" target="_blank"><i class="fab fa-twitter"></i></a> -->
 
                     <!-- Google -->
-                    <a href="https://www.linkedin.com/in/consumer-protection-bureau-595632261/" target="_blank" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/company/consumer-protection-bureau/" target="_blank" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-linkedin"></i></a>
 
 
                 </div>
