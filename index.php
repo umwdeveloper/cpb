@@ -318,7 +318,7 @@ $feedbacks = findAll("feedbacks");
                                         <h2 class="mb-3">Stay Protected and Spend Wisely</h2>
                                         <div>
                                             <a
-                                                href="news/adgm-fines-wazim-nazir-following-consumer-protection-bureau-intervention.php">
+                                                href="news/cpb-advice-for-safe-and-smart-festive-season.php">
                                                 CPB Advice for a Safe and Smart Festive Season
                                                 <span><i class="bi bi-chevron-double-right"></i></span>
                                             </a>
