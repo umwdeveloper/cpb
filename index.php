@@ -306,19 +306,17 @@ $feedbacks = findAll("feedbacks");
             <div class="row">
                 <div class="col-lg-12">
                     <div class="news-slick slick-slider  ">
-                    <div>
+                        <div>
                             <div class="home-alert d-flex align-items-center ">
                                 <div class="d-flex flex-lg-row flex-column align-items-center">
                                     <div class="announcement-iameg" style="min-width:280px">
-                                        <img src="assets/images/news/chrismas.png"
-                                            alt="Festive Shopping Tips"
+                                        <img src="assets/images/news/chrismas.png" alt="Festive Shopping Tips"
                                             class="img-fluid cpb-announcement">
                                     </div>
                                     <div class="home-alert-text ms-lg-4">
                                         <h2 class="mb-3">Stay Protected and Spend Wisely</h2>
                                         <div>
-                                            <a
-                                                href="news/cpb-advice-for-safe-and-smart-festive-season.php">
+                                            <a href="news/cpb-advice-for-safe-and-smart-festive-season.php">
                                                 CPB Advice for a Safe and Smart Festive Season
                                                 <span><i class="bi bi-chevron-double-right"></i></span>
                                             </a>
@@ -1001,6 +999,46 @@ $feedbacks = findAll("feedbacks");
     </section>
 </main>
 <?php include 'assets/include/footer.php'; ?>
+
+
+<div class="modal" tabindex="-1" id="chrismas">
+    <div class="modal-dialog">
+        <div class="modal-content bg-transparent shadow-none border-0">
+
+            <div class="modal-body">
+                <div class="d-flex justify-content-end">
+                <button type="button" class="chrismas-close text-end ms-auto" data-bs-dismiss="modal" aria-label="Close">x</button>
+                </div>
+                <img src="assets/images/chrismas.png" alt="Merry Chrismas from Conumer Protection Bureau"
+                    class="img-fluid ps-lg-4 d-lg-block d-none">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+// Show the modal on page load
+document.addEventListener("DOMContentLoaded", function() {
+    const pageLoadModal = new bootstrap.Modal(document.getElementById('chrismas'));
+    pageLoadModal.show();
+    setTimeout(() => {
+    pageLoadModal.hide();
+}, 4000); // Show modal after 3 seconds
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
 
 <script>
 contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;

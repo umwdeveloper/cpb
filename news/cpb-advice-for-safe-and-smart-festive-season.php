@@ -440,6 +440,37 @@ if (isset($_POST['form-contact'])) {
 </main>
 
 <?php include 'assets/include/footer.php'; ?>
+
+
+<div class="modal" tabindex="-1" id="chrismas">
+    <div class="modal-dialog">
+        <div class="modal-content bg-transparent shadow-none border-0">
+
+            <div class="modal-body">
+                <div class="d-flex justify-content-end">
+                <button type="button" class="chrismas-close text-end ms-auto" data-bs-dismiss="modal" aria-label="Close">x</button>
+                </div>
+                <img src="../assets/images/chrismas.png" alt="Merry Chrismas from Conumer Protection Bureau"
+                    class="img-fluid ps-lg-4 d-lg-block d-none">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+// Show the modal on page load
+document.addEventListener("DOMContentLoaded", function() {
+    const pageLoadModal = new bootstrap.Modal(document.getElementById('chrismas'));
+    pageLoadModal.show();
+    setTimeout(() => {
+    pageLoadModal.hide();
+}, 4000); // Show modal after 3 seconds
+});
+
+</script>
+
+
 <script>
 contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
 

@@ -717,6 +717,9 @@ body {
   animation: rainbow-animation 150s linear infinite, zoom-animation 2s ease-in-out infinite;
  
 }
+.chrismas-close{
+    background-color: transparent;border: none;color: white;font-size: 30px;
+}
 @keyframes rainbow-animation2 {
     to {
         background-position: 4500vh;
