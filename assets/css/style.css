@@ -564,6 +564,9 @@ body {
 .text-scondry{
     color: var(--secondry);
 }
+.text-festive{
+    color:#BE1C1B !important;
+}
 .membership-logo{
     height: 70px;
     width: auto;

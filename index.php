@@ -113,7 +113,7 @@ $feedbacks = findAll("feedbacks");
         integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/">
-   
+
 
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -310,6 +310,27 @@ $feedbacks = findAll("feedbacks");
                             <div class="home-alert d-flex align-items-center ">
                                 <div class="d-flex flex-lg-row flex-column align-items-center">
                                     <div class="announcement-iameg" style="min-width:280px">
+                                        <img src="assets/images/news/chrismas.png"
+                                            alt="Festive Shopping Tips"
+                                            class="img-fluid cpb-announcement">
+                                    </div>
+                                    <div class="home-alert-text ms-lg-4">
+                                        <h2 class="mb-3">Stay Protected and Spend Wisely</h2>
+                                        <div>
+                                            <a
+                                                href="news/adgm-fines-wazim-nazir-following-consumer-protection-bureau-intervention.php">
+                                                CPB Advice for a Safe and Smart Festive Season
+                                                <span><i class="bi bi-chevron-double-right"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="home-alert d-flex align-items-center ">
+                                <div class="d-flex flex-lg-row flex-column align-items-center">
+                                    <div class="announcement-iameg" style="min-width:280px">
                                         <img src="assets/images/cpb-announcement.png"
                                             alt="consumer protection bureau uk news alrts"
                                             class="img-fluid cpb-announcement">
@@ -317,10 +338,11 @@ $feedbacks = findAll("feedbacks");
                                     <div class="home-alert-text ms-lg-4">
                                         <h2 class="mb-3">Justice Served</h2>
                                         <div>
-                                            <a href="news/adgm-fines-wazim-nazir-following-consumer-protection-bureau-intervention.php">
-                                            ADGM Fines Wazim Nazir, Owner of ACW Following Consumer Protection Bureau's Intervention
-                                             <span><i
-                                                        class="bi bi-chevron-double-right"></i></span>
+                                            <a
+                                                href="news/adgm-fines-wazim-nazir-following-consumer-protection-bureau-intervention.php">
+                                                ADGM Fines Wazim Nazir, Owner of ACW Following Consumer Protection
+                                                Bureau's Intervention
+                                                <span><i class="bi bi-chevron-double-right"></i></span>
                                             </a>
                                         </div>
                                     </div>
@@ -358,9 +380,9 @@ $feedbacks = findAll("feedbacks");
                                     </div>
                                     <div class="home-alert-text ms-lg-4">
                                         <a href="news/black-friday-tips.php">
-                                        Smart Shopping Tips for
+                                            Smart Shopping Tips for
                                             <h2 class="mb-3">
-                                                 <span class="text-alert"> Black Friday (29th Nov
+                                                <span class="text-alert"> Black Friday (29th Nov
                                                     24)
                                                     /Cyber Monday(2nd Dec 24) </span>
 
@@ -388,13 +410,14 @@ $feedbacks = findAll("feedbacks");
                                     </div>
                                     <div class="home-alert-text ms-lg-4">
                                         <a href="news/black-friday-tips.php">
-                                       Know Your Rights
+                                            Know Your Rights
                                             <h2 class="mb-3">
-                                                 <span class="text-alert">  Service Charges in UK Restaurants </span>
+                                                <span class="text-alert"> Service Charges in UK Restaurants </span>
 
                                             </h2>
                                             <div>
-                                            Learn about service charges in UK restaurants and your rights with updates from the Consumer Protection Bureau...
+                                                Learn about service charges in UK restaurants and your rights with
+                                                updates from the Consumer Protection Bureau...
                                                 <span><i class="bi bi-chevron-double-right"></i></span>
 
                                             </div>
@@ -639,7 +662,7 @@ $feedbacks = findAll("feedbacks");
                                 <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
                                 <?php endif; ?>
                                 <?php endif; ?>
-                                 <form method="post" class="contact-validation-active" id="issue-form"
+                                <form method="post" class="contact-validation-active" id="issue-form"
                                     novalidate="novalidate">
                                     <div class="half-col">
                                         <label for="Name" class="text-white">Name</label>
@@ -702,7 +725,8 @@ $feedbacks = findAll("feedbacks");
                                         <textarea class="form-control" name="reason" id="reason"
                                             placeholder="Nature of Complaint..."></textarea>
                                     </div>
-                                    <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j"></div>
+                                    <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j">
+                                    </div>
 
                                     <div class="submit-btn-wrapper">
                                         <button type="submit" name="issue" class="main-btn">Submit</button>
@@ -710,8 +734,8 @@ $feedbacks = findAll("feedbacks");
                                             <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                         </div>
                                     </div>
-                                  
-                                </form> 
+
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -958,7 +982,8 @@ $feedbacks = findAll("feedbacks");
                                         <textarea class="form-control" name="msg" id="msg"
                                             placeholder="Message"></textarea>
                                     </div>
-                                    <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j"></div>
+                                    <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j">
+                                    </div>
 
                                     <div class="submit-btn-wrapper">
                                         <button type="submit" name="contact" class="main-btn">Send</button>

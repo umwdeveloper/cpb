@@ -195,6 +195,34 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image">
+                         
+                                <img src="../assets/images/news/holiday-tips1.jpg"
+                                    alt="Festive shopping tips with a budget checklist and gift items on a table. "
+                                  >
+                            </div>
+                        <div class="news-card-text">
+                            <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
+                            <h2>
+                            CPB Advice for a Safe and Smart Festive Season
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                            At the Consumer Protection Bureau (CPB), we want to ensure your festive season is filled
+                            with joy, not financial stress or disappointment. Christmas and New Year sales are a great
+                            opportunity for deals, but they also come with risks like overspending and scams. Follow our
+                            practical advice to shop smart, protect your money from scams, and enjoy a stress-free
+                            holiday season.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="cpb-advice-for-safe-and-smart-festive-season.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>
