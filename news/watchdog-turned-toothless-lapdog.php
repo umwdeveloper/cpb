@@ -358,7 +358,7 @@ if (isset($_POST['form-contact'])) {
                                 </p>
                                 <div class="text shadow-sm rounded-2  p-3 border"
                                     style="background-color:#90d5ff !important;">
-                                    <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4">
+                                    <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-2">
                                         Insights and Reports Highlighting FOS Failures in Consumer Protection
                                     </h3>
                                     <p class="text">
