@@ -95,6 +95,38 @@ if (isset($_POST['form-contact'])) {
             <div class="row mb-lg-0 mb-4">
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
+                        <div class="news-card-image  justify-content-center" >
+                            <img src="../assets/images/news/FOC.png" style="object-fit:contain;"
+                                alt="Consumet Protection Bureau Uk Alert News about Financial Ombudsman Service (FOS) "
+                                 class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>24th November 2024</span> -->
+                            <h2>
+                            The Financial Ombudsman Service (FOS)
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <b>A WATCHDOG TURNED TOOTHLESS LAPDOG?</b><br>
+                            The Financial Ombudsman Service (FOS) was established with the noble intention of providing
+                            consumers with an independent, fair, and impartial platform to resolve disputes with
+                            financial institutions, including insurance companies and registered lenders regulated by
+                            the Financial Conduct Authority (FCA). However, the stark reality is that the FOS has
+                            devolved into a compromised institution that routinely prioritises the interests of powerful
+                            financial corporations leaving countless consumers disillusioned and betrayed. Evidence
+                            continues to mount of systemic bias, a lack of transparency, and decisions tainted by
+                            financial dependency. This blog tears down the facade and exposes the FOS as more of a
+                            smokescreen than a genuine protector of consumer rights.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="financial-ombudsman-services-watchdog-turned-toothless-lapdog.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
                         <div class="news-card-image">
                             <img src="../assets/images/news/consumer-protection-bureau-alert-news-Asda Store.jpeg"
                                 alt="Consumet Protection Bureau Uk Alert News about Asda Store " class="">
