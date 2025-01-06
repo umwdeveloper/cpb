@@ -42,11 +42,11 @@ if (isset($_POST['form-contact'])) {
 <html lang="en">
 
 <head>
-    <title>ADGM Fines Wazim Nazir, Owner of ACW Following Consumer Protection Bureau's Intervention - Consumer Alert
+    <title>Watchdog or Lapdog? The Changing Role of Consumer Protection - Consumer Alert
         News - (CPB)
     </title>
     <meta name="description"
-        content="Stay updated with the Consumer Protection Bureau UK. Explore the latest consumer alerts, UK consumer laws, and protection tips from a trusted agency.">
+        content="Explore how consumer watchdogs are losing their bite in protecting consumer rights. Learn what this shift means for you and how to stay informed.">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -107,12 +107,12 @@ if (isset($_POST['form-contact'])) {
                         <div class="row mt-4 mb-4">
                             <div class="col-md-6">
                                 <img src="../assets/images/news/FOC.png"
-                                    alt="Consumet Protection Bureau Uk Alert News about ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention "
+                                    alt="Financial Ombudsman Service "
                                     class="w-100  shadow rounded-2  mb-3 h-100" style="border: 2px solid #223a78">
                             </div>
                             <div class="col-md-6">
                                 <img src="../assets/images/news/FCA.png"
-                                    alt="Consumet Protection Bureau Uk Alert News about ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention "
+                                    alt="FCA"
                                     class="w-100  shadow rounded-2" style="border: 2px solid #223a78">
                             </div>
                             <div class="col-lg-12">
