@@ -310,7 +310,7 @@ $feedbacks = findAll("feedbacks");
                             <div class="home-alert d-flex align-items-center ">
                                 <div class="d-flex flex-lg-row flex-column align-items-center">
                                     <div class="announcement-iameg" style="min-width:280px">
-                                        <img src="assets/images/news/cpb-announcement.png" alt="Festive Shopping Tips"
+                                        <img src="assets/images/cpb-announcement.png" alt="Festive Shopping Tips"
                                             class="img-fluid cpb-announcement">
                                     </div>
                                     <div class="home-alert-text ms-lg-4">
