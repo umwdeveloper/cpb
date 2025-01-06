@@ -1038,16 +1038,7 @@ $feedbacks = findAll("feedbacks");
     </div>
 </div>
 
-<script>
-// Show the modal on page load
-document.addEventListener("DOMContentLoaded", function() {
-    const pageLoadModal = new bootstrap.Modal(document.getElementById('chrismas'));
-    pageLoadModal.show();
-    setTimeout(() => {
-        pageLoadModal.hide();
-    }, 4000); // Show modal after 3 seconds
-});
-</script>
+
 
 
 
