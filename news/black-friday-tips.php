@@ -85,7 +85,6 @@ if (isset($_POST['form-contact'])) {
                     <div class="px-lg-4 mx-2 px-3">
                         <h1 class="news-heading text-uppercase  my-3">
                             Smart Shopping Tips for <span class="text-alert"> Black Friday & Cyber Monday </span>
-
                         </h1>
                         <h2 class="subtitle-bullet">Avoid Overspending and Protect Yourself from Scams</h2>
                         <p class="text">

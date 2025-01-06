@@ -90,12 +90,12 @@ if (isset($_POST['form-contact'])) {
                             CPB Advice for a Safe and Smart Festive Season
                             </span>
                         </h1>
-                        <p class="text w-700">
-                            At the Consumer Protection Bureau (CPB), we want to ensure your festive season is filled
+                        <p class="text " >
+                            <b>At the Consumer Protection Bureau (CPB), we want to ensure your festive season is filled
                             with joy, not financial stress or disappointment. Christmas and New Year sales are a great
                             opportunity for deals, but they also come with risks like overspending and scams. Follow our
                             practical advice to shop smart, protect your money from scams, and enjoy a stress-free
-                            holiday season.
+                            holiday season.</b>
                         </p>
 
                         <div class="row mt-4 ">
