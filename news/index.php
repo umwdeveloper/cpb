@@ -95,30 +95,34 @@ if (isset($_POST['form-contact'])) {
             <div class="row mb-lg-0 mb-4">
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
-                        <div class="news-card-image  justify-content-center" >
+                        <div class="news-card-image  justify-content-center">
                             <img src="../assets/images/news/FOC.png" style="object-fit:contain;"
                                 alt="Consumet Protection Bureau Uk Alert News about Financial Ombudsman Service (FOS) "
-                                 class="">
+                                class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
                             <h2>
-                            The Financial Ombudsman Service (FOS)
+                                The Financial Ombudsman Service (FOS)
                             </h2>
                             <p class="text mb-0 pb-0">
                                 <b>A WATCHDOG TURNED TOOTHLESS LAPDOG?</b><br>
-                            The Financial Ombudsman Service (FOS) was established with the noble intention of providing
-                            consumers with an independent, fair, and impartial platform to resolve disputes with
-                            financial institutions, including insurance companies and registered lenders regulated by
-                            the Financial Conduct Authority (FCA). However, the stark reality is that the FOS has
-                            devolved into a compromised institution that routinely prioritises the interests of powerful
-                            financial corporations leaving countless consumers disillusioned and betrayed. Evidence
-                            continues to mount of systemic bias, a lack of transparency, and decisions tainted by
-                            financial dependency. This blog tears down the facade and exposes the FOS as more of a
-                            smokescreen than a genuine protector of consumer rights.
+                                The Financial Ombudsman Service (FOS) was established with the noble intention of
+                                providing
+                                consumers with an independent, fair, and impartial platform to resolve disputes with
+                                financial institutions, including insurance companies and registered lenders regulated
+                                by
+                                the Financial Conduct Authority (FCA). However, the stark reality is that the FOS has
+                                devolved into a compromised institution that routinely prioritises the interests of
+                                powerful
+                                financial corporations leaving countless consumers disillusioned and betrayed. Evidence
+                                continues to mount of systemic bias, a lack of transparency, and decisions tainted by
+                                financial dependency. This blog tears down the facade and exposes the FOS as more of a
+                                smokescreen than a genuine protector of consumer rights.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="financial-ombudsman-services-watchdog-turned-toothless-lapdog.php" class="news-alert-btn">Read
+                                <a href="financial-ombudsman-services-watchdog-turned-toothless-lapdog.php"
+                                    class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
@@ -137,7 +141,8 @@ if (isset($_POST['form-contact'])) {
                                 Price Display Discrepancy at Asda Store
                             </h2>
                             <p class="text mb-0 pb-0">
-                            <span>(24th November 2024)</span>  In an incident happened today at an Asda store in West Sussex, a vigilant consumer
+                                <span>(24th November 2024)</span> In an incident happened today at an Asda store in West
+                                Sussex, a vigilant consumer
                                 successfully challenged misleading price labelling, highlighting the importance of
                                 consumer awareness and advocacy. The case serves as a reminder that shoppers must remain
                                 alert and prepared to assert their rights when faced with pricing discrepancies.
@@ -155,18 +160,20 @@ if (isset($_POST['form-contact'])) {
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
                             <img src="../assets/images/news/black-friday.webp"
-                                alt="Consumet Protection Bureau Uk Alert News about Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24)  " class="">
+                                alt="Consumet Protection Bureau Uk Alert News about Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24)  "
+                                class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
                             <h2>
-                            Avoid Overspending and Protect Yourself from Scams
+                                Avoid Overspending and Protect Yourself from Scams
                             </h2>
                             <p class="text mb-0 pb-0">
-                            Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24) present a fantastic opportunity to
-                            score big savings, but it’s
-                            important to approach the sales with caution. With a little planning and awareness, you can
-                            make wise purchases, avoid poor-quality products, and steer clear of fraud.
+                                Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24) present a fantastic opportunity to
+                                score big savings, but it’s
+                                important to approach the sales with caution. With a little planning and awareness, you
+                                can
+                                make wise purchases, avoid poor-quality products, and steer clear of fraud.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="black-friday-tips.php" class="news-alert-btn">Read
@@ -181,15 +188,19 @@ if (isset($_POST['form-contact'])) {
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
                             <img src="../assets/images/news/service-charges.jpg"
-                                alt="Learn about service charges in UK restaurants and your rights with updates from the Consumer Protection Bureau." class="">
+                                alt="Learn about service charges in UK restaurants and your rights with updates from the Consumer Protection Bureau."
+                                class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
                             <h2>
-                            Service Charges in UK Restaurants
+                                Service Charges in UK Restaurants
                             </h2>
                             <p class="text mb-0 pb-0">
-                            Service charges have become a standard feature of dining out in the UK, but many customers remain unclear about their legal obligations when it comes to paying them. Are they compulsory? And what happens if they are not clearly stated on the menu or on display?
+                                Service charges have become a standard feature of dining out in the UK, but many
+                                customers remain unclear about their legal obligations when it comes to paying them. Are
+                                they compulsory? And what happens if they are not clearly stated on the menu or on
+                                display?
 
 
                             </p>
@@ -205,22 +216,25 @@ if (isset($_POST['form-contact'])) {
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
-                         
-                                <img src="../assets/images/news/Hanover Square in JVC dubai.jpg"
-                                    alt="Consumet Protection Bureau Uk Alert News about ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention "
-                                  >
-                            </div>
+
+                            <img src="../assets/images/news/Hanover Square in JVC dubai.jpg"
+                                alt="Consumet Protection Bureau Uk Alert News about ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention ">
+                        </div>
                         <div class="news-card-text">
                             <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
                             <h2>
-                            ADGM Fines Wazim Nazir, Owner of ACW Following Consumer Protection Bureau's Intervention
+                                ADGM Fines Wazim Nazir, Owner of ACW Following Consumer Protection Bureau's Intervention
                             </h2>
                             <p class="text mb-0 pb-0">
-                            In a significant victory for consumer protection and regulatory integrity, the Abu Dhabi Global Market (ADGM) Registration Authority has imposed financial penalties on HSQ Holdings Ltd, PL1 Holdings Ltd, and their director, Mohammed Wazim Nazir, for egregious breaches of regulatory compliance.
+                                In a significant victory for consumer protection and regulatory integrity, the Abu Dhabi
+                                Global Market (ADGM) Registration Authority has imposed financial penalties on HSQ
+                                Holdings Ltd, PL1 Holdings Ltd, and their director, Mohammed Wazim Nazir, for egregious
+                                breaches of regulatory compliance.
 
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="adgm-fines-wazim-nazir-following-consumer-protection-bureau-intervention.php" class="news-alert-btn">Read
+                                <a href="adgm-fines-wazim-nazir-following-consumer-protection-bureau-intervention.php"
+                                    class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
@@ -230,22 +244,23 @@ if (isset($_POST['form-contact'])) {
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
-                         
-                                <img src="../assets/images/news/holiday-tips1.jpg"
-                                    alt="Festive shopping tips with a budget checklist and gift items on a table. "
-                                  >
-                            </div>
+
+                            <img src="../assets/images/news/holiday-tips1.jpg"
+                                alt="Festive shopping tips with a budget checklist and gift items on a table. ">
+                        </div>
                         <div class="news-card-text">
                             <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
                             <h2>
-                            CPB Advice for a Safe and Smart Festive Season
+                                CPB Advice for a Safe and Smart Festive Season
                             </h2>
                             <p class="text mb-0 pb-0">
-                            At the Consumer Protection Bureau (CPB), we want to ensure your festive season is filled
-                            with joy, not financial stress or disappointment. Christmas and New Year sales are a great
-                            opportunity for deals, but they also come with risks like overspending and scams. Follow our
-                            practical advice to shop smart, protect your money from scams, and enjoy a stress-free
-                            holiday season.
+                                At the Consumer Protection Bureau (CPB), we want to ensure your festive season is filled
+                                with joy, not financial stress or disappointment. Christmas and New Year sales are a
+                                great
+                                opportunity for deals, but they also come with risks like overspending and scams. Follow
+                                our
+                                practical advice to shop smart, protect your money from scams, and enjoy a stress-free
+                                holiday season.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="cpb-advice-for-safe-and-smart-festive-season.php" class="news-alert-btn">Read
@@ -292,7 +307,7 @@ if (isset($_POST['form-contact'])) {
             </div>
         </div>
     </section>
-<!-- 
+    <!-- 
     <section>
         <div class="contact-area py-lg-5 py-4">
             <div class="container py-4">
