@@ -106,14 +106,12 @@ if (isset($_POST['form-contact'])) {
 
                         <div class="row mt-4 mb-4">
                             <div class="col-md-6">
-                                <img src="../assets/images/news/FOC.png"
-                                    alt="Financial Ombudsman Service "
+                                <img src="../assets/images/news/FOC.png" alt="Financial Ombudsman Service "
                                     class="w-100  shadow rounded-2  mb-3 h-100" style="border: 2px solid #223a78">
                             </div>
                             <div class="col-md-6">
-                                <img src="../assets/images/news/FCA.png"
-                                    alt="FCA"
-                                    class="w-100  shadow rounded-2" style="border: 2px solid #223a78">
+                                <img src="../assets/images/news/FCA.png" alt="FCA" class="w-100  shadow rounded-2"
+                                    style="border: 2px solid #223a78">
                             </div>
                             <div class="col-lg-12">
                                 <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4">
@@ -167,7 +165,7 @@ if (isset($_POST['form-contact'])) {
 
 
                                 <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4">
-                                    <span class="text-alert"> Case Study 1:</span>
+                                    <span class="text-alert"> Case Review 1:</span>
                                     The Insurance Fraud Whitewashed by the FOS
                                 </h3>
                                 <p class="text">
@@ -190,153 +188,229 @@ if (isset($_POST['form-contact'])) {
                                 <div class="text shadow-sm rounded-2  p-3 border"
                                     style="background-color:#FEE8CF !important;">
                                     <h3 class="text-md-l text-bold text-primary w-700">
-                                    Case Study 1: The Insurance Scandal That FOS Ignored
+                                        Case Review 1: The Insurance Scandal That FOS Ignored
                                     </h3>
                                     <p class="text">
-                                    In this case, a homeowner submitted a claim to their insurer after significant flood damage left their property uninhabitable. Despite the homeowner having full flood insurance coverage and submitting third-party assessment reports confirming the validity of the claim, the insurer denied responsibility, citing ambiguous policy wording. The consumer escalated the issue to the Financial Ombudsman Service (FOS), expecting impartial resolution.
+                                        In this case, a homeowner submitted a claim to their insurer after significant
+                                        flood damage left their property uninhabitable. Despite the homeowner having
+                                        full flood insurance coverage and submitting third-party assessment reports
+                                        confirming the validity of the claim, the insurer denied responsibility, citing
+                                        ambiguous policy wording. The consumer escalated the issue to the Financial
+                                        Ombudsman Service (FOS), expecting impartial resolution.
                                     </p>
                                     <p class="text">
-                                    During the FOS investigation, the insurer submitted conflicting accounts of their findings and inconsistencies in their communication were evident. The ombudsman, however, ruled in favour of the insurer, dismissing key pieces of evidence provided by the complainant. Months later, independent investigative journalists revealed internal communication showing the insurer had actively lobbied the FOS caseworker to dismiss critical evidence. Despite this revelation, the FOS refused to reopen the case, raising serious questions about the transparency and impartiality of their decision-making process.
+                                        During the FOS investigation, the insurer submitted conflicting accounts of
+                                        their findings and inconsistencies in their communication were evident. The
+                                        ombudsman, however, ruled in favour of the insurer, dismissing key pieces of
+                                        evidence provided by the complainant. Months later, independent investigative
+                                        journalists revealed internal communication showing the insurer had actively
+                                        lobbied the FOS caseworker to dismiss critical evidence. Despite this
+                                        revelation, the FOS refused to reopen the case, raising serious questions about
+                                        the transparency and impartiality of their decision-making process.
                                     </p>
-                                
+
                                 </div>
 
                                 <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4">
-                                    <span class="text-alert"> Case Study 2:</span>
-                                  Personal Loan Scam Rubber-Stamped by the FOS- A Classic Case of Bias 
+                                    <span class="text-alert"> Case Review 2:</span>
+                                    Personal Loan Scam Rubber-Stamped by the FOS- A Classic Case of Bias
                                 </h3>
                                 <p class="text">
-                                A borrower took out a personal loan from an FCA-registered lender, only to discover <b>hidden fees and exploitative interest rates</b> buried in the fine print. The borrower filed a complaint, backed by clear contractual breaches and financial evidence. The lender dismissed it, and the case moved to the FOS.
+                                    A borrower took out a personal loan from an FCA-registered lender, only to discover
+                                    <b>hidden fees and exploitative interest rates</b> buried in the fine print. The
+                                    borrower filed a complaint, backed by clear contractual breaches and financial
+                                    evidence. The lender dismissed it, and the case moved to the FOS.
                                 </p>
                                 <p class="text">
-                                Despite overwhelming evidence, the FOS sided with the lender, claiming the terms were ‘within industry norms.’ Months later, leaked emails exposed internal communications instructing FOS caseworkers to <b>prioritise lender relationships over impartial investigation outcomes.</b>
+                                    Despite overwhelming evidence, the FOS sided with the lender, claiming the terms
+                                    were ‘within industry norms.’ Months later, leaked emails exposed internal
+                                    communications instructing FOS caseworkers to <b>prioritise lender relationships
+                                        over impartial investigation outcomes.</b>
                                 </p>
 
                                 <div class="text shadow-sm rounded-2  p-3 border"
                                     style="background-color:#FEE8CF !important;">
                                     <h3 class="text-md-l text-bold text-primary w-700">
-                                    Case Study 2: Personal Loan Dispute – A Classic Case of Bias
+                                        Case Review 2: Personal Loan Dispute – A Classic Case of Bias
                                     </h3>
                                     <p class="text">
-                                    In this example, a borrower took out a personal loan with a well-known FCA-registered lender. The terms of the loan included hidden fees and excessive interest charges that were not disclosed transparently at the outset. When the borrower realised they were being overcharged, they filed a complaint with the lender, which was swiftly dismissed.
+                                        In this example, a borrower took out a personal loan with a well-known
+                                        FCA-registered lender. The terms of the loan included hidden fees and excessive
+                                        interest charges that were not disclosed transparently at the outset. When the
+                                        borrower realised they were being overcharged, they filed a complaint with the
+                                        lender, which was swiftly dismissed.
                                     </p>
                                     <p class="text">
-                                    The borrower then escalated the complaint to the FOS, providing documentary evidence, including copies of the original loan agreement and financial breakdowns showing clear breaches of FCA regulations. However, the FOS sided with the lender, claiming the terms were 'within standard industry practice.' Months later, leaked internal emails exposed a pattern where high-value lenders were given preferential treatment in FOS complaint reviews, with caseworkers instructed to prioritise preserving lender relationships over consumer fairness.
+                                        The borrower then escalated the complaint to the FOS, providing documentary
+                                        evidence, including copies of the original loan agreement and financial
+                                        breakdowns showing clear breaches of FCA regulations. However, the FOS sided
+                                        with the lender, claiming the terms were 'within standard industry practice.'
+                                        Months later, leaked internal emails exposed a pattern where high-value lenders
+                                        were given preferential treatment in FOS complaint reviews, with caseworkers
+                                        instructed to prioritise preserving lender relationships over consumer fairness.
                                     </p>
-                                
+
                                 </div>
                                 <p class="text mt-3">
-                                Both cases are not isolated incidents—they are damning evidence of a pattern of <b> bias, incompetence, and wilful negligence</b>. They highlight critical failures in oversight, transparency, and impartiality within the FOS complaint handling system, reinforcing concerns about its structural bias and accountability.
+                                    Both cases are not isolated incidents—they are damning evidence of a pattern of <b>
+                                        bias, incompetence, and wilful negligence</b>. They highlight critical failures
+                                    in oversight, transparency, and impartiality within the FOS complaint handling
+                                    system, reinforcing concerns about its structural bias and accountability.
                                 </p>
 
 
 
                                 <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4">
-                                    THE CONSUMER EXPERIENCE: DELAYS, STONEWALLING, AND FRUSTRATION 
+                                    THE CONSUMER EXPERIENCE: DELAYS, STONEWALLING, AND FRUSTRATION
                                 </h3>
                                 <p class="text">
-                                Beyond biased rulings, consumers face an infuriatingly opaque and sluggish complaint resolution process:
+                                    Beyond biased rulings, consumers face an infuriatingly opaque and sluggish complaint
+                                    resolution process:
                                 </p>
                                 <ul>
                                     <li class="text">
-                                    Complaints routinely drag on for <b>over 18 months.</b>
+                                        Complaints routinely drag on for <b>over 18 months.</b>
                                     </li>
                                     <li class="text">
-                                    Caseworkers lack specialised knowledge of financial regulations.
+                                        Caseworkers lack specialised knowledge of financial regulations.
                                     </li>
                                     <li class="text">
-                                    Updates are sporadic, and communication is abysmal.
+                                        Updates are sporadic, and communication is abysmal.
                                     </li>
                                 </ul>
                                 <p class="text">
-                                The FOS seems to rely on one tactic: <b>delay and exhaust the complainant until they give up.</b>
+                                    The FOS seems to rely on one tactic: <b>delay and exhaust the complainant until they
+                                        give up.</b>
                                 </p>
                                 <p class="text">
-                                The process feels less like an independent arbitration and more like a bureaucratic exercise designed to wear consumers down.
+                                    The process feels less like an independent arbitration and more like a bureaucratic
+                                    exercise designed to wear consumers down.
                                 </p>
                                 <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4">
-                                SYSTEMIC FAILURES: ACCOUNTABILITY DEFICIT AND LACK OF OVERSIGHT 
+                                    SYSTEMIC FAILURES: ACCOUNTABILITY DEFICIT AND LACK OF OVERSIGHT
                                 </h3>
                                 <p class="text">
-                                Unlike the financial firms it regulates, the FOS faces minimal oversight. While its decisions are subject to judicial review, the cost and complexity of pursuing such actions make them impractical for the average consumer.
+                                    Unlike the financial firms it regulates, the FOS faces minimal oversight. While its
+                                    decisions are subject to judicial review, the cost and complexity of pursuing such
+                                    actions make them impractical for the average consumer.
                                 </p>
                                 <p class="text">
-                                The FCA, which oversees the FOS, has shown little appetite for holding the ombudsman accountable, perpetuating a cycle of ineffectiveness and bias.
+                                    The FCA, which oversees the FOS, has shown little appetite for holding the ombudsman
+                                    accountable, perpetuating a cycle of ineffectiveness and bias.
                                 </p>
                                 <div class="text shadow-sm rounded-2  p-3 border"
                                     style="background-color:#FEE8CF !important;">
                                     <h3 class="text-md-l text-bold text-primary w-700">
-                                    Who Regulate the Regulator?
+                                        Who Regulate the Regulator?
                                     </h3>
                                     <p class="text">
-                                    The FCA nominally oversees the FOS but has shown little interest in enforcing meaningful oversight. While FOS decisions can technically be challenged through judicial review, the prohibitive cost and complexity make this route inaccessible for most consumers.
-                                                                    </p>
-                                   
+                                        The FCA nominally oversees the FOS but has shown little interest in enforcing
+                                        meaningful oversight. While FOS decisions can technically be challenged through
+                                        judicial review, the prohibitive cost and complexity make this route
+                                        inaccessible for most consumers.
+                                    </p>
+
                                 </div>
                                 <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4">
-                                TIME TO END THE CHARADE 
+                                    TIME TO END THE CHARADE
                                 </h3>
                                 <p class="text">
-                                The Financial Ombudsman Service was designed to be a guardian of fairness in financial disputes, but it has morphed into an institution marred by conflicts of interest, systemic bias, and a lack of accountability. Consumers deserve better than a toothless watchdog.
+                                    The Financial Ombudsman Service was designed to be a guardian of fairness in
+                                    financial disputes, but it has morphed into an institution marred by conflicts of
+                                    interest, systemic bias, and a lack of accountability. Consumers deserve better than
+                                    a toothless watchdog.
                                 </p>
                                 <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4">
-                                WHAT MUST CHANGE? REAL REFORMS, NOT COSMETIC TWEAKS
+                                    WHAT MUST CHANGE? REAL REFORMS, NOT COSMETIC TWEAKS
                                 </h3>
                                 <ol>
                                     <li>
-                                    <b>Independent Funding:</b> The FOS must be funded by a neutral body, not the firms it regulates.
+                                        <b>Independent Funding:</b> The FOS must be funded by a neutral body, not the
+                                        firms it regulates.
                                     </li>
                                     <li>
-                                    <b>Real Oversight:</b> The FCA must conduct regular, independent audits of FOS decisions.
+                                        <b>Real Oversight:</b> The FCA must conduct regular, independent audits of FOS
+                                        decisions.
                                     </li>
                                     <li>
-                                    	<b>Full Transparency:</b> Publish anonymised but detailed case data, including the rationale behind decisions.
+                                        <b>Full Transparency:</b> Publish anonymised but detailed case data, including
+                                        the rationale behind decisions.
                                     </li>
                                     <li>
-                                    	<b>Time Limits:</b> Strict timelines must be enforced for resolving complaints.
+                                        <b>Time Limits:</b> Strict timelines must be enforced for resolving complaints.
                                     </li>
                                     <li>
-                                   <b> Consumer Representation: </b>Create a panel of independent consumer advocates to monitor systemic biases.
+                                        <b> Consumer Representation: </b>Create a panel of independent consumer
+                                        advocates to monitor systemic biases.
                                     </li>
                                 </ol>
                                 <p class="text">
-                                The Financial Ombudsman Service, once a beacon of hope for consumer fairness, has become a <b>corporate puppet</b>, complicit in perpetuating financial injustice. The FCA and Parliament must act decisively to dismantle the current framework, root out systemic corruption, and rebuild the FOS into an institution that serves its true purpose: <b>protecting consumers, not corporations</b>.
+                                    The Financial Ombudsman Service, once a beacon of hope for consumer fairness, has
+                                    become a <b>corporate puppet</b>, complicit in perpetuating financial injustice. The
+                                    FCA and Parliament must act decisively to dismantle the current framework, root out
+                                    systemic corruption, and rebuild the FOS into an institution that serves its true
+                                    purpose: <b>protecting consumers, not corporations</b>.
                                 </p>
                                 <p class="text">
-                                The time for excuses is over. The time for change is now. Consumers must demand transparency, accountability, and justice—not empty promises and bureaucratic smokescreens.
+                                    The time for excuses is over. The time for change is now. Consumers must demand
+                                    transparency, accountability, and justice—not empty promises and bureaucratic
+                                    smokescreens.
                                 </p>
-
-                                <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4">
-                                Insights and Reports Highlighting Failures in Consumer Protection
-                                </h3>
-                                <p class="text">
-                                Recent investigations and reports have shed light on the challenges faced by consumers due to the inefficiencies of the Financial Ombudsman Service (FOS) and other bodies tasked with protecting consumer rights. Key findings include:
-                                </p>
-                                <ol>
-                                    <li>
-                                        <b>Delays in Resolving Complaints:</b>
-                                        A <a class="text-primary" target="_blank" href="https://www.telegraph.co.uk/money/consumer-affairs/financial-victims-let-body-should-protect/?utm">Telegraph article </a> highlights how the FOS has struggled to resolve complaints promptly, leaving financial victims without justice for extended periods.
-                                    </li>
-                                    <li>
-                                        <b>Cases Pending for Years:</b>
-                                        According to a <a class="text-primary" target="_blank" href="https://www.telegraph.co.uk/money/consumer-affairs/financial-victims-kept-waiting-eight-years-justice/">Telegraph investigation</a> , some victims have waited over eight years for their complaints to be addressed, exposing systemic delays in the process.
-                                    </li>
-                                    <li>
-                                        <b>Concerns Raised by Major Media Outlets:            </b>
-                                        A <a class="text-primary" target="_blank" href="https://www.bbc.co.uk/news/business-55858137?">BBC report</a>  underscores the growing challenges faced by consumers, emphasizing the lack of timely resolutions.
-                                    </li>
-                                    <li>
-                                        <b>Surge in Complaints:</b>
-                                        Complaints to the FOS have surged by 40%, as reported by <a class="text-primary" target="_blank" href="https://www.ftadviser.com/fos/2024/10/24/complaints-received-by-fos-rise-40/?utm">FT Adviser</a>. This indicates a growing lack of trust in the system's efficiency.
-                                    </li>
-                                    <li>
-                                        <b>Criticism from Think Tanks:</b>
-                                        A <a class="text-primary" target="_blank" href="https://www.moneymarketing.co.uk/news/fos-slammed-as-unfit-for-purpose-by-think-tank/?utm">Money Marketing article</a> reveals that a leading think tank has labeled the FOS 'unfit for purpose,' calling for major reforms to improve its functionality.
-                                    </li>
-                                </ol>
-                                <p class="text">
-                                These reports collectively demonstrate the urgent need for reforms to restore consumer trust in organizations meant to safeguard their rights.
-                                </p>
+                                <div class="text shadow-sm rounded-2  p-3 border"
+                                    style="background-color:#90d5ff !important;">
+                                    <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4">
+                                        Insights and Reports Highlighting Failures in Consumer Protection
+                                    </h3>
+                                    <p class="text">
+                                        Recent investigations and reports have shed light on the challenges faced by
+                                        consumers due to the inefficiencies of the Financial Ombudsman Service (FOS) and
+                                        other bodies tasked with protecting consumer rights. Key findings include:
+                                    </p>
+                                    <ol>
+                                        <li>
+                                            <b>Delays in Resolving Complaints:</b>
+                                            A <a class="text-primary" target="_blank"
+                                                href="https://www.telegraph.co.uk/money/consumer-affairs/financial-victims-let-body-should-protect/?utm">Telegraph
+                                                article </a> highlights how the FOS has struggled to resolve complaints
+                                            promptly, leaving financial victims without justice for extended periods.
+                                        </li>
+                                        <li>
+                                            <b>Cases Pending for Years:</b>
+                                            According to a <a class="text-primary" target="_blank"
+                                                href="https://www.telegraph.co.uk/money/consumer-affairs/financial-victims-kept-waiting-eight-years-justice/">Telegraph
+                                                investigation</a> , some victims have waited over eight years for their
+                                            complaints to be addressed, exposing systemic delays in the process.
+                                        </li>
+                                        <li>
+                                            <b>Concerns Raised by Major Media Outlets: </b>
+                                            A <a class="text-primary" target="_blank"
+                                                href="https://www.bbc.co.uk/news/business-55858137?">BBC report</a>
+                                            underscores the growing challenges faced by consumers, emphasizing the lack
+                                            of
+                                            timely resolutions.
+                                        </li>
+                                        <li>
+                                            <b>Surge in Complaints:</b>
+                                            Complaints to the FOS have surged by 40%, as reported by <a
+                                                class="text-primary" target="_blank"
+                                                href="https://www.ftadviser.com/fos/2024/10/24/complaints-received-by-fos-rise-40/?utm">FT
+                                                Adviser</a>. This indicates a growing lack of trust in the system's
+                                            efficiency.
+                                        </li>
+                                        <li>
+                                            <b>Criticism from Think Tanks:</b>
+                                            A <a class="text-primary" target="_blank"
+                                                href="https://www.moneymarketing.co.uk/news/fos-slammed-as-unfit-for-purpose-by-think-tank/?utm">Money
+                                                Marketing article</a> reveals that a leading think tank has labeled the
+                                            FOS
+                                            'unfit for purpose,' calling for major reforms to improve its functionality.
+                                        </li>
+                                    </ol>
+                                    <p class="text">
+                                        These reports collectively demonstrate the urgent need for reforms to restore
+                                        consumer trust in organizationz meant to safeguard their rights.
+                                    </p>
+                                </div>
                             </div>
 
                             <!-- <div class="col-lg-4 mt-3  order-lg-1 order-2">
