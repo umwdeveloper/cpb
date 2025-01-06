@@ -306,7 +306,7 @@ $feedbacks = findAll("feedbacks");
             <div class="row">
                 <div class="col-lg-12">
                     <div class="news-slick slick-slider  ">
-                    <div>
+                        <div>
                             <div class="home-alert d-flex align-items-center ">
                                 <div class="d-flex flex-lg-row flex-column align-items-center">
                                     <div class="announcement-iameg" style="min-width:280px">
@@ -316,8 +316,9 @@ $feedbacks = findAll("feedbacks");
                                     <div class="home-alert-text ms-lg-4">
                                         <h2 class="mb-3">THE FINANCIAL OMBUDSMAN SERVICE</h2>
                                         <div>
-                                            <a href="news/financial-ombudsman-services-watchdog-turned-toothless-lapdog.php">
-                                            A WATCHDOG TURNED TOOTHLESS LAPDOG?
+                                            <a
+                                                href="news/financial-ombudsman-services-watchdog-turned-toothless-lapdog.php">
+                                                A WATCHDOG TURNED TOOTHLESS LAPDOG?
                                                 <span><i class="bi bi-chevron-double-right"></i></span>
                                             </a>
                                         </div>
@@ -1026,7 +1027,8 @@ $feedbacks = findAll("feedbacks");
 
             <div class="modal-body">
                 <div class="d-flex justify-content-end">
-                <button type="button" class="chrismas-close text-end ms-auto" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    <button type="button" class="chrismas-close text-end ms-auto" data-bs-dismiss="modal"
+                        aria-label="Close">x</button>
                 </div>
                 <img src="assets/images/chrismas.png" alt="Merry Chrismas from Conumer Protection Bureau"
                     class="img-fluid ps-lg-4 d-lg-block d-none">
@@ -1042,10 +1044,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const pageLoadModal = new bootstrap.Modal(document.getElementById('chrismas'));
     pageLoadModal.show();
     setTimeout(() => {
-    pageLoadModal.hide();
-}, 4000); // Show modal after 3 seconds
+        pageLoadModal.hide();
+    }, 4000); // Show modal after 3 seconds
 });
-
 </script>
 
 
