@@ -359,7 +359,7 @@ if (isset($_POST['form-contact'])) {
                                 <div class="text shadow-sm rounded-2  p-3 border"
                                     style="background-color:#90d5ff !important;">
                                     <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4">
-                                        Insights and Reports Highlighting Failures in Consumer Protection
+                                        Insights and Reports Highlighting FOS Failures in Consumer Protection
                                     </h3>
                                     <p class="text">
                                         Recent investigations and reports have shed light on the challenges faced by
