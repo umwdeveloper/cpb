@@ -314,23 +314,23 @@ if (isset($_POST['form-contact'])) {
                                 </p>
                                 <ol>
                                     <li>
-                                        <b>Delays in Resolving Complaints:</b><br>
+                                        <b>Delays in Resolving Complaints:</b>
                                         A <a class="text-primary" target="_blank" href="https://www.telegraph.co.uk/money/consumer-affairs/financial-victims-let-body-should-protect/?utm">Telegraph article </a> highlights how the FOS has struggled to resolve complaints promptly, leaving financial victims without justice for extended periods.
                                     </li>
                                     <li>
-                                        <b>Cases Pending for Years:</b><br>
+                                        <b>Cases Pending for Years:</b>
                                         According to a <a class="text-primary" target="_blank" href="https://www.telegraph.co.uk/money/consumer-affairs/financial-victims-kept-waiting-eight-years-justice/">Telegraph investigation</a> , some victims have waited over eight years for their complaints to be addressed, exposing systemic delays in the process.
                                     </li>
                                     <li>
-                                        <b>Concerns Raised by Major Media Outlets:            </b><br>
+                                        <b>Concerns Raised by Major Media Outlets:            </b>
                                         A <a class="text-primary" target="_blank" href="https://www.bbc.co.uk/news/business-55858137?">BBC report</a>  underscores the growing challenges faced by consumers, emphasizing the lack of timely resolutions.
                                     </li>
                                     <li>
-                                        <b>Surge in Complaints:</b><br>
+                                        <b>Surge in Complaints:</b>
                                         Complaints to the FOS have surged by 40%, as reported by <a class="text-primary" target="_blank" href="https://www.ftadviser.com/fos/2024/10/24/complaints-received-by-fos-rise-40/?utm">FT Adviser</a>. This indicates a growing lack of trust in the system's efficiency.
                                     </li>
                                     <li>
-                                        <b>Criticism from Think Tanks:</b><br>
+                                        <b>Criticism from Think Tanks:</b>
                                         A <a class="text-primary" target="_blank" href="https://www.moneymarketing.co.uk/news/fos-slammed-as-unfit-for-purpose-by-think-tank/?utm">Money Marketing article</a> reveals that a leading think tank has labeled the FOS 'unfit for purpose,' calling for major reforms to improve its functionality.
                                     </li>
                                 </ol>
