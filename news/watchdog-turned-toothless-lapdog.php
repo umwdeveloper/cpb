@@ -76,7 +76,7 @@ if (isset($_POST['form-contact'])) {
 </head>
 
 <?php include 'assets/include/header.php'; ?>
-<main class="baskervville-regular">
+<main class="">
 
     <section class="py-lg-5 py-4 bg-light about-hero">
         <div class="container">
