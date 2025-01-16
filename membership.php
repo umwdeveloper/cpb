@@ -229,7 +229,7 @@ $feedbacks = findAll("feedbacks");
                                     <div class="d-flex ">
                                            <b>Account&nbsp;Name: </b> CONSUMER
 PROTECTION BUREAU
-(CPB), E UROPE CIC
+(CPB), EUROPE CIC
                                     </div>
                                     <div class="d-flex align-items-center">
                                            <b>Sort Code: </b>&nbsp; 23-05-80
