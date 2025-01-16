@@ -223,14 +223,28 @@ $feedbacks = findAll("feedbacks");
                                 <div class="padding p-4 border">
                                     <h2 class="text-md  text-primary  mb-2 mt-0 pt-0"><b>PAYMENT INFORMATION</b>
                                     </h2>
-                                    <p class="text  mb-0 pb-0">
+                                    <div class="d-flex align-items-center">
+                                           <b>Bank Name: </b>&nbsp; METRO Bank
+                                    </div>
+                                    <div class="d-flex ">
+                                           <b>Account&nbsp;Name: </b> CONSUMER
+PROTECTION BUREAU
+(CPB), E UROPE CIC
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                           <b>Sort Code: </b>&nbsp; 23-05-80
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                           <b>Account Number: </b>&nbsp; 55451753
+                                    </div>
+                                    <!-- <p class="text  mb-0 pb-0">
                                         Transfer to Santander<br>
                                         Compliance and Risk Consultancy (CRC) The
                                         Compli<br>
                                         Account Number 96293501<br>
                                         Sort Code 09-01-28
 
-                                    </p>
+                                    </p> -->
                                 </div>
                             </div>
 
