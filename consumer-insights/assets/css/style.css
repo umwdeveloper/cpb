@@ -1,0 +1,13 @@
+:root {
+    --primary-font: "Poppins", sans-serif;
+    --secondry-font: "Nunito Sans", sans-serif;
+    --primary: #223A78;
+    --secondry: #E5BF20;
+}
+
+body {
+    font-family: var(--primary-font); 
+}
+.logo{
+    height: 70px !important;
+}

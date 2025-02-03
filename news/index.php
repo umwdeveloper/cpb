@@ -73,8 +73,6 @@ if (isset($_POST['form-contact'])) {
 
 <?php include 'assets/include/header.php'; ?>
 <main>
-
-
     <section class="py-lg-5 py-4 bg-light about-hero">
         <div class="container">
             <div class="row justify-content-center align-items-start">
@@ -273,7 +271,6 @@ if (isset($_POST['form-contact'])) {
             </div>
         </div>
     </section>
-
     <section class="py-lg-5 py-4 ">
         <div class="container">
             <div class="row justify-content-center">
