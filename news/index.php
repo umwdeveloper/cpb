@@ -91,6 +91,34 @@ if (isset($_POST['form-contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4">
+            <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image  justify-content-center">
+                            <img src="../assets/images/news/refund.jpg" style="object-fit:contain;"
+                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items "
+                                class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>24th November 2024</span> -->
+                            <h2 class="mb-0 pb-0">
+                            Refunds on Sale Items: Know Your
+                            Rights
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                            Shopping during a sale can be exciting, with retailers offering various discounts. However,
+                            many consumers are unsure about their rights when it comes to returning sale items. A common
+                            myth is that discounted items cannot be refunded—but is that really true? Let’s break down
+                            what the law says about refunds on sale items in the UK.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="refund-on-sale-items.php"
+                                    class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image  justify-content-center">
