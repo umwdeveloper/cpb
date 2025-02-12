@@ -549,7 +549,7 @@ $feedbacks = findAll("feedbacks");
                         </h2>
                   </div>
                         <p class="text py-2 text-white  mb-0 pb-0">
-                        We are proud to announce that <b>Consumer Protection Bureau</b> is now a <b>member </b> of<b>Consumers International</b>, the leading global voice for consumer rights. This partnership marks a significant step in our commitment to advocating for fair trade, ethical business practices, and stronger consumer protection worldwide.
+                        We are proud to announce that <b>Consumer Protection Bureau</b> is now a <b>member </b> of <b>Consumers International</b>, the leading global voice for consumer rights. This partnership marks a significant step in our commitment to advocating for fair trade, ethical business practices, and stronger consumer protection worldwide.
                        <br><br>
                       
                       <div class="d-flex align-items-center ">
@@ -567,7 +567,8 @@ $feedbacks = findAll("feedbacks");
                         </li>
                        </ul>
                        <div class="mt-4 pt-3 pb-3">
-                            <a href="assets/Press-Release/Press-Release-11-02-2025.pdf" target="_blank" class="main-btn  text-white" style="font-size:22px">📖 Read Our Full Press Release </a>
+                            <a href="Press-Release/Press-Release-11-02-2025.pdf" target="_blank" class="main-btn  text-white" 
+                            style="font-size:22px">📖 Read Our Full Press Release </a>
                         </div>
                       </div>
                        <div class="ps-5 ms-5">
