@@ -92,7 +92,7 @@ if (isset($_POST['form-contact'])) {
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4">
 
-            <div class="col-lg-4 mb-3">
+                <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image  justify-content-center" style="background-color:#84B578;">
                             <img src="../assets/images/news/CPB joins CI.png" style="object-fit:contain;"
@@ -101,15 +101,15 @@ if (isset($_POST['form-contact'])) {
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
                             <h2 class="mb-0 pb-0">
-                            CPB JOINS CONSUMERS INTERNATIONAL
+                                CPB JOINS CONSUMERS INTERNATIONAL
                             </h2>
                             <p class="text mb-0 pb-0">
-                            <span>(11th February 2025)</span>  
-                            CPB is proud to announce its official
-membership in Consumers International, the world’s leading consumer
-advocacy network. This milestone underscores CPB’s commitment to
-championing consumer rights, promoting ethical business practices, and
-driving policy change in the UK and beyond.
+                                <span>(11th February 2025)</span>
+                                CPB is proud to announce its official
+                                membership in Consumers International, the world’s leading consumer
+                                advocacy network. This milestone underscores CPB’s commitment to
+                                championing consumer rights, promoting ethical business practices, and
+                                driving policy change in the UK and beyond.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="../Press-Release/Press-Release-11-02-2025.pdf" class="news-alert-btn">Read
