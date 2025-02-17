@@ -326,6 +326,36 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
+
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image">
+
+                            <img src="../assets/images/news/Counterfeiting-Goods-Is-a-Serious-Crime.png"
+                                alt="Festive shopping tips with a budget checklist and gift items on a table. ">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
+                            <h2>
+                            A Growing Global Threat to Consumers and Businesses
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                            Counterfeit goods pose a serious threat to consumers, businesses, and economies
+worldwide, with illicit trade accounting for an estimated 3.3% of global commerce.
+According to the International Chamber of Commerce (ICC), counterfeiting costs the
+global economy over £500 billion annually. From luxury handbags and
+pharmaceuticals to electronics and automobile parts, counterfeit products deceive
+consumers, violate intellectual property rights, and often fail to meet safety
+standards.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="understanding-counterfeit-goods.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>
