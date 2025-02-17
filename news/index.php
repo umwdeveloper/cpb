@@ -327,7 +327,7 @@ if (isset($_POST['form-contact'])) {
                     </div>
                 </div>
 
-                <!-- <div class="col-lg-4 mb-3">
+                <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
 
@@ -354,7 +354,7 @@ if (isset($_POST['form-contact'])) {
                         </div>
 
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>
