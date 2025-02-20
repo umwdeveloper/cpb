@@ -355,6 +355,34 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
+
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image">
+
+                            <img src="../assets/images/news/fake-products.png"
+                                alt="Spotting Fake Products">
+                        </div>
+                        <div class="news-card-text">
+                            <h2>
+                            Fake or Real? The Truth Behind Counterfeit Products
+
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                            Counterfeit goods are a growing concern, deceiving consumers and harming legitimate
+                            businesses. From electronics and designer clothing to cosmetics and pharmaceuticals, fake
+                            products pose significant risks, including financial loss, health hazards, and compromised
+                            safety. Identifying counterfeit goods is essential for protecting your consumer rights and
+                            making informed purchasing decisions.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="spotting-fake-products.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>

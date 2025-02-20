@@ -82,8 +82,9 @@ if (isset($_POST['form-contact'])) {
 
                     <div class="px-lg-4 mx-2 px-3">
                         <h1 class="news-heading text-uppercase  my-3">
-                            Spotting Fake Products:
-                            <br class="d-lg-block d-none"> <span class="text-alert">A Consumer’s Guide</span>
+                        Fake or Real?
+                            <br class="d-lg-block d-none"> <span class="text-alert"> The Truth Behind Counterfeit Products
+                            </span>
                         </h1>
 
 
