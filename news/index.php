@@ -128,7 +128,7 @@ if (isset($_POST['form-contact'])) {
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
-                            <h2 class="mb-0 pb-0">
+                            <h2 class="mb-0 pb-0 text-uppercase">
                                 Refunds on Sale Items: Know Your
                                 Rights
                             </h2>
@@ -158,11 +158,11 @@ if (isset($_POST['form-contact'])) {
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
-                            <h2>
-                                The Financial Ombudsman Service (FOS)
+                            <h2 class="text-uppercase">
+                            A WATCHDOG TURNED TOOTHLESS LAPDOG?
                             </h2>
                             <p class="text mb-0 pb-0">
-                                <b>A WATCHDOG TURNED TOOTHLESS LAPDOG?</b><br>
+                         
                                 The Financial Ombudsman Service (FOS) was established with the noble intention of
                                 providing
                                 consumers with an independent, fair, and impartial platform to resolve disputes with
@@ -193,7 +193,7 @@ if (isset($_POST['form-contact'])) {
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
-                            <h2>
+                            <h2 class="text-uppercase">
                                 Price Display Discrepancy at Asda Store
                             </h2>
                             <p class="text mb-0 pb-0">
@@ -221,7 +221,7 @@ if (isset($_POST['form-contact'])) {
                         </div>
                         <div class="news-card-text">
                             <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
-                            <h2>
+                            <h2 class="text-uppercase">
                                 Avoid Overspending and Protect Yourself from Scams
                             </h2>
                             <p class="text mb-0 pb-0">
@@ -249,7 +249,7 @@ if (isset($_POST['form-contact'])) {
                         </div>
                         <div class="news-card-text">
                             <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
-                            <h2>
+                            <h2 class="text-uppercase">
                                 Service Charges in UK Restaurants
                             </h2>
                             <p class="text mb-0 pb-0">
@@ -278,7 +278,7 @@ if (isset($_POST['form-contact'])) {
                         </div>
                         <div class="news-card-text">
                             <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
-                            <h2>
+                            <h2 class="text-uppercase">
                                 ADGM Fines Wazim Nazir, Owner of ACW Following Consumer Protection Bureau's Intervention
                             </h2>
                             <p class="text mb-0 pb-0">
@@ -306,7 +306,7 @@ if (isset($_POST['form-contact'])) {
                         </div>
                         <div class="news-card-text">
                             <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
-                            <h2>
+                            <h2 class="text-uppercase">
                                 CPB Advice for a Safe and Smart Festive Season
                             </h2>
                             <p class="text mb-0 pb-0">
@@ -335,7 +335,7 @@ if (isset($_POST['form-contact'])) {
                                 alt="Festive shopping tips with a budget checklist and gift items on a table. ">
                         </div>
                         <div class="news-card-text">
-                            <h2>
+                            <h2 class="text-uppercase">
                                 A Growing Global Threat to Consumers and Businesses
                             </h2>
                             <p class="text mb-0 pb-0">
@@ -364,7 +364,7 @@ if (isset($_POST['form-contact'])) {
                                 alt="Spotting Fake Products">
                         </div>
                         <div class="news-card-text">
-                            <h2>
+                            <h2 class="text-uppercase">
                             Fake or Real? The Truth Behind Counterfeit Products
 
                             </h2>
