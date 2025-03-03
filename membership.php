@@ -71,7 +71,8 @@ $feedbacks = findAll("feedbacks");
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content=") Become a member of the Consumer Protection Bureau and gain access to exclusive resources, support for consumer complaints, and expert advice on UK consumer protection laws. Protect your rights with us today.">
+    <meta name="description"
+        content=") Become a member of the Consumer Protection Bureau and gain access to exclusive resources, support for consumer complaints, and expert advice on UK consumer protection laws. Protect your rights with us today.">
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
@@ -224,18 +225,18 @@ $feedbacks = findAll("feedbacks");
                                     <h2 class="text-md  text-primary  mb-2 mt-0 pt-0"><b>PAYMENT INFORMATION</b>
                                     </h2>
                                     <div class="d-flex align-items-center">
-                                           <b>Bank Name: </b>&nbsp; METRO Bank
+                                        <b>Bank Name: </b>&nbsp; METRO Bank
                                     </div>
                                     <div class="d-flex ">
-                                           <b>Account&nbsp;Name: </b> CONSUMER
-PROTECTION BUREAU
-(CPB), EUROPE CIC
+                                        <b>Account&nbsp;Name: </b> CONSUMER
+                                        PROTECTION BUREAU
+                                        (CPB), EUROPE CIC
                                     </div>
                                     <div class="d-flex align-items-center">
-                                           <b>Sort Code: </b>&nbsp; 23-05-80
+                                        <b>Sort Code: </b>&nbsp; 23-05-80
                                     </div>
                                     <div class="d-flex align-items-center">
-                                           <b>Account Number: </b>&nbsp; 55451753
+                                        <b>Account Number: </b>&nbsp; 55451753
                                     </div>
                                     <!-- <p class="text  mb-0 pb-0">
                                         Transfer to Santander<br>
@@ -336,15 +337,15 @@ PROTECTION BUREAU
                 </div>
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center order-lg-2 order-1">
-                    <img src="assets/images/contact consumer protection.png" alt="Consumer Protection Bureau Membership Benefits"
-                        class="consumer-img  object-fit-contain">
+                    <img src="assets/images/contact consumer protection.png"
+                        alt="Consumer Protection Bureau Membership Benefits" class="consumer-img  object-fit-contain">
                 </div>
             </div>
             <div class="row  mb-lg-0 mb-4">
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3">
-                    <img src="assets/images/contact consumer protection uk.png" alt="Expert Guidance from Consumer Protection Bureau"
-                        class="consumer-img object-fit-contain">
+                    <img src="assets/images/contact consumer protection uk.png"
+                        alt="Expert Guidance from Consumer Protection Bureau" class="consumer-img object-fit-contain">
                 </div>
                 <div class="col-lg-8 px-0 bg-white d-flex align-items-center">
                     <div class="service-white-card service-card py-lg-5 py-3">
@@ -372,15 +373,16 @@ PROTECTION BUREAU
                 </div>
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3 order-lg-2 order-1">
-                    <img src="assets/images/contact consumer protection uk(1).png" alt="Consumer Protection for Dispute Resolution"
-                        class="consumer-img object-fit-contain">
+                    <img src="assets/images/contact consumer protection uk(1).png"
+                        alt="Consumer Protection for Dispute Resolution" class="consumer-img object-fit-contain">
                 </div>
             </div>
 
             <div class="row  mb-lg-0 mb-4">
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center py-lg-0 py-3">
-                    <img src="assets/images/Service 24_7-amico.png" alt="Priority Service for Consumer Protection" class="consumer-img object-fit-contain">
+                    <img src="assets/images/Service 24_7-amico.png" alt="Priority Service for Consumer Protection"
+                        class="consumer-img object-fit-contain">
                 </div>
                 <div class="col-lg-8 px-0 bg-white d-flex align-items-center">
                     <div class="service-white-card service-card py-lg-5 py-3">
@@ -563,7 +565,7 @@ PROTECTION BUREAU
                     </div>
                     <div class="col col-lg-7 col-md-12 col-sm-12">
                         <div class="contact-content ps-lg-5">
-                        <div class="contact-form">
+                            <div class="contact-form">
                                 <?php if (isset($_POST['form-contact'])): ?>
                                 <?php if ($msg['status'] == 'success'): ?>
                                 <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
@@ -595,7 +597,8 @@ PROTECTION BUREAU
                                         <textarea class="form-control" name="msg" id="msg"
                                             placeholder="Message"></textarea>
                                     </div>
-                                    <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j"></div>
+                                    <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j">
+                                    </div>
 
                                     <div class="submit-btn-wrapper">
                                         <button type="submit" name="contact" class="main-btn">Send</button>
@@ -614,7 +617,7 @@ PROTECTION BUREAU
 </main>
 
 <?php include 'assets/include/footer.php'; ?>
-<script>
+<!-- <script>
 window.onload = function() {
     const canvas = document.getElementById('signaturePad');
     const ctx = canvas.getContext('2d');
@@ -662,7 +665,7 @@ window.onload = function() {
         link.click();
     });
 };
-</script>
+</script> -->
 <script>
 contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
 
