@@ -170,7 +170,7 @@ if (isset($_POST['form-contact'])) {
                                     Given the seriousness of these concerns, CPB has written to Trustpilot requesting urgent clarification about their review moderation practices and demanding greater transparency. Below is a copy of our letter.
                                     </p>
                                    <div class="pb-2">
-                                   <a href="../Press-Release/LETTER TRUST PILOT 01.03.25.pdf">Letter To TrustPilot >></a>
+                                   <a href="../Press-Release/LETTER TRUST PILOT 05.03.25.pdf">Letter To TrustPilot >></a>
                                    </div>
                                 </div>
                               
