@@ -91,7 +91,29 @@ if (isset($_POST['form-contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4">
+            <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
+                            <img src="../assets/images/news/trustpilot.png" style="object-fit:contain; object-position:center;"
+                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>24th November 2024</span> -->
+                            <h2 class="mb-0 pb-0">
+                            Concerns Grow Over Trustpilot’s Alleged Removal of Negative Reviews
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(5 March 2025)</span>
+                                <b>LONDON</b> – Consumers are raising concerns over Trustpilot’s review moderation practices, alleging that the platform selectively removes negative reviews, potentially misleading the public and compromising its credibility.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="concerns-grow-over-trustpilot-alleged-removel-of-negative-reviews.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image  justify-content-center" style="background-color:#84B578;">
@@ -377,6 +399,28 @@ if (isset($_POST['form-contact'])) {
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="spotting-fake-products.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
+                            <img src="../assets/images/news/trustpilot.png" style="object-fit:contain; object-position:center;"
+                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>24th November 2024</span> -->
+                            <h2 class="mb-0 pb-0">
+                            Are Trustpilot Reviews Truly Unbiased?
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                            Online review platforms play a crucial role in helping consumers make informed decisions about businesses, products, and services. Trustpilot, one of the most well-known review platforms, claims to provide an open and transparent forum for customer feedback. However, growing concerns have emerged regarding whether Trustpilot moderates its reviews in a way that disproportionately removes negative feedback—potentially skewing public perception and misleading consumers.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="are-trustpilot-reviews-truly-unbiased.php" class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
