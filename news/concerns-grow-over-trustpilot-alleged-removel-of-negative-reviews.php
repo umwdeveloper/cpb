@@ -176,7 +176,7 @@ To protect themselves, consumers are advised to:
                                         <li><b>Email: </b> <a href="mailto:compliance@trustpilot.com"
                                                 class="">info@consumerprotectionbureau.co.uk</a></li>
                                                 <li>
-                                                    <b>Landline telephone:</b>+44 (0)2035854002
+                                                    <b>Landline Telephone:</b>+44 (0)2035854002
                                                 </li>
 
                                     </ul>
