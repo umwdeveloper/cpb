@@ -142,35 +142,7 @@ if (isset($_POST['form-contact'])) {
                     </div>
                 </div>
 
-                <div class="col-lg-4 mb-3">
-                    <div class="news-card shadow-sm">
-                        <div class="news-card-image  justify-content-center">
-                            <img src="../assets/images/news/refund.jpg" style="object-fit:contain;"
-                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
-                        </div>
-                        <div class="news-card-text">
-                            <!-- <span>24th November 2024</span> -->
-                            <h2 class="mb-0 pb-0 text-uppercase">
-                                Refunds on Sale Items: Know Your
-                                Rights
-                            </h2>
-                            <p class="text mb-0 pb-0">
-                                Shopping during a sale can be exciting, with retailers offering various discounts.
-                                However,
-                                many consumers are unsure about their rights when it comes to returning sale items. A
-                                common
-                                myth is that discounted items cannot be refunded—but is that really true? Let’s break
-                                down
-                                what the law says about refunds on sale items in the UK.
-                            </p>
-                            <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="refund-on-sale-items.php" class="news-alert-btn">Read
-                                    More</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+             
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image  justify-content-center">
@@ -233,28 +205,57 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
-
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
-                            <img src="../assets/images/news/black-friday.webp"
-                                alt="Consumet Protection Bureau Uk Alert News about Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24)  "
-                                class="">
+
+                            <img src="../assets/images/news/Hanover Square in JVC dubai.jpg"
+                                alt="Consumet Protection Bureau Uk Alert News about ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention ">
                         </div>
                         <div class="news-card-text">
                             <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
                             <h2 class="text-uppercase">
-                                Avoid Overspending and Protect Yourself from Scams
+                                ADGM Fines Wazim Nazir, Owner of ACW Following Consumer Protection Bureau's Intervention
                             </h2>
                             <p class="text mb-0 pb-0">
-                                Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24) present a fantastic opportunity to
-                                score big savings, but it’s
-                                important to approach the sales with caution. With a little planning and awareness, you
-                                can
-                                make wise purchases, avoid poor-quality products, and steer clear of fraud.
+                                In a significant victory for consumer protection and regulatory integrity, the Abu Dhabi
+                                Global Market (ADGM) Registration Authority has imposed financial penalties on HSQ
+                                Holdings Ltd, PL1 Holdings Ltd, and their director, Mohammed Wazim Nazir, for egregious
+                                breaches of regulatory compliance.
+
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="black-friday-tips.php" class="news-alert-btn">Read
+                                <a href="adgm-fines-wazim-nazir-following-consumer-protection-bureau-intervention.php"
+                                    class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image  justify-content-center">
+                            <img src="../assets/images/news/refund.jpg" style="object-fit:contain;"
+                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>24th November 2024</span> -->
+                            <h2 class="mb-0 pb-0 text-uppercase">
+                                Refunds on Sale Items: Know Your
+                                Rights
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                Shopping during a sale can be exciting, with retailers offering various discounts.
+                                However,
+                                many consumers are unsure about their rights when it comes to returning sale items. A
+                                common
+                                myth is that discounted items cannot be refunded—but is that really true? Let’s break
+                                down
+                                what the law says about refunds on sale items in the UK.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="refund-on-sale-items.php" class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
@@ -291,63 +292,8 @@ if (isset($_POST['form-contact'])) {
                     </div>
                 </div>
 
-                <div class="col-lg-4 mb-3">
-                    <div class="news-card shadow-sm">
-                        <div class="news-card-image">
-
-                            <img src="../assets/images/news/Hanover Square in JVC dubai.jpg"
-                                alt="Consumet Protection Bureau Uk Alert News about ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention ">
-                        </div>
-                        <div class="news-card-text">
-                            <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
-                            <h2 class="text-uppercase">
-                                ADGM Fines Wazim Nazir, Owner of ACW Following Consumer Protection Bureau's Intervention
-                            </h2>
-                            <p class="text mb-0 pb-0">
-                                In a significant victory for consumer protection and regulatory integrity, the Abu Dhabi
-                                Global Market (ADGM) Registration Authority has imposed financial penalties on HSQ
-                                Holdings Ltd, PL1 Holdings Ltd, and their director, Mohammed Wazim Nazir, for egregious
-                                breaches of regulatory compliance.
-
-                            </p>
-                            <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="adgm-fines-wazim-nazir-following-consumer-protection-bureau-intervention.php"
-                                    class="news-alert-btn">Read
-                                    More</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-3">
-                    <div class="news-card shadow-sm">
-                        <div class="news-card-image">
-
-                            <img src="../assets/images/news/holiday-tips1.jpg"
-                                alt="Festive shopping tips with a budget checklist and gift items on a table. ">
-                        </div>
-                        <div class="news-card-text">
-                            <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
-                            <h2 class="text-uppercase">
-                                CPB Advice for a Safe and Smart Festive Season
-                            </h2>
-                            <p class="text mb-0 pb-0">
-                                At the Consumer Protection Bureau (CPB), we want to ensure your festive season is filled
-                                with joy, not financial stress or disappointment. Christmas and New Year sales are a
-                                great
-                                opportunity for deals, but they also come with risks like overspending and scams. Follow
-                                our
-                                practical advice to shop smart, protect your money from scams, and enjoy a stress-free
-                                holiday season.
-                            </p>
-                            <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="cpb-advice-for-safe-and-smart-festive-season.php" class="news-alert-btn">Read
-                                    More</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+              
+             
 
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
@@ -399,6 +345,63 @@ if (isset($_POST['form-contact'])) {
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="spotting-fake-products.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image">
+                            <img src="../assets/images/news/black-friday.webp"
+                                alt="Consumet Protection Bureau Uk Alert News about Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24)  "
+                                class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
+                            <h2 class="text-uppercase">
+                                Avoid Overspending and Protect Yourself from Scams
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24) present a fantastic opportunity to
+                                score big savings, but it’s
+                                important to approach the sales with caution. With a little planning and awareness, you
+                                can
+                                make wise purchases, avoid poor-quality products, and steer clear of fraud.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="black-friday-tips.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image">
+
+                            <img src="../assets/images/news/holiday-tips1.jpg"
+                                alt="Festive shopping tips with a budget checklist and gift items on a table. ">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
+                            <h2 class="text-uppercase">
+                                CPB Advice for a Safe and Smart Festive Season
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                At the Consumer Protection Bureau (CPB), we want to ensure your festive season is filled
+                                with joy, not financial stress or disappointment. Christmas and New Year sales are a
+                                great
+                                opportunity for deals, but they also come with risks like overspending and scams. Follow
+                                our
+                                practical advice to shop smart, protect your money from scams, and enjoy a stress-free
+                                holiday season.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="cpb-advice-for-safe-and-smart-festive-season.php" class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
