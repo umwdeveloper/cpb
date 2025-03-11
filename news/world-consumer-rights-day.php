@@ -78,10 +78,10 @@ if (isset($_POST['form-contact'])) {
 <?php include 'assets/include/header.php'; ?>
 <main class="">
 
-    <section class="py-lg-5 py-4 bg-light about-hero">
+    <section class="py-lg-5 py-4 bg-light about-hero" >
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 mx-auto bg-gold p-0">
+                <div class="col-lg-10 mx-auto   p-0" style="background-color:#FEE8CF ;">
                     <img src="../assets/images/news/world-consumers-rights-day.png" alt="" class="w-100 h-auto">
 
                     <div class="px-lg-5 px-3">
@@ -90,15 +90,16 @@ if (isset($_POST['form-contact'])) {
                             <span class="text-alert">World Consumer Rights Day 2025: Consumers at the Heart of the Green
                                 Transition</span>
                         </h1>
+                        <p class=" text-gray text2">(11/03/2025)</p>
                         <h2 class="subtitle-bullet w-700"> Consumers Urged to Drive Sustainable Change Amid Rising
                             Climate and Cost-of-Living Concerns</h2>
                         <p class="text ">
-                            As the world grapples with climate change and the cost-of-living crisis, <b>World Consumer
-                                Rights Day 2025</b> calls for urgent action to empower consumers in shaping a greener,
+                        <b>LONDON –</b>As the world grapples with climate change and the cost-of-living crisis, World Consumer
+                                Rights Day 2025 calls for urgent action to empower consumers in shaping a greener,
                             fairer
-                            economy. Under the theme <b>"A Just Transition to Sustainable Lifestyles," </b>this year's
+                            economy. Under the theme "A Just Transition to Sustainable Lifestyles," this year's
                             campaign
-                            emphasises the <b>need for sustainable, affordable, and accessible choices</b> that protect
+                            emphasises the need for sustainable, affordable, and accessible choices that protect
                             both
                             people and the planet.
                         </p>
@@ -108,11 +109,11 @@ if (isset($_POST['form-contact'])) {
 
                             <div class="col-lg-12">
                                 <p class="text ">
-                                    Coordinated by <b>Consumers International</b>, the initiative urges businesses,
+                                    Coordinated by Consumers International, the initiative urges businesses,
                                     policymakers, and civil society to ensure that sustainability does not come at the
-                                    cost of consumer rights. The <b>Consumer Protection Bureau (CPB)</b> is rallying
+                                    cost of consumer rights. The Consumer Protection Bureau (CPB) is rallying
                                     behind
-                                    this effort, equipping consumers with <b>practical steps</b> to drive sustainable
+                                    this effort, equipping consumers with practical steps to drive sustainable
                                     change.
                                 </p>
                                 <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4">
@@ -121,7 +122,7 @@ if (isset($_POST['form-contact'])) {
                                 <p class="text">
                                     Consumers wield significant power in shaping corporate policies and government
                                     regulations. Every purchase, habit, and demand influences industries, making
-                                    <b>sustainability a mainstream expectation rather than a luxury.</b>
+                                   sustainability a mainstream expectation rather than a luxury.
                                 </p>
                                 <p class="text w-700">
                                     Here’s how consumers can take charge:
@@ -133,19 +134,19 @@ if (isset($_POST['form-contact'])) {
                                 <ul>
                                     <li>
                                         <p class="text">
-                                            Choose products with <b>eco-certifications</b> (e.g., Fair Trade, FSC,
+                                            Choose products witheco-certifications (e.g., Fair Trade, FSC,
                                             organic) that promote responsible production.
                                         </p>
                                     </li>
                                     <li>
                                         <p class="text">
-                                            Support <b>local businesses</b> that prioritize sustainability and fair
+                                            Supportlocal businesses that prioritize sustainability and fair
                                             labour practices.
                                         </p>
                                     </li>
                                     <li>
                                         <p class="text">
-                                            Opt for <b>durable and recyclable</b> items instead of single-use plastics.
+                                            Opt for durable and recyclable items instead of single-use plastics.
                                         </p>
                                     </li>
                                 </ul>
@@ -166,7 +167,7 @@ if (isset($_POST['form-contact'])) {
                                     </li>
                                     <li>
                                         <p class="text">
-                                            Switch to <b>energy-efficient appliances</b> and renewable energy sources
+                                            Switch to energy-efficient appliances and renewable energy sources
                                             where possible.
                                         </p>
                                     </li>
@@ -184,13 +185,13 @@ if (isset($_POST['form-contact'])) {
                                     </li>
                                     <li class="text">
                                         <p class="text">
-                                            Choose <b>plant-based or locally sourced foods</b> to lower environmental
+                                            Choose plant-based or locally sourced foods to lower environmental
                                             impact.
                                         </p>
                                     </li>
                                     <li class="text">
                                         <p class="text">
-                                            Use <b>public transport, cycling, or carpooling</b> to cut emissions and
+                                            Use public transport, cycling, or carpooling to cut emissions and
                                             fuel costs.
                                         </p>
                                     </li>
@@ -219,14 +220,14 @@ if (isset($_POST['form-contact'])) {
                                 <ul class="mb-0">
                                     <li class="text">
                                         <p class="text">
-                                            Report <b> greenwashing </b> band demand transparency in sustainability
+                                            Report  greenwashing  band demand transparency in sustainability
                                             claims.
                                         </p>
                                     </li>
                                     <li class="text">
                                         <p class="text">
-                                            Support legislation that <b>protects consumer rights and promotes
-                                                sustainability</b>.
+                                            Support legislation that protects consumer rights and promotes
+                                                sustainability.
                                         </p>
                                     </li>
                                     <li class="text">
@@ -242,41 +243,41 @@ if (isset($_POST['form-contact'])) {
                                 </h3>
                                 <p class="text">
                                     The urgency of the climate crisis, alongside the rising costs of basic goods and
-                                    services, means that <b>consumers can no longer afford to be passive participants in
-                                        the economy</b>. Recent global reports highlight that while consumers are
+                                    services, means that consumers can no longer afford to be passive participants in
+                                        the economy. Recent global reports highlight that while consumers are
                                     willing to
                                     adopt greener habits, many face financial and accessibility barriers. Governments
                                     and businesses must act to remove these hurdles.
                                 </p>
                                 <p class="text">
-                                    The <b>Consumer Protection Bureau (CPB)</b> stresses that a truly sustainable
+                                    The Consumer Protection Bureau (CPB) stresses that a truly sustainable
                                     transition
-                                    must be fair and inclusive, ensuring that <b>low-income and vulnerable consumers are
-                                        not left behind</b>. The movement for sustainable lifestyles is not just an
+                                    must be fair and inclusive, ensuring that low-income and vulnerable consumers are
+                                        not left behind. The movement for sustainable lifestyles is not just an
                                     environmental issue—it’s a consumer rights issue.
                                 </p>
 
 
 
 
-                                <div class="text shadow-sm rounded-2  p-3 border"
-                                    style="background-color:#FEE8CF !important;">
+                                <div class="text shadow-sm rounded-2  p-3 border bg-gold"
+                                   >
                                     <h3 class="text-md-l text-bold text-primary w-700">
                                         The Road Ahead: Collective Action for a Just Future
                                     </h3>
                                     <p class="text">
-                                        Governments, businesses, and regulators must step up, but <b>consumers also have
+                                        Governments, businesses, and regulators must step up, but consumers also have
                                             a
-                                            key role in pushing for real change.</b> By making informed choices,
+                                            key role in pushing for real change. By making informed choices,
                                         advocating for
                                         fair policies, and challenging unsustainable practices, we can accelerate the
-                                        transition to a <b>more just, affordable, and eco-friendly future.</b>
+                                        transition to a more just, affordable, and eco-friendly future.
                                     </p>
                                     <p class="text">
-                                        This <b>World Consumer Rights Day, March 15, 2025,</b> let’s unite to turn
-                                        sustainability into an everyday reality. <b>Your choices matter. Your voice
+                                        This World Consumer Rights Day, March 15, 2025, let’s unite to turn
+                                        sustainability into an everyday reality. Your choices matter. Your voice
                                         matters. Together, we can build a future where sustainable living is a right,
-                                        not a privilege.</b>
+                                        not a privilege.
                                     </p>
                                  
                                 </div>

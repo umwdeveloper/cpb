@@ -91,12 +91,12 @@ if (isset($_POST['form-contact'])) {
                         </h1>
                         <h2 class="subtitle-bullet w-700">Your Role in Building a Sustainable Future</h2>
                         <p class="text ">
-                            Every year, on March 15, the world comes together to celebrate <b>World Consumer Rights
-                                Day</b>, a
+                            Every year, on March 15, the world comes together to celebrate World Consumer Rights
+                                Day, a
                             crucial moment to advocate for consumer rights, protection, and empowerment. The 2025 theme,
-                            <b>"A Just Transition to Sustainable Lifestyles"</b>, emphasises the urgent need for
-                            <b>sustainable,
-                                accessible, and affordable lifestyle choices</b> that do not compromise people’s basic
+                            "A Just Transition to Sustainable Lifestyles", emphasises the urgent need for
+                            sustainable,
+                                accessible, and affordable lifestyle choices that do not compromise people’s basic
                             rights
                             and needs. This initiative, coordinated by Consumers International, calls on all
                             stakeholders—including businesses, governments, and civil society—to create an equitable and
@@ -110,7 +110,7 @@ if (isset($_POST['form-contact'])) {
                                 <p class="text">
                                     As consumers, we hold significant power to drive this transition. Every purchase,
                                     decision, and habit we adopt influences the global demand for sustainable products
-                                    and services. The <b>Consumer Protection Bureau (CPB)</b> is here to help you make
+                                    and services. The Consumer Protection Bureau (CPB) is here to help you make
                                     informed
                                     choices that contribute to a more sustainable and fair future. Here’s how you can
                                     play your part.
@@ -121,7 +121,7 @@ if (isset($_POST['form-contact'])) {
                                 <ul>
                                     <li>
                                         <p class="text">
-                                            Look for products with <b>eco-friendly certifications </b>(e.g., Fair Trade,
+                                            Look for products with eco-friendly certifications (e.g., Fair Trade,
                                             FSC, or organic labels) that ensure responsible sourcing.
                                         </p>
                                     </li>
@@ -157,7 +157,7 @@ if (isset($_POST['form-contact'])) {
                                     </li>
                                     <li>
                                         <p class="text">
-                                            Follow local <b>recycling guidelines</b> to ensure proper waste management
+                                            Follow local recycling guidelines to ensure proper waste management
                                             and resource recovery.
                                         </p>
                                     </li>
@@ -215,7 +215,7 @@ if (isset($_POST['form-contact'])) {
                                     </li>
                                     <li class="text">
                                         <p class="text">
-                                            Support <b>seasonal and locally sourced</b> foods to lower carbon
+                                            Support seasonal and locally sourced foods to lower carbon
                                             footprints.
                                         </p>
                                     </li>
@@ -235,12 +235,12 @@ if (isset($_POST['form-contact'])) {
                                 <ul class="mb-0">
                                     <li class="text">
                                         <p class="text">
-                                            Opt for <b>public transport, cycling, or walking</b> when possible.
+                                            Opt for public transport, cycling, or walking when possible.
                                         </p>
                                     </li>
                                     <li class="text">
                                         <p class="text">
-                                            Consider <b>carpooling or electric vehicles</b> to reduce fuel dependency
+                                            Consider carpooling or electric vehicles to reduce fuel dependency
                                             and emissions.
                                         </p>
                                     </li>
@@ -315,17 +315,17 @@ if (isset($_POST['form-contact'])) {
                                         A Collective Effort for a Fair and Sustainable Future
                                     </h3>
                                     <p class="text">
-                                        The journey towards <b>a just transition to sustainable lifestyles</b> requires
+                                        The journey towards a just transition to sustainable lifestyles requires
                                         collective action. Governments must enforce policies that support sustainable
                                         consumer choices, businesses must innovate towards eco-friendly alternatives,
-                                        and <b>consumers must make responsible decisions that prioritize both the planet
-                                        and people.</b>
+                                        and consumers must make responsible decisions that prioritize both the planet
+                                        and people.
                                     </p>
                                   <p class="text">
                                   This World Consumer Rights Day, let’s commit to making sustainability a way of life—one choice at a time. CPB remains dedicated to guiding and supporting consumers in this transition, ensuring that everyone can access the tools and knowledge needed to make a meaningful impact.
                                   </p>
                                   <p class="text">
-                                  Together, we can <b>create a fairer, greener, and more sustainable world for future generations.</b>
+                                  Together, we can create a fairer, greener, and more sustainable world for future generations.
                                   </p>
                                 </div>
                                 <h3 class="text-md-l text-bold text-primary w-700 mt-4">

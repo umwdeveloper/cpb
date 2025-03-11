@@ -91,6 +91,38 @@ if (isset($_POST['form-contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4">
+
+            <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
+                            <img src="../assets/images/news/world-consumers-rights-day.png" style="object-fit:contain; object-position:center;"
+                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>24th November 2024</span> -->
+                            <h2 class="mb-0 pb-0">
+                            World Consumer Rights Day 2025: Consumers at the Heart of the Green
+                            Transition
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(11 March 2025)</span>
+                                <b>LONDON –</b> As the world grapples with climate change and the cost-of-living crisis, World Consumer
+                                Rights Day 2025 calls for urgent action to empower consumers in shaping a greener,
+                            fairer
+                            economy. Under the theme "A Just Transition to Sustainable Lifestyles," this year's
+                            campaign
+                            emphasises the need for sustainable, affordable, and accessible choices that protect
+                            both
+                            people and the planet.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="world-consumer-rights-day.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
@@ -424,6 +456,37 @@ if (isset($_POST['form-contact'])) {
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="are-trustpilot-reviews-truly-unbiased.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
+                            <img src="../assets/images/news/consumer-powe.png" style="object-fit:contain; object-position:center;"
+                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>24th November 2024</span> -->
+                            <h2 class="mb-0 pb-0">
+                            Revolutionising Consumer Power
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                            Every year, on March 15, the world comes together to celebrate World Consumer Rights
+                                Day, a
+                            crucial moment to advocate for consumer rights, protection, and empowerment. The 2025 theme,
+                            "A Just Transition to Sustainable Lifestyles", emphasises the urgent need for
+                            sustainable,
+                                accessible, and affordable lifestyle choices that do not compromise people’s basic
+                            rights
+                            and needs. This initiative, coordinated by Consumers International, calls on all
+                            stakeholders—including businesses, governments, and civil society—to create an equitable and
+                            environmentally responsible marketplace.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="revolutionising-consumer-power.php" class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
