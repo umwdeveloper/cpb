@@ -151,7 +151,7 @@ if (isset($_POST['form-contact'])) {
                                 <p class="text">
                                     <b><i> "Review platforms serve as critical decision-making tools for today's
                                             consumers,"</i></b>
-                                    said Marc Amron, CPB Programme Cordinator.
+                                    said Marc Amron, CPB Programme Coordinator.
                                     <b><i>"When a platform like Trustpilot markets itself as a beacon of consumer
                                             transparency while potentially
                                             engaging in selective moderation practices, it fundamentally undermines
