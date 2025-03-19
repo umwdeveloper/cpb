@@ -106,8 +106,6 @@ if (isset($_POST['form-contact'])) {
                                 <span>(18 March 2025)</span>
                                 <b>LONDON</b> – 
                                 The CPB has issued a formal challenge to Trustpilot regarding the platform's review moderation processes, citing significant concerns about transparency and fairness. Despite multiple engagement attempts dating back to February 2025, Trustpilot has remained unresponsive to requests for clarification, casting doubt on its claims of operating an open and unbiased review platform.
-
-
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="trustpilot-under-scrutiny.php" class="news-alert-btn">Read
