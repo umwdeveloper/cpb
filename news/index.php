@@ -91,7 +91,32 @@ if (isset($_POST['form-contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4">
+            <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
+                            <img src="../assets/images/news/trustpilot.png" style="object-fit:contain; object-position:center;"
+                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>24th November 2024</span> -->
+                            <h2 class="mb-0 pb-0">
+                            CPB DEMANDS TRANSPARENCY IN REVIEW PRACTICES
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(18 March 2025)</span>
+                                <b>LONDON</b> – 
+                                The CPB has issued a formal challenge to Trustpilot regarding the platform's review moderation processes, citing significant concerns about transparency and fairness. Despite multiple engagement attempts dating back to February 2025, Trustpilot has remained unresponsive to requests for clarification, casting doubt on its claims of operating an open and unbiased review platform.
 
+
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="trustpilot-under-scrutiny.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
