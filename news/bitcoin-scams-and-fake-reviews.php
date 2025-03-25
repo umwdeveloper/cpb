@@ -89,7 +89,7 @@ if (isset($_POST['form-contact'])) {
                             <!-- <span class="text-lg">THE FINANCIAL OMBUDSMAN SERVICE: </span> <br> -->
                             <span class="text-alert">How Trustpilot’s Lax Policies Are Costing Consumers Millions</span>
                         </h1>
-                        <p class=" text-gray text2">(24/03/2025)</p>
+                        <p class=" text-gray text2"><b>March 25, 2025</b></p>
 
                         <p class="text ">
                             Bitcoin, once hailed as the future of finance, has become a breeding ground for scams that
