@@ -94,7 +94,31 @@ if (isset($_POST['form-contact'])) {
             <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
-                            <img src="../assets/images/news/trustpilot.png" style="object-fit:contain; object-position:center;"
+                            <img src="../assets/images/news/bitcoin-scam-and-fake-reviews.png" style="object-fit:contain; object-position:center;"
+                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>24th November 2024</span> -->
+                            <h2 class="mb-0 pb-0">
+                            How Trustpilot’s Lax Policies Are Costing Consumers Millions
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(25 March 2025)</span>
+                         – 
+                                Bitcoin, once hailed as the future of finance, has become a breeding ground for scams that exploit unsuspecting investors. Many individuals, drawn by the promise of high returns and financial freedom, have poured their hard-earned money into fraudulent schemes, only to end up losing everything. Making matters worse, online review platforms like Trustpilot have played an unintended role in enabling these scams by allowing unchecked and fake reviews to mislead potential victims.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="are-trustpilot-reviews-truly-unbiased.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
+                            <img src="../assets/images/news/trustpilot.jpeg" style="object-fit:cover; object-position:center;"
                                 alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
                         </div>
                         <div class="news-card-text">
@@ -115,7 +139,8 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
-            <div class="col-lg-4 mb-3">
+      
+                <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
                             <img src="../assets/images/news/world-consumers-rights-day.png" style="object-fit:contain; object-position:center;"
@@ -146,7 +171,8 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
-            <div class="col-lg-4 mb-3">
+          
+                <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
                             <img src="../assets/images/news/trustpilot.png" style="object-fit:contain; object-position:center;"
