@@ -249,7 +249,6 @@ if (isset($_POST['form-contact'])) {
                                             </p>
                                         </li>
                                     </ol>
-
                                 </div>
 
 
