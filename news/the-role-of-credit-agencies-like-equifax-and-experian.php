@@ -92,12 +92,12 @@ if (isset($_POST['form-contact'])) {
                         <!-- <h2 class="subtitle-bullet w-700">Is Trustpilot Silencing Negative Reviews?</h2>
                         <h2 class="subtitle-bullet w-700">What Consumers Need to Know </h2> -->
                         <p class="text ">
-                            <b> In the intricate web of modern financial systems, UK credit rating agencies like
+                            <b>LONDON, April 04, 2025 –     </b> In the intricate web of modern financial systems, UK credit rating agencies like
                                 Equifax, Experian, and TransUnion wield enormous power over consumers' financial lives.
                                 What happens when these institutions, designed to assess creditworthiness, become tools
                                 that unfairly penalise legitimate consumer actions? Recent cases under Consumer
                                 Protection Bureau (CPB) investigation highlight this troubling dynamic.
-                            </b>
+                         
                         </p>
 
                         <div class="row mt-4 mb-4">

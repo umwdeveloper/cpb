@@ -105,8 +105,8 @@ if (isset($_POST['form-contact'])) {
                             WHEN THE WATCHDOGS BITE THE CONSUMERS THEY SHOULD PROTECT
                             </h2>
                             <p class="text mb-0 pb-0">
-                                <!-- <span>(25 March 2025)</span> -->
-                                <!-- – -->
+                            <span>(04 April 2025)</span>
+                            <b>LONDON</b> –
                                 In the intricate web of modern financial systems, UK credit rating agencies like
                                 Equifax, Experian, and TransUnion wield enormous power over consumers' financial lives.
                                 What happens when these institutions, designed to assess creditworthiness, become tools
