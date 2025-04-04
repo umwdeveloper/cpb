@@ -244,7 +244,7 @@ if (isset($_POST['form-contact'])) {
                                         </li>
                                         <li>
                                             <p class="text">
-                                                Join consumer advocacy groups that are fighting for credit reporting
+                                                Join consumer advocacy groups such as CPB, that are fighting for credit reporting
                                                 reform
                                             </p>
                                         </li>
@@ -254,7 +254,7 @@ if (isset($_POST['form-contact'])) {
 
 
                                 <p class="text mt-4">
-                                    The case currently under CPB investigation represents just one example of how UK
+                                    Cases currently under CPB investigations represent just one example of how UK
                                     credit reporting agencies can become tools of consumer control rather than fair
                                     arbiters of creditworthiness. As more such cases come to light, the pressure for
                                     meaningful reform will continue to build.
