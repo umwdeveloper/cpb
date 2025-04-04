@@ -81,19 +81,23 @@ if (isset($_POST['form-contact'])) {
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 mx-auto bg-gold p-0">
-                    <img src="../assets/images/news/credit-agencies.png" alt="" class="w-100 h-auto">
+                    <img src="../assets/images/news/credit-agencies.png" alt="CREDIT RATING AGENCIES" class="w-100 h-auto">
 
                     <div class="px-lg-5 px-3">
                         <h1 class="news-heading text-uppercase  my-3">
-                            <span class="text-lg">CREDIT RATING AGENCIES:  </span> <br>
+                            <span class="text-lg">CREDIT RATING AGENCIES: </span> <br>
                             <span class="text-alert">WHEN THE WATCHDOGS BITE THE CONSUMERS THEY SHOULD PROTECT</span>
                         </h1>
                         <!-- <p class=" text-gray text2">(10/03/2025)</p> -->
                         <!-- <h2 class="subtitle-bullet w-700">Is Trustpilot Silencing Negative Reviews?</h2>
                         <h2 class="subtitle-bullet w-700">What Consumers Need to Know </h2> -->
                         <p class="text ">
-                            <b>                        In the intricate web of modern financial systems, UK credit rating agencies like Equifax, Experian, and TransUnion wield enormous power over consumers' financial lives. What happens when these institutions, designed to assess creditworthiness, become tools that unfairly penalise legitimate consumer actions? A recent case under Consumer Protection Bureau (CPB) investigation highlights this troubling dynamic.
-                      </b>
+                            <b> In the intricate web of modern financial systems, UK credit rating agencies like
+                                Equifax, Experian, and TransUnion wield enormous power over consumers' financial lives.
+                                What happens when these institutions, designed to assess creditworthiness, become tools
+                                that unfairly penalise legitimate consumer actions? Recent cases under Consumer
+                                Protection Bureau (CPB) investigation highlight this troubling dynamic.
+                            </b>
                         </p>
 
                         <div class="row mt-4 mb-4">
@@ -102,139 +106,170 @@ if (isset($_POST['form-contact'])) {
                                     alt="Are Trustpilot Reviews Truly Unbiased? "
                                     class="w-100  shadow rounded-2  mb-3 h-100" style="border: 2px solid #223a78">
                             </div> -->
-                            <h2 class="subtitle-bullet w-700">	When Standing Up for Your Rights Gets You Blacklisted</h2>
+                            <h2 class="subtitle-bullet w-700"> When Standing Up for Your Rights Gets You Blacklisted
+                            </h2>
                             <!-- <h3 class="text-md-l text-bold  text-primary w-700 text-start ">
                             Understanding the Role of Credit Agencies
                                 </h3> -->
                             <p class="text ">
-                            Consider this scenario: a consumer notices unjustified price hikes from their water supplier and exercises their right to pause direct debit payments while disputing the charges. Rather than viewing this as a legitimate consumer dispute, Experian flags this action with a negative mark on their credit report. The consequences are immediate and severe—their bank denies them loans despite their demonstrable ability to repay.
+                                <b>Consider this scenario:</b> a consumer notices unjustified price hikes from their water
+                                supplier and exercises their right to pause direct debit payments while disputing the
+                                charges. Rather than viewing this as a legitimate consumer dispute, Experian, One of the three major credit agencies,  flags this
+                                action with a negative mark on their credit report. The consequences are immediate and
+                                severe—their bank denies them loans despite their demonstrable ability to repay.
                             </p>
                             <p class="text">
-                            This case illustrates a fundamental imbalance in our financial system. Credit agencies operate with minimal oversight yet possess the power to drastically impact consumers' financial futures based on reports from service providers without thorough investigation of the circumstances.
+                                This case illustrates a fundamental imbalance in our financial system. Credit agencies
+                                operate with minimal oversight yet possess the power to drastically impact consumers'
+                                financial futures based on reports from service providers without thorough investigation
+                                of the circumstances.
                             </p>
 
                             <h3 class="text-md-l text-bold  text-primary w-700 text-start ">
-                            The Structural Problems with Credit Rating Systems
-                                </h3>
+                                The Structural Problems with Credit Rating Systems
+                            </h3>
 
-                                <p class="text">
+                            <p class="text">
                                 Several key issues plague the current UK credit rating system:
-                                </p>
+                            </p>
                             <ol class="ps-4 ms-4 mb-0">
                                 <li>
                                     <p class="text">
-                                   <b> Unilateral Decision-Making:</b> Credit agencies can apply negative ratings without adequately investigating disputes between consumers and service providers.
+                                        <b> Unilateral Decision-Making:</b> Credit agencies can apply negative ratings
+                                        without adequately investigating disputes between consumers and service
+                                        providers.
                                     </p>
                                 </li>
                                 <li>
                                     <p class="text">
-                                 <b>   Power Imbalance:</b> Companies can effectively weaponise credit reports against consumers who challenge their practices.
-</p>
-                                </li>
-                                <li>
-                                    <p class="text">
-                                   <b> Limited Recourse:</b> Consumers face an uphill battle when trying to correct inaccurate information, with bureaucratic processes that can take months to resolve.
+                                        <b> Power Imbalance:</b> Companies can effectively weaponise credit reports
+                                        against consumers who challenge their practices.
                                     </p>
                                 </li>
                                 <li>
                                     <p class="text">
-                                   <b> Opacity of Systems:</b> Many consumers remain unaware of how credit scoring works or what actions might trigger negative reports.
+                                        <b> Limited Recourse:</b> Consumers face an uphill battle when trying to correct
+                                        inaccurate information, with bureaucratic processes that can take months to
+                                        resolve.
                                     </p>
                                 </li>
                                 <li>
                                     <p class="text">
-                                 <b> Disproportionate Consequences:</b> Minor payment disputes can result in years of impaired credit access, affecting everything from mortgage applications to employment opportunities.
+                                        <b> Opacity of Systems:</b> Many consumers remain unaware of how credit scoring
+                                        works or what actions might trigger negative reports.
                                     </p>
                                 </li>
-                              
+                                <li>
+                                    <p class="text">
+                                        <b> Disproportionate Consequences:</b> Minor payment disputes can result in
+                                        years of impaired credit access, affecting everything from mortgage applications
+                                        to employment opportunities.
+                                    </p>
+                                </li>
+
                             </ol>
                             <div class="col-lg-12">
-                            <h3 class="text-md-l text-bold  text-primary w-700 text-start ">
-                            The Need for Regulatory Reform
+                                <h3 class="text-md-l text-bold  text-primary w-700 text-start ">
+                                    The Need for Regulatory Reform
                                 </h3>
                                 <p class="text">
-                                The UK financial regulatory framework needs significant strengthening to address these imbalances. The Financial Conduct Authority (FCA), Competition and Markets Authority (CMA), and Financial Ombudsman Service should consider:
+                                    The UK financial regulatory framework needs significant strengthening to address
+                                    these imbalances. The Financial Conduct Authority (FCA), Competition and Markets
+                                    Authority (CMA), and Financial Ombudsman Service should consider:
                                 </p>
                                 <ul>
                                     <li>
                                         <p class="text">
-                                        Requiring credit agencies to implement fair dispute resolution processes before applying negative marks
+                                            Requiring credit agencies to implement fair dispute resolution processes
+                                            before applying negative marks
                                         </p>
                                     </li>
                                     <li>
                                         <p class="text">
-                                        Limiting the impact of single disputes on overall credit scores, especially when related to contested charges
+                                            Limiting the impact of single disputes on overall credit scores, especially
+                                            when related to contested charges
                                         </p>
                                     </li>
                                     <li>
                                         <p class="text">
-                                        Creating faster, more accessible remediation processes for consumers
+                                            Creating faster, more accessible remediation processes for consumers
                                         </p>
                                     </li>
                                     <li>
                                         <p class="text">
-                                        Implementing stronger penalties for companies that misuse credit reporting systems as leverage in disputes
+                                            Implementing stronger penalties for companies that misuse credit reporting
+                                            systems as leverage in disputes
                                         </p>
                                     </li>
                                     <li>
                                         <p class="text">
-                                        Mandating greater transparency in how credit scores are calculated and applied
+                                            Mandating greater transparency in how credit scores are calculated and
+                                            applied
                                         </p>
                                     </li>
                                 </ul>
-                           
-                           
+
+
 
                                 <div class="text shadow-sm rounded-2  p-3 border"
                                     style="background-color:#FEE8CF !important;">
                                     <h3 class="text-md-l text-bold text-primary w-700">
-                                    What Consumers Can Do Now
+                                        What Consumers Can Do Now
                                     </h3>
                                     <p class="text">
-                                    While systemic change is needed, UK consumers can take steps to protect themselves:
+                                        While systemic change is needed, UK consumers can take steps to protect
+                                        themselves:
                                     </p>
-                                 <ol>
-                                    <li>
-                                        <p class="text">
-                                        Document all communications with service providers
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="text">
-                                        Submit formal complaints to both the company and relevant regulatory bodies
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="text">
-                                        Request your credit reports regularly to monitor for unfair markings
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="text">
-                                        Consider contacting your MP to raise awareness of these issues
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="text">
-                                        Join consumer advocacy groups that are fighting for credit reporting reform
-                                        </p>
-                                    </li>
-                                 </ol>
-                                  
+                                    <ol>
+                                        <li>
+                                            <p class="text">
+                                                Document all communications with service providers
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text">
+                                                Submit formal complaints to both the company and relevant regulatory
+                                                bodies
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text">
+                                                Request your credit reports regularly to monitor for unfair markings
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text">
+                                                Consider contacting your MP to raise awareness of these issues
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text">
+                                                Join consumer advocacy groups that are fighting for credit reporting
+                                                reform
+                                            </p>
+                                        </li>
+                                    </ol>
+
                                 </div>
 
-                           
-                                    <p class="text mt-4">
-                                    The case currently under CPB investigation represents just one example of how UK credit reporting agencies can become tools of consumer control rather than fair arbiters of creditworthiness. As more such cases come to light, the pressure for meaningful reform will continue to build.
+
+                                <p class="text mt-4">
+                                    The case currently under CPB investigation represents just one example of how UK
+                                    credit reporting agencies can become tools of consumer control rather than fair
+                                    arbiters of creditworthiness. As more such cases come to light, the pressure for
+                                    meaningful reform will continue to build.
                                 </p>
                                 <p class="text">
-                                Only through robust regulatory action can we ensure that UK credit rating systems serve their intended purpose of facilitating fair access to credit—rather than becoming weapons that silence legitimate consumer disputes and unfairly restrict financial opportunities.
+                                    Only through robust regulatory action can we ensure that UK credit rating systems
+                                    serve their intended purpose of facilitating fair access to credit—rather than
+                                    becoming weapons that silence legitimate consumer disputes and unfairly restrict
+                                    financial opportunities.
                                 </p>
-                                    <div class="py-3 pb-4">
-                                        <a href="../contact.php" class="main-btn">Contact CPB</a>
-                                    </div>
-                           
+                                <div class="py-3 pb-4">
+                                    <a href="../contact.php" class="main-btn">Contact CPB</a>
                                 </div>
+
+                            </div>
 
                             <!-- <div class="col-lg-4 mt-3  order-lg-1 order-2">
                                 <div class="px-3 py-3 rounded-2 bg-primary text-white order-lg-1 order-2 ">

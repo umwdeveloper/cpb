@@ -9,7 +9,13 @@ body {
     font-family: var(--primary-font);
    
 }
-
+.team-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
+}
 .carousel-inner {
     height: 580px;
     width: 100%;

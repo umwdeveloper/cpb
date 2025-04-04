@@ -93,19 +93,56 @@ if (isset($_POST['form-contact'])) {
             <div class="row mb-lg-0 mb-4">
             <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
-                        <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
-                            <img src="../assets/images/news/bitcoin-scam-and-fake-reviews.png" style="object-fit:contain; object-position:center;"
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/news/credit-agencies.png"
+                                style="object-fit:contain; object-position:center;"
+                                alt="CREDIT RATING AGENCIES" class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>24th November 2024</span> -->
+                            <h2 class="mb-0 pb-0">
+                            WHEN THE WATCHDOGS BITE THE CONSUMERS THEY SHOULD PROTECT
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <!-- <span>(25 March 2025)</span> -->
+                                <!-- – -->
+                                In the intricate web of modern financial systems, UK credit rating agencies like
+                                Equifax, Experian, and TransUnion wield enormous power over consumers' financial lives.
+                                What happens when these institutions, designed to assess creditworthiness, become tools
+                                that unfairly penalise legitimate consumer actions? A recent case under Consumer
+                                Protection Bureau (CPB) investigation highlights this troubling dynamic.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="the-role-of-credit-agencies-like-equifax-and-experian.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/news/bitcoin-scam-and-fake-reviews.png"
+                                style="object-fit:contain; object-position:center;"
                                 alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
                             <h2 class="mb-0 pb-0">
-                            How Trustpilot’s Lax Policies Are Costing Consumers Millions
+                                How Trustpilot’s Lax Policies Are Costing Consumers Millions
                             </h2>
                             <p class="text mb-0 pb-0">
                                 <span>(25 March 2025)</span>
-                         – 
-                                Bitcoin, once hailed as the future of finance, has become a breeding ground for scams that exploit unsuspecting investors. Many individuals, drawn by the promise of high returns and financial freedom, have poured their hard-earned money into fraudulent schemes, only to end up losing everything. Making matters worse, online review platforms like Trustpilot have played an unintended role in enabling these scams by allowing unchecked and fake reviews to mislead potential victims.
+                                –
+                                Bitcoin, once hailed as the future of finance, has become a breeding ground for scams
+                                that exploit unsuspecting investors. Many individuals, drawn by the promise of high
+                                returns and financial freedom, have poured their hard-earned money into fraudulent
+                                schemes, only to end up losing everything. Making matters worse, online review platforms
+                                like Trustpilot have played an unintended role in enabling these scams by allowing
+                                unchecked and fake reviews to mislead potential victims.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="are-trustpilot-reviews-truly-unbiased.php" class="news-alert-btn">Read
@@ -115,21 +152,27 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
-            <div class="col-lg-4 mb-3">
+                <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
-                        <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
-                            <img src="../assets/images/news/trustpilot.jpeg" style="object-fit:cover; object-position:center;"
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/news/trustpilot.jpeg"
+                                style="object-fit:cover; object-position:center;"
                                 alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
                             <h2 class="mb-0 pb-0">
-                            CPB DEMANDS TRANSPARENCY IN REVIEW PRACTICES
+                                CPB DEMANDS TRANSPARENCY IN REVIEW PRACTICES
                             </h2>
                             <p class="text mb-0 pb-0">
                                 <span>(18 March 2025)</span>
-                                <b>LONDON</b> – 
-                                The CPB has issued a formal challenge to Trustpilot regarding the platform's review moderation processes, citing significant concerns about transparency and fairness. Despite multiple engagement attempts dating back to February 2025, Trustpilot has remained unresponsive to requests for clarification, casting doubt on its claims of operating an open and unbiased review platform.
+                                <b>LONDON</b> –
+                                The CPB has issued a formal challenge to Trustpilot regarding the platform's review
+                                moderation processes, citing significant concerns about transparency and fairness.
+                                Despite multiple engagement attempts dating back to February 2025, Trustpilot has
+                                remained unresponsive to requests for clarification, casting doubt on its claims of
+                                operating an open and unbiased review platform.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="trustpilot-under-scrutiny.php" class="news-alert-btn">Read
@@ -139,29 +182,32 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
-      
+
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
-                        <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
-                            <img src="../assets/images/news/world-consumers-rights-day.png" style="object-fit:contain; object-position:center;"
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/news/world-consumers-rights-day.png"
+                                style="object-fit:contain; object-position:center;"
                                 alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
                             <h2 class="mb-0 pb-0">
-                            World Consumer Rights Day 2025: Consumers at the Heart of the Green
-                            Transition
+                                World Consumer Rights Day 2025: Consumers at the Heart of the Green
+                                Transition
                             </h2>
                             <p class="text mb-0 pb-0">
                                 <span>(11 March 2025)</span>
-                                <b>LONDON –</b> As the world grapples with climate change and the cost-of-living crisis, World Consumer
+                                <b>LONDON –</b> As the world grapples with climate change and the cost-of-living crisis,
+                                World Consumer
                                 Rights Day 2025 calls for urgent action to empower consumers in shaping a greener,
-                            fairer
-                            economy. Under the theme "A Just Transition to Sustainable Lifestyles," this year's
-                            campaign
-                            emphasises the need for sustainable, affordable, and accessible choices that protect
-                            both
-                            people and the planet.
+                                fairer
+                                economy. Under the theme "A Just Transition to Sustainable Lifestyles," this year's
+                                campaign
+                                emphasises the need for sustainable, affordable, and accessible choices that protect
+                                both
+                                people and the planet.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="world-consumer-rights-day.php" class="news-alert-btn">Read
@@ -171,24 +217,29 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
-          
+
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
-                        <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
-                            <img src="../assets/images/news/trustpilot.png" style="object-fit:contain; object-position:center;"
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/news/trustpilot.png"
+                                style="object-fit:contain; object-position:center;"
                                 alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
                             <h2 class="mb-0 pb-0">
-                            Concerns Grow Over Trustpilot’s Alleged Removal of Negative Reviews
+                                Concerns Grow Over Trustpilot’s Alleged Removal of Negative Reviews
                             </h2>
                             <p class="text mb-0 pb-0">
                                 <span>(5 March 2025)</span>
-                                <b>LONDON</b> – Consumers are raising concerns over Trustpilot’s review moderation practices, alleging that the platform selectively removes negative reviews, potentially misleading the public and compromising its credibility.
+                                <b>LONDON</b> – Consumers are raising concerns over Trustpilot’s review moderation
+                                practices, alleging that the platform selectively removes negative reviews, potentially
+                                misleading the public and compromising its credibility.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="concerns-grow-over-trustpilot-alleged-removel-of-negative-reviews.php" class="news-alert-btn">Read
+                                <a href="concerns-grow-over-trustpilot-alleged-removel-of-negative-reviews.php"
+                                    class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
@@ -223,7 +274,7 @@ if (isset($_POST['form-contact'])) {
                     </div>
                 </div>
 
-             
+
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image  justify-content-center">
@@ -234,10 +285,10 @@ if (isset($_POST['form-contact'])) {
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
                             <h2 class="text-uppercase">
-                            A WATCHDOG TURNED TOOTHLESS LAPDOG?
+                                A WATCHDOG TURNED TOOTHLESS LAPDOG?
                             </h2>
                             <p class="text mb-0 pb-0">
-                         
+
                                 The Financial Ombudsman Service (FOS) was established with the noble intention of
                                 providing
                                 consumers with an independent, fair, and impartial platform to resolve disputes with
@@ -373,8 +424,8 @@ if (isset($_POST['form-contact'])) {
                     </div>
                 </div>
 
-              
-             
+
+
 
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
@@ -409,20 +460,22 @@ if (isset($_POST['form-contact'])) {
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
 
-                            <img src="../assets/images/news/fake-products.png"
-                                alt="Spotting Fake Products">
+                            <img src="../assets/images/news/fake-products.png" alt="Spotting Fake Products">
                         </div>
                         <div class="news-card-text">
                             <h2 class="text-uppercase">
-                            Fake or Real? The Truth Behind Counterfeit Products
+                                Fake or Real? The Truth Behind Counterfeit Products
 
                             </h2>
                             <p class="text mb-0 pb-0">
-                            Counterfeit goods are a growing concern, deceiving consumers and harming legitimate
-                            businesses. From electronics and designer clothing to cosmetics and pharmaceuticals, fake
-                            products pose significant risks, including financial loss, health hazards, and compromised
-                            safety. Identifying counterfeit goods is essential for protecting your consumer rights and
-                            making informed purchasing decisions.
+                                Counterfeit goods are a growing concern, deceiving consumers and harming legitimate
+                                businesses. From electronics and designer clothing to cosmetics and pharmaceuticals,
+                                fake
+                                products pose significant risks, including financial loss, health hazards, and
+                                compromised
+                                safety. Identifying counterfeit goods is essential for protecting your consumer rights
+                                and
+                                making informed purchasing decisions.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="spotting-fake-products.php" class="news-alert-btn">Read
@@ -432,7 +485,7 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
-            
+
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
@@ -491,17 +544,24 @@ if (isset($_POST['form-contact'])) {
                 </div>
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
-                        <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
-                            <img src="../assets/images/news/trustpilot.png" style="object-fit:contain; object-position:center;"
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/news/trustpilot.png"
+                                style="object-fit:contain; object-position:center;"
                                 alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
                             <h2 class="mb-0 pb-0">
-                            Are Trustpilot Reviews Truly Unbiased?
+                                Are Trustpilot Reviews Truly Unbiased?
                             </h2>
                             <p class="text mb-0 pb-0">
-                            Online review platforms play a crucial role in helping consumers make informed decisions about businesses, products, and services. Trustpilot, one of the most well-known review platforms, claims to provide an open and transparent forum for customer feedback. However, growing concerns have emerged regarding whether Trustpilot moderates its reviews in a way that disproportionately removes negative feedback—potentially skewing public perception and misleading consumers.
+                                Online review platforms play a crucial role in helping consumers make informed decisions
+                                about businesses, products, and services. Trustpilot, one of the most well-known review
+                                platforms, claims to provide an open and transparent forum for customer feedback.
+                                However, growing concerns have emerged regarding whether Trustpilot moderates its
+                                reviews in a way that disproportionately removes negative feedback—potentially skewing
+                                public perception and misleading consumers.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="are-trustpilot-reviews-truly-unbiased.php" class="news-alert-btn">Read
@@ -513,26 +573,30 @@ if (isset($_POST['form-contact'])) {
                 </div>
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
-                        <div class="news-card-image d-flex justify-content-center align-items-center" style="background-color:#000032;">
-                            <img src="../assets/images/news/consumer-powe.png" style="object-fit:contain; object-position:center;"
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/news/consumer-powe.png"
+                                style="object-fit:contain; object-position:center;"
                                 alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
                             <h2 class="mb-0 pb-0">
-                            Revolutionising Consumer Power
+                                Revolutionising Consumer Power
                             </h2>
                             <p class="text mb-0 pb-0">
-                            Every year, on March 15, the world comes together to celebrate World Consumer Rights
+                                Every year, on March 15, the world comes together to celebrate World Consumer Rights
                                 Day, a
-                            crucial moment to advocate for consumer rights, protection, and empowerment. The 2025 theme,
-                            "A Just Transition to Sustainable Lifestyles", emphasises the urgent need for
-                            sustainable,
+                                crucial moment to advocate for consumer rights, protection, and empowerment. The 2025
+                                theme,
+                                "A Just Transition to Sustainable Lifestyles", emphasises the urgent need for
+                                sustainable,
                                 accessible, and affordable lifestyle choices that do not compromise people’s basic
-                            rights
-                            and needs. This initiative, coordinated by Consumers International, calls on all
-                            stakeholders—including businesses, governments, and civil society—to create an equitable and
-                            environmentally responsible marketplace.
+                                rights
+                                and needs. This initiative, coordinated by Consumers International, calls on all
+                                stakeholders—including businesses, governments, and civil society—to create an equitable
+                                and
+                                environmentally responsible marketplace.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="revolutionising-consumer-power.php" class="news-alert-btn">Read
