@@ -136,7 +136,7 @@ if (isset($_POST['form-contact'])) {
                             </h2>
                             <p class="text mb-0 pb-0">
                                 <span>(25 March 2025)</span>
-                                –
+                                <b>LONDON</b> –
                                 Bitcoin, once hailed as the future of finance, has become a breeding ground for scams
                                 that exploit unsuspecting investors. Many individuals, drawn by the promise of high
                                 returns and financial freedom, have poured their hard-earned money into fraudulent
