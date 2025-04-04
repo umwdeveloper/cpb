@@ -86,7 +86,7 @@ if (isset($_POST['form-contact'])) {
                     <div class="px-lg-5 px-3">
                         <h1 class="news-heading text-uppercase  my-3">
                             <span class="text-lg">CREDIT RATING AGENCIES: </span> <br>
-                            <span class="text-alert">WHEN THE WATCHDOGS BITE THE CONSUMERS THEY SHOULD PROTECT</span>
+                            <span class="text-alert text-primary">WHEN THE WATCHDOGS BITE THE CONSUMERS THEY SHOULD PROTECT</span>
                         </h1>
                         <!-- <p class=" text-gray text2">(10/03/2025)</p> -->
                         <!-- <h2 class="subtitle-bullet w-700">Is Trustpilot Silencing Negative Reviews?</h2>
