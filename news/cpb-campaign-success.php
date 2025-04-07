@@ -84,8 +84,10 @@ if (isset($_POST['form-contact'])) {
                 <div class="col-lg-10 mx-auto bg-gold p-0">
                     <!-- <img src="../assets/images/news/lapdog.png" alt="" class="w-100 h-auto"> -->
 
-                    <div class="px-lg-5 px-3">
-                        <h1 class="news-heading text-uppercase  my-3">
+                    <div class="px-lg-5 px-3 mt-3">
+                    <span class="text-alert text-md"> PRESS STATEMENT</span><br>
+                        <h1 class="news-heading text-uppercase  mb-3">
+                        
                             <span class="text-lg">CPB Campaign Success: </span> <br>
                             <span class="text-alert"> GOVERNMENT ADOPTS TOUGHER CONSUMER PROTECTION LAWS UNDER
                                 STRENGTHENED DIGITAL MARKETS ACT </span>
@@ -167,7 +169,7 @@ if (isset($_POST['form-contact'])) {
                                 Government Press Release
                                 </h3>
                                 <p class="text">
-                                check this out: <br> <a href="https://www.gov.uk/government/news/fake-reviews-and-sneaky-hidden-fees-banned-once-and-for-all">https://www.gov.uk/government/news/fake-reviews-and-sneaky-hidden-fees-banned-once-and-for-all</a>
+                                check this out: <br> <a href="https://www.gov.uk/government/news/fake-reviews-and-sneaky-hidden-fees-banned-once-and-for-all">Click Here</a>
                                 </p>
 
                                 <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4 mb-0 pb-0">
