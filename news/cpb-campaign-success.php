@@ -88,7 +88,7 @@ if (isset($_POST['form-contact'])) {
                         <h1 class="news-heading text-uppercase  my-3">
                             <span class="text-lg">CPB Campaign Success: </span> <br>
                             <span class="text-alert"> GOVERNMENT ADOPTS TOUGHER CONSUMER PROTECTION LAWS UNDER
-                                STRENGTHENED DIGITAL MARKETS ACT? </span>
+                                STRENGTHENED DIGITAL MARKETS ACT </span>
 
 
                         </h1>
