@@ -95,6 +95,40 @@ if (isset($_POST['form-contact'])) {
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
+                            <img src="../assets/images/news/cpb-camphign.png"
+                                style="object-fit:contain; object-position:center;"
+                                alt="CREDIT RATING AGENCIES" class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>24th November 2024</span> -->
+                            <h2 class="mb-0 pb-0">
+                            CPB Campaign Success:<br>GOVERNMENT ADOPTS TOUGHER CONSUMER PROTECTION LAWS UNDER
+                            STRENGTHENED DIGITAL MARKETS ACT
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                            <span>(07 April 2025)</span>
+                            <b>LONDON</b> –
+                            The Consumer Protection Bureau (CPB) is proud to declare a <b>major victory for consumers
+                                and a
+                                direct success</b> of our recent campaigns aimed at strengthening transparency,
+                            fairness, and
+                            accountability across UK markets. We welcome the UK Government’s adoption of tougher
+                            consumer protection measures under the newly reinforced Digital Markets, Competition and
+                            Consumers Act, and applaud the leadership of Justin Madders MP, Minister for Competition and
+                            Markets, for taking decisive action.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="cpb-campaign-success.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
                             <img src="../assets/images/news/credit-agencies.png"
                                 style="object-fit:contain; object-position:center;"
                                 alt="CREDIT RATING AGENCIES" class="">
