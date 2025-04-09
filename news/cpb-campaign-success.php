@@ -86,13 +86,10 @@ if (isset($_POST['form-contact'])) {
 
                     <div class="px-lg-5 px-3 mt-3">
                     <span class="text-alert text-md"> PRESS STATEMENT</span><br>
-                        <h1 class="news-heading text-uppercase  mb-3">
-                        
-                            <span class="text-lg">CPB Campaign Success: </span> <br>
+                        <h1 class="news-heading text-uppercase  mb-3">                     
+                            <span class="text-lg text-uppercase">CPB Campaign Success: </span> <br>
                             <span class="text-alert"> GOVERNMENT ADOPTS TOUGHER CONSUMER PROTECTION LAWS UNDER
                                 STRENGTHENED DIGITAL MARKETS ACT </span>
-
-
                         </h1>
                         <!-- <h2 class="subtitle-bullet w-700">UNMASKING SYSTEMIC BIAS AND CONSUMER BETRAYAL</h2> -->
                         <p class="text ">

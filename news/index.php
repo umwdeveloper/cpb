@@ -292,7 +292,7 @@ if (isset($_POST['form-contact'])) {
                                 CPB JOINS CONSUMERS INTERNATIONAL
                             </h2>
                             <p class="text mb-0 pb-0">
-                                <span>(11th February 2025)</span>
+                                <span>(11th February 2025)</span> <b>LONDON</b> –
                                 CPB is proud to announce its official
                                 membership in Consumers International, the world’s leading consumer
                                 advocacy network. This milestone underscores CPB’s commitment to
@@ -357,7 +357,7 @@ if (isset($_POST['form-contact'])) {
                                 Price Display Discrepancy at Asda Store
                             </h2>
                             <p class="text mb-0 pb-0">
-                                <span>(24th November 2024)</span> In an incident happened today at an Asda store in West
+                                <span>(24th November 2024)</span> <b>LONDON</b> – In an incident happened today at an Asda store in West
                                 Sussex, a vigilant consumer
                                 successfully challenged misleading price labelling, highlighting the importance of
                                 consumer awareness and advocacy. The case serves as a reminder that shoppers must remain

@@ -693,7 +693,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     height: 48px;
-
+     text-transform: uppercase !important
 }
 .news-card-text p{
     
@@ -725,6 +725,9 @@ body {
 }
 .chrismas-close{
     background-color: transparent;border: none;color: white;font-size: 30px;
+}
+.text-uppercase{
+    text-transform: uppercase !important;
 }
 @keyframes rainbow-animation2 {
     to {
@@ -761,7 +764,7 @@ body {
 .news-heading{
     color: var(--primary);
     font-size: 48px;
-    font-weight: 700 !important;
+    font-weight: 900 !important;
     font-family: "Montserrat", sans-serif;
    color: black;
 }

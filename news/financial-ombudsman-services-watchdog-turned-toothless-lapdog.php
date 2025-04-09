@@ -85,11 +85,11 @@ if (isset($_POST['form-contact'])) {
                     <img src="../assets/images/news/lapdog.png" alt="" class="w-100 h-auto">
 
                     <div class="px-lg-5 px-3">
-                        <h1 class="news-heading text-uppercase  my-3">
-                            <span class="text-lg">THE FINANCIAL OMBUDSMAN SERVICE: </span> <br>
-                            <span class="text-alert"> A WATCHDOG TURNED TOOTHLESS LAPDOG? </span>
-
-
+                    <div class="news-heading text-uppercase  mt-3">
+                            <span class="text-lg">THE FINANCIAL OMBUDSMAN SERVICE: </span> 
+                        </div>
+                        <h1 class="news-heading text-uppercase text-alert  mb-3">
+                             A WATCHDOG TURNED TOOTHLESS LAPDOG? 
                         </h1>
                         <h2 class="subtitle-bullet w-700">UNMASKING SYSTEMIC BIAS AND CONSUMER BETRAYAL</h2>
                         <p class="text w-700">
