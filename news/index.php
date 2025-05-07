@@ -91,31 +91,33 @@ if (isset($_POST['form-contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4">
-            <div class="col-lg-4 mb-3">
+                <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
                             <img src="../assets/images/news/cpb-camphign.png"
-                                style="object-fit:contain; object-position:center;"
-                                alt="CREDIT RATING AGENCIES" class="">
+                                style="object-fit:contain; object-position:center;" alt="CREDIT RATING AGENCIES"
+                                class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
                             <h2 class="mb-0 pb-0">
-                            CPB Campaign Success:<br>GOVERNMENT ADOPTS TOUGHER CONSUMER PROTECTION LAWS UNDER
-                            STRENGTHENED DIGITAL MARKETS ACT
+                                CPB Campaign Success:<br>GOVERNMENT ADOPTS TOUGHER CONSUMER PROTECTION LAWS UNDER
+                                STRENGTHENED DIGITAL MARKETS ACT
                             </h2>
                             <p class="text mb-0 pb-0">
-                            <span>(07 April 2025)</span>
-                            <b>LONDON</b> –
-                            The Consumer Protection Bureau (CPB) is proud to declare a <b>major victory for consumers
-                                and a
-                                direct success</b> of our recent campaigns aimed at strengthening transparency,
-                            fairness, and
-                            accountability across UK markets. We welcome the UK Government’s adoption of tougher
-                            consumer protection measures under the newly reinforced Digital Markets, Competition and
-                            Consumers Act, and applaud the leadership of Justin Madders MP, Minister for Competition and
-                            Markets, for taking decisive action.
+                                <span>(07 April 2025)</span>
+                                <b>LONDON</b> –
+                                The Consumer Protection Bureau (CPB) is proud to declare a <b>major victory for
+                                    consumers
+                                    and a
+                                    direct success</b> of our recent campaigns aimed at strengthening transparency,
+                                fairness, and
+                                accountability across UK markets. We welcome the UK Government’s adoption of tougher
+                                consumer protection measures under the newly reinforced Digital Markets, Competition and
+                                Consumers Act, and applaud the leadership of Justin Madders MP, Minister for Competition
+                                and
+                                Markets, for taking decisive action.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="cpb-campaign-success.php" class="news-alert-btn">Read
@@ -125,22 +127,22 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
-            <div class="col-lg-4 mb-3">
+                <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
                             <img src="../assets/images/news/credit-agencies.png"
-                                style="object-fit:contain; object-position:center;"
-                                alt="CREDIT RATING AGENCIES" class="">
+                                style="object-fit:contain; object-position:center;" alt="CREDIT RATING AGENCIES"
+                                class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
                             <h2 class="mb-0 pb-0">
-                            WHEN THE WATCHDOGS BITE THE CONSUMERS THEY SHOULD PROTECT
+                                WHEN THE WATCHDOGS BITE THE CONSUMERS THEY SHOULD PROTECT
                             </h2>
                             <p class="text mb-0 pb-0">
-                            <span>(04 April 2025)</span>
-                            <b>LONDON</b> –
+                                <span>(04 April 2025)</span>
+                                <b>LONDON</b> –
                                 In the intricate web of modern financial systems, UK credit rating agencies like
                                 Equifax, Experian, and TransUnion wield enormous power over consumers' financial lives.
                                 What happens when these institutions, designed to assess creditworthiness, become tools
@@ -148,7 +150,8 @@ if (isset($_POST['form-contact'])) {
                                 Protection Bureau (CPB) investigation highlights this troubling dynamic.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="the-role-of-credit-agencies-like-equifax-and-experian.php" class="news-alert-btn">Read
+                                <a href="the-role-of-credit-agencies-like-equifax-and-experian.php"
+                                    class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
@@ -357,7 +360,8 @@ if (isset($_POST['form-contact'])) {
                                 Price Display Discrepancy at Asda Store
                             </h2>
                             <p class="text mb-0 pb-0">
-                                <span>(24th November 2024)</span> <b>LONDON</b> – In an incident happened today at an Asda store in West
+                                <span>(24th November 2024)</span> <b>LONDON</b> – In an incident happened today at an
+                                Asda store in West
                                 Sussex, a vigilant consumer
                                 successfully challenged misleading price labelling, highlighting the importance of
                                 consumer awareness and advocacy. The case serves as a reminder that shoppers must remain

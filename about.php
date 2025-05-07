@@ -149,6 +149,41 @@ $feedbacks = findAll("feedbacks");
         </div>
     </section>
 
+    <section class="pb-lg-5 pb-4 bg-light position-relative ">
+        <!-- <div class="white-background2"></div> -->
+        <div class="container">
+            <div class="row position-relative align-items-center white-bg">
+
+                <div class="col-lg-10 text-center mx-auto">
+                    <h2 class="main-heading text-uppercase  mt-5 ">
+                        Yousouf Jhugroo
+                    </h2>
+                    <h3 class=" text-secondry">A Visionary Leader in Consumer Protection</h3>
+                    <p class="text-md mt-4 ">
+                        Mr. Yousouf Jhugroo, a champion  in consumer rights advocacy and regulatory
+                        compliance, with over two decades of experience across Europe and Mauritius. Recently featured
+                        in L’Express, Mr. Jhugroo's journey reflects his engagement to inclusive leadership,
+                        transparency, and innovation in protecting consumer interests.
+                    </p>
+                    <div class="">
+                        <img src="assets/images/front-page.jpeg" alt="Yousouf Jhugroo CEO Consumer Protection Bureau"
+                            class="mx-auto img-fluid">
+
+                        <img src="assets/images/yousouf-jhugroo.jpeg"
+                            alt="Yousouf Jhugroo CEO Consumer Protection Bureau" class="mx-auto img-fluid mt-3">
+                    </div>
+                    <br><br><br>
+                    <a class="text-secondry text-lg" target="_blank"
+                        href="https://lexpress.mu/s/yousouf-jhugroo-articulating-the-future-in-a-compelling-and-inclusive-way-544982"
+                        class="secondry-heading text-uppercase text-center text-white">
+                        📖 Read the full article on L'Express
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
 
@@ -269,7 +304,7 @@ $feedbacks = findAll("feedbacks");
                     </div>
                     <div class="col col-lg-7 col-md-12 col-sm-12">
                         <div class="contact-content ps-lg-5">
-                        <div class="contact-form">
+                            <div class="contact-form">
                                 <?php if (isset($_POST['form-contact'])): ?>
                                 <?php if ($msg['status'] == 'success'): ?>
                                 <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
@@ -301,7 +336,8 @@ $feedbacks = findAll("feedbacks");
                                         <textarea class="form-control" name="msg" id="msg"
                                             placeholder="Message"></textarea>
                                     </div>
-                                    <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j"></div>
+                                    <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j">
+                                    </div>
 
                                     <div class="submit-btn-wrapper">
                                         <button type="submit" name="contact" class="main-btn">Send</button>
