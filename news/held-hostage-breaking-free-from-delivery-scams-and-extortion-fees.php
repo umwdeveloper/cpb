@@ -42,7 +42,7 @@ if (isset($_POST['form-contact'])) {
 
 <head>
     <title>Breaking Free From
-    Delivery Scams and Extortion Fees - Consumer Alert News - (CPB)</title>
+        Delivery Scams and Extortion Fees - Consumer Alert News - (CPB)</title>
     <meta name="description"
         content="Learn about service charges in UK restaurants and your rights with updates from the Consumer Protection Bureau.">
     <!-- Required meta tags -->
@@ -132,7 +132,7 @@ if (isset($_POST['form-contact'])) {
                         </p>
 
 
-                
+
 
                         <!-- <img src="../assets/images/news/consumer-protection-bureau-alert-news-Asda Store.jpeg"
                             alt="Consumet Protection Bureau Uk Alert News about Asda Store "
@@ -193,7 +193,7 @@ if (isset($_POST['form-contact'])) {
                                     </li>
                                 </ul>
 
-                           
+
 
                             </div>
 
@@ -501,7 +501,7 @@ if (isset($_POST['form-contact'])) {
 
 <head>
     <title>Breaking Free From
-    Delivery Scams and Extortion Fees - Consumer Alert News - (CPB)</title>
+        Delivery Scams and Extortion Fees - Consumer Alert News - (CPB)</title>
     <meta name="description"
         content="Learn about service charges in UK restaurants and your rights with updates from the Consumer Protection Bureau.">
     <!-- Required meta tags -->
@@ -591,7 +591,7 @@ if (isset($_POST['form-contact'])) {
                         </p>
 
 
-                
+
 
                         <!-- <img src="../assets/images/news/consumer-protection-bureau-alert-news-Asda Store.jpeg"
                             alt="Consumet Protection Bureau Uk Alert News about Asda Store "
@@ -652,7 +652,7 @@ if (isset($_POST['form-contact'])) {
                                     </li>
                                 </ul>
 
-                           
+
 
                             </div>
 

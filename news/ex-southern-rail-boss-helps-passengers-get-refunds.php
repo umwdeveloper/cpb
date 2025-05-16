@@ -82,31 +82,38 @@ if (isset($_POST['form-contact'])) {
 
                     <div class="px-lg-4 mx-2 px-3">
                         <h1 class="news-heading text-uppercase  my-3">
-                        Fighting Back: <br class="d-lg-block d-none"> <span class="text-alert"> Ex-Southern Rail Boss Offers Help to Passengers Seeking Refunds</span>
+                            Fighting Back: <br class="d-lg-block d-none"> <span class="text-alert"> Ex-Southern Rail
+                                Boss Offers Help to Passengers Seeking Refunds</span>
                         </h1>
                         <!-- <p class="text-md">
                             <b>Published on:</b>
                         </p> -->
                         <!-- <h2 class="subtitle-bullet">The Growing Concern of Delivery Scams</h2> -->
                         <p class="text w-500">
-                        A former Southern Rail executive is now helping frustrated commuters reclaim money on their season tickets, following years of delays, cancellations, and service disruptions. His move comes as a relief to many passengers who felt abandoned during one of the UK’s most controversial periods in rail travel.
+                            A former Southern Rail executive is now helping frustrated commuters reclaim money on their
+                            season tickets, following years of delays, cancellations, and service disruptions. His move
+                            comes as a relief to many passengers who felt abandoned during one of the UK’s most
+                            controversial periods in rail travel.
                         </p>
 
                         <p class="text">
-                        At the Consumer Protection Bureau, we support every effort to hold transport providers accountable and ensure consumers receive the refunds and support they deserve.
+                            At the Consumer Protection Bureau, we support every effort to hold transport providers
+                            accountable and ensure consumers receive the refunds and support they deserve.
 
 
                         </p>
 
                         <img src="../assets/images/news/southern2.avif" alt="" class="w-100 h-auto">
                         <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4">
-                        👉 Read more details in the article published by the Evening Standard:
-                         <br>
-<a class="ps-5" target="_blank" href="https://www.standard.co.uk/news/transport/exsouthern-rail-boss-i-ll-help-passengers-get-season-tickets-refunded-a3296451.html">Click Here</a>
+                            👉 Read more details in the article published by the Evening Standard:
+                            <br>
+                            <a class="ps-5" target="_blank"
+                                href="https://www.standard.co.uk/news/transport/exsouthern-rail-boss-i-ll-help-passengers-get-season-tickets-refunded-a3296451.html">Click
+                                Here</a>
 
                         </h3>
-                 
-                  
+
+
 
                     </div>
 
@@ -350,31 +357,38 @@ if (isset($_POST['form-contact'])) {
 
                     <div class="px-lg-4 mx-2 px-3">
                         <h1 class="news-heading text-uppercase  my-3">
-                        Fighting Back: <br class="d-lg-block d-none"> <span class="text-alert"> Ex-Southern Rail Boss Offers Help to Passengers Seeking Refunds</span>
+                            Fighting Back: <br class="d-lg-block d-none"> <span class="text-alert"> Ex-Southern Rail
+                                Boss Offers Help to Passengers Seeking Refunds</span>
                         </h1>
                         <!-- <p class="text-md">
                             <b>Published on:</b>
                         </p> -->
                         <!-- <h2 class="subtitle-bullet">The Growing Concern of Delivery Scams</h2> -->
                         <p class="text w-500">
-                        A former Southern Rail executive is now helping frustrated commuters reclaim money on their season tickets, following years of delays, cancellations, and service disruptions. His move comes as a relief to many passengers who felt abandoned during one of the UK’s most controversial periods in rail travel.
+                            A former Southern Rail executive is now helping frustrated commuters reclaim money on their
+                            season tickets, following years of delays, cancellations, and service disruptions. His move
+                            comes as a relief to many passengers who felt abandoned during one of the UK’s most
+                            controversial periods in rail travel.
                         </p>
 
                         <p class="text">
-                        At the Consumer Protection Bureau, we support every effort to hold transport providers accountable and ensure consumers receive the refunds and support they deserve.
+                            At the Consumer Protection Bureau, we support every effort to hold transport providers
+                            accountable and ensure consumers receive the refunds and support they deserve.
 
 
                         </p>
 
                         <img src="../assets/images/news/southern2.avif" alt="" class="w-100 h-auto">
                         <h3 class="text-md-l text-bold  text-primary w-700 text-start mt-4">
-                        👉 Read more details in the article published by the Evening Standard:
-                         <br>
-<a class="ps-5" target="_blank" href="https://www.standard.co.uk/news/transport/exsouthern-rail-boss-i-ll-help-passengers-get-season-tickets-refunded-a3296451.html">Click Here</a>
+                            👉 Read more details in the article published by the Evening Standard:
+                            <br>
+                            <a class="ps-5" target="_blank"
+                                href="https://www.standard.co.uk/news/transport/exsouthern-rail-boss-i-ll-help-passengers-get-season-tickets-refunded-a3296451.html">Click
+                                Here</a>
 
                         </h3>
-                 
-                  
+
+
 
                     </div>
 

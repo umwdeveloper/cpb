@@ -160,7 +160,7 @@ $feedbacks = findAll("feedbacks");
                     </h2>
                     <h3 class=" text-secondry">A Visionary Leader in Consumer Protection</h3>
                     <p class="text-md mt-4 ">
-                        Mr. Yousouf Jhugroo, a champion  in consumer rights advocacy and regulatory
+                        Mr. Yousouf Jhugroo, a champion in consumer rights advocacy and regulatory
                         compliance, with over two decades of experience across Europe and Mauritius. Recently featured
                         in L’Express, Mr. Jhugroo's journey reflects his engagement to inclusive leadership,
                         transparency, and innovation in protecting consumer interests.
