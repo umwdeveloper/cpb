@@ -29,12 +29,12 @@ if ( post_password_required() ) {
 			$blogwaves_comment_count = get_comments_number();
 			if ( '1' === $blogwaves_comment_count ) {
 				printf(
-					esc_html__( 'Thought on &ldquo;%1$s&rdquo;', 'blogwaves' ),
+					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'blogwaves' ),
 					'<span>' . wp_kses_post( get_the_title() ) . '</span>'
 				);
 			} else {
 				printf( 
-					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s Comments on &ldquo;%2$s&rdquo;', $blogwaves_comment_count, 'comments title', 'blogwaves' ) ),
+					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $blogwaves_comment_count, 'comments title', 'blogwaves' ) ),
 					number_format_i18n( $blogwaves_comment_count ), // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 					'<span>' . wp_kses_post( get_the_title() ) . '</span>'
 				);
