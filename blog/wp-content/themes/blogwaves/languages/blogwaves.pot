@@ -77,7 +77,7 @@ msgstr ""
 #: comments.php:35
 #, php-format
 msgid ""
-"One comment on &ldquo;"
+"One thought on &ldquo;"
 "%1$s&rdquo;"
 msgstr ""
 
@@ -85,10 +85,10 @@ msgstr ""
 #, php-format
 msgctxt "comments title"
 msgid ""
-"%1$s comment on &ldquo;"
+"%1$s thought on &ldquo;"
 "%2$s&rdquo;"
 msgid_plural ""
-"%1$s comments on &ldquo;"
+"%1$s thoughts on &ldquo;"
 "%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""

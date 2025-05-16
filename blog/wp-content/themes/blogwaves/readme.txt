@@ -3,9 +3,9 @@
 Contributors : blogwp
 Tags: Blog, Custom Background, Custom Colors, Custom Header, Custom Logo, Custom Menu, Editor Style, Featured Images, Footer Widgets, Grid Layout, Left Sidebar, News, One Column, Right Sidebar, RTL Language Support, Theme Options, Threaded Comments, Translation Ready, Two Columns
 Requires at least: 4.5
-Tested up to: 6.4
+Tested up to: 6.7.1
 Requires PHP: 7.0
-Stable tag: 1.0.20
+Stable tag: 1.0.21
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

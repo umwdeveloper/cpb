@@ -224,7 +224,6 @@
     margin-bottom: 30px;
 }
 
-
 .comments-area .comment-list li img{
     border-radius: 50%;
     position: absolute;
@@ -234,10 +233,7 @@
     height: 80px;
     width: 80px;
 }
-.comments-area .comment-list li img {
-    height: 60px !important;
-    width: 60px !important;
-}
+
 .comments-area .comment-list .thread-odd{
     position: relative;
     background-color: transparent;
@@ -748,4 +744,3 @@ figcaption {
 body{
     overflow-x: hidden;
 }
-

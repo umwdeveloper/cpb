@@ -64,3 +64,87 @@ Stack trace:
 [03-Nov-2024 09:58:05 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
 [03-Nov-2024 09:58:05 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
 [03-Nov-2024 09:58:05 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[04-Dec-2024 20:21:00 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[04-Dec-2024 20:21:00 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[04-Dec-2024 20:21:00 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[04-Dec-2024 20:21:00 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[04-Dec-2024 22:07:31 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[04-Dec-2024 22:07:31 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[04-Dec-2024 22:07:31 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[04-Dec-2024 22:07:31 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[12-Dec-2024 10:39:41 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[12-Dec-2024 10:39:41 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[12-Dec-2024 10:39:41 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[12-Dec-2024 10:39:41 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[23-Dec-2024 11:43:43 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[23-Dec-2024 11:43:43 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[23-Dec-2024 11:43:43 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[23-Dec-2024 11:43:43 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[08-Jan-2025 07:10:43 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[08-Jan-2025 07:10:43 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[08-Jan-2025 07:10:43 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[08-Jan-2025 07:10:43 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[10-Jan-2025 19:52:14 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[10-Jan-2025 19:52:14 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[10-Jan-2025 19:52:14 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[10-Jan-2025 19:52:14 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[28-Jan-2025 00:34:50 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[28-Jan-2025 00:34:50 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[28-Jan-2025 00:34:50 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[28-Jan-2025 00:34:50 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[10-Feb-2025 15:28:23 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[10-Feb-2025 15:28:23 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[10-Feb-2025 15:28:23 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[10-Feb-2025 15:28:23 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[16-Mar-2025 13:29:30 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[16-Mar-2025 13:29:30 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[16-Mar-2025 13:29:30 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[16-Mar-2025 13:29:30 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[24-Mar-2025 17:06:19 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[24-Mar-2025 17:06:19 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[24-Mar-2025 17:06:19 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[24-Mar-2025 17:06:19 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[24-Mar-2025 17:06:19 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[24-Mar-2025 17:06:19 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[24-Mar-2025 17:06:19 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[24-Mar-2025 17:06:19 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[26-Mar-2025 17:39:02 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[26-Mar-2025 17:39:02 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[26-Mar-2025 17:39:02 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[26-Mar-2025 17:39:02 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[08-Apr-2025 08:16:58 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[08-Apr-2025 08:16:58 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[08-Apr-2025 08:16:58 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[08-Apr-2025 08:16:58 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[13-Apr-2025 06:59:32 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[13-Apr-2025 06:59:32 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[13-Apr-2025 06:59:32 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[13-Apr-2025 06:59:32 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[14-Apr-2025 09:45:09 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[14-Apr-2025 09:45:09 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[14-Apr-2025 09:45:09 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[14-Apr-2025 09:45:09 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[14-Apr-2025 18:35:43 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[14-Apr-2025 18:35:43 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[14-Apr-2025 18:35:43 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[14-Apr-2025 18:35:43 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[18-Apr-2025 10:30:00 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[18-Apr-2025 10:30:00 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[18-Apr-2025 10:30:00 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[18-Apr-2025 10:30:00 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[24-Apr-2025 19:11:48 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[24-Apr-2025 19:11:48 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[24-Apr-2025 19:11:48 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[24-Apr-2025 19:11:48 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[28-Apr-2025 16:12:57 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[28-Apr-2025 16:12:57 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[28-Apr-2025 16:12:57 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[28-Apr-2025 16:12:57 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[28-Apr-2025 16:13:04 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[28-Apr-2025 16:13:04 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[28-Apr-2025 16:13:04 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[28-Apr-2025 16:13:04 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
+[14-May-2025 19:20:56 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[14-May-2025 19:20:56 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 25
+[14-May-2025 19:20:56 UTC] PHP Notice:  Undefined index: user in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 26
+[14-May-2025 19:20:56 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/xmg3ydcsj5v2/public_html/consumerprotectionbureau.co.uk/admin/index.php on line 136
