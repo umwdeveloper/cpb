@@ -127,6 +127,7 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
+
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
@@ -158,6 +159,7 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
+
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
@@ -189,6 +191,7 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
+
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
@@ -283,6 +286,7 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
+
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image  justify-content-center" style="background-color:#84B578;">
@@ -310,7 +314,6 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
-
 
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
@@ -348,6 +351,7 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
+
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
@@ -375,6 +379,7 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
+
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
@@ -403,6 +408,7 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
+
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image  justify-content-center">
@@ -461,9 +467,6 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
-
-
-
 
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
@@ -551,6 +554,7 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
+
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
@@ -580,6 +584,7 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
+
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
@@ -609,6 +614,7 @@ if (isset($_POST['form-contact'])) {
 
                     </div>
                 </div>
+
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
@@ -638,6 +644,35 @@ if (isset($_POST['form-contact'])) {
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="revolutionising-consumer-power.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/news/stop-delivery-scams.png"
+                                style="object-fit:contain; object-position:center;"
+                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>24th November 2024</span> -->
+                            <h2 class="mb-0 pb-0">
+                            Breaking Free From
+                            Delivery Scams and Extortion Fees
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                            Imagine tracking your parcel, only to find it's suddenly stopped overseas. Then you receive
+                            an unexpected call demanding a large sum of money to release it — often with no official
+                            explanation or documentation. This distressing scenario is becoming increasingly common for
+                            consumers worldwide.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="held-hostage-breaking-free-from-delivery-scams-and-extortion-fees.php" class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
