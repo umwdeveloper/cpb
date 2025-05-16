@@ -176,9 +176,35 @@ $feedbacks = findAll("feedbacks");
                     <a class="text-secondry text-lg" target="_blank"
                         href="https://lexpress.mu/s/yousouf-jhugroo-articulating-the-future-in-a-compelling-and-inclusive-way-544982"
                         class="secondry-heading text-uppercase text-center text-white">
-                        📖 Read the full article on L'Express
+                        🔗 Read the full article on L'Express
                     </a>
 
+
+                    <h2 class="main-heading text-uppercase  mt-5 ">
+                    📈 Recognised for Raising UK Rail Compliance Standards
+                    </h2>
+                    <p class="text-md mt-4 ">
+                    <b>Yousouf Jhugroo’s leadership in compliance</b> was highlighted in a Strategic Rail Authority audit, where his guidance led South Central to achieve a 96.3% compliance score — a significant improvement from the previous year. His innovative approach, supported by senior management, introduced a strong compliance culture and new monitoring procedures across the organisation.
+                    </p>
+                    <a class="text-secondry text-lg" target="_blank"
+                        href="https://irp-cdn.multiscreensite.com/07d7be76/files/uploaded/YJ%20Southern%20%28crop%29.pdf"
+                        class="secondry-heading text-uppercase text-center text-white">
+                        🔗 View the report excerpt
+                    </a>
+
+
+                    
+                    <h2 class="main-heading text-uppercase  mt-5 ">
+                    🌍 Advocating for Consumer Protection Beyond Borders
+                    </h2>
+                    <p class="text-md mt-4 ">
+                    <b>As featured in Defi Media,</b> Yousouf Jhugroo helped safeguard the interests of over 400 Dubai investors by exposing fraudulent schemes and providing support to recover their funds. His dedication to protecting consumer rights globally reflects the mission and values upheld by the Consumer Protection Bureau.
+                    </p>
+                    <a class="text-secondry text-lg" target="_blank"
+                        href="https://defimedia.info/mauritian-saves-400-dubai-investors"
+                        class="secondry-heading text-uppercase text-center text-white">
+                        🔗 Read the full Defi Media article
+                    </a>
                 </div>
 
             </div>
