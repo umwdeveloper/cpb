@@ -42,7 +42,7 @@ if (isset($_POST['form-contact'])) {
 <html lang="en">
 
 <head>
-    <title>Price Display Discrepancy at Asda Store - Consumer Alert News - (CPB)</title>
+    <title>Consumer Alert News - (CPB)</title>
     <meta name="description"
         content="Stay updated with the Consumer Protection Bureau UK. Explore the latest consumer alerts, UK consumer laws, and protection tips from a trusted agency.">
     <!-- Required meta tags -->
@@ -63,8 +63,7 @@ if (isset($_POST['form-contact'])) {
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="canonical"
-        href="https://www.consumerprotectionbureau.co.uk/news/price-display-discrepancy-at-asada-store.php">
+    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/news/index.php">
 
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -96,8 +95,8 @@ if (isset($_POST['form-contact'])) {
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
                             <img src="../assets/images/news/cpb-camphign.png"
-                                style="object-fit:contain; object-position:center;" alt="CREDIT RATING AGENCIES"
-                                class="">
+                                style="object-fit:contain; object-position:center;"
+                                alt="CPB Campaign Leads to Stronger Consumer Protection Laws" class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
@@ -124,7 +123,6 @@ if (isset($_POST['form-contact'])) {
                                     More</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
@@ -133,8 +131,8 @@ if (isset($_POST['form-contact'])) {
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
                             <img src="../assets/images/news/credit-agencies.png"
-                                style="object-fit:contain; object-position:center;" alt="CREDIT RATING AGENCIES"
-                                class="">
+                                style="object-fit:contain; object-position:center;"
+                                alt="CPB Investigates Unfair Practices by Credit Rating Agencies" class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
@@ -156,7 +154,6 @@ if (isset($_POST['form-contact'])) {
                                     More</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
@@ -166,7 +163,7 @@ if (isset($_POST['form-contact'])) {
                             style="background-color:#000032;">
                             <img src="../assets/images/news/bitcoin-scam-and-fake-reviews.png"
                                 style="object-fit:contain; object-position:center;"
-                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                                alt="Bitcoin Scam and Fake Reviews Costing Consumers Millions" class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
@@ -188,7 +185,6 @@ if (isset($_POST['form-contact'])) {
                                     More</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
@@ -198,7 +194,7 @@ if (isset($_POST['form-contact'])) {
                             style="background-color:#000032;">
                             <img src="../assets/images/news/trustpilot.jpeg"
                                 style="object-fit:cover; object-position:center;"
-                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                                alt="CPB Challenges Trustpilot Over Unfair Review Moderation" class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
@@ -219,9 +215,19 @@ if (isset($_POST['form-contact'])) {
                                     More</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
+
+
+
+
+
+
+
+
+
+
+
 
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
@@ -229,7 +235,8 @@ if (isset($_POST['form-contact'])) {
                             style="background-color:#000032;">
                             <img src="../assets/images/news/world-consumers-rights-day.png"
                                 style="object-fit:contain; object-position:center;"
-                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                                alt="World Consumer Rights Day 2025: Consumers at the Heart of the Green Transition"
+                                class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
@@ -264,7 +271,7 @@ if (isset($_POST['form-contact'])) {
                             style="background-color:#000032;">
                             <img src="../assets/images/news/trustpilot.png"
                                 style="object-fit:contain; object-position:center;"
-                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                                alt="Trustpilot logo indicating concerns over removal of negative reviews" class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
@@ -291,7 +298,7 @@ if (isset($_POST['form-contact'])) {
                     <div class="news-card shadow-sm">
                         <div class="news-card-image  justify-content-center" style="background-color:#84B578;">
                             <img src="../assets/images/news/CPB joins CI.png" style="object-fit:contain;"
-                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                                alt="Consumer Protection Bureau UK joins Consumers International" class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
@@ -319,8 +326,7 @@ if (isset($_POST['form-contact'])) {
                     <div class="news-card shadow-sm">
                         <div class="news-card-image  justify-content-center">
                             <img src="../assets/images/news/FOC.png" style="object-fit:contain;"
-                                alt="Consumet Protection Bureau Uk Alert News about Financial Ombudsman Service (FOS) "
-                                class="">
+                                alt="Financial Ombudsman Service (FOS) watchdog criticism article image" class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
@@ -352,90 +358,80 @@ if (isset($_POST['form-contact'])) {
                     </div>
                 </div>
 
+
+
+
+
+
                 <div class="col-lg-4 mb-3">
-                    <div class="news-card shadow-sm">
+                    <article class="news-card shadow-sm">
                         <div class="news-card-image">
                             <img src="../assets/images/news/consumer-protection-bureau-alert-news-Asda Store.jpeg"
-                                alt="Consumet Protection Bureau Uk Alert News about Asda Store " class="">
+                                alt="Consumer Protection Bureau UK report on Asda store price discrepancy"
+                                loading="lazy">
                         </div>
                         <div class="news-card-text">
-                            <!-- <span>24th November 2024</span> -->
-                            <h2 class="text-uppercase">
-                                Price Display Discrepancy at Asda Store
-                            </h2>
+                            <h2 class="text-uppercase">Price Display Discrepancy at Asda Store</h2>
                             <p class="text mb-0 pb-0">
-                                <span>(24th November 2024)</span> <b>LONDON</b> – In an incident happened today at an
-                                Asda store in West
-                                Sussex, a vigilant consumer
-                                successfully challenged misleading price labelling, highlighting the importance of
-                                consumer awareness and advocacy. The case serves as a reminder that shoppers must remain
-                                alert and prepared to assert their rights when faced with pricing discrepancies.
+                                <span>(24th November 2024)</span> <strong>LONDON</strong> – In an incident at an Asda
+                                store in West Sussex,
+                                a vigilant consumer successfully challenged misleading price labelling, highlighting the
+                                importance of
+                                consumer awareness and advocacy. This case reminds shoppers to remain alert and assert
+                                their rights when
+                                facing pricing discrepancies.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="price-display-discrepancy-at-asada-store.php" class="news-alert-btn">Read
+                                <a href="price-display-discrepancy-at-asda-store.php" class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
-
-                    </div>
+                    </article>
                 </div>
 
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
-
                             <img src="../assets/images/news/Hanover Square in JVC dubai.jpg"
-                                alt="Consumet Protection Bureau Uk Alert News about ADGM Fines Wazim Nazir Following Consumer Protection Bureau's Intervention ">
+                                alt="Consumer Protection Bureau UK: ADGM Fines Wazim Nazir Over Regulatory Compliance Breach">
                         </div>
                         <div class="news-card-text">
-                            <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
                             <h2 class="text-uppercase">
-                                ADGM Fines Wazim Nazir, Owner of ACW Following Consumer Protection Bureau's Intervention
+                                ADGM Fines Wazim Nazir Following Action by Consumer Protection Bureau
                             </h2>
                             <p class="text mb-0 pb-0">
-                                In a significant victory for consumer protection and regulatory integrity, the Abu Dhabi
-                                Global Market (ADGM) Registration Authority has imposed financial penalties on HSQ
-                                Holdings Ltd, PL1 Holdings Ltd, and their director, Mohammed Wazim Nazir, for egregious
-                                breaches of regulatory compliance.
-
+                                In a major win for regulatory compliance and consumer rights, the Abu Dhabi Global
+                                Market (ADGM) Registration Authority has fined HSQ Holdings Ltd, PL1 Holdings Ltd, and
+                                director Mohammed Wazim Nazir for severe violations. The action follows a formal
+                                intervention by the Consumer Protection Bureau UK.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="adgm-fines-wazim-nazir-following-consumer-protection-bureau-intervention.php"
-                                    class="news-alert-btn">Read
-                                    More</a>
+                                    class="news-alert-btn">Read More</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
-                        <div class="news-card-image  justify-content-center">
+                        <div class="news-card-image justify-content-center">
                             <img src="../assets/images/news/refund.jpg" style="object-fit:contain;"
-                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                                alt="Consumer Protection Bureau UK: Know Your Rights on Refunds for Sale Items">
                         </div>
                         <div class="news-card-text">
-                            <!-- <span>24th November 2024</span> -->
                             <h2 class="mb-0 pb-0 text-uppercase">
-                                Refunds on Sale Items: Know Your
-                                Rights
+                                Refunds on Sale Items: Know Your Rights
                             </h2>
                             <p class="text mb-0 pb-0">
-                                Shopping during a sale can be exciting, with retailers offering various discounts.
-                                However,
-                                many consumers are unsure about their rights when it comes to returning sale items. A
-                                common
-                                myth is that discounted items cannot be refunded—but is that really true? Let’s break
-                                down
-                                what the law says about refunds on sale items in the UK.
+                                Sales season brings great deals, but do you know your rights when it comes to refunds?
+                                Contrary to popular belief, UK consumer protection laws may still entitle you to a
+                                refund on discounted items. The Consumer Protection Bureau breaks down the facts.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="refund-on-sale-items.php" class="news-alert-btn">Read
-                                    More</a>
+                                <a href="refund-on-sale-items.php" class="news-alert-btn">Read More</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
@@ -443,87 +439,70 @@ if (isset($_POST['form-contact'])) {
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
                             <img src="../assets/images/news/service-charges.jpg"
-                                alt="Learn about service charges in UK restaurants and your rights with updates from the Consumer Protection Bureau."
-                                class="">
+                                alt="Consumer Protection Bureau UK: Understanding Service Charges in UK Restaurants">
                         </div>
                         <div class="news-card-text">
-                            <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
                             <h2 class="text-uppercase">
                                 Service Charges in UK Restaurants
                             </h2>
                             <p class="text mb-0 pb-0">
-                                Service charges have become a standard feature of dining out in the UK, but many
-                                customers remain unclear about their legal obligations when it comes to paying them. Are
-                                they compulsory? And what happens if they are not clearly stated on the menu or on
-                                display?
-
-
+                                Are service charges mandatory in the UK? The Consumer Protection Bureau explains your
+                                rights when dining out, including whether restaurants must clearly disclose fees and if
+                                you're legally obliged to pay them.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="service-charges-in-uk-resturants.php" class="news-alert-btn">Read
-                                    More</a>
+                                <a href="service-charges-in-uk-resturants.php" class="news-alert-btn">Read More</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
-
                             <img src="../assets/images/news/Counterfeiting-Goods-Is-a-Serious-Crime.png"
-                                alt="Festive shopping tips with a budget checklist and gift items on a table. ">
+                                alt="Consumer Protection Bureau: Counterfeit Goods and Consumer Safety">
                         </div>
                         <div class="news-card-text">
                             <h2 class="text-uppercase">
                                 A Growing Global Threat to Consumers and Businesses
                             </h2>
                             <p class="text mb-0 pb-0">
-                                Counterfeit goods pose a serious threat to consumers, businesses, and economies
-                                worldwide, with illicit trade accounting for an estimated 3.3% of global commerce.
-                                According to the International Chamber of Commerce (ICC), counterfeiting costs the
-                                global economy over £500 billion annually. From luxury handbags and
-                                pharmaceuticals to electronics and automobile parts, counterfeit products deceive
-                                consumers, violate intellectual property rights, and often fail to meet safety
-                                standards.
+                                Counterfeit goods threaten consumers and businesses worldwide, accounting for over 3.3%
+                                of global trade. The Consumer Protection Bureau highlights the risks, from fake
+                                electronics to unsafe pharmaceuticals, and urges stronger enforcement to protect
+                                consumer rights and ensure product safety.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="understanding-counterfeit-goods.php" class="news-alert-btn">Read
-                                    More</a>
+                                <a href="understanding-counterfeit-goods.php" class="news-alert-btn">Read More</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
+
+
 
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
-
                             <img src="../assets/images/news/fake-products.png" alt="Spotting Fake Products">
                         </div>
                         <div class="news-card-text">
                             <h2 class="text-uppercase">
                                 Fake or Real? The Truth Behind Counterfeit Products
-
                             </h2>
                             <p class="text mb-0 pb-0">
-                                Counterfeit goods are a growing concern, deceiving consumers and harming legitimate
-                                businesses. From electronics and designer clothing to cosmetics and pharmaceuticals,
-                                fake
-                                products pose significant risks, including financial loss, health hazards, and
-                                compromised
-                                safety. Identifying counterfeit goods is essential for protecting your consumer rights
-                                and
-                                making informed purchasing decisions.
+                                Counterfeit goods are a growing concern in the UK, deceiving consumers and harming
+                                reputable businesses. From electronics and designer clothing to cosmetics and
+                                pharmaceuticals, fake products undermine consumer trust and pose serious risks to health
+                                and safety. Being able to identify counterfeit items is vital for protecting your
+                                consumer rights and avoiding financial loss. The Consumer Protection Bureau offers
+                                guidance to help you avoid falling victim to these scams.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="spotting-fake-products.php" class="news-alert-btn">Read
-                                    More</a>
+                                <a href="spotting-fake-products.php" class="news-alert-btn">Read More</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
@@ -531,57 +510,48 @@ if (isset($_POST['form-contact'])) {
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
                             <img src="../assets/images/news/black-friday.webp"
-                                alt="Consumet Protection Bureau Uk Alert News about Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24)  "
-                                class="">
+                                alt="Consumer Protection Bureau UK alert about Black Friday and Cyber Monday shopping tips">
                         </div>
                         <div class="news-card-text">
-                            <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
                             <h2 class="text-uppercase">
                                 Avoid Overspending and Protect Yourself from Scams
                             </h2>
                             <p class="text mb-0 pb-0">
-                                Black Friday (29th Nov 24) /Cyber Monday(2nd Dec 24) present a fantastic opportunity to
-                                score big savings, but it’s
-                                important to approach the sales with caution. With a little planning and awareness, you
-                                can
-                                make wise purchases, avoid poor-quality products, and steer clear of fraud.
+                                Black Friday (29th Nov 24) and Cyber Monday (2nd Dec 24) offer exciting deals, but also
+                                attract scams and low-quality products. To safeguard your consumer rights during these
+                                high-pressure sales events, it's important to shop smart and verify sellers. The
+                                Consumer Protection Bureau encourages UK shoppers to plan ahead and avoid impulsive
+                                purchases that may lead to consumer complaints or regret.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="black-friday-tips.php" class="news-alert-btn">Read
-                                    More</a>
+                                <a href="black-friday-tips.php" class="news-alert-btn">Read More</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image">
-
                             <img src="../assets/images/news/holiday-tips1.jpg"
-                                alt="Festive shopping tips with a budget checklist and gift items on a table. ">
+                                alt="Festive shopping tips with a budget checklist and gift items on a table">
                         </div>
                         <div class="news-card-text">
-                            <!-- <span class="" style="opacity:0">Black Friday (29th Nov 24) </span> -->
                             <h2 class="text-uppercase">
                                 CPB Advice for a Safe and Smart Festive Season
                             </h2>
                             <p class="text mb-0 pb-0">
-                                At the Consumer Protection Bureau (CPB), we want to ensure your festive season is filled
-                                with joy, not financial stress or disappointment. Christmas and New Year sales are a
-                                great
-                                opportunity for deals, but they also come with risks like overspending and scams. Follow
-                                our
-                                practical advice to shop smart, protect your money from scams, and enjoy a stress-free
-                                holiday season.
+                                At the Consumer Protection Bureau, we want to ensure your festive season is safe,
+                                joyful, and free from consumer complaints. During Christmas and New Year, sales are
+                                tempting, but scams and financial traps are common. Protect yourself by following our
+                                practical advice on budgeting, recognising legitimate retailers, and reporting
+                                suspicious activity under consumer protection laws in the UK.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="cpb-advice-for-safe-and-smart-festive-season.php" class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
@@ -591,27 +561,23 @@ if (isset($_POST['form-contact'])) {
                             style="background-color:#000032;">
                             <img src="../assets/images/news/trustpilot.png"
                                 style="object-fit:contain; object-position:center;"
-                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                                alt="Consumer Protection Bureau UK news about review platform transparency">
                         </div>
                         <div class="news-card-text">
-                            <!-- <span>24th November 2024</span> -->
                             <h2 class="mb-0 pb-0">
                                 Are Trustpilot Reviews Truly Unbiased?
                             </h2>
                             <p class="text mb-0 pb-0">
-                                Online review platforms play a crucial role in helping consumers make informed decisions
-                                about businesses, products, and services. Trustpilot, one of the most well-known review
-                                platforms, claims to provide an open and transparent forum for customer feedback.
-                                However, growing concerns have emerged regarding whether Trustpilot moderates its
-                                reviews in a way that disproportionately removes negative feedback—potentially skewing
-                                public perception and misleading consumers.
+                                Online reviews significantly impact consumer decisions. Trustpilot, a widely used review
+                                platform, claims transparency, but growing concerns about biased moderation are
+                                surfacing. Are negative reviews being filtered unfairly? The Consumer Protection Bureau
+                                explores the implications for consumer protection and how UK shoppers can make informed
+                                choices even when faced with potentially skewed ratings.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="are-trustpilot-reviews-truly-unbiased.php" class="news-alert-btn">Read
-                                    More</a>
+                                <a href="are-trustpilot-reviews-truly-unbiased.php" class="news-alert-btn">Read More</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
@@ -621,33 +587,24 @@ if (isset($_POST['form-contact'])) {
                             style="background-color:#000032;">
                             <img src="../assets/images/news/consumer-powe.png"
                                 style="object-fit:contain; object-position:center;"
-                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                                alt="Consumer Protection Bureau UK on World Consumer Rights Day 2025">
                         </div>
                         <div class="news-card-text">
-                            <!-- <span>24th November 2024</span> -->
                             <h2 class="mb-0 pb-0">
                                 Revolutionising Consumer Power
                             </h2>
                             <p class="text mb-0 pb-0">
-                                Every year, on March 15, the world comes together to celebrate World Consumer Rights
-                                Day, a
-                                crucial moment to advocate for consumer rights, protection, and empowerment. The 2025
-                                theme,
-                                "A Just Transition to Sustainable Lifestyles", emphasises the urgent need for
-                                sustainable,
-                                accessible, and affordable lifestyle choices that do not compromise people’s basic
-                                rights
-                                and needs. This initiative, coordinated by Consumers International, calls on all
-                                stakeholders—including businesses, governments, and civil society—to create an equitable
-                                and
-                                environmentally responsible marketplace.
+                                Celebrated on March 15, World Consumer Rights Day highlights the global push for
+                                consumer rights and sustainable choices. The 2025 theme, "A Just Transition to
+                                Sustainable Lifestyles," promotes accessible and equitable living without compromising
+                                individual needs. As a UK advocate for consumer protection, the Consumer Protection
+                                Bureau supports this mission and urges all stakeholders to help build a fairer, more
+                                responsible market.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="revolutionising-consumer-power.php" class="news-alert-btn">Read
-                                    More</a>
+                                <a href="revolutionising-consumer-power.php" class="news-alert-btn">Read More</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
@@ -657,28 +614,27 @@ if (isset($_POST['form-contact'])) {
                             style="background-color:#000032;">
                             <img src="../assets/images/news/stop-delivery-scams.png"
                                 style="object-fit:contain; object-position:center;"
-                                alt="Consumet Protection Bureau Uk Alert News about Refund on the Sale Items " class="">
+                                alt="Consumer Protection Bureau UK alert on delivery scams and extortion threats">
                         </div>
                         <div class="news-card-text">
-                            <!-- <span>24th November 2024</span> -->
                             <h2 class="mb-0 pb-0">
-                            Breaking Free From
-                            Delivery Scams and Extortion Fees
+                                Breaking Free From Delivery Scams and Extortion Fees
                             </h2>
                             <p class="text mb-0 pb-0">
-                            Imagine tracking your parcel, only to find it's suddenly stopped overseas. Then you receive
-                            an unexpected call demanding a large sum of money to release it — often with no official
-                            explanation or documentation. This distressing scenario is becoming increasingly common for
-                            consumers worldwide.
+                                Have you ever received a demand for money to release a parcel held abroad? This alarming
+                                scam is becoming increasingly common. Victims are often misled without documentation or
+                                legal basis. The Consumer Protection Bureau is raising awareness across the UK, helping
+                                individuals file a consumer complaint and take action against delivery scams and
+                                exploitative practices.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="held-hostage-breaking-free-from-delivery-scams-and-extortion-fees.php" class="news-alert-btn">Read
-                                    More</a>
+                                <a href="held-hostage-breaking-free-from-delivery-scams-and-extortion-fees.php"
+                                    class="news-alert-btn">Read More</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
