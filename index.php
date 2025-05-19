@@ -416,7 +416,7 @@ $feedbacks = findAll("feedbacks");
                                     <div class="home-alert-text ms-lg-4">
                                         <h2 class="mb-3">CONSUMER <span>ALERT</span> NEWS</h2>
                                         <div>
-                                            <a href="news/price-display-discrepancy-at-asada-store.php">
+                                            <a href="news/price-display-discrepancy-at-asda-store.php">
                                                 Price Display Discrepancy at <span>Asda Store</span> <span><i
                                                         class="bi bi-chevron-double-right"></i></span>
                                             </a>
