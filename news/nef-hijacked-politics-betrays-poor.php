@@ -75,7 +75,7 @@ if (isset($_POST['form-contact'])) {
 <main>
 
     <section class="bg-light about-hero">
-        <div class="container ">
+        <div class="container-fluid ">
             <div class="row">
                 <div class="col-lg-10 mx-auto news-wrapper p-0">
                     <img src="../assets/images/news/alert-news.png" alt="" class="w-100 h-auto">

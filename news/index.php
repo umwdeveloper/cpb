@@ -90,6 +90,34 @@ if (isset($_POST['form-contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4">
+                 <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/news/alert-news.png"
+                                style="object-fit:contain; object-position:center;"
+                                alt="CPB Campaign Leads to Stronger Consumer Protection Laws" class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>24th November 2024</span> -->
+                            <h2 class="mb-0 pb-0">
+                                NEF Hijacked :  When Politics Betrays the Poor
+
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(22 May 2025)</span>
+                                <b>LONDON </b> –
+                                If the NEF becomes a political stronghold, the credibility of the State’s entire social
+                                policy collapses. The fight against poverty cannot and must not be placed under the
+                                control of any political party.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="nef-hijacked-politics-betrays-poor.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
