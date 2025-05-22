@@ -74,8 +74,8 @@ if (isset($_POST['form-contact'])) {
 <?php include 'assets/include/header.php'; ?>
 <main>
 
-    <section class="py-lg-5 py-4 bg-light about-hero">
-        <div class="container">
+    <section class="bg-light about-hero">
+        <div class="container ">
             <div class="row">
                 <div class="col-lg-10 mx-auto news-wrapper p-0">
                     <img src="../assets/images/news/alert-news.png" alt="" class="w-100 h-auto">
@@ -172,7 +172,7 @@ if (isset($_POST['form-contact'])) {
                             restore a degree of trust
                             in Mauritius’s social institutions is this: <b>That minister Subron walks away with dignity
                                 before he is
-                                "recalled".</b>
+                               “recalled”.</b>
                         </p>
 
                         <!-- <div class="row mt-4 mb-4">
