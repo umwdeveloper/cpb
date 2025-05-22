@@ -116,12 +116,12 @@ if (isset($_POST['form-contact'])) {
                         </p>
                         <div class="row my-4">
                             <div class="col-lg-6">
-                                <img src="../assets/images/news/NEF.jpg" class="w-100 shadow " >
+                                <img src="../assets/images/news/NEF.jpg" class="w-100 shadow ">
                                 <h6 class="mt-3 text-center">Photo Credit to DEFI Media</h6>
                             </div>
                             <div class="col-lg-6">
                                 <img src="../assets/images/news/Ashok Subron.jpg" class="w-100 shadow ">
-                                 <h6 class="mt-3 text-center">Ashok Subron </h6>
+                                <h6 class="mt-3 text-center">Ashok Subron </h6>
                             </div>
                         </div>
                         <h3 class="text-md text-bold text-alert">A Betrayed Mission</h3>
@@ -170,8 +170,9 @@ if (isset($_POST['form-contact'])) {
                         <p class="text mb-4">
                             In democracy, symbols are as powerful as actions. And the only meaningful symbol left to
                             restore a degree of trust
-                            in Mauritius’s social institutions is this: <b>That he walks away with dignity before he is
-                                recalled.</b>
+                            in Mauritius’s social institutions is this: <b>That minister Subron walks away with dignity
+                                before he is
+                                "recalled".</b>
                         </p>
 
                         <!-- <div class="row mt-4 mb-4">
