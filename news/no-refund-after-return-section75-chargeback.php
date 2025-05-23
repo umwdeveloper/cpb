@@ -87,8 +87,7 @@ if (isset($_POST['form-contact'])) {
                     <div class="px-lg-5 px-3">
 
                         <h1 class="news-heading text-uppercase  my-3">
-                          <span class="text-alert"> Here’s How to Get Your
-                                Money Back Using Section 75 or Chargeback
+                          <span class="text-alert">Get Your Money Back After a Return Using Section 75 or Chargeback
 
                             </span>
                         </h1>
