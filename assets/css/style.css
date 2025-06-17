@@ -46,7 +46,8 @@ body {
     font-size: 30px;
     font-weight: 800;
     text-transform: uppercase;
-    font-family: var(--secondry-font) !important;
+    /* font-family: var(--secondry-font) !important; */
+     font-family: "Gidugu", sans-serif !important;
 }
 
 .carousel-text h2 {
