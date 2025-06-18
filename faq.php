@@ -325,7 +325,7 @@ $feedbacks = findAll("feedbacks");
                         <h2 class="text-start">7. How do I become a member of CPB?</h2>
                         <p class="text mb-0 pb-0">
                             Becoming a member of CPB is easy! Simply visit our website and complete the membership form
-                            or contact us by phone or email. The annual membership fee is £10, and once you are a
+                            or contact us by phone or email. The annual membership fee is £50, and once you are a
                             member, you will have access to all of our services and benefits.
                         </p>
                     </div>
