@@ -307,7 +307,7 @@ $feedbacks = findAll("feedbacks");
             <div class="row">
                 <div class="col-lg-12">
                     <div class="news-slick slick-slider  ">
-                    <div>
+                        <div>
                             <div class="home-alert d-flex align-items-center ">
                                 <div class="d-flex flex-lg-row flex-column align-items-center">
                                     <div class="announcement-iameg" style="min-width:280px">
@@ -318,7 +318,7 @@ $feedbacks = findAll("feedbacks");
                                         <h2 class="mb-3">Fake or Real? </h2>
                                         <div>
                                             <a href="news/spotting-fake-products.php">
-                                            The Truth Behind Counterfeit Products
+                                                The Truth Behind Counterfeit Products
                                                 <span><i class="bi bi-chevron-double-right"></i></span>
                                             </a>
                                         </div>
@@ -563,41 +563,47 @@ $feedbacks = findAll("feedbacks");
             <div class="row">
                 <div class="col-lg-12 ">
                     <div class="fight-card px-lg-5 home-alert-text">
-                  <div class="d-flex align-items-center">
-                  <h1>📢</h1><h2 class=" text-white" style="font-size:28px">
-                         Latest Announcement: CPB Joins Consumers International!
-                        </h2>
-                  </div>
-                        <p class="text py-2 text-white  mb-0 pb-0">
-                        We are proud to announce that <b>Consumer Protection Bureau</b> is now a <b>member </b> of <b>Consumers International</b>, the leading global voice for consumer rights. This partnership marks a significant step in our commitment to advocating for fair trade, ethical business practices, and stronger consumer protection worldwide.
-                       <br><br>
-                      
-                      <div class="d-flex align-items-center ">
-                      <div>
-                      <span class="text-md"><b>🔹 What This Means for You?</b></span>
-                      <ul style="list-style:none">
-                        <li>
-                        ✔ Greater influence in global consumer policies
-                        </li>
-                        <li>
-                        ✔ Stronger advocacy for consumer rights
-                        </li>
-                        <li>
-                        ✔ Collaborative efforts to protect consumers internationally
-                        </li>
-                       </ul>
-                       <div class="mt-4 pt-3 pb-3">
-                            <a href="Press-Release/Press-Release-11-02-2025.pdf" target="_blank" class="main-btn  text-white" 
-                            style="font-size:22px">📖 Read Our Full Press Release </a>
+                        <div class="d-flex align-items-center">
+                            <h1>📢</h1>
+                            <h2 class=" text-white" style="font-size:28px">
+                                Latest Announcement: CPB Joins Consumers International!
+                            </h2>
                         </div>
-                      </div>
-                       <div class="ps-5 ms-5">
-                        <img src="assets/images/Exciting news-pana (2).png" alt="" class="ms-4" style="height:200px">
-                       </div>
-                      </div>
-                    </p>
+                        <p class="text py-2 text-white  mb-0 pb-0">
+                            We are proud to announce that <b>Consumer Protection Bureau</b> is now a <b>member </b> of
+                            <b>Consumers International</b>, the leading global voice for consumer rights. This
+                            partnership marks a significant step in our commitment to advocating for fair trade, ethical
+                            business practices, and stronger consumer protection worldwide.
+                            <br><br>
 
-                     
+                        <div class="d-flex  align-items-center ">
+                            <div>
+                                <span class="text-md"><b>🔹 What This Means for You?</b></span>
+                                <ul style="list-style:none">
+                                    <li>
+                                        ✔ Greater influence in global consumer policies
+                                    </li>
+                                    <li>
+                                        ✔ Stronger advocacy for consumer rights
+                                    </li>
+                                    <li>
+                                        ✔ Collaborative efforts to protect consumers internationally
+                                    </li>
+                                </ul>
+                                <div class="mt-4 pt-3 pb-3">
+                                    <a href="Press-Release/Press-Release-11-02-2025.pdf" target="_blank"
+                                        class="main-btn  text-white" style="font-size:22px">📖 Read Our Full Press
+                                        Release </a>
+                                </div>
+                            </div>
+                            <div class="ps-5 ms-5 d-md-block d-none">
+                                <img src="assets/images/Exciting news-pana (2).png" alt="" class="ms-4"
+                                    style="height:200px">
+                            </div>
+                        </div>
+                        </p>
+
+
                     </div>
                 </div>
             </div>
@@ -700,7 +706,7 @@ $feedbacks = findAll("feedbacks");
             </div>
         </div>
     </section>
-   <section class="fight-section" style="margin-bottom:-80px">
+    <section class="fight-section" style="margin-bottom:-80px">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 ">
