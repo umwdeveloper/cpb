@@ -592,7 +592,7 @@ $feedbacks = findAll("feedbacks");
                                 </ul>
                                 <div class="mt-4 pt-3 pb-3">
                                     <a href="Press-Release/Press-Release-11-02-2025.pdf" target="_blank"
-                                        class="main-btn  text-white" style="font-size:22px">📖 Read Our Full Press
+                                        class="main-btn home-news-btn text-white" style="font-size:22px">📖 Read Our Full Press
                                         Release </a>
                                 </div>
                             </div>
