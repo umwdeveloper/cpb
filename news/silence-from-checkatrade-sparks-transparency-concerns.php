@@ -223,7 +223,7 @@ if (isset($_POST['form-contact'])) {
                                 </div>
                             </div>
                             <div class="col-lg-10 mx-auto">
-                                <p class="text text-center text-primary">
+                                <p class="text text-center text-danger">
                                     <b>
                                         Consumers and trades people who wish to share
                                         their experiences can contact CPB.
