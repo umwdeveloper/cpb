@@ -96,7 +96,7 @@ if (isset($_POST['form-contact'])) {
                             amid rising concerns over the platform’s reliability
                             and accountability</h2>
                         <p class="text">
-                            <b>WESTMINSTER, UK</b> – The Consumer Protection Bureau (CPB) has escalated its
+                            <b>WESTMINSTER, UK, July 09, 2025 </b> – The Consumer Protection Bureau (CPB) has escalated its
                             inquiry into Checkatrade, one of the UK’s most prominent online directories for
                             vetted tradespeople, after the platform failed to respond to a formal proposal for
                             an independent audit aimed at strengthening consumer protection and verifying its
@@ -199,16 +199,41 @@ if (isset($_POST['form-contact'])) {
                                         with relevant regulatory bodies, including Trading Standards.
 
                                     </p>
-                                    <p class="text">
+
+                                </div>
+                            </div>
+                                 <div class="col-lg-12">
+                                <div class="text shadow-sm rounded-2  p-3 border mb-4"
+                                    style="background-color:#FEE8CF !important;">
+
+                                    <h3 class="text-md text-bold  text-primary w-700">
+                                        You may wish to check what have been published about checkatrade
+                                    </h3>
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.diynot.com/diy/threads/checkatrade-misleading.274977/">https://www.diynot.com/diy/threads/checkatrade-misleading.274977/</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.mumsnet.com/talk/property/3973808-Problems-with-Checkatrade">
+                                                https://www.mumsnet.com/talk/property/3973808-Problems-with-Checkatrade
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-10 mx-auto">
+                                <p class="text text-center text-primary">
+                                    <b>
                                         Consumers and trades people who wish to share
                                         their experiences can contact CPB.
+                                    </b>
 
-                                    </p>
+                                </p>
 
 
-                                    <div class="text-center py-3 pb-4">
-                                        <a href="../contact.php" class="main-btn">Contact CPB</a>
-                                    </div>
+                                <div class="text-center py-3 pb-4 mb-4">
+                                    <a href="../contact.php" class="main-btn">Contact CPB</a>
                                 </div>
                             </div>
                         </div>
