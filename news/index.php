@@ -115,7 +115,7 @@ The Consumer Protection Bureau (CPB) has escalated its
                             trader vetting processes.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="join-consumer-protection-bureau.php" class="news-alert-btn">Read
+                                <a href="silence-from-checkatrade-sparks-transparency-concerns.php" class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
