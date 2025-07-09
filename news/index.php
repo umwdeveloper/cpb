@@ -91,13 +91,43 @@ if (isset($_POST['form-contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4">
+                  <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/news/checkatrade-vs-CPB.png"
+                                style="object-fit:contain; object-position:center;" alt="join cpb  For Just £5 a Month!"
+                                class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>9 July 2025</span> -->
+                            <h2 class="mb-0 pb-0">
+                                   Silence from Checkatrade Sparks
+                                Transparency Concerns
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(9 July 2025)</span>
+                                <b>LONDON </b> –
+The Consumer Protection Bureau (CPB) has escalated its
+                            inquiry into Checkatrade, one of the UK’s most prominent online directories for
+                            vetted tradespeople, after the platform failed to respond to a formal proposal for
+                            an independent audit aimed at strengthening consumer protection and verifying its
+                            trader vetting processes.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="join-consumer-protection-bureau.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-4 mb-3">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
                             <img src="../assets/images/news/join-cpb.png"
-                                style="object-fit:contain; object-position:center;"
-                                alt="join cpb  For Just £5 a Month!" class="">
+                                style="object-fit:contain; object-position:center;" alt="join cpb  For Just £5 a Month!"
+                                class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>24th November 2024</span> -->
