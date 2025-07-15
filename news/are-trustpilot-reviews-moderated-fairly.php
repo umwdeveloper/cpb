@@ -41,10 +41,9 @@ if (isset($_POST['form-contact'])) {
 <html lang="en">
 
 <head>
-    <title>Silence from Checkatrade Sparks
-        Transparency Concerns</title>
+    <title> Are Trustpilot Reviews Moderated Fairly?</title>
     <meta name="description"
-        content="Learn about service charges in UK restaurants and your rights with updates from the Consumer Protection Bureau.">
+        content="">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -65,7 +64,7 @@ if (isset($_POST['form-contact'])) {
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="canonical"
-        href="https://www.consumerprotectionbureau.co.uk/news/silence-from-checkatrade-sparks-transparency-concerns.php">
+        href="https://www.consumerprotectionbureau.co.uk/news/are-trustpilot-reviews-moderated-fairly.php">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
@@ -80,7 +79,7 @@ if (isset($_POST['form-contact'])) {
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 mx-auto news-wrapper p-0 " style="background:#E3F2FD">
-                    <img src="../assets/images/news/checkatrade-vs-CPB.png"
+                    <img src="../assets/images/news/trustpilot-review-moderation.png"
                         alt="Join Consumer Protection Bureau - Consumer protection bureau" class="w-100 h-auto">
 
                     <div class="px-lg-4 mx-2 px-3">
