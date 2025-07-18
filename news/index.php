@@ -95,6 +95,35 @@ if (isset($_POST['form-contact'])) {
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
+                            <img src="../assets/images/news/trustpilot-review-moderation.png"
+                                style="object-fit:contain; object-position:center;" alt="join cpb  For Just £5 a Month!"
+                                class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>9 July 2025</span> -->
+                            <h2 class="mb-0 pb-0">
+                                 Consumer Trust or Corporate Control?
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(18 July 2025)</span>
+                                <b>LONDON </b> –
+                               The Consumer Protection Bureau (CPB) has launched a formal
+                            public
+                            inquiry following a significant surge in complaints about Trustpilot — the online review
+                            platform relied upon by millions of UK consumers.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="are-negative-reviews-being-silenced.php"
+                                    class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
                             <img src="../assets/images/news/checkatrade-vs-CPB.png"
                                 style="object-fit:contain; object-position:center;" alt="join cpb  For Just £5 a Month!"
                                 class="">
@@ -102,20 +131,21 @@ if (isset($_POST['form-contact'])) {
                         <div class="news-card-text">
                             <!-- <span>9 July 2025</span> -->
                             <h2 class="mb-0 pb-0">
-                                   Silence from Checkatrade Sparks
+                                Silence from Checkatrade Sparks
                                 Transparency Concerns
                             </h2>
                             <p class="text mb-0 pb-0">
                                 <span>(9 July 2025)</span>
                                 <b>LONDON </b> –
-The Consumer Protection Bureau (CPB) has escalated its
-                            inquiry into Checkatrade, one of the UK’s most prominent online directories for
-                            vetted tradespeople, after the platform failed to respond to a formal proposal for
-                            an independent audit aimed at strengthening consumer protection and verifying its
-                            trader vetting processes.
+                                The Consumer Protection Bureau (CPB) has escalated its
+                                inquiry into Checkatrade, one of the UK’s most prominent online directories for
+                                vetted tradespeople, after the platform failed to respond to a formal proposal for
+                                an independent audit aimed at strengthening consumer protection and verifying its
+                                trader vetting processes.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="silence-from-checkatrade-sparks-transparency-concerns.php" class="news-alert-btn">Read
+                                <a href="silence-from-checkatrade-sparks-transparency-concerns.php"
+                                    class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
