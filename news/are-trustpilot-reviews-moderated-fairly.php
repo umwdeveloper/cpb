@@ -82,14 +82,19 @@ if (isset($_POST['form-contact'])) {
                         alt="Join Consumer Protection Bureau - Consumer protection bureau" class="w-100 h-auto">
 
                     <div class="px-lg-4 mx-2 px-3">
-                        <h1 class="news-heading text-uppercase  my-3">
+                        <h1 class=" main-heading text-uppercase  my-3">
                             <span class="text-alert">
-                                Are Trustpilot Reviews Moderated Fairly?
+                                
+                                Consumer Trust or Corporate Control?<br>
+                            
                             </span>
+                             
                         </h1>
 
-
-                        <h2 class="subtitle-bullet">CPB Demands Answers Amid Escalating Complaints</h2>
+                    <h2 class="news-heading text-uppercase text-primary">
+                        Trustpilot’s Integrity Under Fire as Consumers Fight for Honest Reviews
+                    </h2>
+                        <h2 class="subtitle-bullet mt-3">CPB Demands Answers Amid Escalating Complaints</h2>
                         <p class="text">
                             <b>LONDON, 18 July 2025</b> — The Consumer Protection Bureau (CPB) has launched a formal
                             public
