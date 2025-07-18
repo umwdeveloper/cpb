@@ -42,8 +42,7 @@ if (isset($_POST['form-contact'])) {
 
 <head>
     <title> Are Trustpilot Reviews Moderated Fairly?</title>
-    <meta name="description"
-        content="">
+    <meta name="description" content="">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -92,7 +91,8 @@ if (isset($_POST['form-contact'])) {
 
                         <h2 class="subtitle-bullet">CPB Demands Answers Amid Escalating Complaints</h2>
                         <p class="text">
-                            <b>LONDON, 15 July 2025</b> — The Consumer Protection Bureau (CPB) has launched a formal public
+                            <b>LONDON, 18 July 2025</b> — The Consumer Protection Bureau (CPB) has launched a formal
+                            public
                             inquiry following a significant surge in complaints about Trustpilot — the online review
                             platform relied upon by millions of UK consumers.
                         </p>
@@ -104,18 +104,7 @@ if (isset($_POST['form-contact'])) {
                         </p>
 
 
-                        <!-- <img src="../assets/images/news/join-cpn-now.png"
-                            alt="oin Consumer Protection Bureau - Consumer protection bureau" class="mb-3 w-100 h-auto"> -->
 
-                        <!-- <img src="../assets/images/news/service-charges.jpg"
-                            alt="Consumer Protection Bureau uk Advices for Resturent UNjustified Service Charges"
-                            class="w-100 h-auto"> -->
-
-                        <!-- <img src="../assets/images/news/consumer-protection-bureau-alert-news-Asda Store.jpeg"
-                            alt="Consumet Protection Bureau Uk Alert News about Asda Store "
-                            class="w-100 asada-image shadow "> -->
-
-                   
                         <p class="text">
                             To address these concerns, CPB wrote directly to Trustpilot demanding a full explanation of
                             its internal practices, including whether paying businesses are treated more favourably and
@@ -127,7 +116,8 @@ if (isset($_POST['form-contact'])) {
                         <div class="row mt-4 mb-4">
 
 
-                            <div class="col-lg-12 order-lg-2 order-1">
+                            <div class="col-lg-12  py-3" style="background-color:#FEE8CF; border-left: 5px solid #FF9800;">
+
                                 <h3 class="text-md text-bold text-primary w-700">
                                     What Trustpilot Told Us
                                 </h3>
@@ -179,67 +169,73 @@ if (isset($_POST['form-contact'])) {
 
 
 
-                                
+
 
 
                                 <div class="text shadow-sm rounded-2  p-3 border mb-4"
                                     style="background-color:#FEE8CF !important;">
 
                                     <h3 class="text-md text-bold  text-primary w-700">
-                                       CPB Wants to Hear From You
+                                        CPB Wants to Hear From You
                                     </h3>
                                     <p class="text">
-                                       If your Trustpilot review was removed unfairly, we want to hear your side of the story. Your evidence will help us determine whether further regulatory or legal action is needed.
+                                        If your Trustpilot review was removed unfairly, we want to hear your side of the
+                                        story. Your evidence will help us determine whether further regulatory or legal
+                                        action is needed.
                                     </p>
                                     <p class="text">
                                         Submit your complaint through our CPB Complaints Form, and include if possible:
                                     </p>
-<ul>
-  <li>A copy of your original review</li>
-  <li>Any emails from Trustpilot about its removal</li>
-  <li>Screenshots of the review before it was deleted</li>
-  <li>Any communication with the business concerned</li>
-</ul>
+                                    <ul>
+                                        <li>A copy of your original review</li>
+                                        <li>Any emails from Trustpilot about its removal</li>
+                                        <li>Screenshots of the review before it was deleted</li>
+                                        <li>Any communication with the business concerned</li>
+                                    </ul>
 
-                         
 
-                               <div class="mb-3 mt-4 pt-2">
-                                  <a href="../contact.php" class="main-btn">Complaint Form</a>
-                               </div>
-                                        </div>
+
+                                    <div class="mb-3 mt-4 pt-2">
+                                        <a href="../contact.php" class="main-btn">Complaint Form</a>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-lg-12">
-                                
 
-                                    <h3 class="text-md text-bold  text-primary w-700">
-                                      What Happens Next?
-                                    </h3>
-                                    <p class="text">
-                                        If widespread abuse or bias is confirmed,
-                                         CPB will escalate the matter to appropriate regulatory bodies and demand reform.
-                                          Platforms that claim to be built on trust must be held accountable when they betray it.
 
-                                    </p>
+                                <h3 class="text-md text-bold  text-primary w-700">
+                                    What Happens Next?
+                                </h3>
+                                <p class="text">
+                                    If widespread abuse or bias is confirmed,
+                                    CPB will escalate the matter to appropriate regulatory bodies and demand reform.
+                                    Platforms that claim to be built on trust must be held accountable when they betray
+                                    it.
 
-                            
-                              
-                            
+                                </p>
+
+
+
+
                             </div>
                             <div class="col-lg-10 mx-auto">
-                                <p class="text text-center text-danger">
+                                <p class="text-lg text-center text-danger py-4">
                                     <b>
-                                    We thank Trustpilot for responding — <br> but talk is not enough. Action and transparency must follow.
+                                        We thank Trustpilot for responding — <br> but talk is not enough. Action and
+                                        transparency must follow.
                                     </b>
 
                                 </p>
 
 
-                            
+
                             </div>
                         </div>
                     </div>
 
                 </div>
+
+                
             </div>
         </div>
     </section>
