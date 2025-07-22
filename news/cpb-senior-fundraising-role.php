@@ -83,7 +83,7 @@ if (isset($_POST['form-contact'])) {
 
                     <div class="px-lg-5 px-4 py-5">
                         <h1 class="text-uppercase text-primary fw-bold mb-3 display-6">
-                         Join the Fight for Fairness
+                            Join the Fight for Fairness
                         </h1>
                         <h2 class="fw-bold text-dark mb-4" style="font-size: 1.9rem;">
                             Lead Fundraising for National Impact<br>and Global Reach
@@ -114,49 +114,50 @@ if (isset($_POST['form-contact'])) {
                             long-term public-sector financing.</p>
                         <p class="mb-3">You’ll support campaigns such as:</p>
                         <ul class="mb-5  ps-0 list-unstyled">
-                            <li>✔️ Credit agency reform</li>
-                            <li>✔️ Public transport fairness</li>
-                            <li>✔️ Digital market transparency</li>
-                            <li>✔️ Consumer rights post-Brexit</li>
-                            <li>✔️ Global supply chain accountability</li>
+                            <li>&#10148; Credit agency reform</li>
+                            <li>&#10148; Public transport fairness</li>
+                            <li>&#10148; Digital market transparency</li>
+                            <li>&#10148; Consumer rights post-Brexit</li>
+                            <li>&#10148; Global supply chain accountability</li>
                         </ul>
 
                         <h3 class="text-primary fw-bold mb-3"> Key Responsibilities</h3>
-                        <ol class="mb-5 ps-3">
-                            <li>Design and execute a targeted fundraising strategy for:
-                                <ul>
-                                    <li>UK departments (DfT, BEIS, DLUHC)</li>
-                                    <li>Public grant frameworks</li>
-                                    <li>Global institutions (WTO, UNCTAD, EC, OECD)</li>
+                        <ol class="mb-5 ps-0 list-unstyled">
+                            <li> &#10148; Design and execute a targeted fundraising strategy for:
+                                <ul class="ps-3 list-unstyled">
+                                    <li>⯈ UK departments (DfT, BEIS, DLUHC)</li>
+                                    <li>⯈ Public grant frameworks</li>
+                                    <li>⯈ Global institutions (WTO, UNCTAD, EC, OECD)</li>
                                 </ul>
                             </li>
-                            <li>Develop winning proposals and impact-driven concept notes</li>
-                            <li>Build strong relationships with senior officials and donors</li>
-                            <li>Monitor global funding calls and position CPB to respond early</li>
-                            <li>Co-leverage funding through NGO/think tank consortia</li>
+                            <li> &#10148; Develop winning proposals and impact-driven concept notes</li>
+                            <li>&#10148; Build strong relationships with senior officials and donors</li>
+                            <li>&#10148; Monitor global funding calls and position CPB to respond early</li>
+                            <li>&#10148; Co-leverage funding through NGO/think tank consortia</li>
                         </ol>
 
                         <h3 class="text-primary fw-bold mb-3"> Person Specification</h3>
                         <ul class="mb-5 ps-0 list-unstyled ">
-                            <li>✔️ Proven record securing £6–7 figure public or global grants</li>
-                            <li>✔️ Strong grasp of public mechanisms (e.g. Horizon, FCDO)</li>
-                            <li>✔️ Exceptional writing and proposal communication skills</li>
-                            <li>✔️ Deep understanding of policy advocacy & global development</li>
-                            <li>✔️ Existing networks in civil society or donor institutions</li>
-                            <li>✔️ Comfortable engaging at senior and board levels</li>
+                            <li>&#10148; Proven record securing £6–7 figure public or global grants</li>
+                            <li>&#10148; Strong grasp of public mechanisms (e.g. Horizon, FCDO)</li>
+                            <li>&#10148; Exceptional writing and proposal communication skills</li>
+                            <li>&#10148; Deep understanding of policy advocacy & global development</li>
+                            <li>&#10148; Existing networks in civil society or donor institutions</li>
+                            <li>&#10148; Comfortable engaging at senior and board levels</li>
                         </ul>
 
                         <h3 class="text-primary fw-bold mb-3"> Why Join CPB?</h3>
                         <ul class="mb-5 ps-0 list-unstyled">
-                            <li>✔️ National and global impact</li>
-                            <li>✔️ Influence on public policy and high-profile media campaigns</li>
-                            <li>✔️ Flexible hybrid working</li>
-                            <li>✔️ Opportunity to build international funding strategy from scratch</li>
+                            <li>&#10148; National and global impact</li>
+                            <li>&#10148; Influence on public policy and high-profile media campaigns</li>
+                            <li>&#10148; Flexible hybrid working</li>
+                            <li>&#10148; Opportunity to build international funding strategy from scratch</li>
                         </ul>
 
                         <div class="p-4 bg-warning-subtle border border-warning rounded-3 mb-5">
                             <h4 class="fw-bold text-primary mb-3"> How to Apply</h4>
-                            <p class="mb-2">Submit your <strong>CV</strong>, a <strong>short cover letter</strong> , and one example of a successful fundraising bid or concept note to:</p>
+                            <p class="mb-2">Submit your <strong>CV</strong>, a <strong>short cover letter</strong> , and
+                                one example of a successful fundraising bid or concept note to:</p>
                             <p class="mb-2">
                                 <strong>Email:</strong> <a
                                     href="mailto:info@consumerprotectionbureau.co.uk">info@consumerprotectionbureau.co.uk</a>
