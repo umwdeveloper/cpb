@@ -83,7 +83,7 @@ if (isset($_POST['form-contact'])) {
 
                     <div class="px-lg-5 px-4 py-5">
                         <h1 class="text-uppercase text-primary fw-bold mb-3 display-6">
-                            CPB is Recruiting
+                         Join the Fight for Fairness
                         </h1>
                         <h2 class="fw-bold text-dark mb-4" style="font-size: 1.9rem;">
                             Lead Fundraising for National Impact<br>and Global Reach
