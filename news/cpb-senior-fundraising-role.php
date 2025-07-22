@@ -41,10 +41,9 @@ if (isset($_POST['form-contact'])) {
 <html lang="en">
 
 <head>
-    <title>Silence from Checkatrade Sparks
-        Transparency Concerns</title>
+    <title>Lead Fundraising for National Impact and Global Reach</title>
     <meta name="description"
-        content="Learn about service charges in UK restaurants and your rights with updates from the Consumer Protection Bureau.">
+        content="">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -65,7 +64,7 @@ if (isset($_POST['form-contact'])) {
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="canonical"
-        href="https://www.consumerprotectionbureau.co.uk/news/silence-from-checkatrade-sparks-transparency-concerns.php">
+        href="https://www.consumerprotectionbureau.co.uk/news/cpb-senior-fundraising-role.php">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
