@@ -42,8 +42,7 @@ if (isset($_POST['form-contact'])) {
 
 <head>
     <title>Lead Fundraising for National Impact and Global Reach</title>
-    <meta name="description"
-        content="">
+    <meta name="description" content="">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -63,8 +62,7 @@ if (isset($_POST['form-contact'])) {
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="canonical"
-        href="https://www.consumerprotectionbureau.co.uk/news/cpb-senior-fundraising-role.php">
+    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/news/cpb-senior-fundraising-role.php">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
@@ -78,91 +76,102 @@ if (isset($_POST['form-contact'])) {
     <section class="py-lg-5 py-4 bg-light about-hero">
         <div class="container">
             <div class="row">
-            <div class="col-lg-10 mx-auto news-wrapper p-0" style="background:#E3F2FD;">
-                 <img src="../assets/images/news/Join the Fight for Fairness.png"
+                <div class="col-lg-10 mx-auto news-wrapper p-0  shadow-sm rounded-3 overflow-hidden"
+                    style="background:#E3F2FD;">
+                    <img src="../assets/images/news/Join the Fight for Fairness.png"
                         alt="Join Consumer Protection Bureau - Consumer protection bureau" class="w-100 h-auto">
-    <div class="px-lg-4 mx-3 px-3 py-4">
-        <h1 class="news-heading text-uppercase mb-4">
-            <span class="text-alert d-block" style="font-size: 2rem; line-height: 1.3;">
-                
-                Lead Fundraising for National Impact and Global Reach
-            </span>
-        </h1>
 
-        <div class="mb-4">
-            <p><strong>Position:</strong> Senior Fundraising Strategist – Governmental &amp; Intergovernmental Partnerships</p>
-            <p><strong>Organisation:</strong> Consumer Protection Bureau (CPB), United Kingdom</p>
-            <p><strong>Location:</strong> London (with flexible remote working considered)</p>
-            <p><strong>Salary:</strong> Competitive + performance-based incentives</p>
-            <p><strong>Contract:</strong> Permanent | Full-time</p>
-        </div>
+                    <div class="px-lg-5 px-4 py-5">
+                        <h1 class="text-uppercase text-primary fw-bold mb-3 display-6">
+                            CPB is Recruiting
+                        </h1>
+                        <h2 class="fw-bold text-dark mb-4" style="font-size: 1.9rem;">
+                            Lead Fundraising for National Impact<br>and Global Reach
+                        </h2>
 
-        <h3 class="text-primary fw-bold mb-3">About Us</h3>
-        <p class="text mb-3">The <strong>Consumer Protection Bureau (CPB)</strong> is the UK’s independent voice for consumers—driving national campaigns, influencing policy, and standing up to systemic injustice in banking, energy, transport, retail, and digital markets.</p>
-        <p class="text mb-3">With an expanding public mandate and national media presence, CPB is now entering a bold new phase: establishing international partnerships and securing long-term funding to scale up our mission.</p>
-        <p class="text mb-4">We are seeking a <strong>highly successful, connected, and visionary Fundraiser</strong> to take charge of building strategic funding partnerships with <strong>UK government bodies, global development institutions, and intergovernmental organisations</strong> such as the World Trade Organisation, UNCTAD, the European Commission, and Commonwealth secretariats.</p>
+                        <div class="mb-5 border-start border-4 border-warning ps-3">
+                            <p><strong> Position:</strong> Senior Fundraising Strategist – Governmental &
+                                Intergovernmental Partnerships</p>
+                            <p><strong>Organisation:</strong> Consumer Protection Bureau (CPB), United Kingdom</p>
+                            <p><strong> Location:</strong> London (remote working considered)</p>
+                            <p><strong> Contract:</strong> Full-time | Permanent</p>
+                            <p><strong> Salary:</strong> Competitive + performance-based incentives</p>
+                        </div>
 
-        <h3 class="text-primary fw-bold mb-3">The Role</h3>
-        <p class="text mb-3">This is not your average fundraising post. As our <strong>Senior Fundraising Strategist</strong>, you will operate at the intersection of <strong>policy, impact, and international influence</strong>.</p>
-        <p class="text mb-3">You will craft compelling funding bids, lead high-level engagement with public sector stakeholders and global institutions, and open doors to sustainable, multi-year funding for our cutting-edge campaigns on:</p>
-        <ul class="ps-3 mb-4">
-            <li>Credit agency reform</li>
-            <li>Public transport fairness</li>
-            <li>Digital market transparency</li>
-            <li>Consumer rights in post-Brexit Britain</li>
-            <li>Global supply chain accountability</li>
-        </ul>
+                        <h3 class="text-primary fw-bold mb-3"> About Us</h3>
+                        <p class="mb-3">The <strong>Consumer Protection Bureau (CPB)</strong> is the UK’s independent
+                            voice for consumers—leading national campaigns, influencing policy, and fighting injustice
+                            across banking, transport, digital, and energy sectors.</p>
+                        <p class="mb-3">Now entering an international phase, CPB seeks to build global partnerships and
+                            secure long-term funding for high-impact advocacy.</p>
+                        <p class="mb-5">We're hiring a <strong>strategic, connected Fundraiser</strong> to forge
+                            relationships with government and intergovernmental bodies (e.g. WTO, UNCTAD, EC).</p>
 
-        <h3 class="text-primary fw-bold mb-3">Key Responsibilities</h3>
-        <ol class="ps-3 mb-4">
-            <li>Design and execute CPB’s fundraising strategy targeting:
-                <ul class="ps-3">
-                    <li>UK government departments (e.g. DfT, BEIS, DLUHC)</li>
-                    <li>Public sector grant frameworks</li>
-                    <li>Supranational bodies (e.g. WTO, UNCTAD, EC, OECD)</li>
-                </ul>
-            </li>
-            <li>Develop high-impact grant proposals, concept notes, and advocacy pitches aligned with CPB’s core mission and current campaigns</li>
-            <li>Build trusted relationships with senior decision-makers across public and intergovernmental networks</li>
-            <li>Monitor international funding calls and position CPB to respond ahead of time</li>
-            <li>Forge strategic alliances with NGOs, think tanks, and legal networks to co-leverage funding consortia</li>
-        </ol>
+                        <h3 class="text-primary fw-bold mb-3"> The Role</h3>
+                        <p class="mb-3">This isn’t a traditional fundraising role. As CPB’s <strong>Senior Fundraising
+                                Strategist</strong>, you’ll work at the nexus of <strong>policy, advocacy, and
+                                international funding</strong> — crafting compelling bids and opening the door to
+                            long-term public-sector financing.</p>
+                        <p class="mb-3">You’ll support campaigns such as:</p>
+                        <ul class="mb-5  ps-0 list-unstyled">
+                            <li>✔️ Credit agency reform</li>
+                            <li>✔️ Public transport fairness</li>
+                            <li>✔️ Digital market transparency</li>
+                            <li>✔️ Consumer rights post-Brexit</li>
+                            <li>✔️ Global supply chain accountability</li>
+                        </ul>
 
-        <h3 class="text-primary fw-bold mb-3">Person Specification</h3>
-        <ol class="ps-3 mb-4">
-            <li>Proven track record in securing £6- to 7-figure funding from public or multilateral sources</li>
-            <li>Deep understanding of public funding mechanisms (e.g. EU Horizon, UN calls, UKRI, FCDO)</li>
-            <li>Excellent written communication and proposal-writing skills, with the ability to tailor complex ideas to different funders’ expectations</li>
-            <li>Strategic thinker with a solid grasp of policy advocacy, international development, or consumer protection frameworks</li>
-            <li>Existing network in civil society, UK government, or international donor agencies is a strong advantage</li>
-            <li>Confident, persuasive communicator able to operate at Board and institutional levels</li>
-        </ol>
+                        <h3 class="text-primary fw-bold mb-3"> Key Responsibilities</h3>
+                        <ol class="mb-5 ps-3">
+                            <li>Design and execute a targeted fundraising strategy for:
+                                <ul>
+                                    <li>UK departments (DfT, BEIS, DLUHC)</li>
+                                    <li>Public grant frameworks</li>
+                                    <li>Global institutions (WTO, UNCTAD, EC, OECD)</li>
+                                </ul>
+                            </li>
+                            <li>Develop winning proposals and impact-driven concept notes</li>
+                            <li>Build strong relationships with senior officials and donors</li>
+                            <li>Monitor global funding calls and position CPB to respond early</li>
+                            <li>Co-leverage funding through NGO/think tank consortia</li>
+                        </ol>
 
-        <h3 class="text-primary fw-bold mb-3">Why Join CPB?</h3>
-        <ul class="ps-3 mb-4">
-            <li>Work with a mission-driven team at the forefront of consumer justice</li>
-            <li>Be part of high-profile campaigns influencing public policy and media agendas</li>
-            <li>Flexible working arrangements</li>
-            <li>Opportunity to shape a national institution's international funding footprint from the ground up</li>
-        </ul>
+                        <h3 class="text-primary fw-bold mb-3"> Person Specification</h3>
+                        <ul class="mb-5 ps-0 list-unstyled ">
+                            <li>✔️ Proven record securing £6–7 figure public or global grants</li>
+                            <li>✔️ Strong grasp of public mechanisms (e.g. Horizon, FCDO)</li>
+                            <li>✔️ Exceptional writing and proposal communication skills</li>
+                            <li>✔️ Deep understanding of policy advocacy & global development</li>
+                            <li>✔️ Existing networks in civil society or donor institutions</li>
+                            <li>✔️ Comfortable engaging at senior and board levels</li>
+                        </ul>
 
-        <div class="text shadow-sm rounded-2 p-4 border mb-4" style="background-color:#FEE8CF !important;">
-            <h3 class="text-primary fw-bold mb-3">How to Apply</h3>
-            <p class="text mb-2">Send your <strong>CV</strong>, a <strong>short cover letter</strong>outlining relevant achievements, and one example of a successful fundraising bid or concept note to:</p>
-            <p class="text mb-3">
-                <strong>Eamil:</strong> <a href="mailto:info@consumerprotectionbureau.co.uk">info@consumerprotectionbureau.co.uk</a><br>
-                <strong>Deadline:</strong> 5<sup>th</sup> August 2025
-            </p>
-        </div>
+                        <h3 class="text-primary fw-bold mb-3"> Why Join CPB?</h3>
+                        <ul class="mb-5 ps-0 list-unstyled">
+                            <li>✔️ National and global impact</li>
+                            <li>✔️ Influence on public policy and high-profile media campaigns</li>
+                            <li>✔️ Flexible hybrid working</li>
+                            <li>✔️ Opportunity to build international funding strategy from scratch</li>
+                        </ul>
 
-        <div class="col-lg-10 mx-auto">
-            <p class="text text-center text-danger text-uppercase text-lg fw-bold fs-5 mb-0">
-                Let’s build a fairer future, together.
-               
-            </p>
-        </div>
-    </div>
-</div>
+                        <div class="p-4 bg-warning-subtle border border-warning rounded-3 mb-5">
+                            <h4 class="fw-bold text-primary mb-3"> How to Apply</h4>
+                            <p class="mb-2">Submit your <strong>CV</strong>, a <strong>short cover letter</strong> , and one example of a successful fundraising bid or concept note to:</p>
+                            <p class="mb-2">
+                                <strong>Email:</strong> <a
+                                    href="mailto:info@consumerprotectionbureau.co.uk">info@consumerprotectionbureau.co.uk</a>
+                            </p>
+                            <p class="mb-0"><strong>Deadline:</strong> 5<sup>th</sup> August 2025</p>
+                        </div>
+
+                        <div class="text-center">
+                            <p class="text-danger fw-bold text-uppercase text-lg  mb-0">
+                                Let’s build a fairer future, together.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
         </div>
