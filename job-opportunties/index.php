@@ -42,7 +42,7 @@ if (isset($_POST['form-contact'])) {
 <html lang="en">
 
 <head>
-    <title>Career Opportunties - (CPB)</title>
+    <title>Job Opportunties - (CPB)</title>
     <meta name="description" content="">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -63,7 +63,7 @@ if (isset($_POST['form-contact'])) {
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/career-opportunties/index.php">
+    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/job-opportunties/index.php">
 
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -77,7 +77,7 @@ if (isset($_POST['form-contact'])) {
             <div class="row justify-content-center align-items-start">
                 <div class="col-lg-10 mx-auto ">
                     <h1 class="main-heading text-center text-uppercase  mt-2">
-                        CAREER OPPORTUNITIES AT <br> CONSUMER PROTECTION BUREAU
+                        JOB OPPORTUNITIES AT <br> CONSUMER PROTECTION BUREAU
                     </h1>
                     <p class="text-md text-center">
                         Join us in our mission to protect consumers and promote fairness across the UK. At the

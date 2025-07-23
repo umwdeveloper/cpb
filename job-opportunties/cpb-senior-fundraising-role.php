@@ -104,15 +104,23 @@ if (isset($_POST['form-contact'])) {
                             across banking, transport, digital, and energy sectors.</p>
                         <p class="mb-3">Now entering an international phase, CPB seeks to build global partnerships and
                             secure long-term funding for high-impact advocacy.</p>
-                        <p class="mb-5">We're hiring a <strong>strategic, connected Fundraiser</strong> to forge
-                            relationships with government and intergovernmental bodies (e.g. WTO, UNCTAD, EC).</p>
+                        <p class="">We are hiring a <strong>strategic, connected Fundraiser</strong> to forge
+                            relationships with government and intergovernmental bodies like :</p>
+                        <ul class="mb-5  ps-0 list-unstyled">
+                            <li>&#10148; World Trade Organization (WTO)</li>
+                            <li>&#10148; United Nations Conference on Trade and Development (UNCTAD)</li>
+                            <li>&#10148; Organisation for Economic Co-operation and Development (OECD)</li>
+                            <li>&#10148; European Union (EU)</li>
+
+                        </ul>
+
 
                         <h3 class="text-primary fw-bold mb-3"> The Role</h3>
-                        <p class="mb-3">This isn’t a traditional fundraising role. As CPB’s <strong>Senior Fundraising
+                        <p class="mb-3">This is not a traditional fundraising role. As CPB’s <strong>Senior Fundraising
                                 Strategist</strong>, you’ll work at the nexus of <strong>policy, advocacy, and
                                 international funding</strong> — crafting compelling bids and opening the door to
                             long-term public-sector financing.</p>
-                        <p class="mb-3">You’ll support campaigns such as:</p>
+                        <p class="mb-3">You will support campaigns such as:</p>
                         <ul class="mb-5  ps-0 list-unstyled">
                             <li>&#10148; Credit agency reform</li>
                             <li>&#10148; Public transport fairness</li>
@@ -125,9 +133,25 @@ if (isset($_POST['form-contact'])) {
                         <ol class="mb-5 ps-0 list-unstyled">
                             <li> &#10148; Design and execute a targeted fundraising strategy for:
                                 <ul class="ps-3 list-unstyled">
-                                    <li>⯈ UK departments (DfT, BEIS, DLUHC)</li>
+                                    <li>⯈ UK departments </li>
+                                    <ul class="list-unstyled ps-3">
+                                        <li>– Department for Transport (DfT)</li>
+                                        <li>– Department for Business, Energy and Industrial Strategy (BEIS)</li>
+                                        <li>– Department of Health and Social Care (DHSC)</li>
+                                        <li>
+                                            – Department for Environment, Food and Rural Affairs (DEFRA)
+                                        </li>
+                                    </ul>
                                     <li>⯈ Public grant frameworks</li>
-                                    <li>⯈ Global institutions (WTO, UNCTAD, EC, OECD)</li>
+                                    <li>⯈ Global institutions </li>
+                                    <ul class="list-unstyled ps-3">
+                                        <li>– United Nations (UN)</li>
+                                        <li>– World Trade Organization (WTO)</li>
+                                        <li>– European Union (EU)</li>
+                                        <li>
+                                            – Organisation for Economic Co-operation and Development (OECD)
+                                        </li>
+                                    </ul>
                                 </ul>
                             </li>
                             <li> &#10148; Develop winning proposals and impact-driven concept notes</li>
@@ -138,7 +162,7 @@ if (isset($_POST['form-contact'])) {
 
                         <h3 class="text-primary fw-bold mb-3"> Person Specification</h3>
                         <ul class="mb-5 ps-0 list-unstyled ">
-                            <li>&#10148; Proven record securing £6–7 figure public or global grants</li>
+                            <li>&#10148; Proven record securing 6–7 figure public or global grants</li>
                             <li>&#10148; Strong grasp of public mechanisms (e.g. Horizon, FCDO)</li>
                             <li>&#10148; Exceptional writing and proposal communication skills</li>
                             <li>&#10148; Deep understanding of policy advocacy & global development</li>
@@ -148,10 +172,10 @@ if (isset($_POST['form-contact'])) {
 
                         <h3 class="text-primary fw-bold mb-3"> Why Join CPB?</h3>
                         <ul class="mb-5 ps-0 list-unstyled">
-                            <li>&#10148; National and global impact</li>
-                            <li>&#10148; Influence on public policy and high-profile media campaigns</li>
-                            <li>&#10148; Flexible hybrid working</li>
-                            <li>&#10148; Opportunity to build international funding strategy from scratch</li>
+                            <li>&#10148; <b>Competitive salary package</b> tailored to your experience</li>
+                            <li>&#10148; <b>Performance-based bonuses</b> and recognition incentives</li>
+                            <li>&#10148; <b>Remote-friendly work model</b> with flexible hours</li>
+                            <li>&#10148; <b>Generous holiday allowance</b> and paid wellness days</li>
                         </ul>
 
                         <div class="p-4 bg-warning-subtle border border-warning rounded-3 mb-5">
