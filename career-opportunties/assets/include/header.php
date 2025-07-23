@@ -63,8 +63,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="../about.php">About</a>
                         </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="../career-opportunties">Career Opportunties</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./">Career Opportunties</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../membership.php">membership
@@ -86,7 +86,7 @@
                             </ul>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link news-menu" href="./">Consumer Alert News
+                            <a class="nav-link news-menu" href="../news/">Consumer Alert News
                             </a>
                         </li>
                             <li class="nav-item dropdown">
@@ -96,13 +96,13 @@
                             </a>
                             <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item nav-link" href="../blog/index.php">Blog</a></li>
-                                <!-- <li><a class="dropdown-item nav-link" href="./">Consumer Alert News</a></li> -->
+                               
                                 <li><a class="dropdown-item nav-link" href="../advocacy.php">Advocacy</a></li>
                                 <li><a class="dropdown-item nav-link" href="../archive.php">Archive</a></li>
                                 <li>
                                     <a class="dropdown-item nav-link" href="../consumer-issues.php">Consumer Issues</a>
                                 </li>
-                                <li><a class="dropdown-item nav-link" href="../why-choose-us.php">Why Choose Us</a></li>
+                                 <li><a class="dropdown-item nav-link" href="../why-choose-us.php">Why Choose Us</a></li>
                                 <li>
                                     <a class="dropdown-item nav-link" href="../faq.php">FAQ
                                     </a>

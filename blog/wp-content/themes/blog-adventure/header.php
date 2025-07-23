@@ -167,6 +167,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="<?php echo ROOT_PATH ?>why-choose-us.php">Why Choose Us</a>
+                                  <a class="nav-link" href="<?php echo ROOT_PATH ?>career-opportunties/">Career Opportunties</a>
                             </li>
 
                             <li class="nav-item">
@@ -194,6 +195,7 @@
                                         <a class="dropdown-item nav-link"
                                             href="<?php echo ROOT_PATH ?>consumer-issues.php">Consumer Issues</a>
                                     </li>
+                                      <li><a class="dropdown-item nav-link"  href="<?php echo ROOT_PATH ?>why-choose-us.php">Why Choose Us</a></li>
                                     <li>
                                         <a class="dropdown-item nav-link" href="<?php echo ROOT_PATH ?>faq.php">FAQ
                                         </a>

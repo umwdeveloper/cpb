@@ -64,7 +64,7 @@
                             <a class="nav-link" href="../about.php">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../why-choose-us.php">Why Choose Us</a>
+                            <a class="nav-link" href="../career-opportunties">Career Opportunties</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../membership.php">membership
@@ -102,6 +102,7 @@
                                 <li>
                                     <a class="dropdown-item nav-link" href="../consumer-issues.php">Consumer Issues</a>
                                 </li>
+                                     <li><a class="dropdown-item nav-link" href="../why-choose-us.php">Why Choose Us</a></li>
                                 <li>
                                     <a class="dropdown-item nav-link" href="../faq.php">FAQ
                                     </a>
