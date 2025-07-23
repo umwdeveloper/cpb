@@ -64,7 +64,7 @@
                             <a class="nav-link" href="../about.php">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./">Career Opportunties</a>
+                            <a class="nav-link news-menu" href="./">Career Opportunties</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../membership.php">membership

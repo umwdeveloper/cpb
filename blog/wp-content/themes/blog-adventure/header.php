@@ -166,7 +166,7 @@
                                 <a class="nav-link" href="<?php echo ROOT_PATH ?>about.php">About</a>
                             </li>
                             <li class="nav-item">
-                                  <a class="nav-link" href="<?php echo ROOT_PATH ?>career-opportunties/">Career Opportunties</a>
+                                  <a class="nav-link news-menu" href="<?php echo ROOT_PATH ?>career-opportunties/">Career Opportunties</a>
                             </li>
 
                             <li class="nav-item">
