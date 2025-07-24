@@ -42,7 +42,7 @@ if (isset($_POST['form-contact'])) {
 <html lang="en">
 
 <head>
-    <title>Job Opportunties - (CPB)</title>
+    <title>Blog - (CPB)</title>
     <meta name="description" content="">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -77,13 +77,12 @@ if (isset($_POST['form-contact'])) {
             <div class="row justify-content-center align-items-start">
                 <div class="col-lg-10 mx-auto ">
                     <h1 class="main-heading text-center text-uppercase  mt-2">
-                        JOB OPPORTUNITIES AT <br> CONSUMER PROTECTION BUREAU
+                        Blog - Consumer Protection Bureau
                     </h1>
                     <p class="text-md text-center">
-                        Join us in our mission to protect consumers and promote fairness across the UK. At the
-                        Consumer Protection Bureau, we are dedicated to making a difference in the lives of consumers
-                        everywhere. Explore our current job openings and become part of a team that is committed to
-                        justice, integrity, and positive change.
+                        Welcome to the Consumer Protection Bureau's blog, where we share insights, updates, and
+                        discussions on consumer rights, advocacy, and the latest developments in consumer protection.
+                        Join us in our mission to empower consumers and promote fair practices across various sectors.
                     </p>
                 </div>
             </div>
@@ -96,21 +95,19 @@ if (isset($_POST['form-contact'])) {
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
-                            <img src="../assets/images/jobs/Join the Fight for Fairness.png"
+                            <img src="../assets/images/jobs/cpb-ofwat.png"
                                 style="object-fit:contain; object-position:center;" alt="join cpb  For Just £5 a Month!"
                                 class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>9 July 2025</span> -->
                             <h2 class="mb-0 pb-0">
-                                Lead Fundraising for National Impact and Global Reach
+                                Welcoming the End of Ofwat and the Birth of a Unified Water Regulator
                             </h2>
                             <p class="text mb-0 pb-0">
-                                <span>(22 July 2025)</span>
+                                <span>(24 July 2025)</span>
                                 <b>LONDON </b> –
-                                The Consumer Protection Bureau (CPB) is the UK’s independent voice for consumers—leading
-                                national campaigns, influencing policy, and fighting injustice across banking,
-                                transport, digital, and energy sectors.
+                                The Government’s decision to scrap Ofwat and replace it with a single, integrated water regulator is not just welcome, it’s long overdue. For too long, water regulation in England and Wales has suffered from fragmentation, toothless oversight, and a disjointed approach that left consumers footing the bill while water companies polluted rivers and raked in profits.
 
 
                             </p>
