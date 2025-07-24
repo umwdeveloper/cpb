@@ -129,7 +129,7 @@ Executive Directors Wanted
             <p class="mb-2">
                 <strong>Email:</strong> <a href="mailto:info@consumerprotectionbureau.co.uk">info@consumerprotectionbureau.co.uk</a>
             </p>
-            <p class="mb-0"><strong>Deadline:</strong> 30<sup>th</sup> August 2025</p>
+            <p class="mb-0"><strong>Deadline:</strong> 16 August 2025</p>
         </div>
 
         <div class="text-center">
