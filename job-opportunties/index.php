@@ -96,7 +96,7 @@ if (isset($_POST['form-contact'])) {
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
-                            <img src="../assets/images/news/Join the Fight for Fairness.png"
+                            <img src="../assets/images/jobs/Join the Fight for Fairness.png"
                                 style="object-fit:contain; object-position:center;" alt="join cpb  For Just £5 a Month!"
                                 class="">
                         </div>
