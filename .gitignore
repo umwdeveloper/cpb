@@ -1,7 +1,8 @@
 includes/config.php
 *.zip
 assets/PDFs/*.pdf
-blog/wp-config.php
+blog-wp/wp-config.php
 includes/connection.php
 includes/mail.php
-blog/wp-content/plugins/*
+blog-wp/wp-content/plugins/*
+blog-wp/*
