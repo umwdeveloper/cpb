@@ -63,7 +63,7 @@ if (isset($_POST['form-contact'])) {
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="canonical"
-        href="https://www.consumerprotectionbureau.co.uk/blogs/cpb-welcomes-new-unified-water-regulator-end-ofwat.php">
+        href="https://www.consumerprotectionbureau.co.uk/blog/cpb-welcomes-new-unified-water-regulator-end-ofwat.php">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
@@ -75,134 +75,122 @@ if (isset($_POST['form-contact'])) {
 <main>
 
     <section class="py-lg-5 py-4 bg-light about-hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 mx-auto news-wrapper p-0  shadow-sm rounded-3 overflow-hidden"
-                    style="background:#E3F2FD;">
-                    <img src="../assets/images/jobs/Join the Fight for Fairness.png"
-                        alt="Join Consumer Protection Bureau - Consumer protection bureau" class="w-100 h-auto">
+        <div class="container py-5 px-3 px-md-5" style="max-width: 980px; background: #E3F2FD; border-radius: 12px;">
+            <!-- Hero Image -->
+            <div class="mb-4 rounded shadow-sm overflow-hidden">
+                <img src="../assets/images/jobs/cpb-ofwat.png" alt="CPB Unified Water Regulator"
+                    class="img-fluid w-100">
+            </div>
 
-                    <div class="px-lg-5 px-4 py-5">
-                        <h1 class="text-uppercase text-primary fw-bold mb-3 display-6">
-                            Join the Fight for Fairness
-                        </h1>
-                        <h2 class="fw-bold text-dark mb-4" style="font-size: 1.9rem;">
-                            Lead Fundraising for National Impact<br>and Global Reach
-                        </h2>
+            <!-- Title & Meta -->
+            <div class="mb-4">
+                <h1 class="display-5 fw-bold text-uppercase" style="color: #0D47A1;">A Watershed Moment</h1>
+                <h2 class="fw-semibold" style="font-size: 1.6rem; color: #333;">Welcoming the End of Ofwat and the Birth
+                    of a Unified Water Regulator</h2>
+                <p class="text-muted mt-2 small">By the <strong>Consumer Protection Bureau (CPB)</strong> | July 2025
+                </p>
+            </div>
 
-                        <div class="mb-5 border-start border-4 border-warning ps-3">
-                            <p><strong> Position:</strong> Senior Fundraising Strategist – Governmental &
-                                Intergovernmental Partnerships</p>
-                            <p><strong>Organisation:</strong> Consumer Protection Bureau (CPB), United Kingdom</p>
-                            <p><strong> Location:</strong> London (remote working considered)</p>
-                            <p><strong> Contract:</strong> Full-time | Permanent</p>
-                            <p><strong> Salary:</strong> Competitive + performance-based incentives</p>
+            <!-- Main Blog Content -->
+            <div class="fs-5 lh-lg text-dark">
+                <p>The Government’s decision to scrap Ofwat and replace it with a single, integrated water regulator is
+                    not just welcome, it’s long overdue. For too long, water regulation in England and Wales has
+                    suffered from fragmentation, toothless oversight, and a disjointed approach that left consumers
+                    footing the bill while water companies polluted rivers and raked in profits.</p>
+
+                <blockquote class="blockquote px-4 py-3"
+                    style="background:#fff3cd; border-left: 5px solid #FFC107; border-radius: 6px;">
+                    <p class="mb-0 fst-italic text-dark">Today marks the beginning of a much-needed reset.</p>
+                </blockquote>
+
+                <p class="mt-4">Under the proposed reforms, the functions of Ofwat, the Environment Agency, the Drinking
+                    Water Inspectorate, and Natural England will be brought together under one powerful regulatory body.
+                    This new authority will have the reach and remit to ensure that water companies finally deliver what
+                    the public expects and deserves: cleaner water, fairer prices, and meaningful accountability.</p>
+
+                <!-- Why it matters -->
+                <h3 class="fw-bold mt-5 mb-3" style="color: #0D47A1;">Why this decision matters</h3>
+                <p>For years, consumers have been calling out rising bills, relentless sewage discharges, and opaque
+                    regulatory processes. Households have been asked to pay more—up to 36% increases are predicted—while
+                    water firms distribute dividends, accumulate debt, and dodge responsibility for chronic pollution.
+                </p>
+                <p>The scrapping of Ofwat is not simply about replacing a failed regulator. It’s about resetting
+                    priorities. It’s about putting consumers and the environment first.</p>
+
+                <!-- What we welcome most -->
+                <h3 class="fw-bold mt-5 mb-3" style="color: #0D47A1;">What we welcome most in this reform</h3>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="p-4 rounded bg-white border-start border-4 border-success h-100">
+                            <h5 class="fw-bold text-success">Cleaner Waterways and a Healthier Environment</h5>
+                            <p class="mb-0">Sewage in our rivers and seas has become a national scandal. With a single
+                                body now overseeing environmental and infrastructure compliance, polluters will no
+                                longer hide behind regulatory confusion.</p>
                         </div>
-
-                        <h3 class="text-primary fw-bold mb-3"> About Us</h3>
-                        <p class="mb-3">The <strong>Consumer Protection Bureau (CPB)</strong> is the UK’s independent
-                            voice for consumers—leading national campaigns, influencing policy, and fighting injustice
-                            across banking, transport, digital, and energy sectors.</p>
-                        <p class="mb-3">Now entering an international phase, CPB seeks to build global partnerships and
-                            secure long-term funding for high-impact advocacy.</p>
-                        <p class="">We are hiring a <strong>strategic, connected Fundraiser</strong> to forge
-                            relationships with government and intergovernmental bodies like :</p>
-                        <ul class="mb-5  ps-0 list-unstyled">
-                            <li>&#10148; World Trade Organization (WTO)</li>
-                            <li>&#10148; United Nations Conference on Trade and Development (UNCTAD)</li>
-                            <li>&#10148; Organisation for Economic Co-operation and Development (OECD)</li>
-                            <li>&#10148; European Union (EU)</li>
-
-                        </ul>
-
-
-                        <h3 class="text-primary fw-bold mb-3"> The Role</h3>
-                        <p class="mb-3">This is not a traditional fundraising role. As CPB’s <strong>Senior Fundraising
-                                Strategist</strong>, you’ll work at the nexus of <strong>policy, advocacy, and
-                                international funding</strong> — crafting compelling bids and opening the door to
-                            long-term public-sector financing.</p>
-                        <p class="mb-3">You will support campaigns such as:</p>
-                        <ul class="mb-5  ps-0 list-unstyled">
-                            <li>&#10148; Credit agency reform</li>
-                            <li>&#10148; Public transport fairness</li>
-                            <li>&#10148; Digital market transparency</li>
-                            <li>&#10148; Consumer rights post-Brexit</li>
-                            <li>&#10148; Global supply chain accountability</li>
-                        </ul>
-
-                        <h3 class="text-primary fw-bold mb-3"> Key Responsibilities</h3>
-                        <ol class="mb-5 ps-0 list-unstyled">
-                            <li> &#10148; Design and execute a targeted fundraising strategy for:
-                                <ul class="ps-3 list-unstyled">
-                                    <li>⯈ UK departments </li>
-                                    <ul class="list-unstyled ps-3">
-                                        <li>– Department for Transport (DfT)</li>
-                                        <li>– Department for Business, Energy and Industrial Strategy (BEIS)</li>
-                                        <li>– Department of Health and Social Care (DHSC)</li>
-                                        <li>
-                                            – Department for Environment, Food and Rural Affairs (DEFRA)
-                                        </li>
-                                    </ul>
-                                    <li>⯈ Public grant frameworks</li>
-                                    <li>⯈ Global institutions </li>
-                                    <ul class="list-unstyled ps-3">
-                                        <li>– United Nations (UN)</li>
-                                        <li>– World Trade Organization (WTO)</li>
-                                        <li>– European Union (EU)</li>
-                                        <li>
-                                            – Organisation for Economic Co-operation and Development (OECD)
-                                        </li>
-                                    </ul>
-                                </ul>
-                            </li>
-                            <li> &#10148; Develop winning proposals and impact-driven concept notes</li>
-                            <li>&#10148; Build strong relationships with senior officials and donors</li>
-                            <li>&#10148; Monitor global funding calls and position CPB to respond early</li>
-                            <li>&#10148; Co-leverage funding through NGO/think tank consortia</li>
-                        </ol>
-
-                        <h3 class="text-primary fw-bold mb-3"> Person Specification</h3>
-                        <ul class="mb-5 ps-0 list-unstyled ">
-                            <li>&#10148; Proven record securing 6–7 figure public or global grants</li>
-                            <li>&#10148; Strong grasp of public mechanisms (e.g. Horizon, FCDO)</li>
-                            <li>&#10148; Exceptional writing and proposal communication skills</li>
-                            <li>&#10148; Deep understanding of policy advocacy & global development</li>
-                            <li>&#10148; Existing networks in civil society or donor institutions</li>
-                            <li>&#10148; Comfortable engaging at senior and board levels</li>
-                        </ul>
-
-                        <h3 class="text-primary fw-bold mb-3"> Why Join CPB?</h3>
-                        <ul class="mb-5 ps-0 list-unstyled">
-                            <li>&#10148; <b>Competitive salary package</b> tailored to your experience</li>
-                            <li>&#10148; <b>Performance-based bonuses</b> and recognition incentives</li>
-                            <li>&#10148; <b>Remote-friendly work model</b> with flexible hours</li>
-                            <li>&#10148; <b>Generous holiday allowance</b> and paid wellness days</li>
-                        </ul>
-
-                        <div class="p-4 bg-warning-subtle border border-warning rounded-3 mb-5">
-                            <h4 class="fw-bold text-primary mb-3"> How to Apply</h4>
-                            <p class="mb-2">Submit your <strong>CV</strong>, a <strong>short cover letter</strong> , and
-                                one example of a successful fundraising bid or concept note to:</p>
-                            <p class="mb-2">
-                                <strong>Email:</strong> <a
-                                    href="mailto:info@consumerprotectionbureau.co.uk">info@consumerprotectionbureau.co.uk</a>
-                            </p>
-                            <p class="mb-0"><strong>Deadline:</strong> 5<sup>th</sup> August 2025</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="p-4 rounded bg-white border-start border-4 border-warning h-100">
+                            <h5 class="fw-bold text-warning">Fairer, More Transparent Pricing</h5>
+                            <p class="mb-0">For too long, bills have gone up without justification. We welcome the
+                                pledge to introduce affordable social tariffs and stronger pricing oversight, so
+                                households aren't punished for the failures of the industry.</p>
                         </div>
-
-                        <div class="text-center">
-                            <p class="text-danger fw-bold text-uppercase text-lg  mb-0">
-                                Let’s build a fairer future, together.
-                            </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="p-4 rounded bg-white border-start border-4 border-info h-100">
+                            <h5 class="fw-bold text-info">A Strong, Independent Ombudsman Service</h5>
+                            <p class="mb-0">Complaints handling must no longer be a tick-box exercise. The creation of
+                                an independent water ombudsman, with teeth, backed by the new regulator, will give
+                                consumers the right to swift, fair redress when companies fall short.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="p-4 rounded bg-white border-start border-4 border-danger h-100">
+                            <h5 class="fw-bold text-danger">Safe, Reliable Drinking Water for All</h5>
+                            <p class="mb-0">Merging water quality oversight ensures that public health will no longer be
+                                sacrificed to corporate convenience. One regulator will mean clearer standards and
+                                better enforcement.</p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="p-4 rounded bg-white border-start border-4 border-primary h-100">
+                            <h5 class="fw-bold text-primary">Restored Public Trust Through Unified Oversight</h5>
+                            <p class="mb-0">Trust in the sector has reached an all-time low. This new model creates a
+                                single line of accountability, where the buck stops, and where enforcement will no
+                                longer be delayed by bureaucratic wrangling between agencies.</p>
                         </div>
                     </div>
                 </div>
 
+                <!-- What comes next -->
+                <h3 class="fw-bold mt-5 mb-3" style="color: #0D47A1;">What comes next?</h3>
+                <p>We at the Consumer Protection Bureau (CPB) will be watching this transition closely. We want to
+                    ensure this is not just a cosmetic change but a structural shift. We urge the Government to:</p>
+                <ul class="ps-3 list-unstyled">
+                    <li>⬥ Appoint truly independent leadership for the new regulator.</li>
+                    <li>⬥ Guarantee consumer voices are embedded at every level of the new body.</li>
+                    <li>⬥ Ensure transparent pricing models that reward efficiency—not corporate excess.</li>
+                    <li>⬥ Fund the Ombudsman service properly to support timely resolutions.</li>
+                    <li>⬥ Publish a clear implementation timetable and hold water companies to account throughout the
+                        transition.</li>
+                </ul>
 
+                <!-- Final thoughts -->
+                <h3 class="fw-bold mt-5 mb-3" style="color: #0D47A1;">A brighter future is possible</h3>
+                <p>This reform is not just a policy win—it’s a victory for every household that pays a water bill, every
+                    swimmer who’s avoided the sea due to pollution, and every community that’s been ignored when raising
+                    valid concerns.</p>
+                <p>If done right, this is a chance to build a modern, consumer-first regulatory system, one that treats
+                    water not as a profit centre for a few, but as a public necessity for all.</p>
 
-
+                <div class="text-center mt-5">
+                    <p class="text-uppercase text-danger fw-bold">We welcome this decision. Now, the real work begins.
+                    </p>
+                </div>
             </div>
         </div>
+
+
     </section>
 
 

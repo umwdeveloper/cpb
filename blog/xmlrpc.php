@@ -28,7 +28,7 @@ $HTTP_RAW_POST_DATA = trim( $HTTP_RAW_POST_DATA );
 /** Include the bootstrap for setting up WordPress environment */
 require_once __DIR__ . '/wp-load.php';
 
-if ( isset( $_GET['rsd'] ) ) { // https://cyber.harvard.edu/blogs/gems/tech/rsd.html
+if ( isset( $_GET['rsd'] ) ) { // https://cyber.harvard.edu/blog/gems/tech/rsd.html
 	header( 'Content-Type: text/xml; charset=' . get_option( 'blog_charset' ), true );
 	echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>';
 	?>
@@ -46,7 +46,7 @@ if ( isset( $_GET['rsd'] ) ) { // https://cyber.harvard.edu/blogs/gems/tech/rsd.
 			/**
 			 * Fires when adding APIs to the Really Simple Discovery (RSD) endpoint.
 			 *
-			 * @link https://cyber.harvard.edu/blogs/gems/tech/rsd.html
+			 * @link https://cyber.harvard.edu/blog/gems/tech/rsd.html
 			 *
 			 * @since 3.5.0
 			 */

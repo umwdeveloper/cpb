@@ -95,7 +95,7 @@
                                  More
                             </a>
                             <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item nav-link" href="../blogs/">Blog</a></li>
+                                <li><a class="dropdown-item nav-link" href="../blog/">Blog</a></li>
                                
                                 <li><a class="dropdown-item nav-link" href="../advocacy.php">Advocacy</a></li>
                                 <li><a class="dropdown-item nav-link" href="../archive.php">Archive</a></li>
