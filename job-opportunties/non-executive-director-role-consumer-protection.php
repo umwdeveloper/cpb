@@ -62,7 +62,8 @@ if (isset($_POST['form-contact'])) {
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/job-opportunties/non-executive-director-role-consumer-protection.php">
+    <link rel="canonical"
+        href="https://www.consumerprotectionbureau.co.uk/job-opportunties/non-executive-director-role-consumer-protection.php">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
@@ -76,68 +77,78 @@ if (isset($_POST['form-contact'])) {
     <section class="py-lg-5 py-4 bg-light about-hero">
         <div class="container">
             <div class="row">
-            <div class="col-lg-10 mx-auto news-wrapper p-0 shadow-sm rounded-3 overflow-hidden" style="background:#E3F2FD;">
-    <img src="../assets/images/jobs/CPB-hiring-non-exective-director.png" alt="Join CPB Board" class="w-100 h-auto">
+                <div class="col-lg-10 mx-auto news-wrapper p-0 shadow-sm rounded-3 overflow-hidden"
+                    style="background:#E3F2FD;">
+                    <img src="../assets/images/jobs/CPB-hiring-non-exective-director.png" alt="Join CPB Board"
+                        class="w-100 h-auto">
 
-    <div class="px-lg-5 px-4 py-5">
-        <h1 class="text-uppercase text-primary fw-bold mb-3 display-6">
-           Non-Executive Directors Wanted
-        </h1>
-        <h2 class="fw-bold text-dark mb-4" style="font-size: 1.9rem;">
-            Champion Consumer Rights | Drive Policy Reform | Shape the Future
-        </h2>
+                    <div class="px-lg-5 px-4 py-5">
+                        <h1 class="text-uppercase text-primary fw-bold mb-3 display-6">
+                            Non-Executive Directors Wanted
+                        </h1>
+                        <h2 class="fw-bold text-dark mb-4" style="font-size: 1.9rem;">
+                            Champion Consumer Rights | Drive Policy Reform | Shape the Future
+                        </h2>
 
-        <div class="mb-5 border-start border-4 border-warning ps-3">
-            <p><strong>Position:</strong> Non-Executive Director (2 positions)</p>
-            <p><strong>Organisation:</strong> Consumer Protection Bureau (CPB), United Kingdom</p>
-            <p><strong>Location:</strong> Remote / International applicants welcome</p>
-            <p><strong>Type:</strong> Voluntary (unpaid), Strategic Governance Role</p>
-        </div>
+                        <div class="mb-5 border-start border-4 border-warning ps-3">
+                            <p><strong>Position:</strong> Non-Executive Director (2 positions)</p>
+                            <p><strong>Organisation:</strong> Consumer Protection Bureau (CPB), United Kingdom</p>
+                            <p><strong>Location:</strong> Remote / International applicants welcome</p>
+                            <p><strong>Type:</strong> Voluntary, Strategic Governance Role</p>
+                        </div>
 
-        <h3 class="text-primary fw-bold mb-3"> About CPB</h3>
-        <p class="mb-3">The <strong>Consumer Protection Bureau (CPB)</strong> is a leading UK-based independent advocacy body championing consumer rights and systemic reform. We tackle injustices in finance, utilities, digital markets, and more—both nationally and globally.</p>
+                        <h3 class="text-primary fw-bold mb-3"> About CPB</h3>
+                        <p class="mb-3">The <strong>Consumer Protection Bureau (CPB)</strong> is a leading UK-based
+                            independent advocacy body championing consumer rights and systemic reform. We tackle
+                            injustices in finance, utilities, digital markets, and more—both nationally and globally.
+                        </p>
 
-        <h3 class="text-primary fw-bold mb-3"> Who We are Looking For</h3>
-        <ul class="mb-5 ps-0 list-unstyled">
-            <li>&#10148; <strong>Legal Experts</strong> – UK or international law professionals (active or retired)</li>
-            <li>&#10148; <strong>Global Policy Experience</strong> – Background in international relations or advocacy</li>
-            <li>&#10148; <strong>Fundraising Leaders</strong> – Experience securing grants from government bodies, the European Union (EU), the United Nations (UN), or Non-Governmental Organizations (NGOs).</li>
-            <li>&#10148; <strong>Multilingual Professionals</strong> – English plus French, Spanish or other European language</li>
-        </ul>
+                        <h3 class="text-primary fw-bold mb-3"> Who We are Looking For</h3>
+                        <ul class="mb-5 ps-0 list-unstyled">
+                            <li>&#10148; <strong>Legal Experts</strong> – Experience in UK/international law professionals (active or retired)</li>
+                            <li>&#10148; <strong>Global Policy Experience</strong> – Non-profit governance, regulatory bodies, think tanks, or campaigning organisations</li>
+                            <li>&#10148; <strong>Fundraising Leaders</strong> – Experience in securing grants from government bodies, EU, relevant UN Agencies, or NGOs.</li>
+                            <li>&#10148; <strong>Multilingual Professionals</strong> – English plus French, Spanish or other European language</li>
+                            <li>&#10148;  <strong>Independence and Integrity</strong> - No conflicts of interest with financial services, regulatory bodies, or firms under CPB scrutiny</li>
+                        </ul>
 
-        <p><strong>Residency in the UK is not required.</strong> We welcome applicants from Europe and beyond.</p>
+                        <p><strong>Residency in the UK is not required.</strong> We welcome applicants from Europe and
+                            beyond.</p>
 
-        <h3 class="text-primary fw-bold mb-3"> Key Responsibilities</h3>
-        <ul class="mb-5 ps-0 list-unstyled">
-            <li>&#10148; Advise on legal strategies and advocacy direction</li>
-            <li>&#10148; Contribute to governance, policy, and compliance oversight</li>
-            <li>&#10148; Support funding proposals and strategic partnerships</li>
-            <li>&#10148; Champion CPB’s core values of fairness, accountability, and transparency</li>
-        </ul>
+                        <h3 class="text-primary fw-bold mb-3"> Key Responsibilities</h3>
+                        <ul class="mb-5 ps-0 list-unstyled">
+                            <li>&#10148; Advise on legal strategies and advocacy direction</li>
+                            <li>&#10148; Contribute to governance, policy, and compliance oversight</li>
+                            <li>&#10148; Support funding proposals and strategic partnerships</li>
+                            <li>&#10148; Champion CPB’s core values of fairness, accountability, and transparency</li>
+                        </ul>
 
-        <h3 class="text-primary fw-bold mb-3"> Commitment</h3>
-        <ul class="mb-5 ps-0 list-unstyled">
-            <li>&#10148; Attend quarterly virtual board meetings</li>
-            <li>&#10148; Offer additional insights and feedback via email or brief consultations as needed</li>
-            <li>&#10148; Voluntary post with strategic impact and visibility</li>
-        </ul>
+                        <h3 class="text-primary fw-bold mb-3"> Commitment</h3>
+                        <ul class="mb-5 ps-0 list-unstyled">
+                            <li>&#10148; Attend quarterly virtual board meetings</li>
+                            <li>&#10148; Offer additional insights and feedback via email or brief consultations as
+                                needed</li>
+                            <li>&#10148; Voluntary post with strategic impact and visibility</li>
+                        </ul>
 
-        <div class="p-4 bg-warning-subtle border border-warning rounded-3 mb-5">
-            <h4 class="fw-bold text-primary mb-3"> How to Apply</h4>
-            <p class="mb-2">Submit your <strong>CV</strong> and a brief <strong>statement of interest</strong> to:</p>
-            <p class="mb-2">
-                <strong>Email:</strong> <a href="mailto:info@consumerprotectionbureau.co.uk">info@consumerprotectionbureau.co.uk</a>
-            </p>
-            <p class="mb-0"><strong>Deadline:</strong> 16 August 2025</p>
-        </div>
+                        <div class="p-4 bg-warning-subtle border border-warning rounded-3 mb-5">
+                            <h4 class="fw-bold text-primary mb-3"> How to Apply</h4>
+                            <p class="mb-2">Submit your <strong>CV</strong> and a brief <strong>statement of
+                                    interest</strong> to:</p>
+                            <p class="mb-2">
+                                <strong>Email:</strong> <a
+                                    href="mailto:info@consumerprotectionbureau.co.uk">info@consumerprotectionbureau.co.uk</a>
+                            </p>
+                            <p class="mb-0"><strong>Deadline:</strong> 16 August 2025</p>
+                        </div>
 
-        <div class="text-center">
-            <p class="text-danger fw-bold text-uppercase text-lg mb-0">
-                Help steer a new era of global consumer fairness.
-            </p>
-        </div>
-    </div>
-</div>
+                        <div class="text-center">
+                            <p class="text-danger fw-bold text-uppercase text-lg mb-0">
+                                Help steer a new era of global consumer fairness.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
 
 

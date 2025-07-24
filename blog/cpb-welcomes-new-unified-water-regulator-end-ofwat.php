@@ -36,13 +36,12 @@ if (isset($_POST['form-contact'])) {
     }
 }
 
-
 ?> -->
 <!doctype html>
 <html lang="en">
 
 <head>
-    <title>Job Opportunties - (CPB)</title>
+    <title>Lead Fundraising for National Impact and Global Reach</title>
     <meta name="description" content="">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -63,8 +62,10 @@ if (isset($_POST['form-contact'])) {
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/blog/index.php">
-
+    <link rel="canonical"
+        href="https://www.consumerprotectionbureau.co.uk/blog/cpb-welcomes-new-unified-water-regulator-end-ofwat.php">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
     <link rel="stylesheet" href="../assets/css/style.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -72,59 +73,142 @@ if (isset($_POST['form-contact'])) {
 
 <?php include 'assets/include/header.php'; ?>
 <main>
+
     <section class="py-lg-5 py-4 bg-light about-hero">
         <div class="container">
-            <div class="row justify-content-center align-items-start">
-                <div class="col-lg-10 mx-auto ">
-                    <h1 class="main-heading text-center text-uppercase  mt-2">
-                        JOB OPPORTUNITIES AT <br> CONSUMER PROTECTION BUREAU
-                    </h1>
-                    <p class="text-md text-center">
-                        Join us in our mission to protect consumers and promote fairness across the UK. At the
-                        Consumer Protection Bureau, we are dedicated to making a difference in the lives of consumers
-                        everywhere. Explore our current job openings and become part of a team that is committed to
-                        justice, integrity, and positive change.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
-        <div class="container pb-5 ">
-            <div class="row mb-lg-0 mb-4">
-                <div class="col-lg-4 mb-3 mx-auto">
-                    <div class="news-card shadow-sm">
-                        <div class="news-card-image d-flex justify-content-center align-items-center"
-                            style="background-color:#000032;">
-                            <img src="../assets/images/jobs/Join the Fight for Fairness.png"
-                                style="object-fit:contain; object-position:center;" alt="join cpb  For Just £5 a Month!"
-                                class="">
+            <div class="row">
+                <div class="col-lg-10 mx-auto news-wrapper p-0  shadow-sm rounded-3 overflow-hidden"
+                    style="background:#E3F2FD;">
+                    <img src="../assets/images/jobs/Join the Fight for Fairness.png"
+                        alt="Join Consumer Protection Bureau - Consumer protection bureau" class="w-100 h-auto">
+
+                    <div class="px-lg-5 px-4 py-5">
+                        <h1 class="text-uppercase text-primary fw-bold mb-3 display-6">
+                            Join the Fight for Fairness
+                        </h1>
+                        <h2 class="fw-bold text-dark mb-4" style="font-size: 1.9rem;">
+                            Lead Fundraising for National Impact<br>and Global Reach
+                        </h2>
+
+                        <div class="mb-5 border-start border-4 border-warning ps-3">
+                            <p><strong> Position:</strong> Senior Fundraising Strategist – Governmental &
+                                Intergovernmental Partnerships</p>
+                            <p><strong>Organisation:</strong> Consumer Protection Bureau (CPB), United Kingdom</p>
+                            <p><strong> Location:</strong> London (remote working considered)</p>
+                            <p><strong> Contract:</strong> Full-time | Permanent</p>
+                            <p><strong> Salary:</strong> Competitive + performance-based incentives</p>
                         </div>
-                        <div class="news-card-text">
-                            <!-- <span>9 July 2025</span> -->
-                            <h2 class="mb-0 pb-0">
-                                Lead Fundraising for National Impact and Global Reach
-                            </h2>
-                            <p class="text mb-0 pb-0">
-                                <span>(22 July 2025)</span>
-                                <b>LONDON </b> –
-                                The Consumer Protection Bureau (CPB) is the UK’s independent voice for consumers—leading
-                                national campaigns, influencing policy, and fighting injustice across banking,
-                                transport, digital, and energy sectors.
+
+                        <h3 class="text-primary fw-bold mb-3"> About Us</h3>
+                        <p class="mb-3">The <strong>Consumer Protection Bureau (CPB)</strong> is the UK’s independent
+                            voice for consumers—leading national campaigns, influencing policy, and fighting injustice
+                            across banking, transport, digital, and energy sectors.</p>
+                        <p class="mb-3">Now entering an international phase, CPB seeks to build global partnerships and
+                            secure long-term funding for high-impact advocacy.</p>
+                        <p class="">We are hiring a <strong>strategic, connected Fundraiser</strong> to forge
+                            relationships with government and intergovernmental bodies like :</p>
+                        <ul class="mb-5  ps-0 list-unstyled">
+                            <li>&#10148; World Trade Organization (WTO)</li>
+                            <li>&#10148; United Nations Conference on Trade and Development (UNCTAD)</li>
+                            <li>&#10148; Organisation for Economic Co-operation and Development (OECD)</li>
+                            <li>&#10148; European Union (EU)</li>
+
+                        </ul>
 
 
+                        <h3 class="text-primary fw-bold mb-3"> The Role</h3>
+                        <p class="mb-3">This is not a traditional fundraising role. As CPB’s <strong>Senior Fundraising
+                                Strategist</strong>, you’ll work at the nexus of <strong>policy, advocacy, and
+                                international funding</strong> — crafting compelling bids and opening the door to
+                            long-term public-sector financing.</p>
+                        <p class="mb-3">You will support campaigns such as:</p>
+                        <ul class="mb-5  ps-0 list-unstyled">
+                            <li>&#10148; Credit agency reform</li>
+                            <li>&#10148; Public transport fairness</li>
+                            <li>&#10148; Digital market transparency</li>
+                            <li>&#10148; Consumer rights post-Brexit</li>
+                            <li>&#10148; Global supply chain accountability</li>
+                        </ul>
+
+                        <h3 class="text-primary fw-bold mb-3"> Key Responsibilities</h3>
+                        <ol class="mb-5 ps-0 list-unstyled">
+                            <li> &#10148; Design and execute a targeted fundraising strategy for:
+                                <ul class="ps-3 list-unstyled">
+                                    <li>⯈ UK departments </li>
+                                    <ul class="list-unstyled ps-3">
+                                        <li>– Department for Transport (DfT)</li>
+                                        <li>– Department for Business, Energy and Industrial Strategy (BEIS)</li>
+                                        <li>– Department of Health and Social Care (DHSC)</li>
+                                        <li>
+                                            – Department for Environment, Food and Rural Affairs (DEFRA)
+                                        </li>
+                                    </ul>
+                                    <li>⯈ Public grant frameworks</li>
+                                    <li>⯈ Global institutions </li>
+                                    <ul class="list-unstyled ps-3">
+                                        <li>– United Nations (UN)</li>
+                                        <li>– World Trade Organization (WTO)</li>
+                                        <li>– European Union (EU)</li>
+                                        <li>
+                                            – Organisation for Economic Co-operation and Development (OECD)
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li> &#10148; Develop winning proposals and impact-driven concept notes</li>
+                            <li>&#10148; Build strong relationships with senior officials and donors</li>
+                            <li>&#10148; Monitor global funding calls and position CPB to respond early</li>
+                            <li>&#10148; Co-leverage funding through NGO/think tank consortia</li>
+                        </ol>
+
+                        <h3 class="text-primary fw-bold mb-3"> Person Specification</h3>
+                        <ul class="mb-5 ps-0 list-unstyled ">
+                            <li>&#10148; Proven record securing 6–7 figure public or global grants</li>
+                            <li>&#10148; Strong grasp of public mechanisms (e.g. Horizon, FCDO)</li>
+                            <li>&#10148; Exceptional writing and proposal communication skills</li>
+                            <li>&#10148; Deep understanding of policy advocacy & global development</li>
+                            <li>&#10148; Existing networks in civil society or donor institutions</li>
+                            <li>&#10148; Comfortable engaging at senior and board levels</li>
+                        </ul>
+
+                        <h3 class="text-primary fw-bold mb-3"> Why Join CPB?</h3>
+                        <ul class="mb-5 ps-0 list-unstyled">
+                            <li>&#10148; <b>Competitive salary package</b> tailored to your experience</li>
+                            <li>&#10148; <b>Performance-based bonuses</b> and recognition incentives</li>
+                            <li>&#10148; <b>Remote-friendly work model</b> with flexible hours</li>
+                            <li>&#10148; <b>Generous holiday allowance</b> and paid wellness days</li>
+                        </ul>
+
+                        <div class="p-4 bg-warning-subtle border border-warning rounded-3 mb-5">
+                            <h4 class="fw-bold text-primary mb-3"> How to Apply</h4>
+                            <p class="mb-2">Submit your <strong>CV</strong>, a <strong>short cover letter</strong> , and
+                                one example of a successful fundraising bid or concept note to:</p>
+                            <p class="mb-2">
+                                <strong>Email:</strong> <a
+                                    href="mailto:info@consumerprotectionbureau.co.uk">info@consumerprotectionbureau.co.uk</a>
                             </p>
-                            <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="cpb-welcomes-new-unified-water-regulator-end-ofwat.php" class="news-alert-btn">Read
-                                    More</a>
-                            </div>
+                            <p class="mb-0"><strong>Deadline:</strong> 5<sup>th</sup> August 2025</p>
+                        </div>
+
+                        <div class="text-center">
+                            <p class="text-danger fw-bold text-uppercase text-lg  mb-0">
+                                Let’s build a fairer future, together.
+                            </p>
                         </div>
                     </div>
                 </div>
 
+
+
+
             </div>
         </div>
     </section>
+
+
+
+
+
     <section class="py-lg-5 py-4 ">
         <div class="container">
             <div class="row justify-content-center">
@@ -158,8 +242,8 @@ if (isset($_POST['form-contact'])) {
             </div>
         </div>
     </section>
-    <!-- 
-    <section>
+
+    <!-- <section>
         <div class="contact-area py-lg-5 py-4">
             <div class="container py-4">
                 <div class="row ">

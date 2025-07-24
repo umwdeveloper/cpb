@@ -62,7 +62,8 @@ if (isset($_POST['form-contact'])) {
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/job-opportunties/cpb-senior-fundraising-role.php">
+    <link rel="canonical"
+        href="https://www.consumerprotectionbureau.co.uk/job-opportunties/cpb-senior-fundraising-role.php">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
@@ -196,7 +197,7 @@ if (isset($_POST['form-contact'])) {
                         </div>
                     </div>
                 </div>
-             
+
 
 
 
