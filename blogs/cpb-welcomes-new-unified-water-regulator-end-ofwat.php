@@ -63,7 +63,7 @@ if (isset($_POST['form-contact'])) {
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="canonical"
-        href="https://www.consumerprotectionbureau.co.uk/blog/cpb-welcomes-new-unified-water-regulator-end-ofwat.php">
+        href="https://www.consumerprotectionbureau.co.uk/blogs/cpb-welcomes-new-unified-water-regulator-end-ofwat.php">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">

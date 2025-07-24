@@ -63,7 +63,7 @@ if (isset($_POST['form-contact'])) {
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/blog/index.php">
+    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/blogs/index.php">
 
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
     <link rel="stylesheet" href="../assets/css/style.css">

@@ -10,7 +10,7 @@ RewriteBase /blog/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /blog/index.php [L]
+RewriteRule . /blogs/index.php [L]
 </IfModule>
 
 # END WordPress
