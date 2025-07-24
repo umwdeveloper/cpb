@@ -41,7 +41,7 @@ if (isset($_POST['form-contact'])) {
 <html lang="en">
 
 <head>
-    <title>Lead Fundraising for National Impact and Global Reach</title>
+    <title> Non-Executive Directors Wanted</title>
     <meta name="description" content="">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -62,7 +62,7 @@ if (isset($_POST['form-contact'])) {
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/news/cpb-senior-fundraising-role.php">
+    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/job-opportunties/non-executive-director-role-consumer-protection.php">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
@@ -81,8 +81,7 @@ if (isset($_POST['form-contact'])) {
 
     <div class="px-lg-5 px-4 py-5">
         <h1 class="text-uppercase text-primary fw-bold mb-3 display-6">
-           Non-
-Executive Directors Wanted
+           Non-Executive Directors Wanted
         </h1>
         <h2 class="fw-bold text-dark mb-4" style="font-size: 1.9rem;">
             Champion Consumer Rights | Drive Policy Reform | Shape the Future
