@@ -105,11 +105,16 @@ if (isset($_POST['form-contact'])) {
 
                         <h3 class="text-primary fw-bold mb-3"> Who We are Looking For</h3>
                         <ul class="mb-5 ps-0 list-unstyled">
-                            <li>&#10148; <strong>Legal Experts</strong> – Experience in UK/international law professionals (active or retired)</li>
-                            <li>&#10148; <strong>Global Policy Experience</strong> – Non-profit governance, regulatory bodies, think tanks, or campaigning organisations</li>
-                            <li>&#10148; <strong>Fundraising Leaders</strong> – Experience in securing grants from government bodies, EU, relevant UN Agencies, or NGOs.</li>
-                            <li>&#10148; <strong>Multilingual Professionals</strong> – English plus French, Spanish or other European language</li>
-                            <li>&#10148;  <strong>Independence and Integrity</strong> - No conflicts of interest with financial services, regulatory bodies, or firms under CPB scrutiny</li>
+                            <li>&#10148; <strong>Legal Experts</strong> – Experience in UK/international law
+                                professionals (active or retired)</li>
+                            <li>&#10148; <strong>Global Policy Experience</strong> – Non-profit governance, regulatory
+                                bodies, think tanks, or campaigning organisations</li>
+                            <li>&#10148; <strong>Fundraising Leaders</strong> – Experience in securing grants from
+                                government bodies, EU, relevant UN Agencies, or NGOs.</li>
+                            <li>&#10148; <strong>Multilingual Professionals</strong> – English plus French, Spanish or
+                                other European language</li>
+                            <li>&#10148; <strong>Independence and Integrity</strong> - No conflicts of interest with
+                                financial services, regulatory bodies, or firms under CPB scrutiny</li>
                         </ul>
 
                         <p><strong>Residency in the UK is not required.</strong> We welcome applicants from Europe and
