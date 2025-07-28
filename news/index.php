@@ -103,14 +103,14 @@ if (isset($_POST['form-contact'])) {
                             <!-- <span>9 July 2025</span> -->
                             <h2 class="mb-0 pb-0">
                                 CPB WELCOMES GOVERNMENT MOVE TO SCRAP
-OFWAT AND OVERHAUL WATER REGULATIO
+                                OFWAT AND OVERHAUL WATER REGULATIO
                             </h2>
                             <p class="text mb-0 pb-0">
                                 <span>(24 July 2025)</span>
                                 <b>LONDON </b> –
                                 The Consumer Protection Bureau (CPB) has welcomed the Government’s
-decision to abolish Ofwat and replace it with a single, powerful regulatory
-authority for the water sector.
+                                decision to abolish Ofwat and replace it with a single, powerful regulatory
+                                authority for the water sector.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="../assets/images/press-release-24-07-2025.pdf" class="news-alert-btn">Read
