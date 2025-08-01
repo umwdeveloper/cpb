@@ -68,8 +68,8 @@ if (isset($_POST['form-contact'])) {
 
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script> -->
 </head>
 
 <?php include 'assets/include/header.php'; ?>
@@ -165,31 +165,26 @@ if (isset($_POST['form-contact'])) {
                                                 <label for="Name" class="text-white">Name <span
                                                         class="text-danger">*</span></label>
                                                 <input type="text" name="name" id="name" class="form-control form-input"
-                                                    placeholder="Your Name" required>
-                                                <div class="invalid-feedback">Please enter your name</div>
+                                                    placeholder="Your Name">
                                             </div>
                                             <div class="half-col div-padding">
                                                 <label for="phone" class="text-white">Phone Number <span
                                                         class="text-danger">*</span></label> <br>
-                                                <input type="text" name="phone" id="phone" class="form-control"
-                                                    placeholder="Phone" required>
-                                                <div class="invalid-feedback">Please enter a valid phone number</div>
+                                                <input type="text" name="phone" id="phone" class="form-control form-input"
+                                                    placeholder="Phone">
                                             </div>
-                                            <div class="div-padding">
+                                            <div class="div-padding ">
                                                 <label for="email" class="text-white">Email <span
                                                         class="text-danger">*</span></label>
                                                 <input type="email" name="email" id="email"
-                                                    class="form-control form-input" placeholder="Email" required>
-                                                <div class="invalid-feedback">Please enter a valid email address</div>
+                                                    class="form-control form-input" placeholder="Email">
                                             </div>
                                             <input type="hidden" name="form-contact">
                                             <div class="div-padding">
                                                 <label for="msg" class="text-white">Message <span
                                                         class="text-danger">*</span></label>
                                                 <textarea class="form-control" name="msg" id="msg" rows="5" required
-                                                    placeholder="Message (minimum 30 words)"></textarea>
-                                                <div class="invalid-feedback">Please enter a message with at least 30
-                                                    words</div>
+                                                    placeholder="Message"></textarea>
                                             </div>
                                             <div class="g-recaptcha"
                                                 data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j"></div>
@@ -255,65 +250,6 @@ if (contactFormSubmitted) {
 const phoneInputField = document.querySelector("#phone");
 const phoneInput = window.intlTelInput(phoneInputField, {
     utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
-});
-
-// Form validation
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    let form = this;
-    let isValid = true;
-
-    // Reset previous validation states
-    form.classList.remove('was-validated');
-
-    // Validate name
-    let nameInput = form.querySelector('#name');
-    if (!nameInput.value.trim()) {
-        isValid = false;
-        nameInput.classList.add('is-invalid');
-    }
-
-    // Validate phone
-    if (!phoneInput.isValidNumber()) {
-        isValid = false;
-        phoneInputField.classList.add('is-invalid');
-    }
-
-    // Validate email
-    let emailInput = form.querySelector('#email');
-    let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    if (!emailPattern.test(emailInput.value.toLowerCase())) {
-        isValid = false;
-        emailInput.classList.add('is-invalid');
-    }
-
-    // Validate message (minimum 30 words)
-    let messageInput = form.querySelector('#msg');
-    let wordCount = messageInput.value.trim().split(/\s+/).length;
-    if (wordCount < 30) {
-        isValid = false;
-        messageInput.classList.add('is-invalid');
-    }
-
-    // Prevent form submission if validation fails
-    if (!isValid) {
-        event.preventDefault();
-        form.classList.add('was-validated');
-
-        alert(isValid);
-
-        return; // Stop further execution if validation fails
-    }
-
-    form.submit(); // Submit the form if all validations pass
-});
-
-// Clear validation state when inputs change
-document.querySelectorAll('#contact-form input, #contact-form textarea').forEach(input => {
-    input.addEventListener('input', function() {
-        this.classList.remove('is-invalid');
-    });
 });
 </script>
 </body>
