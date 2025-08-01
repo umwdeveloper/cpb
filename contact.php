@@ -301,6 +301,8 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     if (!isValid) {
         event.preventDefault();
         form.classList.add('was-validated');
+
+        return; // Stop further execution if validation fails
     }
 
     form.submit(); // Submit the form if all validations pass
