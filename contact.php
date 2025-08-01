@@ -179,8 +179,7 @@ if (isset($_POST['form-contact'])) {
                                                 <label for="email" class="text-white">Email <span
                                                         class="text-danger">*</span></label>
                                                 <input type="email" name="email" id="email"
-                                                    class="form-control form-input" placeholder="Email" required
-                                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                                                    class="form-control form-input" placeholder="Email" required>
                                                 <div class="invalid-feedback">Please enter a valid email address</div>
                                             </div>
                                             <input type="hidden" name="form-contact">
@@ -283,8 +282,8 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
     // Validate email
     let emailInput = form.querySelector('#email');
-    let emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    if (!emailPattern.test(emailInput.value)) {
+    let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailPattern.test(emailInput.value.toLowerCase())) {
         isValid = false;
         emailInput.classList.add('is-invalid');
     }
