@@ -317,7 +317,7 @@ body {
     }
 }
 
-.contact-area form div,
+.contact-area form .div-padding,
 .contact-area-s2 form div {
     padding: 0 15px 30px;
 }
@@ -328,7 +328,7 @@ body {
     padding-bottom: 0;
 }
 
-.contact-area form input,
+.contact-area form .form-input,
 .contact-area-s2 form input,
 .contact-area form textarea,
 .contact-area-s2 form textarea,

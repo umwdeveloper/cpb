@@ -46,7 +46,8 @@ if (isset($_POST['form-contact'])) {
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-   <meta name="description" content="Get in touch with the Consumer Protection Bureau for assistance with consumer complaints and inquiries about UK consumer protection laws. We're here to help protect your rights—contact us today!">
+    <meta name="description"
+        content="Get in touch with the Consumer Protection Bureau for assistance with consumer complaints and inquiries about UK consumer protection laws. We're here to help protect your rights—contact us today!">
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
@@ -67,6 +68,8 @@ if (isset($_POST['form-contact'])) {
 
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 </head>
 
 <?php include 'assets/include/header.php'; ?>
@@ -136,6 +139,7 @@ if (isset($_POST['form-contact'])) {
             </div>
         </div>
     </section>
+
     <section class="pb-lg-5 pb-4 bg-light position-relative">
         <div class="container">
             <div class="row position-relative align-items-center white-bg">
@@ -145,7 +149,8 @@ if (isset($_POST['form-contact'])) {
                             <div class="col col-lg-12 col-md-12 col-sm-12">
                                 <div class="contact-content ">
                                     <h2 class="text-lg text-secondry text-uppercase text-center">Contact </h2>
-                                    <p class="text-white text-center mb-lg-4">Please Contact using Email/Phone Number.</p>
+                                    <p class="text-white text-center mb-lg-4">Please Contact using Email/Phone Number.
+                                    </p>
                                     <div class="contact-form">
                                         <?php if (isset($_POST['form-contact'])): ?>
                                         <?php if ($msg['status'] == 'success'): ?>
@@ -154,41 +159,48 @@ if (isset($_POST['form-contact'])) {
                                         <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
                                         <?php endif; ?>
                                         <?php endif; ?>
-                                         <form method="post" class="contact-validation-active" id="contact-form"
+                                        <form method="post" class="contact-validation-active" id="contact-form"
                                             novalidate="novalidate">
-                                            <div class="half-col">
-                                                <label for="Name" class="text-white">Name</label>
-                                                <input type="text" name="name" id="name" class="form-control"
-                                                    placeholder="Your Name">
+                                            <div class="half-col div-padding">
+                                                <label for="Name" class="text-white">Name <span
+                                                        class="text-danger">*</span></label>
+                                                <input type="text" name="name" id="name" class="form-control form-input"
+                                                    placeholder="Your Name" required>
+                                                <div class="invalid-feedback">Please enter your name</div>
                                             </div>
-                                            <div class="half-col">
-                                                <label for="phone" class="text-white">Phone Number</label>
+                                            <div class="half-col div-padding">
+                                                <label for="phone" class="text-white">Phone Number <span
+                                                        class="text-danger">*</span></label> <br>
                                                 <input type="text" name="phone" id="phone" class="form-control"
-                                                    placeholder="Phone">
+                                                    placeholder="Phone" required>
+                                                <div class="invalid-feedback">Please enter a valid phone number</div>
                                             </div>
-                                            <div>
-                                                <label for="email" class="text-white">Email</label>
-                                                <input type="email" name="email" id="email" class="form-control"
-                                                    placeholder="Email">
+                                            <div class="div-padding">
+                                                <label for="email" class="text-white">Email <span
+                                                        class="text-danger">*</span></label>
+                                                <input type="email" name="email" id="email"
+                                                    class="form-control form-input" placeholder="Email" required
+                                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                                                <div class="invalid-feedback">Please enter a valid email address</div>
                                             </div>
                                             <input type="hidden" name="form-contact">
-
-
-
-                                            <div>
-                                                <label for="msg" class="text-white">Message</label>
-                                                <textarea class="form-control" name="msg" id="msg"
-                                                    placeholder="Message"></textarea>
+                                            <div class="div-padding">
+                                                <label for="msg" class="text-white">Message <span
+                                                        class="text-danger">*</span></label>
+                                                <textarea class="form-control" name="msg" id="msg" rows="5" required
+                                                    placeholder="Message (minimum 30 words)"></textarea>
+                                                <div class="invalid-feedback">Please enter a message with at least 30 words</div>
                                             </div>
-                                            <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j"></div>
+                                            <div class="g-recaptcha"
+                                                data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j"></div>
 
-                                            <div class="submit-btn-wrapper">
+                                            <div class="submit-btn-wrapper div-padding">
                                                 <button type="submit" name="contact" class="main-btn">Send</button>
                                                 <div id="loader">
                                                     <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                                 </div>
                                             </div>
-                                        </form> 
+                                        </form>
                                     </div>
                                 </div>
                             </div>
@@ -238,6 +250,63 @@ if (contactFormSubmitted) {
         });
     }
 }
+</script>
+<script>
+const phoneInputField = document.querySelector("#phone");
+const phoneInput = window.intlTelInput(phoneInputField, {
+    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+});
+
+// Form validation
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    let form = this;
+    let isValid = true;
+
+    // Reset previous validation states
+    form.classList.remove('was-validated');
+    
+    // Validate name
+    let nameInput = form.querySelector('#name');
+    if (!nameInput.value.trim()) {
+        isValid = false;
+        nameInput.classList.add('is-invalid');
+    }
+
+    // Validate phone
+    if (!phoneInput.isValidNumber()) {
+        isValid = false;
+        phoneInputField.classList.add('is-invalid');
+    }
+
+    // Validate email
+    let emailInput = form.querySelector('#email');
+    let emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailPattern.test(emailInput.value)) {
+        isValid = false;
+        emailInput.classList.add('is-invalid');
+    }
+
+    // Validate message (minimum 30 words)
+    let messageInput = form.querySelector('#msg');
+    let wordCount = messageInput.value.trim().split(/\s+/).length;
+    if (wordCount < 30) {
+        isValid = false;
+        messageInput.classList.add('is-invalid');
+    }
+
+    // Prevent form submission if validation fails
+    if (!isValid) {
+        event.preventDefault();
+        form.classList.add('was-validated');
+    }
+});
+
+// Clear validation state when inputs change
+document.querySelectorAll('#contact-form input, #contact-form textarea').forEach(input => {
+    input.addEventListener('input', function() {
+        this.classList.remove('is-invalid');
+    });
+});
 </script>
 </body>
 
