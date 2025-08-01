@@ -189,7 +189,8 @@ if (isset($_POST['form-contact'])) {
                                                         class="text-danger">*</span></label>
                                                 <textarea class="form-control" name="msg" id="msg" rows="5" required
                                                     placeholder="Message (minimum 30 words)"></textarea>
-                                                <div class="invalid-feedback">Please enter a message with at least 30 words</div>
+                                                <div class="invalid-feedback">Please enter a message with at least 30
+                                                    words</div>
                                             </div>
                                             <div class="g-recaptcha"
                                                 data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j"></div>
@@ -259,12 +260,14 @@ const phoneInput = window.intlTelInput(phoneInputField, {
 
 // Form validation
 document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
     let form = this;
     let isValid = true;
 
     // Reset previous validation states
     form.classList.remove('was-validated');
-    
+
     // Validate name
     let nameInput = form.querySelector('#name');
     if (!nameInput.value.trim()) {
@@ -299,6 +302,8 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         event.preventDefault();
         form.classList.add('was-validated');
     }
+
+    form.submit(); // Submit the form if all validations pass
 });
 
 // Clear validation state when inputs change
