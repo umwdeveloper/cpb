@@ -68,8 +68,9 @@ if (isset($_POST['form-contact'])) {
 
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.21/build/css/intlTelInput.css">
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.21/build/js/intlTelInput.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.21/build/js/utils.js"></script>
 </head>
 
 <?php include 'assets/include/header.php'; ?>
@@ -238,6 +239,8 @@ if (isset($_POST['form-contact'])) {
 
 
 <?php include 'assets/include/footer.php'; ?>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css">
 <script>
 contactFormSubmitted = <?php echo json_encode($contactFormSubmitted); ?>;
 
@@ -254,11 +257,12 @@ if (contactFormSubmitted) {
 <script>
 const phoneInputField = document.querySelector("#phone");
 const phoneInput = window.intlTelInput(phoneInputField, {
+    initialCountry: "gb",
     preferredCountries: ["gb", "us"],
+    utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.21/build/js/utils.js",
     separateDialCode: true,
     formatOnDisplay: true,
-    nationalMode: true,
-    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    autoPlaceholder: "polite"
 });
 
 // Form validation
@@ -280,14 +284,17 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     }
 
     // Validate phone
-    const phoneNumber = phoneInput.getNumber();
-    if (!phoneInput.isValidNumber() || !phoneNumber) {
-        alert("Please enter a valid phone number with country code");
+    if (!phoneInputField.value.trim()) {
+        alert("Please enter a phone number");
+        isValid = false;
+        phoneInputField.classList.add('is-invalid');
+    } else if (!phoneInput.isValidNumber()) {
+        alert("Please enter a valid phone number for the selected country");
         isValid = false;
         phoneInputField.classList.add('is-invalid');
     } else {
         // Store the full international number in the form
-        phoneInputField.value = phoneNumber;
+        phoneInputField.value = phoneInput.getNumber();
     }
 
     // Validate email
