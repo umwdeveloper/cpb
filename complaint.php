@@ -413,6 +413,8 @@ if (isset($_POST['form-issue'])) {
                                             <option value="Refund">Refund</option>
                                             <option value="Repair">Repair</option>
                                             <option value="Replacement">Replacement</option>
+                                             <option value="Compensation">Compensation</option>
+                                              <option value="Apology">Apology</option>
                                         </select>
                                         <div class="invalid-feedback">Please select your desired resolution</div>
                                     </div>
