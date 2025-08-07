@@ -254,6 +254,10 @@ if (contactFormSubmitted) {
 <script>
 const phoneInputField = document.querySelector("#phone");
 const phoneInput = window.intlTelInput(phoneInputField, {
+    preferredCountries: ["gb", "us"],
+    separateDialCode: true,
+    formatOnDisplay: true,
+    nationalMode: true,
     utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
 });
 
@@ -276,10 +280,14 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     }
 
     // Validate phone
-    if (!phoneInput.isValidNumber()) {
-        alert("Please enter a valid phone number");
+    const phoneNumber = phoneInput.getNumber();
+    if (!phoneInput.isValidNumber() || !phoneNumber) {
+        alert("Please enter a valid phone number with country code");
         isValid = false;
         phoneInputField.classList.add('is-invalid');
+    } else {
+        // Store the full international number in the form
+        phoneInputField.value = phoneNumber;
     }
 
     // Validate email
