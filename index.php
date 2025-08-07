@@ -120,7 +120,7 @@ if (isset($_POST['form-issue'])) {
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <script src="https://analytics.ahrefs.com/analytics.js" data-key="VTs14Xy/Kdyw0NN4JQulEw" defer="true"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.21/build/css/intlTelInput.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.21/build/css/intlTelInput.css">
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.21/build/js/intlTelInput.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.21/build/js/utils.js"></script>
 </head>
@@ -594,7 +594,8 @@ if (isset($_POST['form-issue'])) {
                                 </ul>
                                 <div class="mt-4 pt-3 pb-3">
                                     <a href="Press-Release/Press-Release-11-02-2025.pdf" target="_blank"
-                                        class="main-btn home-news-btn text-white" style="font-size:22px">📖 Read Our Full Press
+                                        class="main-btn home-news-btn text-white" style="font-size:22px">📖 Read Our
+                                        Full Press
                                         Release </a>
                                 </div>
                             </div>
@@ -775,19 +776,22 @@ if (isset($_POST['form-issue'])) {
                                 <form method="post" class="contact-validation-active" id="issue-form"
                                     novalidate="novalidate">
                                     <div class="half-col pe-lg-2 mb-3">
-                                        <label for="Name" class="text-white">Name <span class="text-danger">*</span></label>
+                                        <label for="Name" class="text-white">Name <span
+                                                class="text-danger">*</span></label>
                                         <input type="text" name="name" id="name" class="form-control form-input"
                                             placeholder="Your Name" required>
                                         <div class="invalid-feedback">Please enter your name</div>
                                     </div>
                                     <div class="half-col ps-lg-2 mb-3">
-                                        <label for="phone" class="text-white">Phone <span class="text-danger">*</span></label>
+                                        <label for="phone" class="text-white">Phone <span
+                                                class="text-danger">*</span></label>
                                         <input type="text" name="phone" id="phone" class="form-control "
                                             placeholder="Phone" required>
                                         <div class="invalid-feedback">Please enter a valid phone number</div>
                                     </div>
                                     <div class=" mb-3">
-                                        <label for="email" class="text-white">Email <span class="text-danger">*</span></label>
+                                        <label for="email" class="text-white">Email <span
+                                                class="text-danger">*</span></label>
                                         <input type="email" name="email" id="email" class="form-control form-input"
                                             placeholder="Email" required>
                                         <div class="invalid-feedback">Please enter a valid email address</div>
@@ -795,8 +799,10 @@ if (isset($_POST['form-issue'])) {
                                     <input type="hidden" name="form-issue">
 
                                     <div class=" mb-3">
-                                        <label for="consumer-issue" class="text-white">Consumer Issues <span class="text-danger">*</span></label>
-                                        <select name="consumer-issue" id="consumer-issue" class="form-control " required>
+                                        <label for="consumer-issue" class="text-white">Consumer Issues <span
+                                                class="text-danger">*</span></label>
+                                        <select name="consumer-issue" id="consumer-issue" class="form-control "
+                                            required>
                                             <option value="" selected disabled>Select Consumer Issue</option>
                                             <option value="Travels">Travels</option>
                                             <option value="Energy/Utilities">Energy/Utilities</option>
@@ -809,14 +815,16 @@ if (isset($_POST['form-issue'])) {
                                     </div>
 
                                     <div class="row">
-                                       
+
                                         <div class="col-md-7 mb-3">
-                                            <label for="currency" class="text-white">Currency <span class="text-danger">*</span></label>
-                                            <select name="currency" id="currency" class="form-control text-white" required>
+                                            <label for="currency" class="text-white">Currency <span
+                                                    class="text-danger">*</span></label>
+                                            <select name="currency" id="currency" class="form-control text-white"
+                                                required>
                                                 <!-- Most common currencies first -->
                                                 <option value="GBP" selected>British Pound Sterling (GBP - £)</option>
                                                 <option value="EUR">Euro (EUR - €)</option>
-                                                <option value="USD" >US Dollar (USD - $)</option>
+                                                <option value="USD">US Dollar (USD - $)</option>
 
                                                 <!-- All other currencies alphabetically -->
                                                 <option value="AED">United Arab Emirates Dirham (AED - د.إ.‏)</option>
@@ -935,8 +943,9 @@ if (isset($_POST['form-issue'])) {
                                             </select>
                                             <div class="invalid-feedback">Please select a currency</div>
                                         </div>
-                                         <div class="col-md-5 mb-3">
-                                            <label for="price" class="text-white">Price of Product/Service <span class="text-danger">*</span></label>
+                                        <div class="col-md-5 mb-3">
+                                            <label for="price" class="text-white">Price of Product/Service <span
+                                                    class="text-danger">*</span></label>
                                             <input type="number" name="price" id="price" class="form-control form-input"
                                                 placeholder="Price amount" required min="0" step="0.01">
                                             <div class="invalid-feedback">Please enter a valid price</div>
@@ -944,13 +953,17 @@ if (isset($_POST['form-issue'])) {
                                     </div>
 
                                     <div class="mb-3">
-                                        <label for="complaint-about" class="text-white">Product or Service Complaining about <span class="text-danger">*</span></label>
+                                        <label for="complaint-about" class="text-white">Product or Service Complaining
+                                            about <span class="text-danger">*</span></label>
                                         <input type="text" name="complaint-about" id="complaint-about"
-                                            class="form-control form-input" placeholder="Product or Service Complaining about" required>
-                                        <div class="invalid-feedback">Please specify what you are complaining about</div>
+                                            class="form-control form-input"
+                                            placeholder="Product or Service Complaining about" required>
+                                        <div class="invalid-feedback">Please specify what you are complaining about
+                                        </div>
                                     </div>
                                     <div class="mb-3">
-                                        <label for="address" class="text-white">Desired Resolution <span class="text-danger">*</span></label>
+                                        <label for="address" class="text-white">Desired Resolution <span
+                                                class="text-danger">*</span></label>
                                         <select name="address" id="address" class="form-control" required>
                                             <option value="" disabled selected>Select Desired Resolution</option>
                                             <option value="Refund">Refund</option>
@@ -960,10 +973,13 @@ if (isset($_POST['form-issue'])) {
                                         <div class="invalid-feedback">Please select your desired resolution</div>
                                     </div>
                                     <div class="mb-3">
-                                        <label for="reason" class="text-white">Nature of Complaint <span class="text-danger">*</span></label>
+                                        <label for="reason" class="text-white">Nature of Complaint <span
+                                                class="text-danger">*</span></label>
                                         <textarea class="form-control" name="reason" id="reason"
-                                            placeholder="Please provide detailed information about your complaint (minimum 30 words)..." required rows="5"></textarea>
-                                        <div class="invalid-feedback">Please enter a detailed complaint (minimum 30 words)</div>
+                                            placeholder="Please provide detailed information about your complaint (minimum 30 words)..."
+                                            required rows="5"></textarea>
+                                        <div class="invalid-feedback">Please enter a detailed complaint (minimum 30
+                                            words)</div>
                                     </div>
                                     <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j">
                                     </div>
@@ -1021,7 +1037,7 @@ if (isset($_POST['form-issue'])) {
         </div>
         </div>
               
-    </section> 
+    </section>
 
     <section class="py-lg-5 py-4 bg-light">
         <div class="container">
@@ -1301,7 +1317,7 @@ if (issueFormSubmitted) {
 }
 </script>
 <script>
-    const phoneInputField = document.querySelector("#phone");
+const phoneInputField = document.querySelector("#phone");
 const phoneInput = window.intlTelInput(phoneInputField, {
     initialCountry: "gb",
     preferredCountries: ["gb", "us"],
@@ -1314,7 +1330,7 @@ const phoneInput = window.intlTelInput(phoneInputField, {
 // Form validation
 document.getElementById('issue-form').addEventListener('submit', function(e) {
     let isValid = true;
-    
+
     // Reset all error states
     this.querySelectorAll('.is-invalid').forEach(el => {
         el.classList.remove('is-invalid');
@@ -1381,9 +1397,9 @@ document.getElementById('issue-form').addEventListener('submit', function(e) {
     const wordCount = reason.value.trim().split(/\s+/).length;
     if (!reason.value.trim() || wordCount < 30) {
         reason.classList.add('is-invalid');
-        reason.nextElementSibling.textContent = wordCount < 30 
-            ? `Please enter at least 30 words (current: ${wordCount})` 
-            : 'Please enter your complaint';
+        reason.nextElementSibling.textContent = wordCount < 30 ?
+            `Please enter at least 30 words (current: ${wordCount})` :
+            'Please enter your complaint';
         isValid = false;
     }
 
@@ -1399,7 +1415,10 @@ document.getElementById('issue-form').addEventListener('submit', function(e) {
         // Scroll to the first error
         const firstError = document.querySelector('.is-invalid');
         if (firstError) {
-            firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            firstError.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            });
         }
     }
 });
@@ -1408,7 +1427,7 @@ document.getElementById('issue-form').addEventListener('submit', function(e) {
 document.getElementById('reason').addEventListener('input', function() {
     const wordCount = this.value.trim().split(/\s+/).filter(word => word.length > 0).length;
     const minWords = 30;
-    
+
     if (wordCount < minWords) {
         this.classList.add('is-invalid');
         this.nextElementSibling.textContent = `Please enter at least ${minWords} words (current: ${wordCount})`;
