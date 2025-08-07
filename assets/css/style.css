@@ -324,6 +324,7 @@ body {
 .iti.iti--allow-dropdown.iti--separate-dial-code input{
     background-color: transparent !important;
     border: none !important;
+    color: white !important;
 }
 
 .iti__flag{

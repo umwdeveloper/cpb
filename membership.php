@@ -520,7 +520,7 @@ $feedbacks = findAll("feedbacks");
             </div>
         </div>
     </section>
-    <section>
+    <!-- <section>
         <div class="contact-area py-lg-5 py-4">
             <div class="container py-4">
                 <div class="row ">
@@ -614,7 +614,7 @@ $feedbacks = findAll("feedbacks");
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 </main>
 
 <?php include 'assets/include/footer.php'; ?>

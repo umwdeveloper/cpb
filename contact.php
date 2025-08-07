@@ -278,18 +278,18 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     // Validate name
     let nameInput = form.querySelector('#name');
     if (!nameInput.value.trim()) {
-        alert("Please enter your name");
+        // alert("Please enter your name");
         isValid = false;
         nameInput.classList.add('is-invalid');
     }
 
     // Validate phone
     if (!phoneInputField.value.trim()) {
-        alert("Please enter a phone number");
+        // alert("Please enter a phone number");
         isValid = false;
         phoneInputField.classList.add('is-invalid');
     } else if (!phoneInput.isValidNumber()) {
-        alert("Please enter a valid phone number for the selected country");
+        // alert("Please enter a valid phone number for the selected country");
         isValid = false;
         phoneInputField.classList.add('is-invalid');
     } else {
@@ -301,7 +301,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     let emailInput = form.querySelector('#email');
     let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     if (!emailPattern.test(emailInput.value.toLowerCase())) {
-        alert("Please enter a valid email address");
+        // alert("Please enter a valid email address");
         isValid = false;
         emailInput.classList.add('is-invalid');
     }
@@ -310,7 +310,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     let messageInput = form.querySelector('#msg');
     let wordCount = messageInput.value.trim().split(/\s+/).length;
     if (wordCount < 30) {
-        alert("Please enter a message with at least 30 words");
+        // alert("Please enter a message with at least 30 words");
         isValid = false;
         messageInput.classList.add('is-invalid');
     }

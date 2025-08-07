@@ -786,7 +786,7 @@ $feedbacks = findAll("feedbacks");
                                             placeholder="Phone" required>
                                         <div class="invalid-feedback">Please enter a valid phone number</div>
                                     </div>
-                                    <div class=" pe-lg-2 mb-3">
+                                    <div class=" mb-3">
                                         <label for="email" class="text-white">Email <span class="text-danger">*</span></label>
                                         <input type="email" name="email" id="email" class="form-control form-input"
                                             placeholder="Email" required>
@@ -794,9 +794,9 @@ $feedbacks = findAll("feedbacks");
                                     </div>
                                     <input type="hidden" name="form-issue">
 
-                                    <div class=" ps-lg-2 mb-3">
+                                    <div class=" mb-3">
                                         <label for="consumer-issue" class="text-white">Consumer Issues <span class="text-danger">*</span></label>
-                                        <select name="consumer-issue" id="consumer-issue" class="form-control" required>
+                                        <select name="consumer-issue" id="consumer-issue" class="form-control " required>
                                             <option value="" selected disabled>Select Consumer Issue</option>
                                             <option value="Travels">Travels</option>
                                             <option value="Energy/Utilities">Energy/Utilities</option>
@@ -994,7 +994,7 @@ $feedbacks = findAll("feedbacks");
                 </div>
                 <div class="col-lg-12">
                     <div class="slick-slider quote-slider">
-                        <?php $feedbacks = []; foreach ($feedbacks as $count => $feedback): ?>
+                        <?php foreach ($feedbacks as $count => $feedback): ?>
                         <div class="element element-<?php echo ++$count; ?>">
                             <div class="amenity-card quote-card">
                                 <div class="text-center mb-4">
