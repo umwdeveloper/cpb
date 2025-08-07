@@ -79,7 +79,7 @@ if (isset($_POST['form-issue'])) {
     }
 }
 
-// $feedbacks = findAll("feedbacks");
+$feedbacks = findAll("feedbacks");
 
 ?>
 
@@ -982,7 +982,8 @@ if (isset($_POST['form-issue'])) {
             </div>
         </div>
     </section>
-    <!-- <section class="py-lg-5 py-4 ">
+    
+    <section class="py-lg-5 py-4 ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -1019,7 +1020,8 @@ if (isset($_POST['form-issue'])) {
         </div>
         </div>
               
-    </section> -->
+    </section> 
+
     <section class="py-lg-5 py-4 bg-light">
         <div class="container">
             <div class="row">

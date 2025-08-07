@@ -35,7 +35,7 @@ if (isset($_POST['form-contact'])) {
         $contactFormSubmitted = true;
     }
 }
-// $feedbacks = findAll("feedbacks");
+$feedbacks = findAll("feedbacks");
 
 ?>
 <!doctype html>
@@ -214,7 +214,7 @@ if (isset($_POST['form-contact'])) {
 
 
 
-    <!-- <section class="py-lg-5 py-4">
+     <section class="py-lg-5 py-4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -251,7 +251,7 @@ if (isset($_POST['form-contact'])) {
         </div>
         </div>
               
-    </section> -->
+    </section>
     <section class="py-lg-5 py-4 bg-light">
         <div class="container">
             <div class="row justify-content-center">
