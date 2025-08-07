@@ -79,7 +79,7 @@ if (isset($_POST['form-issue'])) {
     }
 }
 
-$feedbacks = findAll("feedbacks");
+// $feedbacks = findAll("feedbacks");
 
 ?>
 
@@ -157,7 +157,7 @@ $feedbacks = findAll("feedbacks");
                                 provider, retailer, or product manufacturer, and the outcome is unsatisfactory?</p>
 
                             <div class="mt-4 pt-4">
-                                <a href="contact.php" class="main-btn">Contact us</a>
+                                <a href="complaint.php" class="main-btn">Submit Complaint</a>
                             </div>
                         </div>
                     </div>

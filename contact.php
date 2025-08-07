@@ -320,7 +320,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         event.preventDefault();
         form.classList.add('was-validated');
 
-        alert(isValid);
+        // alert(isValid);
 
         return; // Stop further execution if validation fails
     }
