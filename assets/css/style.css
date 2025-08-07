@@ -308,6 +308,42 @@ body {
 .footer-text p a{
     text-decoration: none;
 }
+.iti.iti--allow-dropdown.iti--separate-dial-code{
+    width: 100% !important;
+
+    background: rgba(192, 181, 150, .2);
+    height: 50px;
+    padding: 6px 15px;
+    color: #fff;
+    border: 2px solid #454545;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid rgba(192, 181, 150, .5);
+}
+.iti.iti--allow-dropdown.iti--separate-dial-code input{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.iti__flag{
+    display: none !important;
+}
+
+.iti__country-list{
+    color: black !important;
+}
+.iti__flag-box{
+    display: none !important;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 600px) {
 
     .contact-area form .half-col,
