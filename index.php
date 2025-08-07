@@ -739,7 +739,7 @@ $feedbacks = findAll("feedbacks");
         <div class="contact-area py-lg-5 py-4">
             <div class="container py-4">
                 <div class="row ">
-                    <div class="col-lg-5 col-md-12">
+                    <div class="col-lg-4 col-md-12">
                         <div class="contact-text">
                             <div class="title">
                                 <span>Need Help?</span>
@@ -762,7 +762,7 @@ $feedbacks = findAll("feedbacks");
                         </div>
                     </div>
 
-                    <div class="col col-lg-7 col-md-12 col-sm-12">
+                    <div class="col col-lg-8 col-md-12 col-sm-12">
                         <div class="contact-content ps-lg-5">
                             <div class="contact-form">
                                 <?php if (isset($_POST['form-issue'])): ?>
@@ -774,27 +774,27 @@ $feedbacks = findAll("feedbacks");
                                 <?php endif; ?>
                                 <form method="post" class="contact-validation-active" id="issue-form"
                                     novalidate="novalidate">
-                                    <div class="half-col">
+                                    <div class="half-col pe-lg-2 mb-3">
                                         <label for="Name" class="text-white">Name <span class="text-danger">*</span></label>
-                                        <input type="text" name="name" id="name" class="form-control"
+                                        <input type="text" name="name" id="name" class="form-control form-input"
                                             placeholder="Your Name" required>
                                         <div class="invalid-feedback">Please enter your name</div>
                                     </div>
-                                    <div class="half-col">
+                                    <div class="half-col ps-lg-2 mb-3">
                                         <label for="phone" class="text-white">Phone <span class="text-danger">*</span></label>
-                                        <input type="text" name="phone" id="phone" class="form-control"
+                                        <input type="text" name="phone" id="phone" class="form-control "
                                             placeholder="Phone" required>
                                         <div class="invalid-feedback">Please enter a valid phone number</div>
                                     </div>
-                                    <div class="half-col">
+                                    <div class=" pe-lg-2 mb-3">
                                         <label for="email" class="text-white">Email <span class="text-danger">*</span></label>
-                                        <input type="email" name="email" id="email" class="form-control"
+                                        <input type="email" name="email" id="email" class="form-control form-input"
                                             placeholder="Email" required>
                                         <div class="invalid-feedback">Please enter a valid email address</div>
                                     </div>
                                     <input type="hidden" name="form-issue">
 
-                                    <div class="half-col">
+                                    <div class=" ps-lg-2 mb-3">
                                         <label for="consumer-issue" class="text-white">Consumer Issues <span class="text-danger">*</span></label>
                                         <select name="consumer-issue" id="consumer-issue" class="form-control" required>
                                             <option value="" selected disabled>Select Consumer Issue</option>
@@ -809,19 +809,14 @@ $feedbacks = findAll("feedbacks");
                                     </div>
 
                                     <div class="row">
-                                        <div class="col-md-8">
-                                            <label for="price" class="text-white">Price of Product/Service <span class="text-danger">*</span></label>
-                                            <input type="number" name="price" id="price" class="form-control"
-                                                placeholder="Price amount" required min="0" step="0.01">
-                                            <div class="invalid-feedback">Please enter a valid price</div>
-                                        </div>
-                                        <div class="col-md-4">
+                                       
+                                        <div class="col-md-7 mb-3">
                                             <label for="currency" class="text-white">Currency <span class="text-danger">*</span></label>
-                                            <select name="currency" id="currency" class="form-control" required>
+                                            <select name="currency" id="currency" class="form-control text-white" required>
                                                 <!-- Most common currencies first -->
                                                 <option value="GBP" selected>British Pound Sterling (GBP - £)</option>
                                                 <option value="EUR">Euro (EUR - €)</option>
-                                                <option value="USD">US Dollar (USD - $)</option>
+                                                <option value="USD" >US Dollar (USD - $)</option>
 
                                                 <!-- All other currencies alphabetically -->
                                                 <option value="AED">United Arab Emirates Dirham (AED - د.إ.‏)</option>
@@ -940,15 +935,21 @@ $feedbacks = findAll("feedbacks");
                                             </select>
                                             <div class="invalid-feedback">Please select a currency</div>
                                         </div>
+                                         <div class="col-md-5 mb-3">
+                                            <label for="price" class="text-white">Price of Product/Service <span class="text-danger">*</span></label>
+                                            <input type="number" name="price" id="price" class="form-control form-input"
+                                                placeholder="Price amount" required min="0" step="0.01">
+                                            <div class="invalid-feedback">Please enter a valid price</div>
+                                        </div>
                                     </div>
 
-                                    <div>
+                                    <div class="mb-3">
                                         <label for="complaint-about" class="text-white">Product or Service Complaining about <span class="text-danger">*</span></label>
                                         <input type="text" name="complaint-about" id="complaint-about"
-                                            class="form-control" placeholder="Product or Service Complaining about" required>
+                                            class="form-control form-input" placeholder="Product or Service Complaining about" required>
                                         <div class="invalid-feedback">Please specify what you are complaining about</div>
                                     </div>
-                                    <div>
+                                    <div class="mb-3">
                                         <label for="address" class="text-white">Desired Resolution <span class="text-danger">*</span></label>
                                         <select name="address" id="address" class="form-control" required>
                                             <option value="" disabled selected>Select Desired Resolution</option>
@@ -958,7 +959,7 @@ $feedbacks = findAll("feedbacks");
                                         </select>
                                         <div class="invalid-feedback">Please select your desired resolution</div>
                                     </div>
-                                    <div>
+                                    <div class="mb-3">
                                         <label for="reason" class="text-white">Nature of Complaint <span class="text-danger">*</span></label>
                                         <textarea class="form-control" name="reason" id="reason"
                                             placeholder="Please provide detailed information about your complaint (minimum 30 words)..." required rows="5"></textarea>
@@ -982,7 +983,7 @@ $feedbacks = findAll("feedbacks");
             </div>
         </div>
     </section>
-    
+
     <section class="py-lg-5 py-4 ">
         <div class="container">
             <div class="row">
@@ -1145,7 +1146,7 @@ $feedbacks = findAll("feedbacks");
             </div>
         </div>
     </section>
-    <section>
+    <!-- <section>
         <div class="contact-area py-lg-5 py-4">
             <div class="container py-4">
                 <div class="row ">
@@ -1239,7 +1240,7 @@ $feedbacks = findAll("feedbacks");
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 </main>
 <?php include 'assets/include/footer.php'; ?>
 
