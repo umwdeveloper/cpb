@@ -22,18 +22,18 @@ if (isset($_POST['form-contact'])) {
     $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptchaSecret&response=$recaptchaResponse");
     $responseKeys = json_decode($response, true);
 
-    // if ($responseKeys["success"]) {
+    if ($responseKeys["success"]) {
         // reCAPTCHA validated
         $msg = sendMail($email, $name, $subject, $body);
 
         $contactFormSubmitted = true;
-    // } else {
-    //     // reCAPTCHA failed
-    //     $msg['status'] = 'error';
-    //     $msg['message'] = "Please complete the reCAPTCHA verification.";
+    } else {
+        // reCAPTCHA failed
+        $msg['status'] = 'error';
+        $msg['message'] = "Please complete the reCAPTCHA verification.";
 
-    //     $contactFormSubmitted = true;
-    // }
+        $contactFormSubmitted = true;
+    }
 }
 
 ?>
