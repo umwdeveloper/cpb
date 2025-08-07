@@ -269,7 +269,7 @@ if (isset($_POST['form-issue'])) {
                                        
                                         <div class="col-md-7 mb-3">
                                             <label for="currency" class="text-white">Currency <span class="text-danger">*</span></label>
-                                            <select name="currency" id="currency" class="form-control text-white" required>
+                                            <select name="currency" id="currency" class="form-control " required>
                                                 <!-- Most common currencies first -->
                                                 <option value="GBP" selected>British Pound Sterling (GBP - £)</option>
                                                 <option value="EUR">Euro (EUR - €)</option>

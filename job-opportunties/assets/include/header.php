@@ -60,9 +60,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="../" aria-current="page">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="../about.php">About</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="./">Job Opportunties</a>
                         </li>
@@ -95,6 +95,8 @@
                                  More
                             </a>
                             <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
+                                
+                                <li><a class="dropdown-item nav-link" href="../about.php">About</a></li>
                                 <li><a class="dropdown-item nav-link" href="../blog/index.php">Blog</a></li>
                                
                                 <li><a class="dropdown-item nav-link" href="../advocacy.php">Advocacy</a></li>
@@ -122,6 +124,11 @@
                      
                         <li class="nav-item pb-xl-0 pb-3">
                             <a class="nav-link" href="../contact.php">Contact
+                            </a>
+                        </li>
+                         
+                        <li class=" pb-xl-0 pb-3 complaint-btn ms-2 text-center" style="">
+                            <a class="text-center" href="complaint.php">Get Help
                             </a>
                         </li>
 
