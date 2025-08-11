@@ -79,7 +79,7 @@ if (isset($_POST['form-issue'])) {
     }
 }
 
-// $feedbacks = findAll("feedbacks");
+$feedbacks = findAll("feedbacks");
 
 ?>
 
