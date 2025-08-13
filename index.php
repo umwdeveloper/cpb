@@ -157,7 +157,7 @@ $feedbacks = findAll("feedbacks");
                                 provider, retailer, or product manufacturer, and the outcome is unsatisfactory?</p>
 
                             <div class="mt-4 pt-4">
-                                <a href="complaint.php" class="main-btn">Submit Complaint</a>
+                                <a href="get-help.php" class="main-btn">Submit Complaint</a>
                             </div>
                         </div>
                     </div>

@@ -76,83 +76,95 @@ if (isset($_POST['form-contact'])) {
 <?php include 'assets/include/header.php'; ?>
 <main>
 
-  <section class="py-lg-5 py-4 bg-light about-hero">
-  <div class="container py-5 px-3 px-md-5" style="max-width: 980px; background: #E3F2FD; border-radius: 12px;">
-    <!-- Hero Image -->
-    <div class="mb-4 rounded shadow-sm overflow-hidden">
-      <img src="../assets/images/blog/trustpilot-complaints.png"
-       alt="Trustpilot Complaints" class="img-fluid w-100">
-    </div>
+    <section class="py-lg-5 py-4 bg-light about-hero">
+        <div class="container py-5 px-3 px-md-5" style="max-width: 980px; background: #E3F2FD; border-radius: 12px;">
+            <!-- Hero Image -->
+            <div class="mb-4 rounded shadow-sm overflow-hidden">
+                <img src="../assets/images/blog/trustpilot-complaints.png" alt="Trustpilot Complaints"
+                    class="img-fluid w-100">
+            </div>
 
-    <!-- Title & Meta -->
-    <div class="mb-4">
-      <h1 class="display-5 fw-bold text-uppercase" style="color: #223a78;">Trustpilot Complaints: <br> 
-      <span style="color:#e5bf20">CPB Seeks Legal Action</span></h1>
-      <h2 class="fw-semibold" style="font-size: 1.6rem; color: #333;"> Over Unfair Review Removals</h2>
-      <p class="text-muted mt-2 small">By the <strong>Consumer Protection Bureau (CPB)</strong> | August 2025</p>
-    </div>
+            <!-- Title & Meta -->
+            <div class="mb-4">
+                <span class="fw-semibold" style="font-size: 1.6rem; color: #333;"> Trustpilot Complaints:</span>
 
-    <!-- Main Blog Content -->
-    <div class="fs-5 lh-lg text-dark">
-      <p>Over recent months, the Consumer Protection Bureau (CPB) has been contacted by an increasing number
-        of consumers and small businesses raising serious concerns about Trustpilot’s review moderation practices. Many
-        have reported that genuine reviews based on verified customer experiences were removed without clear justification,
-        often following challenges by the businesses reviewed.</p>
+                <h1 class="display-5 fw-bold text-uppercase" style="color: #223a78;"> 
+                    <span style="color:#e5bf20">CPB Seeks Legal Action</span><br>
+                    Over Unfair Review Removals
+                </h1>
+                <!-- <h2 class="fw-semibold" style="font-size: 1.6rem; color: #333;"> Over Unfair Review Removals</h2> -->
+                <p class="text-muted mt-2 small">
+                    By the <strong>Consumer Protection Bureau (CPB)</strong> | August 2025
+                </p>
+            </div>
 
-      <h3 class="fw-bold mt-4 mb-3" style="color: #223a78;">Key Issues Reported to CPB</h3>
-      <p>Our investigation has highlighted troubling patterns, including:</p>
+            <!-- Main Blog Content -->
+            <div class="fs-5 lh-lg text-dark">
+                <p>Over recent months, the Consumer Protection Bureau (CPB) has been contacted by an increasing number of consumers and small businesses raising serious concerns about Trustpilot’s review moderation practices. Many have reported that genuine reviews based on verified customer experiences were removed without clear justification, often following challenges by the businesses reviewed.</p>
 
-      <ul class="ps-3">
-        <li>Unfair review removals and lack of clear reasoning</li>
-        <li>Over-reliance on automated moderation systems that make mistakes</li>
-        <li>Lack of transparency in how moderation decisions are made</li>
-        <li>Potential bias towards paying business subscribers</li>
-        <li>Consumers being left without a voice despite following Trustpilot’s guidelines</li>
-      </ul>
+                <h3 class="fw-bold mt-4 mb-3" style="color: #223a78;">Key Issues Reported to CPB</h3>
+                <p>Our investigation has highlighted troubling patterns, including:</p>
 
-      <p>These issues raise serious questions about consumer rights and the integrity of online reviews. Review platforms should
-        protect honest feedback, not silence it.</p>
+                <ul class="ps-3">
+                    <li>Unfair review removals and lack of clear reasoning</li>
+                    <li>Over-reliance on automated moderation systems that make mistakes</li>
+                    <li>Lack of transparency in how moderation decisions are made</li>
+                    <li>Potential bias towards paying business subscribers</li>
+                    <li>Consumers being left without a voice despite following Trustpilot’s guidelines</li>
+                </ul>
 
-      <h3 class="fw-bold mt-5 mb-3" style="color: #223a78;">CPB Seeking Legal Action Against Trustpilot</h3>
-      <p>CPB is now filing formal complaints with the competent authorities to hold Trustpilot accountable for its handling of
-        consumer reviews and its review removal process. This step is being taken to protect effective transparency, fairness,
-        and trust in the online review industry.</p>
+                <p>These issues raise serious questions about consumer rights and the integrity of online reviews.
+                    Review platforms should
+                    protect honest feedback, not silence it.</p>
 
-      <p>To build a strong legal case, we are calling on consumers and business owners who have experienced unfair review
-        moderation to come forward.</p>
+                <h3 class="fw-bold mt-5 mb-3" style="color: #223a78;">CPB Seeking Legal Action Against Trustpilot</h3>
+                <p>CPB is now filing formal complaints with the competent authorities to hold Trustpilot accountable for
+                    its handling of
+                    consumer reviews and its review removal process. This step is being taken to protect effective
+                    transparency, fairness,
+                    and trust in the online review industry.</p>
 
-      <h3 class="fw-bold mt-5 mb-3" style="color: #223a78;">Have You Experienced Trustpilot Review Removal?</h3>
-      <p>We want to hear from you if:</p>
+                <p>To build a strong legal case, we are calling on consumers and business owners who have experienced
+                    unfair review
+                    moderation to come forward.</p>
 
-      <ul class="ps-3">
-        <li>Your Trustpilot review was removed or hidden despite being genuine</li>
-        <li>You provided proof of purchase or documentation, yet your review was still deleted</li>
-        <li>You believe your review was taken down due to business influence or bias</li>
-        <li>You experienced pressure to amend or delete your review</li>
-      </ul>
+                <h3 class="fw-bold mt-5 mb-3" style="color: #223a78;">Have You Experienced Trustpilot Review Removal?
+                </h3>
+                <p>We want to hear from you if:</p>
 
-      <h3 class="fw-bold mt-5 mb-3" style="color: #223a78;">How to Share Your Trustpilot Experience</h3>
-      <p>Please send us:</p>
-      <ol class="ps-3">
-        <li>A copy or screenshot of your original review</li>
-        <li>Any emails or messages from Trustpilot explaining the removal</li>
-        <li>A brief summary of your experience with the business in question</li>
-      </ol>
+                <ul class="ps-3">
+                    <li>Your Trustpilot review was removed or hidden despite being genuine</li>
+                    <li>You provided proof of purchase or documentation, yet your review was still deleted</li>
+                    <li>You believe your review was taken down due to business influence or bias</li>
+                    <li>You experienced pressure to amend or delete your review</li>
+                </ul>
 
-      <p>Submit your evidence via our <a href="../complaint.php" class="fw-semibold" style="color:#e5bf20">
-        CPB Complaints Form</a> or email it to
-        <a href="mailto:info@consumerprotectionbureau.co.uk" style="color:#e5bf20">info@consumerprotectionbureau.co.uk</a>.</p>
+                <h3 class="fw-bold mt-5 mb-3" style="color: #223a78;">How to Share Your Trustpilot Experience</h3>
+                <p>Please send us:</p>
+                <ol class="ps-3">
+                    <li>A copy or screenshot of your original review</li>
+                    <li>Any emails or messages from Trustpilot explaining the removal</li>
+                    <li>A brief summary of your experience with the business in question</li>
+                </ol>
 
-      <h3 class="fw-bold mt-5 mb-3" style="color: #223a78;">Why Your Voice Matters</h3>
-      <p>By coming forward, you will help CPB present clear evidence of systemic issues in online review platforms. Together,
-        we can push for stronger protections to ensure that negative reviews are not silenced and that consumers’ rights are
-        respected.</p>
+                <p>Submit your evidence via our <a href="../get-help.php" class="fw-semibold" style="color:#e5bf20">
+                        CPB Complaints Form</a> or email it to
+                    <a href="mailto:info@consumerprotectionbureau.co.uk"
+                        style="color:#e5bf20">info@consumerprotectionbureau.co.uk</a>.
+                </p>
 
-    
+                <h3 class="fw-bold mt-5 mb-3" style="color: #223a78;">Why Your Voice Matters</h3>
+                <p>By coming forward, you will help CPB present clear evidence of systemic issues in online review
+                    platforms. Together,
+                    we can push for stronger protections to ensure that negative reviews are not silenced and that
+                    consumers’ rights are
+                    respected.</p>
 
-    </div>
-  </div>
-</section>
+
+
+            </div>
+        </div>
+    </section>
 
 
 

@@ -90,8 +90,8 @@ if (isset($_POST['form-contact'])) {
     </section>
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
-            <div class="row mb-lg-0 mb-4">
-                <div class="col-lg-4 mb-3 mx-auto">
+            <div class="row mb-lg-0 mb-4 justify-content-center">
+                <div class="col-lg-4 mb-3 ">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
@@ -119,6 +119,34 @@ if (isset($_POST['form-contact'])) {
                     </div>
                 </div>
 
+                 <div class="col-lg-4 mb-3 ">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/blog/trustpilot-complaints.png"
+                                style="object-fit:contain; object-position:center;" alt="join cpb  For Just £5 a Month!"
+                                class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>9 July 2025</span> -->
+                            <h2 class="mb-0 pb-0">
+                                CPB Seeks Legal Action
+Over Unfair Review Removals
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(13 August 2025)</span>
+                                <b>LONDON </b> –
+                                The Government’s decision to scrap Ofwat and replace it with a single, integrated water regulator is not just welcome, it’s long overdue. For too long, water regulation in England and Wales has suffered from fragmentation, toothless oversight, and a disjointed approach that left consumers footing the bill while water companies polluted rivers and raked in profits.
+
+
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="trustpilot-complaints-cpb-legal-action.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
