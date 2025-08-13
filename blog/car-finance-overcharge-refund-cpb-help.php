@@ -78,7 +78,7 @@ if (isset($_POST['form-contact'])) {
         <div class="container py-5 px-3 px-md-5" style="max-width: 980px; background: #E3F2FD; border-radius: 12px;">
             <!-- Hero Image -->
             <div class="mb-4 rounded shadow-sm overflow-hidden">
-                <img src="../assets/images/news/Landmark Car Finance.png" alt="CPB Unified Water Regulator"
+                <img src="../assets/images/news/Landmark Car Finance.png" alt="Landmark Car Finance"
                     class="img-fluid w-100">
             </div>
 
