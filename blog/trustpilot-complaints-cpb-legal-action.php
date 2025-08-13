@@ -88,7 +88,7 @@ if (isset($_POST['form-contact'])) {
             <div class="mb-4">
                 <span class="fw-semibold" style="font-size: 1.6rem; color: #333;"> Trustpilot Complaints:</span>
 
-                <h1 class="display-5 fw-bold text-uppercase" style="color: #223a78;"> 
+                <h1 class="display-5 fw-bold text-uppercase" style="color: #223a78;">
                     <span style="color:#e5bf20">CPB Seeks Legal Action</span><br>
                     Over Unfair Review Removals
                 </h1>
@@ -100,7 +100,10 @@ if (isset($_POST['form-contact'])) {
 
             <!-- Main Blog Content -->
             <div class="fs-5 lh-lg text-dark">
-                <p>Over recent months, the Consumer Protection Bureau (CPB) has been contacted by an increasing number of consumers and small businesses raising serious concerns about Trustpilot’s review moderation practices. Many have reported that genuine reviews based on verified customer experiences were removed without clear justification, often following challenges by the businesses reviewed.</p>
+                <p>Over recent months, the Consumer Protection Bureau (CPB) has been contacted by an increasing number
+                    of consumers and small businesses raising serious concerns about Trustpilot’s review moderation
+                    practices. Many have reported that genuine reviews based on verified customer experiences were
+                    removed without clear justification, often following challenges by the businesses reviewed.</p>
 
                 <h3 class="fw-bold mt-4 mb-3" style="color: #223a78;">Key Issues Reported to CPB</h3>
                 <p>Our investigation has highlighted troubling patterns, including:</p>
