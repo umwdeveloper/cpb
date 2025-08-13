@@ -107,19 +107,24 @@ if (isset($_POST['form-contact'])) {
                             <p class="text mb-0 pb-0">
                                 <span>(24 July 2025)</span>
                                 <b>LONDON </b> –
-                                The Government’s decision to scrap Ofwat and replace it with a single, integrated water regulator is not just welcome, it’s long overdue. For too long, water regulation in England and Wales has suffered from fragmentation, toothless oversight, and a disjointed approach that left consumers footing the bill while water companies polluted rivers and raked in profits.
+                                The Government’s decision to scrap Ofwat and replace it with a single, integrated water
+                                regulator is not just welcome, it’s long overdue. For too long, water regulation in
+                                England and Wales has suffered from fragmentation, toothless oversight, and a disjointed
+                                approach that left consumers footing the bill while water companies polluted rivers and
+                                raked in profits.
 
 
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="cpb-welcomes-new-unified-water-regulator-end-ofwat.php" class="news-alert-btn">Read
+                                <a href="cpb-welcomes-new-unified-water-regulator-end-ofwat.php"
+                                    class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                 <div class="col-lg-4 mb-3 ">
+                <div class="col-lg-4 mb-3 ">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
@@ -131,12 +136,16 @@ if (isset($_POST['form-contact'])) {
                             <!-- <span>9 July 2025</span> -->
                             <h2 class="mb-0 pb-0">
                                 CPB Seeks Legal Action
-Over Unfair Review Removals
+                                Over Unfair Review Removals
                             </h2>
                             <p class="text mb-0 pb-0">
                                 <span>(13 August 2025)</span>
                                 <b>LONDON </b> –
-                                The Government’s decision to scrap Ofwat and replace it with a single, integrated water regulator is not just welcome, it’s long overdue. For too long, water regulation in England and Wales has suffered from fragmentation, toothless oversight, and a disjointed approach that left consumers footing the bill while water companies polluted rivers and raked in profits.
+                                The Government’s decision to scrap Ofwat and replace it with a single, integrated water
+                                regulator is not just welcome, it’s long overdue. For too long, water regulation in
+                                England and Wales has suffered from fragmentation, toothless oversight, and a disjointed
+                                approach that left consumers footing the bill while water companies polluted rivers and
+                                raked in profits.
 
 
                             </p>
