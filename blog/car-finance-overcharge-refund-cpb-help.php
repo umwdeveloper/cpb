@@ -1,42 +1,4 @@
-<!-- <?php
 
-include_once "./includes/mail.php";
-
-$contactFormSubmitted = false;
-if (isset($_POST['form-contact'])) {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $phone = $_POST['phone'];
-    $message = $_POST['msg'];
-
-    $subject = "Contact";
-
-    $body = "<strong>Name: </strong> $name" . "<br>" .
-        "<strong>Email: </strong> $email" . "<br>" .
-        "<strong>Phone: </strong> $phone" . "<br>" .
-        "<strong>Message: </strong> $message";
-
-    $recaptchaSecret = '6LeWW5YqAAAAAEjGUeFCrxd0-lBEUAAZR0v0q9tO';
-    $recaptchaResponse = $_POST['g-recaptcha-response'];
-
-    $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptchaSecret&response=$recaptchaResponse");
-    $responseKeys = json_decode($response, true);
-
-    if ($responseKeys["success"]) {
-        // reCAPTCHA validated
-        $msg = sendMail($email, $name, $subject, $body);
-
-        $contactFormSubmitted = true;
-    } else {
-        // reCAPTCHA failed
-        $msg['status'] = 'error';
-        $msg['message'] = "Please complete the reCAPTCHA verification.";
-
-        $contactFormSubmitted = true;
-    }
-}
-
-?> -->
 <!doctype html>
 <html lang="en">
 
@@ -84,9 +46,11 @@ if (isset($_POST['form-contact'])) {
 
             <!-- Title & Meta -->
             <div class="mb-4">
-                <h1 class="display-5 fw-bold text-uppercase" style="color: #0D47A1;">Landmark Car Finance Ruling: <span class="text-dark">CPB Helps You Claim Without Hefty Lawyers’ Fees</span></h1>
-                <h2 class="subtitle-bullet fw-semibold mt-3" style="font-size: 1.6rem; color: #333;">Keep up to £950 that is rightfully yours. We deal directly with finance companies. No courtrooms, no big cuts.</h2>
-            
+                <h1 class="display-5 fw-bold text-uppercase" style="color: #0D47A1;">Landmark Car Finance Ruling: <span
+                        class="text-dark">CPB Helps You Claim Without Hefty Lawyers’ Fees</span></h1>
+                <h2 class="subtitle-bullet fw-semibold mt-3" style="font-size: 1.6rem; color: #333;">Keep up to £950
+                    that is rightfully yours. We deal directly with finance companies. No courtrooms, no big cuts.</h2>
+
                 <p class="text-muted mt-2 small">By the <strong>Consumer Protection Bureau (CPB)</strong> | July 2025
                 </p>
             </div>
@@ -94,44 +58,56 @@ if (isset($_POST['form-contact'])) {
             <!-- Main Blog Content -->
             <div class="fs-5 lh-lg text-dark">
                 <p><b>
-                    Millions of UK Drivers May Still Be Eligible for Refunds. A recent UK Supreme Court ruling has limited the scope of certain car finance compensation claims but it has not closed the door for millions of drivers who may still be owed money.
-                </b></p>
-
-              
-
-                <p class="mt-4"> 
-If your finance agreement taken out before January 2021 included undisclosed discretionary commissions, you could be entitled to up to £950 in compensation. This is because dealers and brokers were able to set higher interest rates to increase their commission, without clearly telling customers.
-</p>
+                        Millions of UK Drivers May Still Be Eligible for Refunds. A recent UK Supreme Court ruling has
+                        limited the scope of certain car finance compensation claims but it has not closed the door for
+                        millions of drivers who may still be owed money.
+                    </b></p>
 
 
-  <!-- <blockquote class="blockquote px-4 py-3"
+
+                <p class="mt-4">
+                    If your finance agreement taken out before January 2021 included undisclosed discretionary
+                    commissions, you could be entitled to up to £950 in compensation. This is because dealers and
+                    brokers were able to set higher interest rates to increase their commission, without clearly telling
+                    customers.
+                </p>
+
+
+                <!-- <blockquote class="blockquote px-4 py-3"
                     style="background:#fff3cd; border-left: 5px solid #FFC107; border-radius: 6px;">
                     <p class="mb-0 fst-italic text-dark">Today marks the beginning of a much-needed reset.</p>
                 </blockquote> -->
 
                 <!-- Why it matters -->
-                <h3 class="fw-bold mt-5 mb-3" style="color: #0D47A1;">Why Expensive Legal Help Is not Always Necessary</h3>
+                <h3 class="fw-bold mt-5 mb-3" style="color: #0D47A1;">Why Expensive Legal Help Is not Always Necessary
+                </h3>
                 <p>
-                    Regulators including the Financial Conduct Authority (FCA) and Solicitors Regulation Authority (SRA) have cautioned that some law firms and claims management companies are charging up to 30% of a consumer’s compensation for work that can often be handled more directly.
+                    Regulators including the Financial Conduct Authority (FCA) and Solicitors Regulation Authority (SRA)
+                    have cautioned that some law firms and claims management companies are charging up to 30% of a
+                    consumer’s compensation for work that can often be handled more directly.
                 </p>
- <blockquote class="blockquote px-4 py-3"
+                <blockquote class="blockquote px-4 py-3"
                     style="background:#fff3cd; border-left: 5px solid #FFC107; border-radius: 6px;">
-                    <p class="mb-0 fst-italic text-dark">At CPB, we can represent you in dealing with your finance provider, eliminating the need to hire lawyers. We will guide you through the process efficiently and clearly.</p>
+                    <p class="mb-0 fst-italic text-dark">At CPB, we can represent you in dealing with your finance
+                        provider, eliminating the need to hire lawyers. We will guide you through the process
+                        efficiently and clearly.</p>
                 </blockquote>
 
-<!--                 
+                <!--                 
 
                 <p>The scrapping of Ofwat is not simply about replacing a failed regulator. It’s about resetting
                     priorities. It’s about putting consumers and the environment first.</p> -->
 
                 <!-- What we welcome most -->
                 <h3 class="fw-bold mt-5 mb-3" style="color: #0D47A1;">
-How CPB Helps You
-</h3> <p>We provide:</p>
+                    How CPB Helps You
+                </h3>
+                <p>We provide:</p>
                 <div class="row g-4">
                     <div class="col-md-6">
                         <div class="p-4 rounded bg-white border-start border-4 border-success h-100">
-                            <h5 class="fw-bold text-success">Straightforward guidance to confirm if you are eligible for a claim.</h5>
+                            <h5 class="fw-bold text-success">Straightforward guidance to confirm if you are eligible for
+                                a claim.</h5>
                             <!-- <p class="mb-0">Sewage in our rivers and seas has become a national scandal. With a single
                                 body now overseeing environmental and infrastructure compliance, polluters will no
                                 longer hide behind regulatory confusion.</p> -->
@@ -155,7 +131,8 @@ How CPB Helps You
                     </div>
                     <div class="col-md-6">
                         <div class="p-4 rounded bg-white border-start border-4 border-danger h-100">
-                            <h5 class="fw-bold text-danger"> A clear, transparent process without unnecessary delays.</h5>
+                            <h5 class="fw-bold text-danger"> A clear, transparent process without unnecessary delays.
+                            </h5>
                             <!-- <p class="mb-0">Merging water quality oversight ensures that public health will no longer be
                                 sacrificed to corporate convenience. One regulator will mean clearer standards and
                                 better enforcement.</p> -->
@@ -173,30 +150,40 @@ How CPB Helps You
 
                 <!-- What comes next -->
                 <h3 class="fw-bold mt-5 mb-3" style="color: #0D47A1;">What is Happening Now</h3>
-                <p>The FCA is currently preparing a nationwide redress scheme, expected to take effect from October 2025. This scheme could result in payments of up to £950 per claim, depending on your case.</p>
+                <p>The FCA is currently preparing a nationwide redress scheme, expected to take effect from October
+                    2025. This scheme could result in payments of up to £950 per claim, depending on your case.</p>
                 <p>
-                    Many claims, and law firms are already marketing their services but these could reduce the amount you receive. CPB offers a direct route to your lender, ensuring your case is handled properly without excessive deductions.
+                    Many claims, and law firms are already marketing their services but these could reduce the amount
+                    you receive. CPB offers a direct route to your lender, ensuring your case is handled properly
+                    without excessive deductions.
                 </p>
-              
+
 
                 <!-- Final thoughts -->
-                <h3 class="fw-bold mt-5 mb-3" style="color: #0D47A1;">Get What is Yours Without Overpaying for Legal Help</h3>
-                <p>You do not need to spend a fortune on legal fees to get your rightful compensation. CPB will work with you to make the process simple, fair, and cost-effective, so you can recover what you are owed with confidence.</p>
-              
-             
-<h3 class="fw-bold mt-5 mb-3" style="color: #0D47A1;">How You Can Take Action Now</h3>
-                 <ol>
-                <li><strong>Gather your documents</strong> – Locate your finance agreement and proof of payments or correspondence.</li>
-                <li><strong>Reach out to CPB</strong> – Contact us via:
-                    <br>Email: <a href="mailto:info@consumerprotectionbureau.co.uk">info@consumerprotectionbureau.co.uk</a>
-                    <br>Phone: +44 (0)203 585 4002
-                </li>
-                <li><strong>We review and guide you</strong> – We will review your case at no cost and guide you through the next steps to get your money back swiftly and fairly.</li>
-            </ol>
+                <h3 class="fw-bold mt-5 mb-3" style="color: #0D47A1;">Get What is Yours Without Overpaying for Legal
+                    Help</h3>
+                <p>You do not need to spend a fortune on legal fees to get your rightful compensation. CPB will work
+                    with you to make the process simple, fair, and cost-effective, so you can recover what you are owed
+                    with confidence.</p>
 
-            <div class="text-center mt-5">
-                <p class="text-uppercase text-danger fw-bold">Don’t let overcharging go unchallenged – CPB is here to help you get it back.</p>
-            </div>
+
+                <h3 class="fw-bold mt-5 mb-3" style="color: #0D47A1;">How You Can Take Action Now</h3>
+                <ol>
+                    <li><strong>Gather your documents</strong> – Locate your finance agreement and proof of payments or
+                        correspondence.</li>
+                    <li><strong>Reach out to CPB</strong> – Contact us via:
+                        <br>Email: <a
+                            href="mailto:info@consumerprotectionbureau.co.uk">info@consumerprotectionbureau.co.uk</a>
+                        <br>Phone: +44 (0)203 585 4002
+                    </li>
+                    <li><strong>We review and guide you</strong> – We will review your case at no cost and guide you
+                        through the next steps to get your money back swiftly and fairly.</li>
+                </ol>
+
+                <div class="text-center mt-5">
+                    <p class="text-uppercase text-danger fw-bold">Don’t let overcharging go unchallenged – CPB is here
+                        to help you get it back.</p>
+                </div>
             </div>
         </div>
 
