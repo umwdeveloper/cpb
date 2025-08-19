@@ -91,32 +91,29 @@ if (isset($_POST['form-contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4 justify-content-center">
-                <div class="col-lg-4 mb-3 ">
+             
+   <div class="col-lg-4 mb-3 ">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
-                            <img src="../assets/images/jobs/cpb-ofwat.png"
+                            <img src="../assets/images/news/apple-under-file.png"
                                 style="object-fit:contain; object-position:center;" alt="join cpb  For Just £5 a Month!"
                                 class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>9 July 2025</span> -->
                             <h2 class="mb-0 pb-0">
-                                Welcoming the End of Ofwat and the Birth of a Unified Water Regulator
+                               Cracks in the Apple: iCloud, Repairs, and Consumer Rights
                             </h2>
                             <p class="text mb-0 pb-0">
-                                <span>(24 July 2025)</span>
+                                <span>(19 August 2025)</span>
                                 <b>LONDON </b> –
-                                The Government’s decision to scrap Ofwat and replace it with a single, integrated water
-                                regulator is not just welcome, it’s long overdue. For too long, water regulation in
-                                England and Wales has suffered from fragmentation, toothless oversight, and a disjointed
-                                approach that left consumers footing the bill while water companies polluted rivers and
-                                raked in profits.
+                               Apple’s dominance in the tech market has once again come under fire. Consumer group Which? has already launched a landmark £3 billion collective action in the UK over alleged iCloud overcharging. Building on this wider scrutiny, the Consumer Protection Bureau (CPB) has now launched its own campaign, focusing on Apple’s restrictive and overpriced repair policies, further highlighting systemic issues with the company’s treatment of consumers.
 
 
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="cpb-welcomes-new-unified-water-regulator-end-ofwat.php"
+                                <a href="apple-uk-icloud-overcharge-right-to-repair-cpb.php"
                                     class="news-alert-btn">Read
                                     More</a>
                             </div>
@@ -157,7 +154,7 @@ if (isset($_POST['form-contact'])) {
                     </div>
                 </div>
 
-                 <div class="col-lg-4 mb-3 ">
+                <div class="col-lg-4 mb-3 ">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
@@ -168,19 +165,56 @@ if (isset($_POST['form-contact'])) {
                         <div class="news-card-text">
                             <!-- <span>9 July 2025</span> -->
                             <h2 class="mb-0 pb-0">
-                               Landmark Car Finance Ruling: CPB Helps You Claim Without Hefty Lawyers’ Fees
+                                Landmark Car Finance Ruling: CPB Helps You Claim Without Hefty Lawyers’ Fees
                             </h2>
                             <p class="text mb-0 pb-0">
                                 <span>(13 August 2025)</span>
                                 <b>LONDON </b> –
-                                Millions of UK Drivers May Still Be Eligible for Refunds. A recent UK Supreme Court ruling has limited the scope of certain car finance compensation claims but it has not closed the door for millions of drivers who may still be owed money.
+                                Millions of UK Drivers May Still Be Eligible for Refunds. A recent UK Supreme Court
+                                ruling has limited the scope of certain car finance compensation claims but it has not
+                                closed the door for millions of drivers who may still be owed money.
 
-If your finance agreement taken out before January 2021 included undisclosed discretionary commissions, you could be entitled to up to £950 in compensation. This is because dealers and brokers were able to set higher interest rates to increase their commission, without clearly telling customers.
+                                If your finance agreement taken out before January 2021 included undisclosed
+                                discretionary commissions, you could be entitled to up to £950 in compensation. This is
+                                because dealers and brokers were able to set higher interest rates to increase their
+                                commission, without clearly telling customers.
 
 
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="car-finance-overcharge-refund-cpb-help.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                   <div class="col-lg-4 mb-3 ">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/jobs/cpb-ofwat.png"
+                                style="object-fit:contain; object-position:center;" alt="join cpb  For Just £5 a Month!"
+                                class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>9 July 2025</span> -->
+                            <h2 class="mb-0 pb-0">
+                                Welcoming the End of Ofwat and the Birth of a Unified Water Regulator
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(24 July 2025)</span>
+                                <b>LONDON </b> –
+                                The Government’s decision to scrap Ofwat and replace it with a single, integrated water
+                                regulator is not just welcome, it’s long overdue. For too long, water regulation in
+                                England and Wales has suffered from fragmentation, toothless oversight, and a disjointed
+                                approach that left consumers footing the bill while water companies polluted rivers and
+                                raked in profits.
+
+
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="cpb-welcomes-new-unified-water-regulator-end-ofwat.php"
+                                    class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>

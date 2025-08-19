@@ -46,10 +46,7 @@
 
             <!-- Title & Meta -->
             <div class="mb-4">
-                <h1 class="display-5 fw-bold text-uppercase" style="color: #0D47A1;">Apple Under Fire: <span
-                        class="text-dark"> <br>
-
-                        From iCloud to Right to Repair</span></h1>
+                <h1 class="display-5 fw-bold text-uppercase" style="color: #0D47A1;">Cracks in the Apple: iCloud, Repairs, and Consumer Rights</h1>
                 <!-- <h2 class="subtitle-bullet fw-semibold mt-3" style="font-size: 1.6rem; color: #333;">
                     Keep up to £950
                     that is rightfully yours. We deal directly with finance companies. No courtrooms, no big cuts.</h2>
@@ -69,10 +66,7 @@
 
 
                 <p class="mt-4">
-                    Apple’s dominance in the tech market has once again come under fire. Following the
-                    Consumer Protection Bureau (CPB)’s campaign against Apple’s restrictive and
-                    overpriced repair policies, consumer group Which? has launched a landmark
-                    £3 billion collective action against the tech giant in the UK.
+                   <b> Apple’s dominance in the tech market has once again come under fire. Consumer group Which? has already launched a landmark £3 billion collective action in the UK over alleged iCloud overcharging. Building on this wider scrutiny, the Consumer Protection Bureau (CPB) has now launched its own campaign, focusing on Apple’s restrictive and overpriced repair policies, further highlighting systemic issues with the company’s treatment of consumers.</b>
                 </p>
 
 
