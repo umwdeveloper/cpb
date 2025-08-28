@@ -91,8 +91,37 @@ if (isset($_POST['form-contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4 justify-content-center">
-             
    <div class="col-lg-4 mb-3 ">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/news/cpb-vs-expedia.png"
+                                style="object-fit:contain; object-position:center;" 
+                                alt="CPB calls out Expedia for failing to protect customers from fraud"
+                                class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>9 July 2025</span> -->
+                            <h2 class="mb-0 pb-0">
+                               CPB Calls Out Expedia Failings
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(18 August 2025)</span>
+                                <b>LONDON </b> –
+                               A CPB member and his family endured unnecessary stress, contradictory communications, and weeks of frustration after two separate car rental bookings through Expedia in Bergamo, Italy went badly wrong.
+
+
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="CPB-calls-out-Expedia-failing.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 mb-3 ">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
@@ -103,18 +132,22 @@ if (isset($_POST['form-contact'])) {
                         <div class="news-card-text">
                             <!-- <span>9 July 2025</span> -->
                             <h2 class="mb-0 pb-0">
-                               Cracks in the Apple: iCloud, Repairs, and Consumer Rights
+                                Cracks in the Apple: iCloud, Repairs, and Consumer Rights
                             </h2>
                             <p class="text mb-0 pb-0">
                                 <span>(19 August 2025)</span>
                                 <b>LONDON </b> –
-                               Apple’s dominance in the tech market has once again come under fire. Consumer group Which? has already launched a landmark £3 billion collective action in the UK over alleged iCloud overcharging. Building on this wider scrutiny, the Consumer Protection Bureau (CPB) has now launched its own campaign, focusing on Apple’s restrictive and overpriced repair policies, further highlighting systemic issues with the company’s treatment of consumers.
+                                Apple’s dominance in the tech market has once again come under fire. Consumer group
+                                Which? has already launched a landmark £3 billion collective action in the UK over
+                                alleged iCloud overcharging. Building on this wider scrutiny, the Consumer Protection
+                                Bureau (CPB) has now launched its own campaign, focusing on Apple’s restrictive and
+                                overpriced repair policies, further highlighting systemic issues with the company’s
+                                treatment of consumers.
 
 
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
-                                <a href="apple-uk-icloud-overcharge-right-to-repair-cpb.php"
-                                    class="news-alert-btn">Read
+                                <a href="apple-uk-icloud-overcharge-right-to-repair-cpb.php" class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
@@ -188,7 +221,7 @@ if (isset($_POST['form-contact'])) {
                         </div>
                     </div>
                 </div>
-                   <div class="col-lg-4 mb-3 ">
+                <div class="col-lg-4 mb-3 ">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">

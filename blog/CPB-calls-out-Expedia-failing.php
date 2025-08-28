@@ -3,7 +3,7 @@
 
 <head>
     <title>Landmark Car Finance Ruling</title>
-    <meta name="description" content="">
+    <meta name="description" content="CPB highlights a case exposing failures in Expedia\'s handling of two Bergamo car rental bookings—contradictory communications, unsafe omissions, and refunds issued only after persistent pressure.">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -24,7 +24,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="canonical"
-        href="https://www.consumerprotectionbureau.co.uk/blog/cpb-welcomes-new-unified-water-regulator-end-ofwat.php">
+        href="https://www.consumerprotectionbureau.co.uk/blog/CPB-calls-out-Expedia-failing.php">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
@@ -40,7 +40,7 @@
         <div class="container py-5 px-3 px-md-5" style="max-width: 980px; background: #E3F2FD; border-radius: 12px;">
             <!-- Hero Image -->
             <div class="mb-4 rounded shadow-sm overflow-hidden">
-                <img src="../assets/images/news/cpb-vs-expedia.png" alt="Landmark Car Finance"
+                <img src="../assets/images/news/cpb-vs-expedia.png" alt="CPB calls out Expedia for failing to protect customers from fraud"
                     class="img-fluid w-100">
             </div>
 
