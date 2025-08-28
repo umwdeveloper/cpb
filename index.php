@@ -606,8 +606,6 @@ if (isset($_POST['form-issue'])) {
                             </div>
                         </div>
                         </p>
-
-
                     </div>
                 </div>
             </div>
