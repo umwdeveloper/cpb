@@ -79,7 +79,7 @@ if (isset($_POST['form-issue'])) {
     }
 }
 
-// $feedbacks = findAll("feedbacks");
+$feedbacks = findAll("feedbacks");
 
 ?>
 
@@ -303,7 +303,121 @@ if (isset($_POST['form-issue'])) {
 
 
     </section>
+ <!-- membership section -->
+    <section class="membership-section py-lg-5 py-4">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="main-heading text-uppercase">Become a Member of <br> the Consumer Protection Bureau (CPB)
+                    </h2>
+                    <p class="text mt-3">
+                        At CPB, our mission is to protect consumer rights and ensure fair outcomes when companies let
+                        you down.
+                        By becoming a member, you'll have our expert support for complaints, refunds, and ongoing
+                        consumer protection.
+                    </p>
 
+                    <div class="how-it-works mt-4 ">
+                        <h3 class="text-center mb-4">How it Works</h3>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <ul class="list-unstyled">
+                                    <li class="mb-3">
+                                        <strong>Annual Membership:</strong> £50 per year (Silver Membership)
+                                    </li>
+                                    <li class="mb-3">
+                                        <strong>Refunds:</strong> If we recover more than £300, we apply a small success
+                                        fee (15% for Bronze & Silver members, reduced to 10% for Gold members)
+                                    </li>
+                                    <li class="mb-3">
+                                        <strong>Voluntary Contribution:</strong> If you do not wish to become a member,
+                                        you can still request our help by making a voluntary contribution to support our
+                                        work
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header text-center py-4">
+                            <h3>Bronze Supporter</h3>
+                            <h4 class="price">£15<span class="period">/One-Time</span></h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>✓ Casework support for a single complaint</li>
+                                <li>✓ We draft and submit challenges on your behalf</li>
+                                <li>✓ Case updates until resolution</li>
+                                <li>✓ Access to ConsuMag (our online magazine)</li>
+                                <li>✓ 15% success fee if refund is recovered</li>
+                            </ul>
+                        </div>
+                        <!-- <div class="card-footer text-center">
+                            <a href="membership.php?plan=bronze" class="main-btn">Select Plan</a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 popular">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="card-header text-center py-4">
+                            <h3>Silver Member</h3>
+                            <h4 class="price">£50<span class="period">/Annual</span></h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>✓ Unlimited support for all complaints for 12 months</li>
+                                <li>✓ Priority handling of cases</li>
+                                <li>✓ Regular campaign updates & alerts</li>
+                                <li>✓ Members-only webinars and advice sheets</li>
+                                <li>✓ Access to ConsuMag</li>
+                                <li>✓ 15% success fee if refund is recovered</li>
+                            </ul>
+                        </div>
+                        <!-- <div class="card-footer text-center">
+                            <a href="membership.php?plan=silver" class="main-btn">Select Plan</a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header text-center py-4">
+                            <h3>Gold Champion</h3>
+                            <h4 class="price">£100<span class="period">/Annual</span></h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>✓ Everything in Silver PLUS:</li>
+                                <li>✓ Personal case manager for faster support</li>
+                                <li>✓ Priority access to media campaigns</li>
+                                <li>✓ Recognition as a Gold Champion member</li>
+                                <li>✓ Complimentary CPB workshop</li>
+                                <li>✓ Access to ConsuMag</li>
+                                <li>✓ Reduced success fee of 10% on refunds</li>
+                            </ul>
+                        </div>
+                        <!-- <div class="card-footer text-center">
+                            <a href="membership.php?plan=gold" class="main-btn">Select Plan</a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="col-lg-8 text-center mt-4">
+                    <p class="text">
+                        Join CPB today and let us stand by your side in every consumer dispute.
+                    </p>
+                    <div class="mt-4">
+                        <a href="membership.php" class="main-btn">Become a Member Today</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="alert-news-section">
         <div class="container">
@@ -708,120 +822,7 @@ if (isset($_POST['form-issue'])) {
             </div>
         </div>
     </section>
-    <section class="membership-section py-lg-5 py-4">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12 text-center mb-5">
-                    <h2 class="main-heading text-uppercase">Become a Member of <br> the Consumer Protection Bureau (CPB)
-                    </h2>
-                    <p class="text mt-3">
-                        At CPB, our mission is to protect consumer rights and ensure fair outcomes when companies let
-                        you down.
-                        By becoming a member, you'll have our expert support for complaints, refunds, and ongoing
-                        consumer protection.
-                    </p>
-
-                    <div class="how-it-works mt-4 ">
-                        <h3 class="text-center mb-4">How it Works</h3>
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <ul class="list-unstyled">
-                                    <li class="mb-3">
-                                        <strong>Annual Membership:</strong> £50 per year (Silver Membership)
-                                    </li>
-                                    <li class="mb-3">
-                                        <strong>Refunds:</strong> If we recover more than £300, we apply a small success
-                                        fee (15% for Bronze & Silver members, reduced to 10% for Gold members)
-                                    </li>
-                                    <li class="mb-3">
-                                        <strong>Voluntary Contribution:</strong> If you do not wish to become a member,
-                                        you can still request our help by making a voluntary contribution to support our
-                                        work
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-header text-center py-4">
-                            <h3>Bronze Supporter</h3>
-                            <h4 class="price">£15<span class="period">/One-Time</span></h4>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-unstyled">
-                                <li>✓ Casework support for a single complaint</li>
-                                <li>✓ We draft and submit challenges on your behalf</li>
-                                <li>✓ Case updates until resolution</li>
-                                <li>✓ Access to ConsuMag (our online magazine)</li>
-                                <li>✓ 15% success fee if refund is recovered</li>
-                            </ul>
-                        </div>
-                        <!-- <div class="card-footer text-center">
-                            <a href="membership.php?plan=bronze" class="main-btn">Select Plan</a>
-                        </div> -->
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100 popular">
-                        <div class="popular-badge">Most Popular</div>
-                        <div class="card-header text-center py-4">
-                            <h3>Silver Member</h3>
-                            <h4 class="price">£50<span class="period">/Annual</span></h4>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-unstyled">
-                                <li>✓ Unlimited support for all complaints for 12 months</li>
-                                <li>✓ Priority handling of cases</li>
-                                <li>✓ Regular campaign updates & alerts</li>
-                                <li>✓ Members-only webinars and advice sheets</li>
-                                <li>✓ Access to ConsuMag</li>
-                                <li>✓ 15% success fee if refund is recovered</li>
-                            </ul>
-                        </div>
-                        <!-- <div class="card-footer text-center">
-                            <a href="membership.php?plan=silver" class="main-btn">Select Plan</a>
-                        </div> -->
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-header text-center py-4">
-                            <h3>Gold Champion</h3>
-                            <h4 class="price">£100<span class="period">/Annual</span></h4>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-unstyled">
-                                <li>✓ Everything in Silver PLUS:</li>
-                                <li>✓ Personal case manager for faster support</li>
-                                <li>✓ Priority access to media campaigns</li>
-                                <li>✓ Recognition as a Gold Champion member</li>
-                                <li>✓ Complimentary CPB workshop</li>
-                                <li>✓ Access to ConsuMag</li>
-                                <li>✓ Reduced success fee of 10% on refunds</li>
-                            </ul>
-                        </div>
-                        <!-- <div class="card-footer text-center">
-                            <a href="membership.php?plan=gold" class="main-btn">Select Plan</a>
-                        </div> -->
-                    </div>
-                </div>
-
-                <div class="col-lg-8 text-center mt-4">
-                    <p class="text">
-                        Join CPB today and let us stand by your side in every consumer dispute.
-                    </p>
-                    <div class="mt-4">
-                        <a href="membership.php" class="main-btn">Become a Member Today</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
     <section class="fight-section fighiting-for-consumer pt-5 bg-light" style="margin-bottom:-80px">
         <div class="container">
