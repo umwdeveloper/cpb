@@ -714,10 +714,13 @@ if (isset($_POST['form-issue'])) {
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-center mb-5">
-                    <h2 class="main-heading text-uppercase">Become a Member of <br> the Consumer Protection Bureau (CPB)</h2>
+                    <h2 class="main-heading text-uppercase">Become a Member of <br> the Consumer Protection Bureau (CPB)
+                    </h2>
                     <p class="text mt-3">
-                        At CPB, our mission is to protect consumer rights and ensure fair outcomes when companies let you down. 
-                        By becoming a member, you'll have our expert support for complaints, refunds, and ongoing consumer protection.
+                        At CPB, our mission is to protect consumer rights and ensure fair outcomes when companies let
+                        you down.
+                        By becoming a member, you'll have our expert support for complaints, refunds, and ongoing
+                        consumer protection.
                     </p>
 
                     <div class="how-it-works mt-4 ">
@@ -729,17 +732,20 @@ if (isset($_POST['form-issue'])) {
                                         <strong>Annual Membership:</strong> £50 per year (Silver Membership)
                                     </li>
                                     <li class="mb-3">
-                                        <strong>Refunds:</strong> If we recover more than £300, we apply a small success fee (15% for Bronze & Silver members, reduced to 10% for Gold members)
+                                        <strong>Refunds:</strong> If we recover more than £300, we apply a small success
+                                        fee (15% for Bronze & Silver members, reduced to 10% for Gold members)
                                     </li>
                                     <li class="mb-3">
-                                        <strong>Voluntary Contribution:</strong> If you do not wish to become a member, you can still request our help by making a voluntary contribution to support our work
+                                        <strong>Voluntary Contribution:</strong> If you do not wish to become a member,
+                                        you can still request our help by making a voluntary contribution to support our
+                                        work
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-100">
                         <div class="card-header text-center py-4">
@@ -809,7 +815,7 @@ if (isset($_POST['form-issue'])) {
 
                 <div class="col-lg-8 text-center mt-4">
                     <p class="text">
-                       Join CPB today and let us stand by your side in every consumer dispute.
+                        Join CPB today and let us stand by your side in every consumer dispute.
                     </p>
                     <div class="mt-4">
                         <a href="membership.php" class="main-btn">Become a Member Today</a>
