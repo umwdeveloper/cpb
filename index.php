@@ -729,7 +729,7 @@ if (isset($_POST['form-issue'])) {
                                         <strong>Annual Membership:</strong> £50 per year (Silver Membership)
                                     </li>
                                     <li class="mb-3">
-                                        <strong>Refunds:</strong> If we recover more than £500, we apply a small success fee (15% for Bronze & Silver members, reduced to 10% for Gold members)
+                                        <strong>Refunds:</strong> If we recover more than £300, we apply a small success fee (15% for Bronze & Silver members, reduced to 10% for Gold members)
                                     </li>
                                     <li class="mb-3">
                                         <strong>Voluntary Contribution:</strong> If you do not wish to become a member, you can still request our help by making a voluntary contribution to support our work
