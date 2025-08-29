@@ -9,7 +9,7 @@ if (isset($_POST['form-contact'])) {
     $phone = $_POST['phone'];
     $message = $_POST['msg'];
 
-    $subject = "Contact";
+    $subject = "CPB Contact Form";
 
     $body = "<strong>Name: </strong> $name" . "<br>" .
         "<strong>Email: </strong> $email" . "<br>" .
@@ -285,7 +285,7 @@ if (isset($_POST['form-contact'])) {
     $phone = $_POST['phone'];
     $message = $_POST['msg'];
 
-    $subject = "Contact";
+    $subject = "CPB Contact Form";
 
     $body = "<strong>Name: </strong> $name" . "<br>" .
         "<strong>Email: </strong> $email" . "<br>" .

@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $result = sendMail($email, $name, $subject, $body);
 
     if ($result['status'] === 'success') {
-        echo json_encode(['success' => true, 'message' => 'Congratulations! You are now a friend of CPB']);
+        echo json_encode(['success' => true, 'message' => 'Congratulations! You are now a friend/supporter of CPB']);
     } else {
         echo json_encode(['success' => false, 'message' => 'Failed to send friend request']);
     }
