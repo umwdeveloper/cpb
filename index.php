@@ -79,7 +79,7 @@ if (isset($_POST['form-issue'])) {
     }
 }
 
-$feedbacks = findAll("feedbacks");
+// $feedbacks = findAll("feedbacks");
 
 ?>
 
@@ -1566,6 +1566,189 @@ document.querySelectorAll('#issue-form input, #issue-form select, #issue-form te
         this.classList.remove('is-invalid');
     });
 });
+</script>
+
+<!-- Friend Request Popup -->
+<div id="friendPopup" class="popup-overlay" style="display: none;">
+    <div class="popup-content">
+        <h3>Would you like to be a friend of CPB?</h3>
+        <div class="popup-buttons">
+            <button onclick="showFriendForm()">Be friend of CPB</button>
+            <button onclick="closePopup('friendPopup')">No thanks</button>
+        </div>
+    </div>
+</div>
+
+<!-- Friend Form Popup -->
+<div id="friendFormPopup" class="popup-overlay" style="display: none;">
+    <div class="popup-content">
+        <h3>Become a friend of CPB</h3>
+        <form id="friendForm" onsubmit="submitFriendForm(event)">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <button type="submit">Be Friend</button>
+        </form>
+    </div>
+</div>
+
+<style>
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 58, 120, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 450px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    font-family: var(--primary-font);
+}
+
+.popup-content h3 {
+    color: var(--primary);
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.popup-buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.popup-buttons button {
+    min-width: 140px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.popup-buttons button:first-child {
+    background-color: var(--secondry);
+    color: var(--primary);
+}
+
+.popup-buttons button:first-child:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+.popup-buttons button:last-child {
+    background-color: #ffffff;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+}
+
+.popup-buttons button:last-child:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #e1e1e1;
+    border-radius: 6px;
+    font-family: var(--primary-font);
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.form-group input:focus {
+    border-color: var(--secondry);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(229, 191, 32, 0.1);
+}
+
+#friendForm button {
+    background-color: var(--secondry);
+    color: var(--primary);
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#friendForm button:hover {
+    background-color: var(--primary);
+    color: white;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Show the initial popup after a short delay
+    setTimeout(function() {
+        document.getElementById('friendPopup').style.display = 'flex';
+    }, 2000);
+});
+
+function closePopup(popupId) {
+    document.getElementById(popupId).style.display = 'none';
+}
+
+function showFriendForm() {
+    closePopup('friendPopup');
+    document.getElementById('friendFormPopup').style.display = 'flex';
+}
+
+function submitFriendForm(event) {
+    event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(form);
+
+    fetch('become-friend.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert('Thank you for becoming a friend of CPB!');
+            closePopup('friendFormPopup');
+        } else {
+            alert('There was an error. Please try again.');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('There was an error. Please try again.');
+    });
+}
 </script>
 </body>
 
