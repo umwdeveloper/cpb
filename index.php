@@ -1582,16 +1582,25 @@ document.querySelectorAll('#issue-form input, #issue-form select, #issue-form te
 <!-- Friend Form Popup -->
 <div id="friendFormPopup" class="popup-overlay" style="display: none;">
     <div class="popup-content">
-        <h3>Become a friend of CPB</h3>
-        <form id="friendForm" onsubmit="submitFriendForm(event)">
-            <div class="form-group">
-                <input type="text" name="name" placeholder="Your Name" required>
+        <div id="friendFormContent">
+            <h3>Become a friend of CPB</h3>
+            <form id="friendForm" onsubmit="submitFriendForm(event)">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <button type="submit">Be Friend</button>
+            </form>
+        </div>
+        <div id="successMessage" style="display: none;">
+            <h3 style="color: var(--secondry);">Congratulations!</h3>
+            <p style="color: var(--primary); font-size: 18px; margin: 20px 0;">You are now a friend of CPB</p>
+            <div class="popup-buttons">
+                <button onclick="closePopup('friendFormPopup')" style="width: auto;">Close</button>
             </div>
-            <div class="form-group">
-                <input type="email" name="email" placeholder="Your Email" required>
-            </div>
-            <button type="submit">Be Friend</button>
-        </form>
+        </div>
     </div>
 </div>
 
@@ -1738,8 +1747,8 @@ function submitFriendForm(event) {
     .then(response => response.json())
     .then(data => {
         if (data.success) {
-            alert('Thank you for becoming a friend of CPB!');
-            closePopup('friendFormPopup');
+            document.getElementById('friendFormContent').style.display = 'none';
+            document.getElementById('successMessage').style.display = 'block';
         } else {
             alert('There was an error. Please try again.');
         }
