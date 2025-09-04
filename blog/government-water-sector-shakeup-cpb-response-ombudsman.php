@@ -140,7 +140,7 @@ if (isset($_POST['form-contact'])) {
 
 
                 <div class="d-flex flex-wrap gap-2">
-                    <a href="/files/cpb-defra-letter.pdf" target="_blank" rel="noopener"
+                    <a href="../assets/images/blog/Response letter- Defra 4.09.25.pdf" target="_blank" rel="noopener"
                         class="btn btn-outline-secondary" style="background: #0D47A1; color: #fff; border: none;">
                         Read our full letter to Defra &rarr;
                     </a>
