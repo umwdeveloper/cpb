@@ -303,7 +303,204 @@ if (isset($_POST['form-issue'])) {
 
 
     </section>
- <!-- membership section -->
+ <!-- CPB Friends Network section -->
+    <section class="friends-network-section py-lg-5 py-4 position-relative overflow-hidden">
+        <div class="network-bg-pattern"></div>
+        <div class="container position-relative">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="network-content-left">
+                        <span class="badge bg-primary mb-3 px-3 py-2 rounded-pill">Join Our Network</span>
+                        <h2 class="main-heading text-uppercase mb-4">Join the CPB 
+                            Friends Network –<span style="color:#e5bf20"> <i>It’s Free!</i></span></h2>
+                        <h3 class="secondry-heading mb-4 gradient-text">Your Card · Your Voice · Your Protection</h3>
+                        
+                        <p class="text mb-4 lead">
+                          Joining the CPB Friends Network means becoming part of a growing community of consumers who believe in fairness, transparency, and accountability. As a Friend of CPB, you add your voice to a movement that protects people across the UK and beyond.
+                        </p>
+
+                        <div class="benefits-list mb-4 fight-card px-lg-4 py-4 shadow-lg border-start border-5 border-primary">
+                            <h4 class="mb-3 text-white fw-bold">Why Join?</h4>
+                            <ul class="list-styled text-white mb-0">
+                                <li class="mb-3 d-flex align-items-center">
+                                    <span class="me-2">➤</span>
+                                    <span>Get your official CPB Friends Card</span>
+                                </li>
+                                <li class="mb-3 d-flex align-items-center">
+                                      <span class="me-2">➤</span>
+                                    <span>Get exclusive alerts & scam warnings</span>
+                                </li>
+                                <li class="mb-3 d-flex align-items-center">
+                                     <span class="me-2">➤</span>
+                                    <span>Join campaigns that change policy</span>
+                                </li>
+                                <li class="mb-3 d-flex align-items-center">
+                                     <span class="me-2">➤</span>
+                                    <span>Priority access to advice & support</span>
+                                </li>
+                             
+                                <li class="mb-3 d-flex align-items-center">
+                                     <span class="me-2">➤</span>
+                                    <span>Access to ConsoMag, CPB's digital magazine</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="highlight-box p-3 bg-light rounded-3 border-start border-5 border-warning mb-4">
+                            <p class="text mb-0">
+                                <strong>Together, we are stronger. Together, we make markets fairer.</strong>
+                            </p>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="button" class="main-btn btn-lg shadow-sm" onclick="document.getElementById('friendPopup').style.display = 'flex';">
+                                <span class="me-2">Join the Network Today</span>
+                                <i class="bi bi-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class=" h-100  position-relative overflow-hidden" style="">
+                        <div class="card-shine"></div>
+                        <div class="card-body px-lg-4 py-4 text-center">
+                            <div class="card-image-wrapper position-relative mb-4">
+                                <div class="card-glow"></div>
+                                <img src="assets/images/cpb-friends-card.png" 
+                                alt="CPB Friends Card Template" class="img-fluid rounded-3 " style="max-width: 90%;">
+                            </div>
+                            
+                            <div class="card-content">
+                                <h4 class=" mb-3 " style="color:#223a78">
+                                    <b>
+                                        Every Friend of CPB receives a <br>
+                                     Digital CPB Friends Card
+                                    </b>
+                                    </h4>
+                                <p class="">This card is more than a symbol – it's a reminder that:</p>
+                                <ul class="card-benefits mt-3 text-start">
+                                    <li class=" mb-3">You are part of a strong consumer protection community.</li>
+                                    <li class=" mb-3">You have added confidence when raising consumer concerns.</li>
+                                    <li class=" mb-0">You are never alone – CPB stands with you.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .network-bg-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(0,123,255,0.05) 0%, rgba(0,123,255,0) 100%);
+            z-index: 0;
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #e5bf20, #c9a71c);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+        }
+
+        .benefit-icon {
+            color: #28a745;
+            font-size: 1.2rem;
+        }
+
+        .card-shine {
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                45deg,
+                rgba(255,255,255,0) 0%,
+                rgba(255,255,255,0.1) 50%,
+                rgba(255,255,255,0) 100%
+            );
+            transform: rotate(45deg);
+            pointer-events: none;
+            transition: 0.5s;
+        }
+
+        .fight-card:hover .card-shine {
+            left: 100%;
+        }
+
+        .card-glow {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(
+                circle at 50% 50%,
+                rgba(255,255,255,0.2) 0%,
+                rgba(255,255,255,0) 60%
+            );
+            pointer-events: none;
+            opacity: 0;
+            transition: 0.3s;
+        }
+
+        .card-image-wrapper:hover .card-glow {
+            opacity: 1;
+        }
+
+        .hover-effect {
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .hover-effect:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .hover-lift {
+            transition: transform 0.2s;
+        }
+
+        .hover-lift:hover {
+            transform: translateY(-2px);
+        }
+
+        .benefit-icon-wrapper {
+            font-size: 1.5rem;
+            height: 40px;
+            display: flex;
+            align-items: center;
+        }
+
+        .extra-benefit {
+            background: rgba(255,255,255,0.05);
+            transition: background 0.3s;
+        }
+
+        .extra-benefit:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        @media (max-width: 768px) {
+            .gradient-text {
+                font-size: 1.5rem;
+            }
+            
+            .benefit-item {
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+
+    <!-- membership section -->
     <section class="membership-section py-lg-5 py-4">
         <div class="container">
             <div class="row justify-content-center pb-5">
@@ -1736,7 +1933,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Show the initial popup after a short delay
     setTimeout(function() {
         document.getElementById('friendPopup').style.display = 'flex';
-    }, 2000);
+    }, 1000);
 });
 
 function closePopup(popupId) {
