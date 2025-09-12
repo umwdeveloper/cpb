@@ -374,7 +374,7 @@ if (isset($_POST['form-issue'])) {
                             <div class="card-content">
                                 <h4 class=" mb-3 " style="color:#223a78">
                                     <b>
-                                        Every Friend of CPB receives a <br>
+                                        Every Friend of CPB Receives a <br>
                                      Digital CPB Friends Card
                                     </b>
                                     </h4>
