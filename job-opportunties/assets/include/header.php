@@ -90,6 +90,8 @@
                             <a class="nav-link news-menu" href="../news/">Consumer Alert News
                             </a>
                         </li>
+                        <li><a class=" nav-link" href="../blog/index.php">Blog</a></li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -98,7 +100,7 @@
                             <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
 
                                 <li><a class="dropdown-item nav-link" href="../about.php">About</a></li>
-                                <li><a class="dropdown-item nav-link" href="../blog/index.php">Blog</a></li>
+                                <!-- <li><a class="dropdown-item nav-link" href="../blog/index.php">Blog</a></li> -->
 
                                 <li><a class="dropdown-item nav-link" href="../advocacy.php">Advocacy</a></li>
                                 <li><a class="dropdown-item nav-link" href="../archive.php">Archive</a></li>

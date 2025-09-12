@@ -1074,7 +1074,12 @@ body {
         margin: 0 auto;
     }
 }
-
+@media only screen and ((min-width: 1200px) and (max-width: 1400px)) {
+ 
+   .menu-header-container{
+     max-width: 1250px !important;
+   }
+}
 @media only screen and (max-width:1200px) {
     .home-alert-text h2 {
         font-size: 32px;

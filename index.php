@@ -304,7 +304,7 @@ if (isset($_POST['form-issue'])) {
 
     </section>
  <!-- CPB Friends Network section -->
-    <section class="friends-network-section py-lg-5 py-4 position-relative overflow-hidden">
+    <section id="become-frnd" class="friends-network-section py-lg-5 py-4 position-relative overflow-hidden">
         <div class="network-bg-pattern"></div>
         <div class="container position-relative">
             <div class="row justify-content-center align-items-center">

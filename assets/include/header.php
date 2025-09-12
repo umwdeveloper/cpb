@@ -61,9 +61,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/" aria-current="page">Home</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="about.php">About</a>
-                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#become-frnd">Become a Friend</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link " href="job-opportunties/">Job Opportunties</a>
                         </li>
@@ -74,6 +74,9 @@
                         <li class="nav-item">
                             <a class="nav-link news-menu" href="news/">Consumer Alert News
                             </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog/index.php">Blog</a>
                         </li>
                         <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -93,7 +96,7 @@
                             </a>
                             <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item nav-link" href="about.php">About</a></li>
-                                <li><a class="dropdown-item nav-link" href="blog/index.php">Blog</a></li>
+                                <!-- <li><a class="dropdown-item nav-link" href="blog/index.php">Blog</a></li> -->
                                 <!-- <li><a class="dropdown-item nav-link" href="news/">Consumer Alert News</a></li> -->
                                 <li><a class="dropdown-item nav-link" href="advocacy.php">Advocacy</a></li>
 
