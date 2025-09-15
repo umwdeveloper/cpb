@@ -341,7 +341,7 @@ if (isset($_POST['form-issue'])) {
                              
                                 <li class="mb-3 d-flex align-items-center">
                                      <span class="me-2">➤</span>
-                                    <span>Access to ConsoMag, CPB's digital magazine</span>
+                                    <span>Access to ConsuMag, CPB's digital magazine</span>
                                 </li>
                             </ul>
                         </div>
