@@ -319,28 +319,28 @@ if (isset($_POST['form-issue'])) {
                           Joining the CPB Friends Network means becoming part of a growing community of consumers who believe in fairness, transparency, and accountability. As a Friend of CPB, you add your voice to a movement that protects people across the UK and beyond.
                         </p>
 
-                        <div class="benefits-list mb-4 fight-card px-lg-4 py-4 shadow-lg border-start border-5 border-primary">
-                            <h4 class="mb-3 text-white fw-bold">Why Join?</h4>
-                            <ul class="list-styled text-white mb-0">
+                        <div class="benefits-list mb-4 ">
+                            <h4 class="mb-3 secondry-heading fw-bold">Why Join?</h4>
+                            <ul class="list-styled  mb-0 ms-0 ps-0">
                                 <li class="mb-3 d-flex align-items-center">
-                                    <span class="me-2">➤</span>
+                                    <span class="me-2"  style="color:#e5bf20">➤</span>
                                     <span>Get your official CPB Friends Card</span>
                                 </li>
                                 <li class="mb-3 d-flex align-items-center">
-                                      <span class="me-2">➤</span>
+                                      <span class="me-2"  style="color:#e5bf20">➤</span>
                                     <span>Get exclusive alerts & scam warnings</span>
                                 </li>
                                 <li class="mb-3 d-flex align-items-center">
-                                     <span class="me-2">➤</span>
+                                     <span class="me-2"  style="color:#e5bf20">➤</span>
                                     <span>Join campaigns that change policy</span>
                                 </li>
                                 <li class="mb-3 d-flex align-items-center">
-                                     <span class="me-2">➤</span>
+                                     <span class="me-2"  style="color:#e5bf20">➤</span>
                                     <span>Priority access to advice & support</span>
                                 </li>
                              
                                 <li class="mb-3 d-flex align-items-center">
-                                     <span class="me-2">➤</span>
+                                     <span class="me-2"  style="color:#e5bf20">➤</span>
                                     <span>Access to ConsuMag, CPB's digital magazine</span>
                                 </li>
                             </ul>
