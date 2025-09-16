@@ -365,7 +365,8 @@ if (isset($_POST['form-issue'])) {
                     <div class=" h-100  position-relative overflow-hidden" style="">
                         <div class="card-shine"></div>
                         <div class="card-body px-lg-4 py-4 text-center">
-                            <div class="card-image-wrapper position-relative mb-4 mx-auto" style="max-width: 350px;"
+                            <div class="card-image-wrapper position-relative mb-4 mx-auto" 
+                            style="max-width: 370px;"
 >
                                 <div class="card-glow"></div>
                                 <img src="assets/images/cpb-f-card (2).png" 
