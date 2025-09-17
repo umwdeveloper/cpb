@@ -7,6 +7,7 @@ header('Content-Type: application/json');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['name'] ?? '';
     $email = $_POST['email'] ?? '';
+    $consent = isset($_POST['consent']) ? true : false;
 
     if (empty($name) || empty($email)) {
         echo json_encode(['success' => false, 'message' => 'Name and email are required']);
@@ -16,7 +17,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $subject = "New CPB Friend Request";
     $body = "<strong>New Friend Request</strong><br><br>" .
             "<strong>Name: </strong> " . htmlspecialchars($name) . "<br>" .
-            "<strong>Email: </strong> " . htmlspecialchars($email);
+            "<strong>Email: </strong> " . htmlspecialchars($email) . "<br>" .
+            "<strong>Digital Card Consent: </strong> " . ($consent ? 'Yes' : 'No');
 
     $result = sendMail($email, $name, $subject, $body);
 
