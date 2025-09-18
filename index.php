@@ -403,7 +403,7 @@ if (isset($_POST['form-issue'])) {
             <div class="row text-center justify-content-center">
                 <div class="col-lg-8">
                     <h2 class="main-heading text-uppercase mb-4">Meet Our CPB Friends</h2>
-                    <p class="lead mb-5">We're proud to showcase some of our valued CPB Friends who are part of our growing community. Each card represents a commitment to consumer rights and market fairness.</p>
+                    <p class="lead mb-5">We are proud to showcase some of our valued CPB Friends who are part of our growing community. Each card represents a commitment to consumer rights and market fairness.</p>
                 </div>
             </div>
             
