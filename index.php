@@ -397,7 +397,159 @@ if (isset($_POST['form-issue'])) {
         </div>
     </section>
 
+    <!-- CPB Friends Cards Showcase -->
+    <section class="friends-cards-showcase py-lg-5 py-4 bg-light" id="meet-cpb-friends">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="main-heading text-uppercase mb-4">Meet Our CPB Friends</h2>
+                    <p class="lead mb-5">We're proud to showcase some of our valued CPB Friends who are part of our growing community. Each card represents a commitment to consumer rights and market fairness.</p>
+                </div>
+            </div>
+            
+            <div class="friends-cards-carousel" >
+                <div class="carousel slide" id="friendsCarousel" data-bs-ride="carousel">
+                    <div class="carousel-inner" style="overflow:hidden;">
+                        <!-- Card 1 -->
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12 col-md-8 mb-4">
+                                    <div class="friend-card-wrapper text-center">
+                                        <div class="card-container">
+                                            <img src="assets/images/cpb-friends/Omar-Gouda.png" alt="CPB Friend Card" class="img-fluid rounded-3  hover-lift">
+                                            <div class="mt-3">
+                                                <h5 class="mb-1">Omar Gouda</h5>
+                                                <p class="text-muted mb-0">Member since 2025</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-lg-5 col-md-6 mb-4">
+                                    <div class="friend-card-wrapper text-center">
+                                        <div class="card-container">
+                                            <img src="assets/images/cpb-f-card (2).png" alt="CPB Friend Card" class="img-fluid rounded-3  hover-lift">
+                                            <div class="mt-3">
+                                                <h5 class="mb-1">David Thompson</h5>
+                                                <p class="text-muted mb-0">Member since 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <!-- Card Group 2 -->
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12 col-md-6 mb-4">
+                                    <div class="friend-card-wrapper text-center">
+                                        <div class="card-container">
+                                             <img src="assets/images/cpb-friends/Omar-Gouda.png" alt="CPB Friend Card" class="img-fluid rounded-3  hover-lift">
+                                            <div class="mt-3">
+                                                <h5 class="mb-1">Omar Gouda</h5>
+                                                <p class="text-muted mb-0">Member since 2025</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-lg-5 col-md-6 mb-4">
+                                    <div class="friend-card-wrapper text-center">
+                                        <div class="card-container">
+                                            <img src="assets/images/cpb-f-card (2).png" alt="CPB Friend Card" class="img-fluid rounded-3  hover-lift">
+                                            <div class="mt-3">
+                                                <h5 class="mb-1">Michael Brown</h5>
+                                                <p class="text-muted mb-0">Member since 2024</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#friendsCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#friendsCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <p class="lead mb-4">Join our growing community and get your own CPB Friends Card today!</p>
+                    <button type="button" class="main-btn btn-lg shadow-sm" onclick="document.getElementById('friendPopup').style.display = 'flex';">
+                        <span class="me-2">Become a CPB Friend</span>
+                        <i class="bi bi-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <style>
+    .friends-cards-carousel .carousel-inner {
+        height: auto;
+        overflow: visible;
+    }
+
+    .friend-card-wrapper {
+        transition: transform 0.3s ease;
+        cursor: pointer;
+        padding: 15px;
+        height: 100%;
+    }
+    
+  .friend-card-wrapper .card-container {
+    aspect-ratio: 1.586; /* Keeps the ratio */
+    width: 100%;
+    max-width: 400px; /* Increased from 300px */
+    margin: 0 auto;
+    position: relative;
+}
+
+.friend-card-wrapper img {
+    width: 100%;
+    height: auto;
+    max-height: calc(400px / 1.586); /* Keeps ratio aligned with new max-width */
+    object-fit: contain;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 10px;
+}
+
+    
+    .friend-card-wrapper:hover img {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    }
+    
+    .friends-cards-showcase .carousel-control-prev,
+    .friends-cards-showcase .carousel-control-next {
+        width: 5%;
+        background: rgba(0,0,0,0.2);
+        height: 50px;
+        top: 40%;
+        border-radius: 50%;
+    }
+
+    .friends-cards-showcase .carousel-control-prev {
+        left: -30px;
+    }
+
+    .friends-cards-showcase .carousel-control-next {
+        right: -30px;
+    }
+
+    @media (max-width: 768px) {
+        .friends-cards-showcase .carousel-control-prev,
+        .friends-cards-showcase .carousel-control-next {
+            display: none;
+        }
+    }
+    
     .network-bg-pattern {
         position: absolute;
         top: 0;
