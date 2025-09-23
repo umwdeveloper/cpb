@@ -424,17 +424,6 @@ if (isset($_POST['form-issue'])) {
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="col-lg-5 col-md-6 mb-4">
-                                    <div class="friend-card-wrapper text-center">
-                                        <div class="card-container">
-                                            <img src="assets/images/cpb-f-card (2).png" alt="CPB Friend Card" class="img-fluid rounded-3  hover-lift">
-                                            <div class="mt-3">
-                                                <h5 class="mb-1">David Thompson</h5>
-                                                <p class="text-muted mb-0">Member since 2023</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
                             </div>
                         </div>
                         <!-- Card Group 2 -->
@@ -443,25 +432,47 @@ if (isset($_POST['form-issue'])) {
                                 <div class="col-lg-12 col-md-6 mb-4">
                                     <div class="friend-card-wrapper text-center">
                                         <div class="card-container">
-                                             <img src="assets/images/cpb-friends/Omar-Gouda.png" alt="CPB Friend Card" class="img-fluid rounded-3  hover-lift">
+                                             <img src="assets/images/cpb-friends/li-cpb-frnd.png" alt="CPB Friend Card" class="img-fluid rounded-3  hover-lift">
                                             <div class="mt-3">
-                                                <h5 class="mb-1">Omar Gouda</h5>
+                                                <h5 class="mb-1">Li Wei</h5>
                                                 <p class="text-muted mb-0">Member since 2025</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="col-lg-5 col-md-6 mb-4">
+                            </div>
+                        </div>
+                             <!-- Card Group 3 -->
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12 col-md-6 mb-4">
                                     <div class="friend-card-wrapper text-center">
                                         <div class="card-container">
-                                            <img src="assets/images/cpb-f-card (2).png" alt="CPB Friend Card" class="img-fluid rounded-3  hover-lift">
+                                             <img src="assets/images/cpb-friends/george-cpb-frnd.png" alt="CPB Friend Card" class="img-fluid rounded-3  hover-lift">
                                             <div class="mt-3">
-                                                <h5 class="mb-1">Michael Brown</h5>
-                                                <p class="text-muted mb-0">Member since 2024</p>
+                                                <h5 class="mb-1">George</h5>
+                                                <p class="text-muted mb-0">Member since 2025</p>
                                             </div>
                                         </div>
                                     </div>
-                                </div> -->
+                                </div>
+                            </div>
+                        </div>
+
+                             <!-- Card Group 4 -->
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12 col-md-6 mb-4">
+                                    <div class="friend-card-wrapper text-center">
+                                        <div class="card-container">
+                                             <img src="assets/images/cpb-friends/Michal-cpb-frnd.png" alt="CPB Friend Card" class="img-fluid rounded-3  hover-lift">
+                                            <div class="mt-3">
+                                                <h5 class="mb-1">Michael White</h5>
+                                                <p class="text-muted mb-0">Member since 2025</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
