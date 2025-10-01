@@ -8,30 +8,23 @@ if (isset($_POST['form-contact'])) {
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $message = $_POST['msg'];
-
     $subject = "CPB Contact Form";
-
     $body = "<strong>Name: </strong> $name" . "<br>" .
         "<strong>Email: </strong> $email" . "<br>" .
         "<strong>Phone: </strong> $phone" . "<br>" .
         "<strong>Message: </strong> $message";
-
     $recaptchaSecret = '6LeWW5YqAAAAAEjGUeFCrxd0-lBEUAAZR0v0q9tO';
     $recaptchaResponse = $_POST['g-recaptcha-response'];
-
     $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptchaSecret&response=$recaptchaResponse");
     $responseKeys = json_decode($response, true);
-
     if ($responseKeys["success"]) {
         // reCAPTCHA validated
         $msg = sendMail($email, $name, $subject, $body);
-
         $contactFormSubmitted = true;
     } else {
         // reCAPTCHA failed
         $msg['status'] = 'error';
         $msg['message'] = "Please complete the reCAPTCHA verification.";
-
         $contactFormSubmitted = true;
     }
 }

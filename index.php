@@ -475,6 +475,23 @@ if (isset($_POST['form-issue'])) {
                                 </div>
                             </div>
                         </div>
+
+                          <!-- Card Group 4 -->
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12 col-md-6 mb-4">
+                                    <div class="friend-card-wrapper text-center">
+                                        <div class="card-container">
+                                             <img src="assets/images/cpb-friends/Maureen.png" alt="CPB Friend Card" class="img-fluid rounded-3  hover-lift">
+                                            <div class="mt-3">
+                                                <h5 class="mb-1">Maureen Holder</h5>
+                                                <p class="text-muted mb-0">Member since 2025</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     
                     <!-- Carousel Controls -->
