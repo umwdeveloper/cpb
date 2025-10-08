@@ -180,8 +180,8 @@ if (isset($_POST['form-contact'])) {
                 </div>
 
                 <div class="text-center mt-5">
-                    <p class="text-uppercase text-danger fw-bold">CPB will continue to press for change — because a fair
-                        journey shouldn't come with a double toll.</p>
+                    <p class="text-uppercase text-danger fw-bold">CPB will continue to press for change, as we believe a fair
+                        journey shouldn not come with a double toll.</p>
                 </div>
 
                 
