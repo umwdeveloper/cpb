@@ -91,26 +91,51 @@ if (isset($_POST['form-contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4 justify-content-center">
-   <div class="col-lg-4 mb-3 ">
+                <div class="col-lg-4 mb-3 ">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
-                            <img src="../assets/images/news/cpb-vs-expedia.png"
-                                style="object-fit:contain; object-position:center;" 
-                                alt="CPB calls out Expedia for failing to protect customers from fraud"
-                                class="">
+                            <img src="../assets/images/blog/The Heathrow ‘Drop-Off.png"
+                                style="object-fit:contain; object-position:center;"
+                                alt="" class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>9 July 2025</span> -->
                             <h2 class="mb-0 pb-0">
-                               CPB Calls Out Expedia Failings
+                                  The Heathrow "Drop-Off" Deception
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(8 OCT 2025)</span>
+                                <b>LONDON </b> –
+                               When Heathrow Airport and APCOA Parking rolled out their £6 Drop-Off Zone charge, it was promoted as a simple, eco-friendly measure to ease congestion. In reality, many drivers are finding it's anything but simple and in some cases, they are being charged twice for a single visit.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="
+                            apcoa-heathrow-drop-off-toll-trap.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3 ">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/news/cpb-vs-expedia.png"
+                                style="object-fit:contain; object-position:center;"
+                                alt="CPB calls out Expedia for failing to protect customers from fraud" class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>9 July 2025</span> -->
+                            <h2 class="mb-0 pb-0">
+                                CPB Calls Out Expedia Failings
                             </h2>
                             <p class="text mb-0 pb-0">
                                 <span>(18 August 2025)</span>
                                 <b>LONDON </b> –
-                               A CPB member and his family endured unnecessary stress, contradictory communications, and weeks of frustration after two separate car rental bookings through Expedia in Bergamo, Italy went badly wrong.
-
-
+                                A CPB member and his family endured unnecessary stress, contradictory communications,
+                                and weeks of frustration after two separate car rental bookings through Expedia in
+                                Bergamo, Italy went badly wrong.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="CPB-calls-out-Expedia-failing.php" class="news-alert-btn">Read
