@@ -121,7 +121,7 @@ if (isset($_POST['form-contact'])) {
                     <p class="mb-0 fst-italic text-dark">"Apparently missing a
                         turning and driving round again is now a finable offence,"
                         Chris said. "If that's the case,
-                        this is not a drop-off zone — it is a toll road."</p>
+                        this is not a drop-off zone, it is a toll road."</p>
                 </blockquote>
 
                 <p class="mt-4">CPB's review of APCOA's evidence confirms it: the system charges per camera pass, not
@@ -134,7 +134,7 @@ if (isset($_POST['form-contact'])) {
                         <li>⬥ A motorist who accidentally re-enters can face another
                             £6 charge.</li>
                         <li>⬥ The label "Drop-Off Zone"
-                            misleads drivers — it is effectively a per-use
+                            misleads drivers, it is effectively a per-use
                             toll road operating under a parking brand.</li>
                     </ul>
                 </div>
@@ -149,7 +149,7 @@ if (isset($_POST['form-contact'])) {
                         APCOA Parking and Heathrow Airport Holdings, calling for:</p>
                     <ul class="ps-3 list-unstyled">
                         <li>⬥ Clearer signage and lane separation between drop-off and short-stay routes.</li>
-                        <li>⬥ Transparent terminology that reflects the true nature of the charge — a toll, not a
+                        <li>⬥ Transparent terminology that reflects the true nature of the charge a toll, not a
                             parking fee.</li>
                         <li>⬥ A full review of the system's compliance with the Consumer Protection from Unfair Trading
                             Regulations 2008 and the Consumer Rights Act 2015.</li>
@@ -162,7 +162,7 @@ if (isset($_POST['form-contact'])) {
 
                 <blockquote class="blockquote px-4 py-3 mt-4"
                     style="background:#fff3cd; border-left: 5px solid #FFC107; border-radius: 6px;">
-                    <p class="mb-0 fst-italic text-dark">"When enforcement relies on confusion, it is not regulation —
+                    <p class="mb-0 fst-italic text-dark">"When enforcement relies on confusion, it is not regulation,
                         it is exploitation," said Yousouf Jhugroo, Managing Director of CPB. "Airport operators must stop
                         passing the blame to contractors and take direct responsibility for how consumers are treated."
                     </p>
