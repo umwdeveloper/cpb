@@ -71,7 +71,7 @@ if (isset($_POST['form-contact'])) {
         <div class="container py-5 px-3 px-md-5" style="max-width: 980px; background: #E3F2FD; border-radius: 12px;">
             <!-- Hero Image -->
             <div class="mb-4 rounded shadow-sm overflow-hidden">
-                <img src="../assets/images/blog/heathrow-dropoff.jpg" alt="Heathrow Airport Drop-Off Zone"
+                <img src="../assets/images/blog/The Heathrow ‘Drop-Off.png" alt="Heathrow Airport Drop-Off Zone"
                     class="img-fluid w-100">
             </div>
 
