@@ -96,18 +96,20 @@ if (isset($_POST['form-contact'])) {
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
                             <img src="../assets/images/blog/The Heathrow ‘Drop-Off.png"
-                                style="object-fit:contain; object-position:center;"
-                                alt="" class="">
+                                style="object-fit:contain; object-position:center;" alt="" class="">
                         </div>
                         <div class="news-card-text">
                             <!-- <span>9 July 2025</span> -->
                             <h2 class="mb-0 pb-0">
-                                  The Heathrow "Drop-Off" Deception
+                                The Heathrow "Drop-Off" Deception
                             </h2>
                             <p class="text mb-0 pb-0">
                                 <span>(8 OCT 2025)</span>
                                 <b>LONDON </b> –
-                               When Heathrow Airport and APCOA Parking rolled out their £6 Drop-Off Zone charge, it was promoted as a simple, eco-friendly measure to ease congestion. In reality, many drivers are finding it's anything but simple and in some cases, they are being charged twice for a single visit.
+                                When Heathrow Airport and APCOA Parking rolled out their £6 Drop-Off Zone charge, it was
+                                promoted as a simple, eco-friendly measure to ease congestion. In reality, many drivers
+                                are finding it's anything but simple and in some cases, they are being charged twice for
+                                a single visit.
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="
