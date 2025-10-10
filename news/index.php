@@ -95,6 +95,33 @@ if (isset($_POST['form-contact'])) {
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
                             style="background-color:#000032;">
+                            <img src="../assets/images/blog/The Heathrow ‘Drop-Off.png"
+                                style="object-fit:contain; object-position:center;" alt="" class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>9 July 2025</span> -->
+                            <h2 class="mb-0 pb-0">
+                               WATCHDOG VICTORY: CPB EXPOSES HEATHROW DROP-OFF
+FLAW AFTER APCOA U-TURN
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(08 OCT 2025)</span>
+                                <b>LONDON </b> –
+                                The Consumer Protection Bureau (CPB) has successfully intervened in consumer
+complaint against APCOA Parking (UK) Ltd, resulting in cancellation of unfair
+penalty issued to motorist at Heathrow Airport’s “Drop-Off Zone.”
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="../Press-Release/CPB-Press-Release-08-10-2025.pdf" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
                             <img src="../assets/images/jobs/cpb-ofwat.png"
                                 style="object-fit:contain; object-position:center;" alt="join cpb  For Just £5 a Month!"
                                 class="">
