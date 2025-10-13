@@ -78,7 +78,7 @@ if (isset($_POST['form-contact'])) {
                 <div class="mb-4">
                     <h1 class="display-5 fw-bold text-uppercase" style="color: #0D47A1;">End Double Taxation</h1>
                     <h2 class="fw-semibold" style="font-size: 1.6rem; color: #333;">Quash the Unfair Airport Drop-Off Fees: A Call for Reform</h2>
-                    <p class="text-muted mt-2 small">By the <strong>Consumer Protection Bureau (CPB)</strong> | September 2025</p>
+                    <p class="text-muted mt-2 small">By the <strong>Consumer Protection Bureau (CPB)</strong> | October 2025</p>
                 </div>
 
                 <!-- Main Blog Content -->
