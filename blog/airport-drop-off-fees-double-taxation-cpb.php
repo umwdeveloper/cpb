@@ -86,7 +86,7 @@ if (isset($_POST['form-contact'])) {
                                 <p>Across the UK, drivers are being forced to pay yet another unjust charge: <strong>airport drop-off fees</strong>. These government-backed schemes allow airports to demand payment from drivers who do nothing more than stop for a few minutes to let passengers out.</p>
 
                                 <blockquote class="blockquote px-4 py-3" style="background:#fff3cd; border-left: 5px solid #FFC107; border-radius: 6px;">
-                                    <p class="mb-0 fst-italic text-dark"><b>Let's be clear :</b> This is not only unfair — it is double taxation.</p>
+                                    <p class="mb-0 fst-italic text-dark"><b>Let's be clear :</b> This is not only unfair  it is double taxation.</p>
                                 </blockquote>
 
                                 <div class="p-4 rounded bg-white border-start border-4 border-danger mt-4">
@@ -108,7 +108,7 @@ if (isset($_POST['form-contact'])) {
                                     <h5 class="fw-bold text-warning mb-3">A Case of System Failure</h5>
                                     <p>On 7 August 2025, Chris T. dropped off a passenger at Heathrow Terminal 3. He did the right thing, going online the same day to pay the £6 charge, and even received a payment reference number.</p>
                                     
-                                    <p class="mb-0">Despite this, Chris later received a <strong>Parking Charge Notice (PCN)</strong> from APCOA — the private company managing Heathrow's drop-off scheme.</p>
+                                    <p class="mb-0">Despite this, Chris later received a <strong>Parking Charge Notice (PCN)</strong> from APCOA, the private company managing Heathrow's drop-off scheme.</p>
                                 </div>
 
                                 <div class="p-4 rounded bg-white border-start border-4 border-danger mt-4">
@@ -116,35 +116,35 @@ if (isset($_POST['form-contact'])) {
                                     <ul class="ps-3 list-unstyled">
                                         <li>⬥ APCOA's helpline was automated and only set up to take payments.</li>
                                         <li>⬥ Emails went unanswered, breaching their own response deadlines.</li>
-                                        <li>⬥ His enquiry was eventually marked "closed" without explanation — while the fine escalated.</li>
+                                        <li>⬥ His enquiry was eventually marked "closed" without explanation, while the fine escalated.</li>
                                     </ul>
                                 </div>
 
                                 <blockquote class="blockquote px-4 py-3 mt-4" style="background:#fff3cd; border-left: 5px solid #FFC107; border-radius: 6px;">
-                                    <p class="mb-0 fst-italic text-dark">A consumer who followed the rules was still penalised. This is not enforcement — it is entrapment.</p>
+                                    <p class="mb-0 fst-italic text-dark">A consumer who followed the rules was still penalised. This is not enforcement, it is entrapment.</p>
                                 </blockquote>
 
                                 <h3 class="fw-bold mt-5 mb-3" style="color: #0D47A1;">Legal Pressure is Mounting</h3>
 
-                                <p>Airport drop-off charges are not just unfair — their legality is already under question.</p>
+                                <p>Airport drop-off charges are not just unfair, their legality is already under question.</p>
 
                                 <div class="row g-4 mt-2">
                                     <div class="col-12">
                                         <div class="p-4 rounded bg-white border-start border-4 border-primary">
                                             <h5 class="fw-bold text-primary">Bristol Airport Challenge</h5>
-                                            <p class="mb-0">A solicitor has argued that £100 "no-stopping" penalties issued by contractors may be unenforceable under the <strong>Airports Act 1986</strong>. The Act requires byelaw breaches to be pursued in the magistrates' court, not by private invoices. A Guardian Money case showed a driver fined £170 after stopping at a temporary traffic light — a blatant injustice.</p>
+                                            <p class="mb-0">A solicitor has argued that £100 "no-stopping" penalties issued by contractors may be unenforceable under the <strong>Airports Act 1986</strong>. The Act requires byelaw breaches to be pursued in the magistrates' court, not by private invoices. A Guardian Money case showed a driver fined £170 after stopping at a temporary traffic light, a blatant injustice.</p>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="p-4 rounded bg-white border-start border-4 border-info">
                                             <h5 class="fw-bold text-info">Heathrow's Legal Retreat</h5>
-                                            <p class="mb-0">A senior barrister, Edward Levey KC, challenged a drop-off fine. APCOA dropped the case before it reached court, avoiding scrutiny of the scheme's legal footing. Which? reports that the <strong>legal basis for these charges has been challenged</strong> — but never tested in full court.</p>
+                                            <p class="mb-0">A senior barrister, Edward Levey KC, challenged a drop-off fine. APCOA dropped the case before it reached court, avoiding scrutiny of the scheme's legal footing. Which? reports that the <strong>legal basis for these charges has been challenged</strong>, but never tested in full court.</p>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="p-4 rounded bg-white border-start border-4 border-warning">
                                             <h5 class="fw-bold text-warning">Contractual Questions</h5>
-                                            <p class="mb-0">Tribunal rulings such as <em>Vehicle Control Services v HMRC [2012]</em> confirm that private "fines" are not statutory penalties but <strong>contractual charges</strong>. That means they must be transparent and proportionate — a standard many airport schemes fail.</p>
+                                            <p class="mb-0">Tribunal rulings such as <em>Vehicle Control Services v HMRC [2012]</em> confirm that private "fines" are not statutory penalties but <strong>contractual charges</strong>. That means they must be transparent and proportionate, a standard many airport schemes fail.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -175,7 +175,7 @@ if (isset($_POST['form-contact'])) {
                                     </ul>
                                 </div>
 
-                                <p class="mt-4">Fair travel begins at the very first step of the journey — the drop-off zone. Until these charges are quashed, UK consumers remain trapped in a system that is unjust, exploitative, and legally dubious.</p>
+                                <p class="mt-4">Fair travel begins at the very first step of the journey, the drop-off zone. Until these charges are quashed, UK consumers remain trapped in a system that is unjust, exploitative, and legally dubious.</p>
 
                                 <div class="text-center mt-5">
                                     <p class="text-uppercase text-danger fw-bold">It's time to stop double taxation. Scrap airport drop-off fees now.</p>
