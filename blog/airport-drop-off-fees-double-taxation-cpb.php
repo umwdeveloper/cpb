@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Scrap the Drop-Off Fee</title>
+    <title>Scrap the Drop-Off Charges</title>
     <meta name="description" content="">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -39,20 +39,20 @@
             <div class="container py-5 px-3 px-md-5" style="max-width: 980px; background: #E3F2FD; border-radius: 12px;">
                 <!-- Hero Image -->
                 <div class="mb-4 rounded shadow-sm overflow-hidden">
-                    <img src="../assets/images/blog/Fair-Travel.png" alt="Airport Drop-Off Fees"
+                    <img src="../assets/images/blog/Fair-Travel.png" alt="Airport Drop-Off Charges"
                         class="img-fluid w-100">
                 </div>
 
                 <!-- Title & Meta -->
                 <div class="mb-4">
-                    <h1 class="display-5 fw-bold text-uppercase" style="color: #0D47A1;">Scrap the Drop-Off Fee</h1>
+                    <h1 class="display-5 fw-bold text-uppercase" style="color: #0D47A1;">Scrap the Drop-Off Charges</h1>
                     <h2 class="fw-semibold" style="font-size: 1.6rem; color: #333;">Ending the Hidden Airport Tax on Drivers</h2>
                     <p class="text-muted mt-2 small">By the <strong>Consumer Protection Bureau (CPB)</strong> | October 2025</p>
                 </div>
 
                 <!-- Main Blog Content -->
                 <div class="fs-5 lh-lg text-dark">
-                    <p>British travellers are being unfairly penalised by airport "drop-off fees", a practice that amounts to double taxation on consumers and exposes deep flaws in the way motorists are treated at UK airports. The Consumer Protection Bureau (CPB) is calling for an immediate end to these unjust charges, which punish both drivers and passengers simply for reaching the terminal.</p>
+                    <p>British travellers are being unfairly penalised by airport "drop-off charges", a practice that amounts to double taxation on consumers and exposes deep flaws in the way motorists are treated at UK airports. The Consumer Protection Bureau (CPB) is calling for an immediate end to these unjust charges, which punish both drivers and passengers simply for reaching the terminal.</p>
 
                     <div class="p-4 rounded bg-white border-start border-4 border-primary mt-4">
                         <h5 class="fw-bold text-primary">A Modern Airport Toll in Disguise</h5>
@@ -89,9 +89,9 @@
                         <h5 class="fw-bold text-success mb-3">CPB's Position and Demands</h5>
                         <p>The Consumer Protection Bureau demands:</p>
                         <ul class="ps-3 list-unstyled">
-                            <li>⬥ An immediate review by the Department for Transport and the Competition and Markets Authority into the fairness and proportionality of airport drop-off fees.</li>
+                            <li>⬥ An immediate review by the Department for Transport and the Competition and Markets Authority into the fairness and proportionality of airport drop-off charges.</li>
                             <li>⬥ Transparency in all communications: airports must disclose charges clearly during booking, on websites, and at all entry points.</li>
-                            <li>⬥ Abolition or drastic reduction of drop-off fees, recognising access to the terminal as a public right, not a chargeable commodity.</li>
+                            <li>⬥ Abolition or drastic reduction of drop-off charges, recognising access to the terminal as a public right, not a chargeable commodity.</li>
                         </ul>
                     </div>
 
@@ -103,7 +103,7 @@
                     </div>
 
                     <div class="text-center mt-5">
-                        <p class="text-uppercase text-danger fw-bold">Join us in the fight to end unfair airport drop-off fees.</p>
+                        <p class="text-uppercase text-danger fw-bold">Join us in the fight to end unfair airport drop-off charges.</p>
                     </div>
                                        
                           
