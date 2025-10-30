@@ -91,6 +91,31 @@ if (isset($_POST['form-contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4 justify-content-center">
+                    <div class="col-lg-4 mb-3 ">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/blog/Fair-Travel.png"
+                                style="object-fit:contain; object-position:center;" alt="" class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>9 July 2025</span> -->
+                            <h2 class="mb-0 pb-0">
+                               Scrap the Drop-Off Fee: Ending the Hidden Airport Tax on Drivers
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(30 OCT 2025)</span>
+                                <b>LONDON </b> –
+                               British travellers are being unfairly penalised by airport "drop-off fees", a practice that amounts to double taxation on consumers and exposes deep flaws in the way motorists are treated at UK airports. The Consumer Protection Bureau (CPB) is calling for an immediate end to these unjust charges, which punish both drivers and passengers simply for reaching the terminal.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="
+                           airport-drop-off-fees-double-taxation-cpb.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-4 mb-3 ">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
