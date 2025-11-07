@@ -45,7 +45,9 @@
 
                 <!-- Title & Meta -->
                 <div class="mb-4">
-                    <h1 class="display-5 fw-bold" style="color: #0D47A1;">When "Flexible" Offices Become Financial Traps: The Growing Concern Over IW Group Services (UK) Ltd (Regus) Practices</h1>
+                    <h1 class="display-5 fw-bold" style="color: #0D47A1;">When "Flexible" Offices Become Financial Traps
+                        </h1>
+                    <h2 class="fw-semibold" style="font-size: 1.6rem; color: #333;"> The Growing Concern Over IW Group Services (UK) Ltd (Regus) Practices</h2>
                     <p class="text-muted mt-2 small">Published by the <strong>Consumer Protection Bureau (CPB)</strong> | 7 November 2025</p>
                 </div>
 
