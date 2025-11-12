@@ -38,17 +38,18 @@
         <section class="py-lg-5 py-4 bg-light about-hero">
             <div class="container py-5 px-3 px-md-5" style="max-width: 980px; background: #E3F2FD; border-radius: 12px;">
                 <!-- Hero Image -->
-                <!-- <div class="mb-4 rounded shadow-sm overflow-hidden">
-                    <img src="../assets/images/blog/office-space.jpg" alt="Modern Office Space"
+                <div class="mb-4 rounded shadow-sm overflow-hidden">
+                    <img src="../assets/images/blog/office-trap.png" alt="Modern Office Space"
                         class="img-fluid w-100">
-                </div> -->
+                </div>
 
                 <!-- Title & Meta -->
                 <div class="mb-4">
-                    <h1 class="display-5 fw-bold text-uppercase" style="color: #0D47A1;">When "Flexible" Offices Become Financial Traps
+                    <h1 class="display-5 fw-bold text-uppercase" style="color: #0D47A1;">
+                      When "Flexible" Offices Become Financial Traps
                         </h1>
                     <h2 class="subtitle-bullet fw-semibold" style="font-size: 1.6rem; color: #333;"> The Growing Concern Over IW Group Services (UK) Ltd (Regus) Practices</h2>
-                    <p class="text-muted mt-2 small">Published by the <strong>Consumer Protection Bureau (CPB)</strong> | 7 November 2025</p>
+                    <p class="text-muted mt-2 small">Published by the <strong>Consumer Protection Bureau (CPB)</strong> | 12 November 2025</p>
                 </div>
 
                 <!-- Main Blog Content -->

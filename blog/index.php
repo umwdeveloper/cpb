@@ -91,6 +91,31 @@ if (isset($_POST['form-contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4 justify-content-center">
+                 <div class="col-lg-4 mb-3 ">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/blog/office-trap.png"
+                                style="object-fit:contain; object-position:center;" alt="" class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>9 July 2025</span> -->
+                            <h2 class="mb-0 pb-0">
+                                Scrap the Drop-Off Charges: Ending the Hidden Airport Tax on Drivers
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(12 NOV 2025)</span>
+                                <b>LONDON </b> –
+                               In recent months, CPB has received reports from small and medium-sized enterprises (SMEs) describing aggressive and unjustified demands from IW Group Services (UK) Ltd (trading as Regus), a global provider of flexible workspace solutions.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="
+                           flexible-offices-financial-traps-regus.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-4 mb-3 ">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
