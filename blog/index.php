@@ -91,6 +91,34 @@ if (isset($_POST['form-contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4 justify-content-center">
+                  <div class="col-lg-4 mb-3 ">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/blog/digital-card.png"
+                                style="object-fit:contain; object-position:center;" alt="" class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>9 July 2025</span> -->
+                            <h2 class="mb-0 pb-0">
+                               The Dark Side of Digital Gift Card Marketplaces
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(25 NOV 2025)</span>
+                                <b>LONDON </b> –
+                              Digital gift cards have quietly become one of the fastest-growing online purchases in the UK. But
+                    beneath the glossy convenience lies an unregulated ecosystem. One where hundreds of pounds can
+                    disappear in seconds, with neither the seller nor the platform accepting responsibility. A recent
+                    case brought to the Consumer Protection Bureau (CPB) is a textbook example of what is going wrong.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="
+                           dark-side-of-digital-card-marketplace.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                  <div class="col-lg-4 mb-3 ">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"

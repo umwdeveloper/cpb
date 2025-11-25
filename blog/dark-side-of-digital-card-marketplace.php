@@ -62,21 +62,19 @@
             </div>
             <!-- Main Blog Content -->
             <div class="fs-5  text-dark" style="line-height: normal;">
-<b>
+
     
-                <p>Digital gift cards have quietly become one of the fastest-growing online purchases in the UK. But
+                <p style="font-weight:500">Digital gift cards have quietly become one of the fastest-growing online purchases in the UK. But
                     beneath the glossy convenience lies an unregulated ecosystem. One where hundreds of pounds can
                     disappear in seconds, with neither the seller nor the platform accepting responsibility. A recent
                     case brought to the Consumer Protection Bureau (CPB) is a textbook example of what is going wrong.
                 </p>
-</b>
 
-                <div class="p-4 rounded bg-white border-start border-4 border-warning mt-4">
-                    <h5 class="fw-bold text-warning">The Purchase: Smooth, Simple, and Reassuring</h5>
+
+                    <h5 class="fw-bold ">The Purchase: Smooth, Simple, and Reassuring</h5>
                     <p class="mb-0">A customer bought £450 worth of Amazon.co.uk gift cards from digital marketplace
                         Eneba.com, a popular platform that connects buyers to independent sellers. Everything looked
                         legitimate: codes redeemed, balance appeared instantly, and orders began to ship.</p>
-                </div>
 
                 <blockquote class="blockquote px-4 py-3 mt-4"
                     style="background:#fff3cd; border-left: 5px solid #FFC107; border-radius: 6px;">
@@ -158,7 +156,7 @@
                         </div>
                         <div class="d-flex align-items-start gap-3" style="padding:10px;border-radius:6px;background:#f4f8ff;">
                             <span style="color:#0D47A1;font-weight:700;">➤</span>
-                            <div>Consider ADR, chargebacks, Citizens Advice, or the UK European Consumer Centre.</div>
+                            <div>Consider Consumer Protection Bureu, ADR, chargebacks, or the UK European Consumer Centre.</div>
                         </div>
                     </div>
                 </div>
