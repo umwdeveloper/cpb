@@ -61,14 +61,15 @@
            
             </div>
             <!-- Main Blog Content -->
-            <div class="fs-5 lh-lg text-dark">
-                
-
+            <div class="fs-5  text-dark" style="line-height: normal;">
+<b>
+    
                 <p>Digital gift cards have quietly become one of the fastest-growing online purchases in the UK. But
                     beneath the glossy convenience lies an unregulated ecosystem. One where hundreds of pounds can
                     disappear in seconds, with neither the seller nor the platform accepting responsibility. A recent
                     case brought to the Consumer Protection Bureau (CPB) is a textbook example of what is going wrong.
                 </p>
+</b>
 
                 <div class="p-4 rounded bg-white border-start border-4 border-warning mt-4">
                     <h5 class="fw-bold text-warning">The Purchase: Smooth, Simple, and Reassuring</h5>
@@ -127,29 +128,58 @@
                     goods, platforms frequently argue that once a code is used the contract is at an end. That loophole
                     allows substantial consumer losses to go unresolved.</p>
 </div>
-                <div class="p-3 rounded" style="background:#edf7ef; border-left:4px solid #2e7d32;">
-                    <h3 class="fw-bold mt-0">What Consumers Can Do For Now</h3>
-                    <p>Until legislation catches up, consumers must rely on imperfect tools:</p>
-                    <ul class="ps-3 list-unstyled">
-                        <li>➤ Buy gift cards only from authorised retailers.</li>
-                        <li>➤ Be cautious with reseller marketplaces, even if the deals look legitimate.</li>
-                        <li>➤ Keep every receipt, email, transaction ID and code redemption confirmation.</li>
-                        <li>➤ Raise disputes through banks or card providers where possible.</li>
-                        <li>➤ Consider ADR, chargebacks, Citizens Advice, or the UK European Consumer Centre.</li>
-                    </ul>
+                <div class="mb-4">
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <div style="width:56px;height:56px;background:#0D47A1;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px;box-shadow:0 6px 18px rgba(13,71,161,0.12);">
+                            <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <h3 class="h5 mb-0">What Consumers Can Do For Now</h3>
+                            <p class="small text-muted mb-0">Practical steps while legislation catches up</p>
+                        </div>
+                    </div>
+
+                    <div style="background:#ffffff;border:1px solid #e8eef6;border-radius:8px;padding:12px;">
+                        <div class="d-flex align-items-start gap-3 mb-2" style="padding:10px;border-radius:6px;background:#f4f8ff;">
+                            <span style="color:#0D47A1;font-weight:700;">➤</span>
+                            <div>Buy gift cards only from authorised retailers.</div>
+                        </div>
+                        <div class="d-flex align-items-start gap-3 mb-2" style="padding:10px;border-radius:6px;background:#f9fbff;">
+                            <span style="color:#0D47A1;font-weight:700;">➤</span>
+                            <div>Be cautious with reseller marketplaces, even if the deals look legitimate.</div>
+                        </div>
+                        <div class="d-flex align-items-start gap-3 mb-2" style="padding:10px;border-radius:6px;background:#f4f8ff;">
+                            <span style="color:#0D47A1;font-weight:700;">➤</span>
+                            <div>Keep every receipt, email, transaction ID and code redemption confirmation.</div>
+                        </div>
+                        <div class="d-flex align-items-start gap-3 mb-2" style="padding:10px;border-radius:6px;background:#f9fbff;">
+                            <span style="color:#0D47A1;font-weight:700;">➤</span>
+                            <div>Raise disputes through banks or card providers where possible.</div>
+                        </div>
+                        <div class="d-flex align-items-start gap-3" style="padding:10px;border-radius:6px;background:#f4f8ff;">
+                            <span style="color:#0D47A1;font-weight:700;">➤</span>
+                            <div>Consider ADR, chargebacks, Citizens Advice, or the UK European Consumer Centre.</div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="p-4 rounded bg-white border-start border-4 border-success mt-4">
-                    <h5 class="fw-bold text-success mb-3">CPB’s Position</h5>
-                    <p class="mb-0">CPB will raise this issue with regulators, MPs and consumer bodies, calling for
-                        clarity, accountability and legislative safeguards. Until reform arrives CPB will support
-                        affected consumers and publicise these failures.</p>
+                <!-- Prominent CPB Position card (navy background, white text, large icon + CTA) -->
+                <div id="cpb-position" class="p-4 rounded mt-4"
+                    style="background:#0D47A1;color:#fff; box-shadow:0 12px 30px rgba(13,71,161,0.14); border:1px solid rgba(255,255,255,0.06);">
+                    <div class="d-flex align-items-center gap-3">
+                        <div style="width:64px;min-width:64px;height:64px;min-height:64px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#0D47A1;font-size:22px;box-shadow:0 6px 18px rgba(0,0,0,0.08);flex:0 0 64px;">
+                            <i class="fas fa-gavel" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <h3 class="fw-bold mb-1" style="color:#fff;">CPB’s Position</h3>
+                            <p class="mb-2" style="color:rgba(255,255,255,0.95);">CPB will raise this issue with regulators, MPs and consumer bodies, calling for clarity, accountability and legislative safeguards. Until reform arrives CPB will support affected consumers and publicise these failures.</p>
+                            <a href="../contact.php" class="btn btn-light btn-sm">Contact CPB for help</a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="text-center mt-5 d-flex flex-column justify-content-center align-content-center">
-                    <p>
-                        <a href="../contact.php" class="complaint-btn text-white text-decoration-none ">Contact CPB for Help</a>
-                    </p>
+                 
                     <p class="mt-3 text-muted small">Share this article to raise awareness</p>
                 </div>
 
