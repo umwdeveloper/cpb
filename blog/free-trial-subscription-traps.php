@@ -57,27 +57,41 @@
 
 
                 <p class="text" style="font-weight:500">
-                    Free trials sound like a great deal. From fitness apps and streaming services to
-                    dietary supplements and online tools, offers promising "zero cost for 30 days" or "enjoy free access
-                    now" are everywhere. But beneath the surface, many of these trials are anything but risk-free. In
-                    fact, they can quietly lock consumers into costly subscriptions often without clear notice that
-                    the free period will automatically turn into a paid plan.
+                   Free trials have become a standard marketing tool across the digital economy. From streaming platforms and fitness apps to productivity software and dietary supplements, consumers are routinely encouraged to “try before you buy” with promises of zero cost for 14 or 30 days.
                 </p>
 
-                <p>This is not just inconvenience. It is a real consumer harm that costs millions every year. Around the
-                    world, regulatory authorities have identified deceptive subscription traps, where trial offers are
-                    marketed without clear pricing information and consumers end up enrolled in ongoing payments they
-                    never intended to make.</p>
+                <p>But for many, these trials are not as risk-free as they appear.</p>
+                <p class="text">
+                    Behind the marketing slogans, a growing number of consumers are finding themselves quietly enrolled into paid subscriptions they never knowingly agreed to often only discovering the charges weeks or months later, when money has already left their account.
+                </p>
+                <p class="text">
+                    This is not a minor inconvenience. Regulators and consumer organisations worldwide have identified subscription traps as a widespread and costly form of consumer harm, draining millions from household budgets each year.
+                </p>
 
 
                 <h3 class="fw-bold mt-4">The Allure  And The Trap</h3>
-                <p>A typical scenario looks like this: you sign up for a service with a free trial. You enjoy the
-                    product. But somewhere buried in the terms often in fine print that few read, is the fact that
-                    your card will be charged automatically if you do not cancel before the trial ends. Sometimes
-                    reminders are never sent, cancellation links are hidden deep within menus, or the process to opt out
-                    is confusing and time consuming. These are classic examples of dark pattern tactics that make it
-                    easy to sign up and hard to cancel.</p>
-
+                <p>A consumer signs up for a free trial, entering card details “for verification purposes”. The service works as expected. Then, without any clear reminder or warning, the trial period ends and automatic payments begin.</p>
+<p class="text">
+    
+In many cases:
+</p>
+<ul class="list-unstyled">
+    <li>
+        <span style="color:#0D47A1;font-weight:700;">➤</span>	No meaningful notification is sent before billing starts
+    </li>
+    <li>
+        <span style="color:#0D47A1;font-weight:700;">➤</span>	Cancellation options are hidden or difficult to locate
+    </li>
+    <li>
+        <span style="color:#0D47A1;font-weight:700;">➤</span>	Consumers are pushed through complex or time-consuming cancellation processes
+    </li>
+</ul>
+<!-- <p class="text">
+    By the time the charges are noticed, several billing cycles may already have passed.
+</p>
+<p class="text">
+    What looked like a harmless trial has quietly become a recurring financial commitment.
+</p> -->
                 <blockquote class="blockquote px-4 py-3 mt-4"
                     style="background:#FFE0B2; border-left: 5px solid #FF6F00; border-radius: 6px;">
                     <p class="mb-0 fst-italic text-dark text">"Once the trial converts, you might find recurring charges on
@@ -86,32 +100,40 @@
                 </blockquote>
 
                 <div class="p-3 rounded mt-4" style="background: linear-gradient(180deg, #ffffff 0%, #FFF8E1 100%); border: 1px solid #FFB74D;">
-                    <h3 class="fw-semibold mt-0" style="color: #0D47A1;">How This Happens</h3>
-                    <p class="mb-3">Many companies deploy design tactics that encourage ongoing payments:</p>
+                    <h3 class="fw-semibold mt-0" style="color: #0D47A1;">How Subscription Traps Work</h3>
+                    <p class="text">
+                        Investigations by consumer protection bodies show that many companies rely on design techniques often referred to as dark patterns  that steer users towards ongoing payments while discouraging cancellation.
+                    </p>
+                    <p class="mb-3">Common tactics include:</p>
 
                     <div class="p-3 rounded mb-3" style="background:#f4f8ff; border-left:4px solid #0D47A1;">
-                        <p class="mb-0"><strong>Pre-ticked subscription boxes</strong> that commit you to recurring
-                            billing unless you uncheck them.</p>
+                        <p class="mb-0"><strong>Pre-selected renewal boxes, </strong> meaning consumers are opted into recurring payments by default.</p>
                     </div>
 
                    <div class="p-3 rounded mb-3" style="background:#f4f8ff; border-left:4px solid #0D47A1;">
-                        <p class="mb-0"><strong>Hidden terms</strong> tucked away in lengthy legal text rather than
-                            clear upfront explanations.</p>
+                        <p class="mb-0"><strong>Key billing information buried in lengthy terms,</strong> rather than displayed clearly at sign-up.</p>
                     </div>
 
                     <div class="p-3 rounded mb-3" style="background:#f4f8ff; border-left:4px solid #0D47A1;">
-                        <p class="mb-0"><strong>Complex cancellation routes</strong> that force you through multiple
-                            pages, forms, or customer service calls, making it easier to stay subscribed than leave.
+                        <p class="mb-0"><strong>Obstructive cancellation routes,</strong> requiring multiple steps, hidden menus, or customer service calls.
                         </p>
                     </div>
-                </div>
 
-                <div class="p-4 rounded mt-4 mb-4" style="background:#FFF3E0; border-left: 4px solid #F57C00; border: 2px solid #FFB74D;">
-                    <p class="mb-0"><strong style="color: #0D47A1;">Warning: </strong> These practices are not just annoying, they are widespread. Consumer protection
-                        bodies have repeatedly flagged subscription traps as a deceptive tactic that can financially
-                        harm consumers who reasonably believe they are signing up for a free service.</p>
+                     <p class="text mt-3">
+                    Individually, these practices may seem minor. Collectively, they create a system where it is far easier to sign up than to leave.
+                </p>
                 </div>
-
+               
+ <h3 class="fw-bold mt-4">Why This Matters</h3>
+<p class="text">
+    Subscription traps exploit reasonable consumer expectations.
+</p>
+<p class="text">
+    Most people understand a “free trial” to mean exactly that a chance to test a service without financial consequence. When payment obligations are concealed, obscured, or downplayed, consumer consent becomes questionable.
+</p>
+<p class="text">
+    Regulators increasingly recognise these practices as unfair and potentially unlawful, particularly where pricing, renewal terms, or cancellation rights are not presented clearly and prominently.
+</p>
 
 
                 <div class="mb-4">
@@ -121,39 +143,40 @@
                             <i class="fas fa-user-shield" aria-hidden="true"></i>
                         </div>
                         <div>
-                            <h3 class="h5 mb-0">How You Can Stay in Control</h3>
+                            <h3 class="h5 mb-0">How to Protect Yourself</h3>
                             <p class="small text-muted mb-0">Being vigilant and informed is your best defence</p>
                         </div>
                     </div>
 
                     <div style="background:#ffffff;border:2px solid #0D47A1;border-radius:8px;padding:12px;">
+                        <p class="text">
+                            Consumers can reduce the risk of falling into subscription traps by taking a few practical steps:
+                        </p>
                         <div class="d-flex align-items-start gap-3 mb-2"
                             style="padding:10px;border-radius:6px;background:#f4f8ff;">
                             <span style="color:#0D47A1;font-weight:700;">➤</span>
-                            <div><strong>Read the terms carefully</strong>  especially the sections about billing and
-                                cancellations, not just the headline offer.</div>
+                            <div><strong>Read beyond the headline offer,</strong>  paying close attention to billing and renewal terms.</div>
                         </div>
                         <div class="d-flex align-items-start gap-3 mb-2"
                             style="padding:10px;border-radius:6px;background:#f4f8ff;">
                             <span style="color:#0D47A1;font-weight:700;">➤</span>
-                            <div><strong>Uncheck any pre-selected payment or renewal options</strong> before you click
-                                "agree."</div>
+                            <div><strong>Untick any pre-selected payment or renewal options</strong> before confirming sign-up.</div>
                         </div>
                         <div class="d-flex align-items-start gap-3 mb-2"
                             style="padding:10px;border-radius:6px;background:#f4f8ff;">
                             <span style="color:#0D47A1;font-weight:700;">➤</span>
-                            <div><strong>Set reminders to cancel before the trial expires</strong>  mark your calendar
-                                or use an alert on your phone.</div>
+                            <div><strong>Set a cancellation reminder </strong>  well before the trial ends.</div>
                         </div>
                         <div class="d-flex align-items-start gap-3"
                             style="padding:10px;border-radius:6px;background:#f4f8ff;">
                             <span style="color:#0D47A1;font-weight:700;">➤</span>
-                            <div><strong>Review your bank and card statements regularly</strong> for unexpected charges.
+                            <div><strong>Check bank and card statements regularly </strong> for unfamiliar or unexpected charges.
                             </div>
                         </div>
+                                            <p class="mt-4 ">Early detection is key. The sooner an issue is identified, the easier it is to stop further losses..</p>
+
                     </div>
-                    <p class="mt-3">Taking these steps can help you avoid unwanted subscriptions before they become
-                        costly problems.</p>
+                    
                 </div>
 
                 <!-- Prominent CPB Position card (navy background, white text, large icon + CTA) -->
@@ -165,21 +188,16 @@
                             <i class="fas fa-hands-helping" aria-hidden="true"></i>
                         </div>
                         <div>
-                            <h3 class="fw-bold mb-1" style="color:#fff;">CPB Is On Your Side</h3>
-                            <p class="mb-2" style="color:rgba(255,255,255,0.95);">At the Consumer Protection Bureau, we
-                                help consumers identify subscription traps, challenge unfair billing practices, and seek
-                                refunds where charges are deceptive or unclear. Being informed is being empowered  and
-                                that means keeping your money where it belongs: with you.</p>
-                            <p class="mb-2" style="color:rgba(255,255,255,0.95);">If you have been caught out by a free
-                                trial that was not truly free, contact CPB today. We can help you understand your rights
-                                and take action to protect your finances.</p>
-                            <p class="mb-3" style="color:rgba(255,255,255,0.95);"><strong>Do not let "free" offers cost
-                                    you more than you bargained for  stay alert, stay informed, and let CPB stand with
-                                    you.</strong></p>
+                            <h3 class="fw-bold mb-1" style="color:#fff;">CPB’s Role</h3>
+                            <p class="mb-2" style="color:rgba(255,255,255,0.95);">The Consumer Protection Bureau regularly assists consumers who have been caught out by misleading free trials and unclear subscription practices. This includes helping individuals challenge unfair charges, seek refunds, and understand their consumer rights.</p>
+                            <p class="mb-2" style="color:rgba(255,255,255,0.95);">Awareness remains the strongest defence. The more consumers understand how these traps operate, the harder they are to sustain.</p>
+                            <p class="mb-3" style="color:rgba(255,255,255,0.95);"><strong>If a “free” offer has ended up costing you more than expected, CPB encourages you to seek advice and take action.</strong></p>
                             <a href="../contact.php" class="btn btn-light btn-sm">Contact CPB for help</a>
                         </div>
                     </div>
                 </div>
+
+                 <h3 class="fw-bold mb-1 mt-5 text-center" style="color:#0D47A1;">Free should mean free, not a financial ambush.</h3>
 
                 <div class="text-center mt-5 d-flex flex-column justify-content-center align-content-center">
 
