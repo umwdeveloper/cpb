@@ -50,7 +50,7 @@
                 </h1>
                 <h3>The Hidden Cost of Trial Offers </h3>
                 <p class="text-muted mt-2 small mb-0 pb-0">Published by the <strong>Consumer Protection Bureau
-                        (CPB)</strong> | 14 January 2026</p>
+                        (CPB)</strong> | 16 January 2026</p>
             </div>
             <!-- Main Blog Content -->
             <div class="  text-dark" style="line-height: normal;">
