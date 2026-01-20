@@ -113,7 +113,7 @@ if (isset($_POST['form-issue'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
         integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/">
+    <!-- <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/"> -->
 
 
     <link rel="stylesheet" href="assets/css/style.css">
