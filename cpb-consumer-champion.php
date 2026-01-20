@@ -101,7 +101,7 @@
                             <a class="nav-link " href="job-opportunties/">Job Opportunties</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="championship.php">CPB Champions
+                            <a class="nav-link" href="cpb-consumer-champion.php">CPB Champions
                             </a>
                         </li>
                         <li class="nav-item">
@@ -1110,7 +1110,7 @@
                            <a href="archive.php" class="text-white">Archive</a>
                        </p>
                        <p>
-                           <a href="championship.php" class="text-white">CPB Consumer Champions</a>
+                           <a href="cpb-consumer-champion.php" class="text-white">CPB Consumer Champions</a>
                        </p>
                    </div>
 

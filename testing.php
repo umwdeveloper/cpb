@@ -839,7 +839,7 @@ if (isset($_POST['form-issue'])) {
                             <div class="col-lg-8">
                                 <ul class="list-unstyled">
                                     <li class="mb-3">
-                                        <strong>Annual Membership:</strong> £50 per year (Silver Membership)
+                                        <strong>Annual Champion:</strong> £50 per year (Silver Champion)
                                     </li>
                                     <li class="mb-3">
                                         <strong>Refunds:</strong> If we recover more than £300, we apply a small success
@@ -872,7 +872,7 @@ if (isset($_POST['form-issue'])) {
                             </ul>
                         </div>
                         <!-- <div class="card-footer text-center">
-                            <a href="membership.php?plan=bronze" class="main-btn">Select Plan</a>
+                            <a href="cpb-consumer-champion.php?plan=bronze" class="main-btn">Select Plan</a>
                         </div> -->
                     </div>
                 </div>
@@ -895,7 +895,7 @@ if (isset($_POST['form-issue'])) {
                             </ul>
                         </div>
                         <!-- <div class="card-footer text-center">
-                            <a href="membership.php?plan=silver" class="main-btn">Select Plan</a>
+                            <a href="cpb-consumer-champion.php?plan=silver" class="main-btn">Select Plan</a>
                         </div> -->
                     </div>
                 </div>
@@ -918,7 +918,7 @@ if (isset($_POST['form-issue'])) {
                             </ul>
                         </div>
                         <!-- <div class="card-footer text-center">
-                            <a href="membership.php?plan=gold" class="main-btn">Select Plan</a>
+                            <a href="cpb-consumer-champion.php?plan=gold" class="main-btn">Select Plan</a>
                         </div> -->
                     </div>
                 </div>
@@ -928,7 +928,7 @@ if (isset($_POST['form-issue'])) {
                         Join CPB today and let us stand by your side in every consumer dispute.
                     </p>
                     <div class="mt-4">
-                        <a href="membership.php" class="main-btn">Become a Member Today</a>
+                        <a href="cpb-consumer-champion.php" class="main-btn">Become a Member Today</a>
                     </div>
                 </div>
             </div>
@@ -1749,7 +1749,8 @@ if (isset($_POST['form-issue'])) {
                         </li>
                         <li>
                             <a href="faq.php#faq-13" class="faq-text text-decoration-none ">
-                                <i class="bi bi-arrow-right-circle-fill me-2"></i> Can I cancel my CPB Consumer Championship?
+                                <i class="bi bi-arrow-right-circle-fill me-2"></i> Can I cancel my <span class="text-danger">CPB Consumer Championship</span>
+                                ?
                             </a>
                         </li>
                     </ul>
@@ -1945,7 +1946,7 @@ if (isset($_POST['form-issue'])) {
                            <a href="archive.php" class="text-white">Archive</a>
                        </p>
                        <p>
-                           <a href="membership.php" class="text-white">Membership</a>
+                           <a href="cpb-consumer-champion.php" class="text-white">CPB Champions</a>
                        </p>
                    </div>
 
