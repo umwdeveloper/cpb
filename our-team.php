@@ -91,7 +91,9 @@ $feedbacks = findAll("feedbacks");
 
                     </p>
                     <p class="text-md text-center">
-                    At the Consumer Protection Bureau, our strength lies in our people. Our team is made up of passionate professionals with diverse backgrounds in law, consumer rights, dispute resolution, and regulatory compliance. Each member is committed to protecting consumers, holding businesses accountable, and ensuring every voice is heard. Together, we work tirelessly to resolve complaints, promote fair practices, and empower individuals across the UK with the support they need.
+                    At the Consumer Protection Bureau, our strength lies in our people. Our team is made up 
+                    of passionate professionals with diverse backgrounds
+                     in law, consumer rights, dispute resolution, and regulatory compliance. Each member is committed to protecting consumers, holding businesses accountable, and ensuring every voice is heard. Together, we work tirelessly to resolve complaints, promote fair practices, and empower individuals across the UK with the support they need.
 
 
                     </p>
@@ -279,39 +281,7 @@ $feedbacks = findAll("feedbacks");
         </div>
         </div>    
     </section>
-    <section class="py-lg-5 py-4 bg-light">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <h2 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
-                        Visit Our Subsidiary Companies
-                    </h2>
-
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://www.compliance-experts.co.uk/" target="_blank"
-                        class="text-decoration-none text-dark">
-                        <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
-                            <img src="assets/images/CRC-logo.png" alt="CRC logo" style="width:130px; height:auto;">
-                            <h3 class="mt-4 text-center text-md" style=" font-weight:500;">Compilance and Risk
-                                Consultancy</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://carehomecompliance.com/" target="_blank" class="text-decoration-none text-dark">
-                        <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
-                            <img src="assets/images/Care Home Compilance.png" alt="CHC logo"
-                                style="width:100px; height:auto;">
-                            <h3 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h3>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+ 
     <section>
         <div class="contact-area py-lg-5 py-4">
             <div class="container py-4">

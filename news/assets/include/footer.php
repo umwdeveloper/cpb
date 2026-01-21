@@ -54,7 +54,7 @@
                            <a href="../archive.php" class="text-white">Archive</a>
                        </p>
                        <p>
-                           <a href="../membership.php" class="text-white">Membership</a>
+                          <a href="../cpb-consumer-champion.php" class="text-white">CPB Champions</a>
                        </p>
                    </div>
 
@@ -83,39 +83,58 @@
            <hr class="my-3">
 
            <!-- Section: Copyright -->
-           <section class="p-3 pt-0">
+         <section class="p-3 pt-0">
                <div class="row d-flex align-items-center">
                    <!-- Grid column -->
-                   <div class="col-md-7 col-lg-8 text-center text-md-start">
-                       <!-- Copyright -->
-                       <div class="p-3">
-                           © 2024 Copyright:
-                           <a class="text-white" href="index.php">CONSUMER PROTECTION BUREAU</a>
-                       </div>
-                       <!-- Copyright -->
-                   </div>
-                   <!-- Grid column -->
+                   <section class="p-3 pt-0">
+                       <div class="row d-flex align-items-center">
+                           <div class="col-lg-12">
+                               <!-- Governance Clarification -->
+                               <div class="px-3 pb-2" style="font-size: 0.75rem; opacity: 0.85;">
+                                   CPB Consumer Champions support independent consumer advocacy. They do not hold
+                                   governance, ownership, or voting rights. CPB is governed by a Founder-appointed Board
+                                   in
+                                   accordance with its Articles of Association.
+                               </div>
+                           </div>
+                           <!-- Grid column -->
+                           <div class="col-md-7 col-lg-8 text-center text-md-start">
 
-                   <!-- Grid column -->
-                   <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-                       <!-- Facebook -->
-                       <a href="https://web.facebook.com/profile.php?id=61570163952467"
-                           class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"
-                           aria-label="Facebook"  target="_blank"><i class="fab fa-facebook-f"></i></a>
 
-                       <!-- Twitter -->
-                       <!-- <a href="https://x.com/i/flow/login?redirect_after_login=%2Fconsume60578813"
+                               <!-- Copyright -->
+                               <!-- Copyright -->
+                               <div class="p-3">
+                                   © 2026 Copyright:
+                                   <a class="text-white" href="index.php">CONSUMER PROTECTION BUREAU</a>
+                               </div>
+                           </div>
+                           <!-- Grid column -->
+
+                           <!-- Grid column -->
+                           <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                               <!-- Facebook -->
+                               <a href="https://web.facebook.com/profile.php?id=61570163952467"
+                                   class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"
+                                   aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+                               <!-- Twitter -->
+                               <!-- <a href="https://x.com/i/flow/login?redirect_after_login=%2Fconsume60578813"
                            class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"
                            aria-label="Twitter"   target="_blank"><i class="fab fa-twitter"></i></a> -->
 
-                       <!-- Google -->
-                       <a href="https://www.linkedin.com/company/consumer-protection-bureau/" target="_blank"
-                       aria-label="LinkedIn"     class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
-                               class="fab fa-linkedin"></i></a>
+                               <!-- Google -->
+                               <a href="https://www.linkedin.com/company/consumer-protection-bureau/" target="_blank"
+                                   aria-label="LinkedIn" class="btn btn-outline-light btn-floating m-1"
+                                   class="text-white" role="button"><i class="fab fa-linkedin"></i></a>
 
 
-                   </div>
+                           </div>
+                           <!-- Grid column -->
+                       </div>
+                   </section>
                    <!-- Grid column -->
+
+
                </div>
            </section>
            <!-- Section: Copyright -->

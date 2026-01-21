@@ -1,14 +1,78 @@
+<?php
+include_once "includes/functions.php";
+include_once "includes/mail.php";
+
+$contactFormSubmitted = false;
+if (isset($_POST['form-contact'])) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $message = $_POST['msg'];
+
+    $subject = "CPB Contact Form";
+
+    $body = "<strong>Name: </strong> $name" . "<br>" .
+        "<strong>Email: </strong> $email" . "<br>" .
+        "<strong>Phone: </strong> $phone" . "<br>" .
+        "<strong>Message: </strong> $message";
+
+    $recaptchaSecret = '6LeWW5YqAAAAAEjGUeFCrxd0-lBEUAAZR0v0q9tO';
+    $recaptchaResponse = $_POST['g-recaptcha-response'];
+
+    $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptchaSecret&response=$recaptchaResponse");
+    $responseKeys = json_decode($response, true);
+
+    if ($responseKeys["success"]) {
+        // reCAPTCHA validated
+        $msg = sendMail($email, $name, $subject, $body);
+
+        $contactFormSubmitted = true;
+    } else {
+        // reCAPTCHA failed
+        $msg['status'] = 'error';
+        $msg['message'] = "Please complete the reCAPTCHA verification.";
+
+        $contactFormSubmitted = true;
+    }
+}
+$membershipFormSubmitted = false;
+if (isset($_POST['membership'])) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $dob = $_POST['dob'];
+    $address = $_POST['address'];
+    $sign = $_POST['sign'];
+    $date = $_POST['date'];
+
+    $subject = "Membership";
+
+    $body = "<strong>Name: </strong> $name<br>" .
+        "<strong>Email: </strong> $email<br>" .
+        "<strong>Phone: </strong> $phone<br>" .
+        "<strong>Date of Birth: </strong> $dob<br>" .
+        "<strong>Address: </strong> $address<br>" .
+        "<strong>Signature: </strong> $sign<br>" .
+        "<strong>Date: </strong> $date";
+
+    $msg2 = sendMail($email, $name, $subject, $body);
+
+    $membershipFormSubmitted = true;
+}
+
+$feedbacks = findAll("feedbacks");
+?>
 
 <!doctype html>
 <html lang="en">
 
 <head>
-    <title>Membership - Consumer Protection Bureau (CPB)</title>
+    <title>CPB Consumer Champion - Consumer Protection Bureau (CPB)</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description"
-        content=") Become a member of the Consumer Protection Bureau and gain access to exclusive resources, support for consumer complaints, and expert advice on UK consumer protection laws. Protect your rights with us today.">
+        content=") Become a champion of the Consumer Protection Bureau and gain access to exclusive resources, support for consumer complaints, and expert advice on UK consumer protection laws. Protect your rights with us today.">
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
@@ -26,150 +90,13 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <!-- <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/membership.php"> -->
+    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/cpb-consumer-champion.php">
 
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
- <header class="header d-md-block d-none">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12  py-2">
-                    <div class="d-flex justify-content-between align-items-center ">
-                        <div class="d-flex align-items-center contact-details">
-                            <div class="d-flex align-items-center me-2">
-                                <i class="bi bi-telephone-fill me-2"></i>
-                                <a href="tel:+44 (0)2035854002"> +44
-                                    (0)2035854002</a>
-                            </div>
-                            <div class="d-flex align-items-center ms-2">
-                                <i class="bi bi-envelope-fill me-2"></i>
-                                <a href="mailto:info@consumerprotectionbureau.co.uk">info@consumerprotectionbureau.co.uk
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="text-white social-icon">
-                            <!-- Facebook -->
-                            <a data-mdb-ripple-init target="_blank" class="btn text-white btn-floating m-1"
-                                style="background-color: #3b5998;"
-                                href="https://web.facebook.com/profile.php?id=61570163952467" aria-label="Facebook"
-                                role="button"><i class="fab fa-facebook-f"></i></a>
-
-                            <!-- Twitter -->
-                            <!-- <a data-mdb-ripple-init target="_blank" class="btn text-white btn-floating m-1"
-                                style="background-color: #55acee;"
-                                href="https://x.com/i/flow/login?redirect_after_login=%2Fconsume60578813" aria-label="Twitter"
-                                role="button"><i class="fab fa-twitter"></i></a> -->
-
-                            <!-- Linkedin -->
-                            <a data-mdb-ripple-init target="_blank" class="btn text-white btn-floating m-1"
-                                style="background-color: #0082ca;"
-                                href="https://www.linkedin.com/company/consumer-protection-bureau/"
-                                aria-label="LinkedIn" role="button"><i class="fab fa-linkedin-in"></i></a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="menu-header">
-        <nav class="navbar navbar-expand-xl navbar-light ">
-            <div class="container menu-header-container">
-                <a class="navbar-brand" href="/">
-                    <img src="assets/images/Logo - Source File.png" alt="Consumer Protection Bureau Logo"
-                        class="img-fluid ">
-                </a>
-                <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/" aria-current="page">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#become-frnd">Become a Friend</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="job-opportunties/">Job Opportunties</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="cpb-consumer-champion.php">CPB Champions
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link news-menu" href="news/">Consumer Alert News
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="blog/index.php">Blog</a>
-                        </li>
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Resources
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item nav-link" href="blog/index.php">Blog</a></li>
-                                <li><a class="dropdown-item nav-link" href="#">Advocacy</a></li>
-                                <li><a class="dropdown-item nav-link" href="#">Success Stories</a></li>
-                            </ul>
-                        </li> -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                More
-                            </a>
-                            <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item nav-link" href="about.php">About</a></li>
-                                <!-- <li><a class="dropdown-item nav-link" href="blog/index.php">Blog</a></li> -->
-                                <!-- <li><a class="dropdown-item nav-link" href="news/">Consumer Alert News</a></li> -->
-                                <li><a class="dropdown-item nav-link" href="advocacy.php">Advocacy</a></li>
-
-                                <li><a class="dropdown-item nav-link" href="archive.php">Archive</a></li>
-                                <li>
-                                    <a class="dropdown-item nav-link" href="consumer-issues.php">Consumer Issues</a>
-                                </li>
-                                <li><a class="dropdown-item nav-link" href="why-choose-us.php">Why Choose Us</a></li>
-                                <li>
-                                    <a class="dropdown-item nav-link" href="faq.php">FAQ
-                                    </a>
-                                </li>
-                                <!-- <li><a class="dropdown-item nav-link" href="#">Success Stories</a></li> -->
-                            </ul>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="blog/">Blog
-                            </a>
-                        </li> -->
-
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="archive.php">Archive
-                            </a>
-                        </li> -->
-
-                        <li class="nav-item pb-xl-0 pb-3">
-                            <a class="nav-link" href="contact.php">Contact
-                            </a>
-                        </li>
-                        <li class=" pb-xl-0 pb-3 complaint-btn ms-2 text-center" style="">
-                            <a class="text-center" href="get-help.php">Get Help
-                            </a>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-        </nav>
-
-    </div>
+<?php include 'assets/include/header.php'; ?>
 <main>
 
 
@@ -178,32 +105,34 @@
             <div class="row justify-content-center align-items-start">
                 <div class="col-lg-10 mx-auto ">
                     <h1 class="main-heading text-center text-uppercase  mt-2">
-                       Become a CPB Consumer Champion
+                        Become a CPB Consumer Champion
                     </h1>
                     <p class="text-md text-center">
-                       Stand up for fair treatment, honest trading, and stronger <br>
+                        Stand up for fair treatment, honest trading, and stronger <br>
                         consumer protection in the UK and worldwide.
                     </p>
 
-                   <div class="d-flex justify-content-center mt-4">
-                     <a href="#"  class="main-btn btn-lg shadow-sm" >
-                        <span class="me-2">Become a CPB Consumer Champion</span>
-                        <i class="bi bi-arrow-right"></i>
-                    </a>
-                   </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        <a href="#champion-form-section" class="main-btn btn-lg shadow-sm">
+                            <span class="me-2">Become a CPB Consumer Champion</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- What is a CPB Consumer Champion Section -->
-    <section class="py-lg-5 py-4 bg-light" >
+    <section class="py-lg-5 py-4 bg-light">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 mx-auto">
-                   
-                     <div class="text-center mb-4">
-                        <span class="badge px-4 py-2 rounded-pill" style="background-color: #223a78; color: white; font-size: 0.9rem; font-weight: 600;">About Consumer Champions</span>
+
+                    <div class="text-center mb-4">
+                        <span class="badge px-4 py-2 rounded-pill"
+                            style="background-color: #223a78; color: white; font-size: 0.9rem; font-weight: 600;">About
+                            Consumer Champions</span>
                     </div>
                     <h2 class="main-heading text-center text-uppercase mb-5" style="color: #223a78;">
                         What is a CPB Consumer Champion?
@@ -212,27 +141,31 @@
                         <div class="col-lg-12">
                             <div class="bg-white rounded-3 shadow-sm p-4 p-lg-5 mb-4">
                                 <div class="d-flex align-items-start mb-4">
-                               
+
                                     <p class="text mb-0" style="font-size: 1.05rem; line-height: 1.7;">
-                                        CPB Consumer Champions are individuals who support the mission of the Consumer Protection Bureau by standing up for consumer rights, contributing experiences, and helping amplify evidence-based consumer advocacy.
+                                        CPB Consumer Champions are individuals who support the mission of the Consumer
+                                        Protection Bureau by standing up for consumer rights, contributing experiences,
+                                        and helping amplify evidence-based consumer advocacy.
                                     </p>
                                 </div>
                                 <div class="d-flex align-items-start">
-                                 
+
                                     <p class="text mb-0" style="font-size: 1.05rem; line-height: 1.7;">
                                         Consumer Champions play an important role in strengthening consumer
-                                         protection by sharing insights, supporting campaigns,
-                                          and helping identify unfair practices 
-                                          without involvement in organisational governance.
+                                        protection by sharing insights, supporting campaigns,
+                                        and helping identify unfair practices
+                                        without involvement in organisational governance.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                  <div class="col-lg-6 mx-auto">
+                <div class="col-lg-6 mx-auto">
                     <div class="text-center mb-4">
-                        <span class="badge px-4 py-2 rounded-pill" style="background-color: #223a78; color: white; font-size: 0.9rem; font-weight: 600;">Your Role</span>
+                        <span class="badge px-4 py-2 rounded-pill"
+                            style="background-color: #223a78; color: white; font-size: 0.9rem; font-weight: 600;">Your
+                            Role</span>
                     </div>
                     <h2 class="main-heading text-center text-uppercase mb-5" style="color: #223a78;">
                         What Consumer Champions Do
@@ -241,48 +174,72 @@
                         <div class="col-lg-12">
                             <div class="row g-4">
                                 <div class="col-lg-6">
-                                    <div class="h-100 bg-white rounded-3 p-4 border-start border-4" style="border-color: #e5bf20 !important; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                                    <div class="h-100 bg-white rounded-3 p-4 border-start border-4"
+                                        style="border-color: #e5bf20 !important; transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                                        onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.1)';"
+                                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
                                         <div class="d-flex align-items-center mb-3">
-                                           
-                                            <h5 class="mb-0" style="color: #223a78; font-weight: 600;">Campaign Support</h5>
+
+                                            <h5 class="mb-0" style="color: #223a78; font-weight: 600;">Campaign Support
+                                            </h5>
                                         </div>
-                                        <p class="text mb-0" style="font-size: 0.95rem;">Support UK and international consumer protection campaigns</p>
+                                        <p class="text mb-0" style="font-size: 0.95rem;">Support UK and international
+                                            consumer protection campaigns</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="h-100 bg-white rounded-3 p-4 border-start border-4" style="border-color: #e5bf20 !important; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                                    <div class="h-100 bg-white rounded-3 p-4 border-start border-4"
+                                        style="border-color: #e5bf20 !important; transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                                        onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.1)';"
+                                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
                                         <div class="d-flex align-items-center mb-3">
-                                           
-                                            <h5 class="mb-0" style="color: #223a78; font-weight: 600;">Share Experience</h5>
+
+                                            <h5 class="mb-0" style="color: #223a78; font-weight: 600;">Share Experience
+                                            </h5>
                                         </div>
-                                        <p class="text mb-0" style="font-size: 0.95rem;">Share consumer experiences and evidence</p>
+                                        <p class="text mb-0" style="font-size: 0.95rem;">Share consumer experiences and
+                                            evidence</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="h-100 bg-white rounded-3 p-4 border-start border-4" style="border-color: #e5bf20 !important; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                                    <div class="h-100 bg-white rounded-3 p-4 border-start border-4"
+                                        style="border-color: #e5bf20 !important; transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                                        onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.1)';"
+                                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
                                         <div class="d-flex align-items-center mb-3">
 
                                             <h5 class="mb-0" style="color: #223a78; font-weight: 600;">Participate</h5>
                                         </div>
-                                        <p class="text mb-0" style="font-size: 0.95rem;">Participate in surveys and consultations</p>
+                                        <p class="text mb-0" style="font-size: 0.95rem;">Participate in surveys and
+                                            consultations</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="h-100 bg-white rounded-3 p-4 border-start border-4" style="border-color: #e5bf20 !important; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                                    <div class="h-100 bg-white rounded-3 p-4 border-start border-4"
+                                        style="border-color: #e5bf20 !important; transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                                        onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.1)';"
+                                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
                                         <div class="d-flex align-items-center mb-3">
-                                           
-                                            <h5 class="mb-0" style="color: #223a78; font-weight: 600;">Stay Informed</h5>
+
+                                            <h5 class="mb-0" style="color: #223a78; font-weight: 600;">Stay Informed
+                                            </h5>
                                         </div>
-                                        <p class="text mb-0" style="font-size: 0.95rem;">Receive CPB alerts, briefings, and updates</p>
+                                        <p class="text mb-0" style="font-size: 0.95rem;">Receive CPB alerts, briefings,
+                                            and updates</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <div class="h-100 rounded-3 p-4 border-start border-4" style="background: linear-gradient(135deg, #223a78 0%, #2a4a95 100%); border-color: #e5bf20 !important; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(34,58,120,0.3)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                                    <div class="h-100 rounded-3 p-4 border-start border-4"
+                                        style="background: linear-gradient(135deg, #223a78 0%, #2a4a95 100%); border-color: #e5bf20 !important; transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                                        onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(34,58,120,0.3)';"
+                                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
                                         <div class="d-flex align-items-center mb-3">
-                                           
-                                            <h5 class="mb-0" style="color: white; font-weight: 600;">Raise Awareness</h5>
+
+                                            <h5 class="mb-0" style="color: white; font-weight: 600;">Raise Awareness
+                                            </h5>
                                         </div>
-                                        <p class="mb-0" style="font-size: 0.95rem; color: rgba(255,255,255,0.95);">Help raise awareness of unfair or harmful practices</p>
+                                        <p class="mb-0" style="font-size: 0.95rem; color: rgba(255,255,255,0.95);">Help
+                                            raise awareness of unfair or harmful practices</p>
                                     </div>
                                 </div>
                             </div>
@@ -301,7 +258,9 @@
             <div class="row justify-content-center">
                 <div class="col-lg-12 mx-auto">
                     <div class="text-center mb-4">
-                        <span class="badge px-4 py-2 rounded-pill" style="background-color: #e5bf20; color: #223a78; font-size: 0.9rem; font-weight: 600;">Important Information</span>
+                        <span class="badge px-4 py-2 rounded-pill"
+                            style="background-color: #e5bf20; color: #223a78; font-size: 0.9rem; font-weight: 600;">Important
+                            Information</span>
                     </div>
                     <h2 class="main-heading text-center text-uppercase mb-5" style="color: #223a78;">
                         Governance and Independence
@@ -309,23 +268,30 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-12">
                             <div class="bg-white rounded-3 shadow-lg p-4 p-lg-5" style="border: 3px solid #e5bf20;">
-                               
-                                <div class="alert mb-4" style="background-color: #fff3cd; border-left: 4px solid #e5bf20; border-radius: 8px;">
+
+                                <div class="alert mb-4"
+                                    style="background-color: #fff3cd; border-left: 4px solid #e5bf20; border-radius: 8px;">
                                     <div class="d-flex align-items-start">
-                                        <i class="bi bi-info-circle-fill me-3" style="color: #223a78; font-size: 1.5rem; margin-top: 2px;"></i>
-                                        <p class="text mb-0" style="font-size: 1.1rem; line-height: 1.7; color: #223a78;">
-                                            <strong style="font-size: 1.15rem;">CPB Consumer Champions do not hold governance, ownership, or voting rights.</strong>
+                                        <i class="bi bi-info-circle-fill me-3"
+                                            style="color: #223a78; font-size: 1.5rem; margin-top: 2px;"></i>
+                                        <p class="text mb-0"
+                                            style="font-size: 1.1rem; line-height: 1.7; color: #223a78;">
+                                            <strong style="font-size: 1.15rem;">CPB Consumer Champions do not hold
+                                                governance, ownership, or voting rights.</strong>
                                         </p>
                                     </div>
                                 </div>
-                                <div class="p-4 rounded-3" style="background-color: #f8f9fa; border-left: 4px solid #223a78;">
+                                <div class="p-4 rounded-3"
+                                    style="background-color: #f8f9fa; border-left: 4px solid #223a78;">
                                     <p class="text mb-0" style="font-size: 1rem; line-height: 1.7; color: #495057;">
-                                        The Consumer Protection Bureau is governed by a Founder-appointed Board in accordance with its Articles of Association and UK CIC regulations.
+                                        The Consumer Protection Bureau is governed by a Founder-appointed Board in
+                                        accordance with its Articles of Association and UK CIC regulations.
                                     </p>
                                 </div>
                                 <div class="text-center mt-4 pt-3" style="border-top: 2px solid #e9ecef;">
                                     <small class="text-muted" style="font-size: 0.85rem;">
-                                        This governance structure ensures transparency and accountability in all CPB operations.
+                                        This governance structure ensures transparency and accountability in all CPB
+                                        operations.
                                     </small>
                                 </div>
                             </div>
@@ -336,7 +302,7 @@
         </div>
     </section>
 
-    <section class="py-lg-5 py-4 bg-light position-relative">
+    <section class="py-lg-5 py-4 bg-light position-relative" id="champion-form-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-11 mx-auto">
@@ -353,7 +319,7 @@
                                     (CIC)
                                     operating under the <a href="" class="text-decoration-none text-secondry">CRC
                                         Group</a>. As an independently financed
-                                    organisation, we are wholly supported by our CPB consumer champions contributions.
+                                    organisation, we are wholly supported by our CPB consumer champion contributions.
                                 </p>
                                 <p class="text">
                                     Our mission is to achieve justice and fairness for our champions, empowering them
@@ -374,10 +340,12 @@
                                 </p>
                             </div>
                             <div class="col-lg-12 mt-3">
-                                <h2 class="text-center membership-heading mb-4">CPB Consumer Champions APPLICATION FORM</h2>
+                                <h2 class="text-center membership-heading mb-4">CPB Consumer Champions APPLICATION FORM
+                                </h2>
                                 <p class="text">Please complete this form and return it electronically
-                                    to: <a href=""
-                                        class="text-decoration-none text-primary">info@consumerprotectionbureau.co.uk.</a>
+                                    to us by pressing on the "Send" button at the bottom of the form.
+
+
                                 </p>
                             </div>
 
@@ -474,27 +442,33 @@
                                 <h2 class="membership-heading text-center mb-4">Required Acknowledgements</h2>
                                 <div class="row justify-content-center">
                                     <div class="col-lg-6">
-    <div class="form-check">
-                                                <input required class="form-check-input" type="checkbox" value="" id="charterAgreement" 
-                                                    style="width: 20px; height: 20px; cursor: pointer;" />
-                                                <label class="form-check-label ms-2" for="charterAgreement" style="cursor: pointer; font-size: 1rem; line-height: 1.6;">
-                                                    I have read and agree to the <a href="#consumer-champion-charter" class="text-primary ">CPB Consumer Champion Charter</a>
-                                                </label>
-                                            </div>
+                                        <div class="form-check">
+                                            <input required class="form-check-input" type="checkbox" value=""
+                                                id="charterAgreement"
+                                                style="width: 20px; height: 20px; cursor: pointer;" />
+                                            <label class="form-check-label ms-2" for="charterAgreement"
+                                                style="cursor: pointer; font-size: 1rem; line-height: 1.6;">
+                                                I have read and agreed to the <a href="#consumer-champion-charter"
+                                                    class="text-primary ">CPB Consumer Champion Charter</a>.
+                                            </label>
+                                        </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-check">
-                                                <input required class="form-check-input" type="checkbox" value="" id="termsAgreement" 
-                                                    style="width: 20px; height: 20px; cursor: pointer;" />
-                                                <label class="form-check-label ms-2" for="termsAgreement" style="cursor: pointer; font-size: 1rem; line-height: 1.6;">
-                                                    I have read and agree to the <a href="#consumer-champion-terms" class="text-primary " >Consumer Champion Terms & Conditions</a>, 
-                                                    including acknowledgement that 
-                                                   Consumer Champion status 
-                                                        does not confer governance, ownership, or voting rights
-                                                </label>
-                                            </div>
+                                            <input required class="form-check-input" type="checkbox" value=""
+                                                id="termsAgreement"
+                                                style="width: 20px; height: 20px; cursor: pointer;" />
+                                            <label class="form-check-label ms-2" for="termsAgreement"
+                                                style="cursor: pointer; font-size: 1rem; line-height: 1.6;">
+                                                I have read and agree to the <a href="#consumer-champion-terms"
+                                                    class="text-primary ">Consumer Champion Terms & Conditions</a>,
+                                                including acknowledgement that
+                                                Consumer Champion status
+                                                does not confer governance, ownership, or voting rights.
+                                            </label>
+                                        </div>
                                     </div>
-                                 
+
                                 </div>
                             </div>
 
@@ -502,7 +476,7 @@
                                 <h2 class="membership-heading text-center mb-3  mt-4">Champion’s Declaration
                                 </h2>
                                 <p class="text text-center">As a champion of CPB I undertake to abide by the rules and
-                                    regulations of the organization and will help it
+                                    regulations of the organisation and will help it
                                     to achieve its objectives of being a consumer advocate.</p>
                             </div>
 
@@ -549,86 +523,118 @@
 
     <!-- CPB Consumer Champion Charter Section -->
 
-  
+
     <section id="consumer-champion-charter" class="py-lg-5 py-4 bg-white">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10 mx-auto">
                     <div class="text-center mb-4">
-                        <span class="badge px-4 py-2 rounded-pill" style="background-color: #223a78; color: white; font-size: 0.9rem; font-weight: 600;">Our Commitments</span>
+                        <span class="badge px-4 py-2 rounded-pill"
+                            style="background-color: #223a78; color: white; font-size: 0.9rem; font-weight: 600;">Our
+                            Commitments</span>
                     </div>
                     <h2 class="main-heading text-center text-uppercase mb-5" style="color: #223a78;">
                         CPB Consumer Champion Charter
                     </h2>
-                    
+
                     <div class="row">
                         <div class="col-lg-6 mb-4">
                             <div class="h-100 bg-light rounded-3 p-4 p-lg-5 shadow-sm">
                                 <div class="text-center mb-4">
-                                    <div class="d-inline-flex align-items-center justify-content-center rounded-circle mb-3" style="background: linear-gradient(135deg, #223a78 0%, #2a4a95 100%); width: 60px; height: 60px;">
-                                        <i class="bi bi-person-check-fill" style="color: #e5bf20; font-size: 1.8rem;"></i>
+                                    <div class="d-inline-flex align-items-center justify-content-center rounded-circle mb-3"
+                                        style="background: linear-gradient(135deg, #223a78 0%, #2a4a95 100%); width: 60px; height: 60px;">
+                                        <i class="bi bi-person-check-fill"
+                                            style="color: #e5bf20; font-size: 1.8rem;"></i>
                                     </div>
-                                    <h3 class="mb-0" style="color: #223a78; font-weight: 600;">As a CPB Consumer Champion, I commit to:</h3>
+                                    <h3 class="mb-0" style="color: #223a78; font-weight: 600;">As a CPB Consumer
+                                        Champion, I commit to:</h3>
                                 </div>
                                 <ul class="list-unstyled">
                                     <li class="mb-3 d-flex align-items-start">
-                                        <i class="bi bi-check-circle-fill me-3" style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
-                                        <span style="font-size: 1rem; line-height: 1.6;">Supporting fair, transparent, and ethical treatment of consumers</span>
+                                        <i class="bi bi-check-circle-fill me-3"
+                                            style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
+                                        <span style="font-size: 1rem; line-height: 1.6;">Supporting fair, transparent,
+                                            and ethical treatment of consumers</span>
                                     </li>
                                     <li class="mb-3 d-flex align-items-start">
-                                        <i class="bi bi-check-circle-fill me-3" style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
-                                        <span style="font-size: 1rem; line-height: 1.6;">Engaging respectfully and constructively</span>
+                                        <i class="bi bi-check-circle-fill me-3"
+                                            style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
+                                        <span style="font-size: 1rem; line-height: 1.6;">Engaging respectfully and
+                                            constructively</span>
                                     </li>
                                     <li class="mb-3 d-flex align-items-start">
-                                        <i class="bi bi-check-circle-fill me-3" style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
-                                        <span style="font-size: 1rem; line-height: 1.6;">Sharing information honestly and responsibly</span>
+                                        <i class="bi bi-check-circle-fill me-3"
+                                            style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
+                                        <span style="font-size: 1rem; line-height: 1.6;">Sharing information honestly
+                                            and responsibly</span>
                                     </li>
                                     <li class="mb-3 d-flex align-items-start">
-                                        <i class="bi bi-check-circle-fill me-3" style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
-                                        <span style="font-size: 1rem; line-height: 1.6;">Acting in the interest of collective consumer welfare</span>
+                                        <i class="bi bi-check-circle-fill me-3"
+                                            style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
+                                        <span style="font-size: 1rem; line-height: 1.6;">Acting in the interest of
+                                            collective consumer welfare</span>
                                     </li>
                                     <li class="mb-3 d-flex align-items-start">
-                                        <i class="bi bi-check-circle-fill me-3" style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
-                                        <span style="font-size: 1rem; line-height: 1.6;">Respecting CPB's independence and governance structure</span>
+                                        <i class="bi bi-check-circle-fill me-3"
+                                            style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
+                                        <span style="font-size: 1rem; line-height: 1.6;">Respecting CPB's independence
+                                            and governance structure</span>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        
+
                         <div class="col-lg-6 mb-4">
-                            <div class="h-100 rounded-3 p-4 p-lg-5 shadow-sm" style="background: linear-gradient(135deg, #223a78 0%, #2a4a95 100%);">
+                            <div class="h-100 rounded-3 p-4 p-lg-5 shadow-sm"
+                                style="background: linear-gradient(135deg, #223a78 0%, #2a4a95 100%);">
                                 <div class="text-center mb-4">
-                                    <div class="d-inline-flex align-items-center justify-content-center rounded-circle mb-3" style="background-color: #e5bf20; width: 60px; height: 60px;">
+                                    <div class="d-inline-flex align-items-center justify-content-center rounded-circle mb-3"
+                                        style="background-color: #e5bf20; width: 60px; height: 60px;">
                                         <i class="bi bi-shield-check" style="color: #223a78; font-size: 1.8rem;"></i>
                                     </div>
                                     <h3 class="mb-0" style="color: white; font-weight: 600;">CPB commits to:</h3>
                                 </div>
                                 <ul class="list-unstyled">
                                     <li class="mb-3 d-flex align-items-start">
-                                        <i class="bi bi-check-circle-fill me-3" style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
-                                        <span style="font-size: 1rem; line-height: 1.6; color: rgba(255,255,255,0.95);">Acting independently and without commercial bias</span>
+                                        <i class="bi bi-check-circle-fill me-3"
+                                            style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
+                                        <span
+                                            style="font-size: 1rem; line-height: 1.6; color: rgba(255,255,255,0.95);">Acting
+                                            independently and without commercial bias</span>
                                     </li>
                                     <li class="mb-3 d-flex align-items-start">
-                                        <i class="bi bi-check-circle-fill me-3" style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
-                                        <span style="font-size: 1rem; line-height: 1.6; color: rgba(255,255,255,0.95);">Using lawful, evidence-based advocacy</span>
+                                        <i class="bi bi-check-circle-fill me-3"
+                                            style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
+                                        <span
+                                            style="font-size: 1rem; line-height: 1.6; color: rgba(255,255,255,0.95);">Using
+                                            lawful, evidence-based advocacy</span>
                                     </li>
                                     <li class="mb-3 d-flex align-items-start">
-                                        <i class="bi bi-check-circle-fill me-3" style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
-                                        <span style="font-size: 1rem; line-height: 1.6; color: rgba(255,255,255,0.95);">Treating Consumer Champions fairly and respectfully</span>
+                                        <i class="bi bi-check-circle-fill me-3"
+                                            style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
+                                        <span
+                                            style="font-size: 1rem; line-height: 1.6; color: rgba(255,255,255,0.95);">Treating
+                                            Consumer Champions fairly and respectfully</span>
                                     </li>
                                     <li class="mb-3 d-flex align-items-start">
-                                        <i class="bi bi-check-circle-fill me-3" style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
-                                        <span style="font-size: 1rem; line-height: 1.6; color: rgba(255,255,255,0.95);">Protecting personal data and privacy</span>
+                                        <i class="bi bi-check-circle-fill me-3"
+                                            style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
+                                        <span
+                                            style="font-size: 1rem; line-height: 1.6; color: rgba(255,255,255,0.95);">Protecting
+                                            personal data and privacy</span>
                                     </li>
                                     <li class="mb-3 d-flex align-items-start">
-                                        <i class="bi bi-check-circle-fill me-3" style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
-                                        <span style="font-size: 1rem; line-height: 1.6; color: rgba(255,255,255,0.95);">Maintaining transparency in campaigns and public positions</span>
+                                        <i class="bi bi-check-circle-fill me-3"
+                                            style="color: #e5bf20; font-size: 1.2rem; margin-top: 3px;"></i>
+                                        <span
+                                            style="font-size: 1rem; line-height: 1.6; color: rgba(255,255,255,0.95);">Maintaining
+                                            transparency in campaigns and public positions</span>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-<!--                     
+                    <!--                     
                     <div class="row mt-4">
                         <div class="col-lg-12">
                             <div class="alert alert-info border-start border-4 border-primary" style="background-color: #e7f3ff;">
@@ -647,78 +653,89 @@
     </section>
 
     <!-- Consumer Champion Terms Section -->
-    <section id="consumer-champion-terms" class="py-lg-5 py-4 bg-light" >
+    <section id="consumer-champion-terms" class="py-lg-5 py-4 bg-light">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12 mx-auto">
                     <div class="text-center mb-4">
-                        <span class="badge px-4 py-2 rounded-pill" style="background-color: #e5bf20; color: #223a78; font-size: 0.9rem; font-weight: 600;">Legal Terms</span>
+                        <span class="badge px-4 py-2 rounded-pill"
+                            style="background-color: #e5bf20; color: #223a78; font-size: 0.9rem; font-weight: 600;">Legal
+                            Terms</span>
                     </div>
                     <h2 class="main-heading text-center text-uppercase mb-5" style="color: #223a78;">
                         Consumer Champion Terms
                     </h2>
-                    
+
                     <div class="row justify-content-center">
                         <div class="col-lg-10">
                             <div class="bg-white rounded-3 shadow-sm p-4 p-lg-5">
                                 <div class="mb-4 pb-3" style="border-bottom: 2px solid #e9ecef;">
                                     <div class="d-flex align-items-start">
-                                        <div class="me-3 d-flex align-items-center justify-content-center rounded-circle" style="background-color: #223a78; width: 35px; height: 35px; flex-shrink: 0;">
+                                        <div class="me-3 d-flex align-items-center justify-content-center rounded-circle"
+                                            style="background-color: #223a78; width: 35px; height: 35px; flex-shrink: 0;">
                                             <span style="color: white; font-weight: 600; font-size: 1rem;">1</span>
                                         </div>
                                         <p class="mb-0" style="font-size: 1rem; line-height: 1.7; color: #495057;">
-                                            CPB Consumer Champion status denotes voluntary support for the mission and activities of the Consumer Protection Bureau.
+                                            CPB Consumer Champion status denotes voluntary support for the mission and
+                                            activities of the Consumer Protection Bureau.
                                         </p>
                                     </div>
                                 </div>
-                                
+
                                 <div class="mb-4 pb-3" style="border-bottom: 2px solid #e9ecef;">
                                     <div class="d-flex align-items-start">
-                                        <div class="me-3 d-flex align-items-center justify-content-center rounded-circle" style="background-color: #223a78; width: 35px; height: 35px; flex-shrink: 0;">
+                                        <div class="me-3 d-flex align-items-center justify-content-center rounded-circle"
+                                            style="background-color: #223a78; width: 35px; height: 35px; flex-shrink: 0;">
                                             <span style="color: white; font-weight: 600; font-size: 1rem;">2</span>
                                         </div>
                                         <p class="mb-0" style="font-size: 1rem; line-height: 1.7; color: #495057;">
-                                            Consumer Champions do not acquire any ownership or interest in the company for the purposes of the Companies Act 2006.
+                                            Consumer Champions do not acquire any ownership or interest in the company
+                                            for the purposes of the Companies Act 2006.
                                         </p>
                                     </div>
                                 </div>
-                                
+
                                 <div class="mb-4 pb-3" style="border-bottom: 2px solid #e9ecef;">
                                     <div class="d-flex align-items-start">
-                                        <div class="me-3 d-flex align-items-center justify-content-center rounded-circle" style="background-color: #223a78; width: 35px; height: 35px; flex-shrink: 0;">
+                                        <div class="me-3 d-flex align-items-center justify-content-center rounded-circle"
+                                            style="background-color: #223a78; width: 35px; height: 35px; flex-shrink: 0;">
                                             <span style="color: white; font-weight: 600; font-size: 1rem;">3</span>
                                         </div>
                                         <p class="mb-0" style="font-size: 1rem; line-height: 1.7; color: #495057;">
-                                            Consumer Champions do not hold voting 
-                                            rights, governance rights, or authority 
-                                            over CPB's Board, management, or strategic 
+                                            Consumer Champions do not hold voting
+                                            rights, governance rights, or authority
+                                            over CPB's Board, management, or strategic
                                             direction.
                                         </p>
                                     </div>
                                 </div>
-                                
+
                                 <div class="mb-4 pb-3" style="border-bottom: 2px solid #e9ecef;">
                                     <div class="d-flex align-items-start">
-                                        <div class="me-3 d-flex align-items-center justify-content-center rounded-circle" style="background-color: #223a78; width: 35px; height: 35px; flex-shrink: 0;">
+                                        <div class="me-3 d-flex align-items-center justify-content-center rounded-circle"
+                                            style="background-color: #223a78; width: 35px; height: 35px; flex-shrink: 0;">
                                             <span style="color: white; font-weight: 600; font-size: 1rem;">4</span>
                                         </div>
                                         <p class="mb-0" style="font-size: 1rem; line-height: 1.7; color: #495057;">
-                                            The appointment and removal of directors is reserved to the Founder and the Board, in accordance with CPB's Articles of Association.
+                                            The appointment and removal of directors is reserved to the Founder and the
+                                            Board, in accordance with CPB's Articles of Association.
                                         </p>
                                     </div>
                                 </div>
-                                
+
                                 <div class="mb-0">
                                     <div class="d-flex align-items-start">
-                                        <div class="me-3 d-flex align-items-center justify-content-center rounded-circle" style="background-color: #223a78; width: 35px; height: 35px; flex-shrink: 0;">
+                                        <div class="me-3 d-flex align-items-center justify-content-center rounded-circle"
+                                            style="background-color: #223a78; width: 35px; height: 35px; flex-shrink: 0;">
                                             <span style="color: white; font-weight: 600; font-size: 1rem;">5</span>
                                         </div>
                                         <p class="mb-0" style="font-size: 1rem; line-height: 1.7; color: #495057;">
-                                            CPB reserves the right to amend, suspend, or withdraw Consumer Champion status where conduct is inconsistent with CPB's values or objectives.
+                                            CPB reserves the right to amend, suspend, or withdraw Consumer Champion
+                                            status where conduct is inconsistent with CPB's values or objectives.
                                         </p>
                                     </div>
                                 </div>
-                                
+
                                 <!-- <div class="mt-4 pt-4" style="border-top: 3px solid #e5bf20;">
                                     <div class="alert mb-0" style="background-color: #fff3cd; border: none;">
                                         <div class="d-flex align-items-start">
@@ -743,7 +760,8 @@
                 <div class="col-lg-8 px-0 bg-white order-lg-1 order-2 ">
                     <div class="service-white-card service-card py-lg-5 py-3">
 
-                        <h2 class="text-start">CPB Consumer Champions Benefits</h2>
+                        <h2 class="text-start main-heading mb-3">CPB Consumer Champions Benefits</h2>
+
                         <p class="text ">
                             Join the CPB family by becoming a champion.<br>
 
@@ -777,7 +795,8 @@
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center order-lg-2 order-1">
                     <img src="assets/images/contact consumer protection.png"
-                        alt="Consumer Protection Bureau CPB Consumer Champions Benefits" class="consumer-img  object-fit-contain">
+                        alt="Consumer Protection Bureau CPB Consumer Champions Benefits"
+                        class="consumer-img  object-fit-contain">
                 </div>
             </div>
             <div class="row  mb-lg-0 mb-4">
@@ -788,7 +807,7 @@
                 </div>
                 <div class="col-lg-8 px-0 bg-white d-flex align-items-center">
                     <div class="service-white-card service-card py-lg-5 py-3">
-                        <h2 class="text-start">Expert Guidance</h2>
+                        <h2 class="text-start main-heading mb-3">Expert Guidance</h2>
                         <p class="text">
                             Our panel of experts is here to provide comprehensive advice on consumer protection
                             laws, legal matters, product or service-related concerns, and assistance with consumer
@@ -802,7 +821,7 @@
             <div class="row  mb-lg-0 mb-4">
                 <div class="col-lg-8 px-0 bg-white order-lg-1 order-2 d-flex align-items-center">
                     <div class="service-white-card service-card py-lg-5 py-3">
-                        <h2 class="text-start">Dispute Resolution</h2>
+                        <h2 class="text-start main-heading mb-3">Dispute Resolution</h2>
                         <p class="text">
                             Whether it's a contractual issue or a dispute over faulty goods, CPB stands as your
                             reliable resource for swift and effective resolutions, helping with consumer complaints
@@ -825,10 +844,10 @@
                 </div>
                 <div class="col-lg-8 px-0 bg-white d-flex align-items-center">
                     <div class="service-white-card service-card py-lg-5 py-3">
-                        <h2 class="text-start">Priority Service</h2>
+                        <h2 class="text-start main-heading mb-3">Priority Service</h2>
                         <p class="text">
                             As a CPB champion, you receive priority service, ensuring your concerns, such as consumer
-                            complaints or customer complaints, are addressed with the urgency they rightfully
+                            complaints , are addressed with the urgency they rightfully
                             deserve.
                         </p>
                     </div>
@@ -838,9 +857,9 @@
             <div class="row  mb-lg-4 mb-4">
                 <div class="col-lg-8 px-0 bg-white order-lg-1 order-2 d-flex align-items-center">
                     <div class="service-white-card service-card py-lg-5 py-3">
-                        <h2 class="text-start">Protect Your Rights</h2>
+                        <h2 class="text-start main-heading mb-3">Protect Your Rights</h2>
                         <p class="text">
-                            Our mission is to empower you—the consumer—in making informed decisions and asserting
+                            Our mission is to empower you, the consumer, in making informed decisions and asserting
                             your consumer rights. CPB is not just an organisation; we are your advocate, working
                             tirelessly to ensure fairness and justice in your consumer journey, backed by strong
                             consumer protection laws.
@@ -868,7 +887,8 @@
                         </h2>
                         <p class="text py-2 text-white text-center ">
                             Ready to experience a consumer journey with a partner by your side? Join CPB as a champion
-                            or make a voluntary contribution. We understand that not everyone is able to make a full commitment and that's okay! Non-champions are welcome to benefit from our services by
+                            or make a voluntary contribution. We understand that not everyone is able to make a full
+                            commitment and that's okay! Non-champions are welcome to benefit from our services by
                             making a voluntary contribution. For consumer issues under £1,000, a suggested
                             contribution of £50 is appreciated. <b>The choice is yours!</b>
                             <br>
@@ -924,289 +944,10 @@
         </div>
               
     </section>
-    <section class="py-lg-5 py-4 bg-light">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <h2 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
-                        Visit Our Subsidiary Companies
-                    </h2>
+   
 
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://www.compliance-experts.co.uk/" target="_blank"
-                        class="text-decoration-none text-dark">
-                        <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
-                            <img src="assets/images/CRC-logo.png" alt="CRC logo" style="width:130px; height:auto;">
-                            <h3 class="mt-4 text-center text-md" style=" font-weight:500;">Compilance and Risk
-                                Consultancy</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://carehomecompliance.com/" target="_blank" class="text-decoration-none text-dark">
-                        <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
-                            <img src="assets/images/Care Home Compilance.png" alt="CHC logo"
-                                style="width:100px; height:auto;">
-                            <h3 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h3>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- <section>
-        <div class="contact-area py-lg-5 py-4">
-            <div class="container py-4">
-                <div class="row ">
-                    <div class="col-lg-5 col-md-12">
-                        <div class="contact-text">
-                            <div class="title">
-                                <h2>CONTACT US</h2>
-                            </div>
-
-                            <p class>We’d love to hear from you.
-
-                                <b>Just choose the most convenient method and we’ll get back to you as soon as we
-                                    can.</b>
-
-
-                            </p>
-                            <span class="date">
-
-                                <div class="d-flex align-items-center date">
-                                    <i class="bi bi-telephone-fill me-2"></i>
-                                    <a class="date" href="tel:+44 (0)2035854002"> +44
-                                        (0)2035854002</a>
-                                </div>
-                                <div class="d-flex align-items-center date my-3">
-                                    <i class="bi bi-envelope-fill me-2"></i>
-                                    <a class="date pb-0 mb-0"
-                                        href="mailto:info@consumerprotectionbureau.co.uk">info@consumerprotectionbureau.co.uk
-                                    </a>
-                                </div>
-                                <div class="d-flex align-items-start date">
-                                    <i class="bi bi-geo-alt-fill me-2"></i>
-                                    <p class="date my-0 py-0"> 83 VICTORIA STREET
-
-                                        WESTMINSTER, LONDON,
-
-                                        SW1H 0HW
-                                    </p>
-                                </div>
-                            </span>
-
-
-                        </div>
-                    </div>
-                    <div class="col col-lg-7 col-md-12 col-sm-12">
-                        <div class="contact-content ps-lg-5">
-                            <div class="contact-form">
-                                <?php if (isset($_POST['form-contact'])): ?>
-                                <?php if ($msg['status'] == 'success'): ?>
-                                <p class="alert alert-success text-center"><?php echo $msg['message'] ?></p>
-                                <?php else: ?>
-                                <p class="alert alert-danger text-center"><?php echo $msg['message'] ?></p>
-                                <?php endif; ?>
-                                <?php endif; ?>
-                                <form method="post" class="contact-validation-active" id="contact-form"
-                                    novalidate="novalidate">
-                                    <div class="half-col">
-                                        <label for="Name" class="text-white">Name</label>
-                                        <input type="text" name="name" id="name" class="form-control"
-                                            placeholder="Your Name">
-                                    </div>
-                                    <div class="half-col">
-                                        <label for="phone" class="text-white">Phone Number</label>
-                                        <input type="text" name="phone" id="phone" class="form-control"
-                                            placeholder="Phone">
-                                    </div>
-                                    <div>
-                                        <label for="email" class="text-white">Email</label>
-                                        <input type="email" name="email" id="email" class="form-control"
-                                            placeholder="Email">
-                                    </div>
-                                    <input type="hidden" name="form-contact">
-
-                                    <div>
-                                        <label for="msg" class="text-white">Message</label>
-                                        <textarea class="form-control" name="msg" id="msg"
-                                            placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="g-recaptcha" data-sitekey="6LeWW5YqAAAAAO7CXW7SvpYQih0o9w_XaILDCy3j">
-                                    </div>
-
-                                    <div class="submit-btn-wrapper">
-                                        <button type="submit" name="contact" class="main-btn">Send</button>
-                                        <div id="loader">
-                                            <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 </main>
-
-<!-- Footer -->
-   <footer class="text-center text-lg-start text-white footer-text" style="background-color: #223a78ef;">
-       <!-- Grid container -->
-       <div class="container p-4 pb-0">
-           <!-- Section: Links -->
-           <section class="">
-               <!--Grid row-->
-               <div class="row">
-                   <!-- Grid column -->
-                   <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                       <div class="text-uppercase mb-1 font-weight-bold bg-white p-3 rounded-2 mb-lg-0 mb-2">
-                           <img src="assets/images/Logo - PNG.png" alt="Consumer Protection Bureau Logo" class="img-fluid footer-img">
-                       </div>
-                       <p>
-                           BUSINESS HOURS:<br> MONDAY TO FRIDAY 9:00-5:00
-                       </p>
-                   </div>
-                   <!-- Grid column -->
-
-                   <hr class="w-100 clearfix d-md-none" />
-
-                   <!-- Grid column -->
-                   <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                       <h2 class="text-uppercase mb-4 font-weight-bold footer-heading">Quick Links</h2>
-                       <p>
-                           <a href="/" class="text-white">Home</a>
-                       </p>
-                       <p>
-                           <a href="about.php" class="text-white">About Us</a>
-                       </p>
-                       <p>
-                           <a href="why-choose-us.php" class="text-white">Why Choose Us</a>
-                       </p>
-                       <p>
-                           <a href="contact.php" class="text-white">Contact</a>
-                       </p>
-                   </div>
-                   <!-- Grid column -->
-
-                   <hr class="w-100 clearfix d-md-none" />
-
-                   <!-- Grid column -->
-                   <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                       <h2 class="text-uppercase mb-4 font-weight-bold footer-heading">
-                           Other
-                       </h2>
-                       <p class="">
-                           <a href="consumer-issues.php" class="text-white">Consumer Issues</a>
-                       </p>
-                       <p>
-                           <a href="blog/" class="text-white">Blog</a>
-                       </p>
-                       <p>
-                           <a href="archive.php" class="text-white">Archive</a>
-                       </p>
-                       <p>
-                           <a href="cpb-consumer-champion.php" class="text-white">CPB Consumer Champions</a>
-                       </p>
-                   </div>
-
-                   <!-- Grid column -->
-                   <hr class="w-100 clearfix d-md-none" />
-
-                   <!-- Grid column -->
-                   <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                       <h2 class="text-uppercase mb-4 font-weight-bold footer-heading">Contact</h2>
-                       <p class=""><i class="fas fa-envelope mr-3"></i> <span
-                               class="text-sm">info@consumerprotectionbureau.co.uk</span> </p>
-                       <p class=""><i class="fas fa-phone mr-3"></i> +44 (0)2035854002</p>
-                       <p class=""><i class="fas fa-home mr-3"></i> 83 VICTORIA STREET
-
-                           WESTMINSTER, LONDON,
-
-                           SW1H 0HW</p>
-
-                   </div>
-                   <!-- Grid column -->
-               </div>
-               <!--Grid row-->
-           </section>
-           <!-- Section: Links -->
-
-           <hr class="my-3">
-
-           <!-- Section: Copyright -->
-           <section class="p-3 pt-0">
-               <div class="row d-flex align-items-center">
-                   <!-- Grid column -->
-                     <section class="p-3 pt-0">
-               <div class="row d-flex align-items-center">
-                <div class="col-lg-12">
-                     <!-- Governance Clarification -->
-                       <div class="px-3 pb-2" style="font-size: 0.75rem; opacity: 0.85;">
-                           CPB Consumer Champions support independent consumer advocacy. They do not hold governance, ownership, or voting rights. CPB is governed by a Founder-appointed Board in accordance with its Articles of Association.
-                       </div>
-                </div>
-                   <!-- Grid column -->
-                   <div class="col-md-7 col-lg-8 text-center text-md-start">
-                   
-                      
-                       <!-- Copyright -->
-                            <!-- Copyright -->
-                       <div class="p-3">
-                           © 2024 Copyright:
-                           <a class="text-white" href="index.php">CONSUMER PROTECTION BUREAU</a>
-                       </div>
-                   </div>
-                   <!-- Grid column -->
-
-                   <!-- Grid column -->
-                   <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-                       <!-- Facebook -->
-                       <a href="https://web.facebook.com/profile.php?id=61570163952467"
-                           class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"
-                           aria-label="Facebook"  target="_blank"><i class="fab fa-facebook-f"></i></a>
-
-                       <!-- Twitter -->
-                       <!-- <a href="https://x.com/i/flow/login?redirect_after_login=%2Fconsume60578813"
-                           class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"
-                           aria-label="Twitter"   target="_blank"><i class="fab fa-twitter"></i></a> -->
-
-                       <!-- Google -->
-                       <a href="https://www.linkedin.com/company/consumer-protection-bureau/" target="_blank"
-                       aria-label="LinkedIn"     class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
-                               class="fab fa-linkedin"></i></a>
-
-
-                   </div>
-                   <!-- Grid column -->
-               </div>
-           </section>
-                   <!-- Grid column -->
-
-
-               </div>
-           </section>
-           <!-- Section: Copyright -->
-       </div>
-       <!-- Grid container -->
-   </footer>
-
-   <!-- Bootstrap JavaScript Libraries -->
-   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-   </script>
-
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
-   </script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
-   <script src="assets/js/app.js"></script>
-
+<?php include 'assets/include/footer.php'; ?>
 <!-- <script>
 window.onload = function() {
     const canvas = document.getElementById('signaturePad');

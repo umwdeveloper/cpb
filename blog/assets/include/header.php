@@ -61,16 +61,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="../" aria-current="page">Home</a>
                         </li>
-                         <li class="nav-item">
+                         <!-- <li class="nav-item">
                             <a class="nav-link" href="../#become-frnd">Become a Friend</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="../job-opportunties">Job Opportunties</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="../membership.php">membership
                             </a>
-                        </li>
+                        </li> -->
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="consumer-issues.php">Consumer Issues
                             </a>
@@ -86,6 +86,19 @@
                                 <li><a class="dropdown-item nav-link" href="#">Success Stories</a></li>
                             </ul>
                         </li> -->
+                               <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                              Get Involved
+                            </a>
+                            <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
+                                 <li><a class="dropdown-item nav-link" href="../cpb-consumer-champion.php">Become a CPB Champion</a></li>
+
+                                <li><a class="dropdown-item nav-link" href="../#become-frnd">Become a CPB Friend</a></li>
+                                
+                                
+                            </ul>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link news-menu" href="../news/">Consumer Alert News
                             </a>

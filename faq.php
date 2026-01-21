@@ -91,7 +91,7 @@ $feedbacks = findAll("feedbacks");
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/membership.php">
+    <link rel="canonical" href="https://www.consumerprotectionbureau.co.uk/faq.php">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
@@ -136,7 +136,7 @@ $feedbacks = findAll("feedbacks");
                 </div>
                 <div
                     class="col-lg-4 p-0 bg-light d-flex justify-content-center white-md align-items-center order-lg-2 order-1">
-                    <img src="assets/images/FAQ/1.png" alt="Consumer Protection Bureau Membership Benefits"
+                    <img src="assets/images/FAQ/1.png" alt="CPB champions Benefits"
                         class="consumer-img  object-fit-contain">
                 </div>
             </div>
@@ -164,7 +164,7 @@ $feedbacks = findAll("feedbacks");
                     <div class="service-white-card service-card py-lg-5 py-3">
                         <h2 class="text-start">3. What benefits does CPB offer to consumers?</h2>
                         <p class="text">
-                            As a member of CPB, you benefit from:
+                            As a CPB Champion, you benefit from:
                         </p>
                         <ul class="issues-list">
                             <li>
@@ -253,7 +253,7 @@ $feedbacks = findAll("feedbacks");
                     <div class="service-white-card service-card py-lg-5 py-3">
                         <h2 class="text-start">5. How much does CPB charge for its services?</h2>
                         <p class="text mb-0 pb-0">
-                            <strong>Yearly membership:</strong>
+                            <strong>Yearly :</strong>
                         </p>
                         <ul class="text mb-0 pb-2">
                             <li><strong>Individuals:</strong> £50</li>
@@ -322,11 +322,11 @@ $feedbacks = findAll("feedbacks");
             <div class="row  mb-lg-0 mb-4" id="faq-7">
                 <div class="col-lg-8 px-0 bg-white order-lg-1 order-2 d-flex align-items-center">
                     <div class="service-white-card service-card py-lg-5 py-3">
-                        <h2 class="text-start">7. How do I become a member of CPB?</h2>
+                        <h2 class="text-start">7. How do I become a champion of CPB?</h2>
                         <p class="text mb-0 pb-0">
-                            Becoming a member of CPB is easy! Simply visit our website and complete the membership form
-                            or contact us by phone or email. The annual membership fee is £50, and once you are a
-                            member, you will have access to all of our services and benefits.
+                            Becoming a CPB champion is easy! Simply visit our website and complete the CPB champions form
+                            or contact us by phone or email. The annual CPB champion fee is £50, and once you are a
+                            champion, you will have access to all of our services and benefits.
                         </p>
                     </div>
                 </div>
@@ -569,7 +569,7 @@ $feedbacks = findAll("feedbacks");
                         <ul class="issues-list list-unstyled ps-3">
                             <li>
                                 <p class="text mb-0 pb-2"><strong>1. Claim Submission</strong></p>
-                                <p class="text mb-0 pb-2">Once you submit your claim and paid the membership fee, it
+                                <p class="text mb-0 pb-2">Once you submit your claim and paid the CPB champion fee, it
                                     usually takes 2–3 business days for us to review your documentation and begin the
                                     process.</p>
                             </li>
@@ -612,16 +612,15 @@ $feedbacks = findAll("feedbacks");
             <div class="row mb-lg-0 mb-4" id="faq-13">
                 <div class="col-lg-8 px-0 bg-white order-lg-1 order-2 d-flex align-items-center">
                     <div class="service-white-card service-card py-lg-5 py-3">
-                        <h2 class="text-start">13. Can I cancel my CPB membership?</h2>
-                        <p class="text mb-0 pb-0">Yes, you can cancel your membership with the Consumer Protection
-                            Bureau (CPB) at any time. Here’s how:</p>
+                        <h2 class="text-start">13. Can I stop being a CPB Consumer Champion ??</h2>
+                        <p class="text mb-0 pb-0">Yes, you can stop being a CPB Consumer Champion  at any time. Here’s how:</p>
                         <ul class="issues-list list-unstyled ps-3">
                             <li>
                                 <p class="text mb-0 pb-2"><strong>1. Contact Us</strong></p>
-                                <p class="text mb-0 pb-2">To cancel your membership, you can either:</p>
+                                <p class="text mb-0 pb-2">To stop being a CPB Consumer Champion, you can either:</p>
                                 <ul class="nested-list">
                                     <li>
-                                        <p class="text mb-0 pb-2"><strong>Email:</strong> Email our membership team with
+                                        <p class="text mb-0 pb-2"><strong>Email:</strong> Email us team with
                                             your cancellation request.</p>
                                     </li>
                                     <li>
@@ -635,12 +634,12 @@ $feedbacks = findAll("feedbacks");
                                 <p class="text mb-0 pb-2"><strong>2. Refund Policy</strong></p>
                                 <ul class="nested-list">
                                     <li>
-                                        <p class="text mb-0 pb-2">If you cancel your membership within 14 days of
-                                            joining, you are entitled to a full refund of your membership fee.</p>
+                                        <p class="text mb-0 pb-2">If you cancel being a CPB Consumer Champion within 14 days of
+                                            joining, you are entitled to a full refund of your CPB champion fee.</p>
                                     </li>
                                     <li>
-                                        <p class="text mb-0 pb-2">If you cancel after 14 days, the membership fee is
-                                            non-refundable, but you will still receive the benefits of membership until
+                                        <p class="text mb-0 pb-2">If you cancel after 14 days, the CPB champion fee is
+                                            non-refundable, but you will still receive the benefits of being a CPB Consumer Champion until
                                             the end of your annual term.</p>
                                     </li>
                                 </ul>
@@ -649,7 +648,7 @@ $feedbacks = findAll("feedbacks");
                                 <p class="text mb-0 pb-2"><strong>3. Effect of Cancellation</strong></p>
                                 <ul class="nested-list">
                                     <li>
-                                        <p class="text mb-0 pb-2">Once your membership is cancelled, you will no longer
+                                        <p class="text mb-0 pb-2">Once your CPB Consumer Champion status is cancelled, you will no longer
                                             have access to CPB’s services, including support with consumer claims,
                                             guidance on your rights, or representation in disputes.</p>
                                     </li>
@@ -661,9 +660,10 @@ $feedbacks = findAll("feedbacks");
                                 </ul>
                             </li>
                         </ul>
-                        <p class="text">If you wish to rejoin in the future, you can sign up again by paying the annual
-                            membership fee. Feel free to contact us if you have any questions about cancelling your
-                            membership!</p>
+                        <p class="text">If you wish to rejoin in the future, you can sign up again by paying
+                             the annual CPB champion fee. 
+                            Feel free to contact us if you have any questions about cancelling
+                             your CPB Consumer Champion status!</p>
                     </div>
                 </div>
                 <div
@@ -685,9 +685,9 @@ $feedbacks = findAll("feedbacks");
 
                         </h2>
                         <p class="text py-2 text-white text-center ">
-                            Ready to experience a consumer journey with a partner by your side? Join CPB as a member
-                            or make a voluntary contribution – We understand that not everyone can commit to
-                            membership, and that's okay! Non-members are welcome to benefit from our services by
+                            Ready to experience a consumer journey with a partner by your side? Join CPB as a champion
+                            or make a voluntary contribution. We understand that not everyone is able to make a full
+                            commitment and that's okay! Non-champions are welcome to benefit from our services by
                             making a voluntary contribution. For consumer issues under £1,000, a suggested
                             contribution of £50 is appreciated. <b>The choice is yours!</b>
                             <br>
@@ -743,39 +743,7 @@ $feedbacks = findAll("feedbacks");
         </div>
               
     </section>
-    <section class="py-lg-5 py-4 bg-light">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <h2 class="main-heading text-center text-uppercase mb-5 mt-lg-2">
-                        Visit Our Subsidiary Companies
-                    </h2>
 
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://www.compliance-experts.co.uk/" target="_blank"
-                        class="text-decoration-none text-dark">
-                        <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
-                            <img src="assets/images/CRC-logo.png" alt="CRC logo" style="width:130px; height:auto;">
-                            <h3 class="mt-4 text-center text-md" style=" font-weight:500;">Compilance and Risk
-                                Consultancy</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://carehomecompliance.com/" target="_blank" class="text-decoration-none text-dark">
-                        <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
-                            <img src="assets/images/Care Home Compilance.png" alt="CHC logo"
-                                style="width:100px; height:auto;">
-                            <h3 class="mt-4 text-center text-md" style=" font-weight:500;">Care Home Compilance</h3>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- <section>
         <div class="contact-area py-lg-5 py-4">
             <div class="container py-4">

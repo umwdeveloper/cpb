@@ -648,7 +648,7 @@ body {
 }
 
 .service-card h2 {
-    font-size: 22px;
+    /* font-size: 22px; */
     font-weight: 600;
     color: var(--primary);
     text-align: center;
