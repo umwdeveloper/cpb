@@ -160,7 +160,7 @@
                     style="background: linear-gradient(180deg, #ffffff 0%, #FFFDE7 100%); border: 1px solid #FFD54F;">
                     <h3 class="fw-semibold mt-0" style="color: #0D47A1;">Why This Is a Consumer Issue</h3>
                     <p class="text">Local authorities are public bodies with a duty to act:</p>
-                    <ul>
+                    <ul class="square-list">
                         <li>Proportionately</li>
                         <li>Transparently</li>
                         <li>In the public interest</li>
