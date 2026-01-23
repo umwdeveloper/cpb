@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>When "Free" Isn't Really Free: The Hidden Cost of Trial Offers | Consumer Protection Bureau</title>
+    <title>When Traffic Control Becomes a Revenue Trap | Consumer Protection Bureau</title>
     <meta name="description"
         content="The Consumer Protection Bureau exposes the hidden costs of free trial subscription traps and how consumers can protect themselves from deceptive billing practices">
     <!-- Required meta tags -->
@@ -33,6 +33,20 @@
 </head>
 
 <?php include 'assets/include/header.php'; ?>
+<style>
+.square-list {
+    list-style-type: square;
+    /* Makes bullets square */
+    padding-left: 20px;
+    /* Optional: spacing from edge */
+    margin: 0;
+}
+
+.square-list li {
+    margin-bottom: 8px;
+    /* Optional: space between items */
+}
+</style>
 <main>
     <section class="py-lg-5 py-4 bg-light about-hero">
         <div class="container py-5 px-3 px-md-5" style="max-width: 980px; background: #E3F2FD; border-radius: 12px;">
@@ -43,7 +57,7 @@
             </div>
             <!-- Title & Meta -->
             <div class="mb-4">
-                <h1 class="display-5 fw-bold text-uppercase" style="color:#B8860B;">
+                <h1 class="display-5 fw-bold text-uppercase" style="color:#0D47A1;">
                     Yellow Box Junctions:
                 </h1>
                 <h3>When Traffic Control Becomes a Revenue Trap</h3>
@@ -59,38 +73,41 @@
                     enabled by legal ambiguity and automated enforcement.</p>
 
 
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 mx-auto mb-lg-0 mb-3">
-                            <img src="../assets/images/blog/yellow-box (1).jpg" alt="" class="h-100 img-fluid rounded ">
-                        </div>
-                          <div class="col-lg-4 col-md-6 mx-auto mb-lg-0 mb-3">
-                            <img src="../assets/images/blog/yellow-box (2).jpg" alt="" class="img-fluid rounded ">
-                        </div>
-                          <div class="col-lg-4 col-md-6 mx-auto mb-lg-0 mb-3">
-                            <img src="../assets/images/blog/yellow-box-3.jpg" alt="" class="img-fluid rounded ">
-                        </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mx-auto mb-lg-0 mb-3">
+                        <img src="../assets/images/blog/yellow-box (1).jpg" alt="" class="h-100 img-fluid rounded ">
                     </div>
+                    <div class="col-lg-4 col-md-6 mx-auto mb-lg-0 mb-3">
+                        <img src="../assets/images/blog/yellow-box (2).jpg" alt="" class="img-fluid rounded ">
+                    </div>
+                    <div class="col-lg-4 col-md-6 mx-auto mb-lg-0 mb-3">
+                        <img src="../assets/images/blog/yellow-box-3.jpg" alt="" class="img-fluid rounded ">
+                    </div>
+                </div>
                 <div class="p-3 rounded mt-4"
                     style="background: linear-gradient(180deg, #ffffff 0%, #FFF9C4 100%); border: 1px solid #FFEB3B;">
-                    <h3 class="fw-semibold mt-0" style="color: #B8860B;">The Legal Grey Area at the Heart of the Problem
+                    <h3 class="fw-semibold mt-0" style="color: #0D47A1;">The Legal Grey Area at the Heart of the Problem
                     </h3>
                     <p class="text">Yellow box junctions are governed by the Traffic Signs Regulations and General
                         Directions (TSRGD). However, the legislation fails to provide a clear statutory definition of
                         what constitutes a “junction.”</p>
                     <p class="text">This omission matters.</p>
+                    <ul class="square-list">
+                        <li>
+                            <p class="mb-0"> Where a yellow box begins and ends</p>
 
-                    <div class="p-3 rounded mb-3" style="background:#f4f8ff; border-left:4px solid #0D47A1;">
-                        <p class="mb-0">➤ Where a yellow box begins and ends</p>
-                    </div>
+                        </li>
+                        <li>
+                            <p class="mb-0"> How far it extends beyond the actual conflict area</p>
 
-                    <div class="p-3 rounded mb-3" style="background:#f4f8ff; border-left:4px solid #0D47A1;">
-                        <p class="mb-0">➤ How far it extends beyond the actual conflict area</p>
-                    </div>
+                        </li>
+                        <li>
+                            <p class="mb-0"> Whether its size is proportionate to the
+                                junction it is meant to protect</p>
 
-                    <div class="p-3 rounded mb-3" style="background:#f4f8ff; border-left:4px solid #0D47A1;">
-                        <p class="mb-0">➤ Whether its size is proportionate to the junction it is meant to protect
-                        </p>
-                    </div>
+                        </li>
+                    </ul>
+
 
                     <p class="text mt-3">
                     <p class="text">In practice, this discretion has increasingly been exercised in favour of
@@ -99,37 +116,39 @@
 
                 <div class="p-3 rounded mt-4"
                     style="background: linear-gradient(180deg, #ffffff 0%, #FFFDE7 100%); border: 1px solid #FFD54F;">
-                    <h3 class="fw-semibold mt-0" style="color: #B8860B;">Oversized Boxes, Automated Penalties</h3>
+                    <h3 class="fw-semibold mt-0" style="color: #0D47A1;">Oversized Boxes, Automated Penalties</h3>
                     <p>Independent technical reviews of yellow box layouts across multiple local authority areas
                         indicate that a significant proportion of yellow boxes extend well beyond the area where
                         cross-traffic is affected.</p>
                     <p>In some cases, boxes are reported to be up to 50% larger than necessary, capturing vehicles that
                         are not obstructing any junction at all.</p>
+                    <ul class="square-list">
+                        <li>
+                            <p class="mb-0"> Momentary traffic slowdowns trigger penalties</p>
 
-                    <div class="p-3 rounded mb-3" style="background:#f4f8ff; border-left:4px solid #0D47A1;">
-                        <p class="mb-0"> ➤ Momentary traffic slowdowns trigger penalties
-                        </p>
-                    </div>
-                    <div class="p-3 rounded mb-3" style="background:#f4f8ff; border-left:4px solid #0D47A1;">
-                        <p class="mb-0">➤ Context is ignored
-                        </p>
-                    </div>
+                        </li>
+                        <li>
+                            <p class="mb-0"> Context is ignored</p>
 
-                    <div class="p-3 rounded mb-3" style="background:#f4f8ff; border-left:4px solid #0D47A1;">
-                        <p class="mb-0">➤ Common-sense judgment is absent
-                        </p>
-                    </div>
-                    <div class="p-3 rounded mb-3" style="background:#f4f8ff; border-left:4px solid #0D47A1;">
-                        <p class="mb-0">➤ Motorists are fined despite no actual obstruction occurring
-                        </p>
-                    </div>
+                        </li>
+                        <li>
+                            <p class="mb-0"> Common-sense judgment is absent</p>
+
+                        </li>
+                        <li>
+                            <p class="mb-0"> Motorists are fined despite no actual obstruction occurring</p>
+
+                        </li>
+                    </ul>
+
+
                     <p>The result is predictable: a sharp rise in Penalty Charge Notices (PCNs) and a steady income
                         stream for councils.</p>
                 </div>
 
                 <div class="p-3 rounded mt-4"
                     style="background: linear-gradient(180deg, #ffffff 0%, #FFF9C4 100%); border: 1px solid #FFEB3B;">
-                    <h3 class="fw-semibold mt-0" style="color: #B8860B;">When Compliance Becomes Impossible</h3>
+                    <h3 class="fw-semibold mt-0" style="color: #0D47A1;">When Compliance Becomes Impossible</h3>
                     <p>Drivers are legally required not to enter a yellow box unless their exit is clear. However,
                         oversized boxes make compliance unrealistic in congested conditions.</p>
                     <p>Motorists may enter lawfully, only to be penalised seconds later when traffic ahead unexpectedly
@@ -139,7 +158,7 @@
 
                 <div class="p-3 rounded mt-4"
                     style="background: linear-gradient(180deg, #ffffff 0%, #FFFDE7 100%); border: 1px solid #FFD54F;">
-                    <h3 class="fw-semibold mt-0" style="color: #B8860B;">Why This Is a Consumer Issue</h3>
+                    <h3 class="fw-semibold mt-0" style="color: #0D47A1;">Why This Is a Consumer Issue</h3>
                     <p class="text">Local authorities are public bodies with a duty to act:</p>
                     <ul>
                         <li>Proportionately</li>
@@ -151,41 +170,44 @@
                     <p>For many households, a £70 – £130 PCN is not a minor inconvenience. It is a material financial
                         burden.</p>
 
-                    <div class="p-3 rounded mb-3" style="background:#f4f8ff; border-left:4px solid #0D47A1;">
-                        <p class="mb-0">➤ Enforcement objectives are being blurred with revenue incentives
-                        </p>
-                    </div>
-                    <div class="p-3 rounded mb-3" style="background:#f4f8ff; border-left:4px solid #0D47A1;">
-                        <p class="mb-0">➤ Legal ambiguity is being exploited rather than corrected
-                        </p>
-                    </div>
-                    <div class="p-3 rounded mb-3" style="background:#f4f8ff; border-left:4px solid #0D47A1;">
-                        <p class="mb-0">➤ Consumers are denied meaningful opportunity for fair challenge
-                        </p>
-                    </div>
+                         <ul class="square-list">
+                        <li>
+                            <p class="mb-0"> Enforcement objectives are being blurred with revenue incentives</p>
+
+                        </li>
+                        <li>
+                            <p class="mb-0"> Legal ambiguity is being exploited rather than corrected</p>
+
+                        </li>
+                        <li>
+                            <p class="mb-0"> Consumers are denied meaningful opportunity for fair challenge</p>
+
+                        </li>
+                    
+                    </ul>
                 </div>
 
                 <div class="p-3 rounded mt-4"
                     style="background: linear-gradient(180deg, #ffffff 0%, #FFF9C4 100%); border: 1px solid #FFEB3B;">
-                    <h3 class="fw-semibold mt-0" style="color: #B8860B;">Call for Evidence: Tell Us Your Experience</h3>
+                    <h3 class="fw-semibold mt-0" style="color: #0D47A1;">Call for Evidence: Tell Us Your Experience</h3>
                     <p>The Consumer Protection Bureau is now gathering evidence from motorists affected by yellow box
                         enforcement.</p>
                     <p>If you have received a PCN relating to a yellow box junction, we invite you to share your
                         experience with us.</p>
-                    <ul class="list-unstyled">
-                        <li>➤ The location of the junction</li>
-                        <li>➤ Whether cross-traffic was actually obstructed</li>
-                        <li>➤ The outcome of any appeal</li>
-                        <li>➤ Photographs or CCTV stills (where available)</li>
+                    <ul class="square-list">
+                        <li> The location of the junction</li>
+                        <li> Whether cross-traffic was actually obstructed</li>
+                        <li> The outcome of any appeal</li>
+                        <li> Photographs or CCTV stills (where available)</li>
                     </ul>
 
                 </div>
 
                 <div id="cpb-position" class="p-4 rounded mt-4"
-                    style="background:#B8860B;color:#fff; box-shadow:0 12px 30px rgba(184,134,11,0.15); border:2px solid #B8860B;">
+                    style="background:#0D47A1;color:#fff; box-shadow:0 12px 30px rgba(184,134,11,0.15); border:2px solid #0D47A1;">
                     <div class="d-flex align-items-center gap-3">
                         <div
-                            style="width:64px;min-width:64px;height:64px;min-height:64px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#B8860B;font-size:22px;box-shadow:0 6px 18px rgba(0,0,0,0.08);flex:0 0 64px;">
+                            style="width:64px;min-width:64px;height:64px;min-height:64px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#0D47A1;font-size:22px;box-shadow:0 6px 18px rgba(0,0,0,0.08);flex:0 0 64px;">
                             <i class="fas fa-hands-helping" aria-hidden="true"></i>
                         </div>
                         <div>
@@ -200,8 +222,9 @@
                     </div>
                 </div>
 
-                <h3 class="fw-bold mb-1 mt-5 text-center" style="color:#B8860B;">Yellow box junctions should manage
-                    traffic, not manufacture penalties.</h3>
+                <h3 class="fw-bold mb-1 mt-5 text-center" style="color:#0D47A1;">Yellow box junctions 
+                    should manage
+                    traffic, <br> not manufacture penalties.</h3>
                 <div class="text-center mt-5 d-flex flex-column justify-content-center align-content-center">
                     <p class="mt-3 text-muted small">Share this article to raise awareness</p>
                 </div>
