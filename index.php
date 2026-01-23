@@ -313,14 +313,14 @@ if (isset($_POST['form-issue'])) {
                         <div class="network-content-left">
                             <span class="badge bg-primary mb-3 px-3 py-2 rounded-pill">Join Our Network</span>
                             <h2 class="main-heading text-uppercase mb-4">Join the CPB
-                                Friends Network –<span style="color:#e5bf20"> <i>It’s Free!</i></span></h2>
+                                allies Network –<span style="color:#e5bf20"> <i>It’s Free!</i></span></h2>
                             <h3 class="secondry-heading mb-4 gradient-text">Your Card · Your Voice · Your Protection
                             </h3>
 
                             <p class="text mb-4 lead">
-                                Joining the CPB Friends Network means becoming part of a growing community of consumers
+                                Joining the CPB Allies Network means becoming part of a growing community of consumers
                                 who
-                                believe in fairness, transparency, and accountability. As a Friend of CPB, you add your
+                                believe in fairness, transparency, and accountability. As an ally of CPB, you add your
                                 voice to a movement that protects people across the UK and beyond.
                             </p>
 
@@ -329,7 +329,7 @@ if (isset($_POST['form-issue'])) {
                                 <ul class="list-styled  mb-0 ms-0 ps-0">
                                     <li class="mb-3 d-flex align-items-center">
                                         <span class="me-2" style="color:#e5bf20">➤</span>
-                                        <span>Get your official CPB Friends Card</span>
+                                        <span>Get your official CPB Allies Card</span>
                                     </li>
                                     <li class="mb-3 d-flex align-items-center">
                                         <span class="me-2" style="color:#e5bf20">➤</span>
@@ -374,17 +374,17 @@ if (isset($_POST['form-issue'])) {
                                 <div class="card-image-wrapper position-relative mb-4 mx-auto"
                                     style="max-width: 370px;">
                                     <div class="card-glow"></div>
-                                    <img src="assets/images/cpb-f-card (2).png" alt="CPB Friends Card Template"
+                                    <img src="assets/images/cpb-ally-card.png" alt="CPB Allies Card Template"
                                         class="img-fluid rounded-3 ">
-                                    <img src="assets/images/cpb-f-card (1).png" alt="CPB Friends Card Template"
-                                        class="img-fluid rounded-3 mt-3">
+                                    <!-- <img src="assets/images/cpb-f-card (1).png" alt="CPB Allies Card Template"
+                                        class="img-fluid rounded-3 mt-3"> -->
                                 </div>
 
                                 <div class="card-content">
                                     <h4 class=" mb-3 " style="color:#223a78">
                                         <b>
-                                            Every Friend of CPB Receives a <br>
-                                            Digital CPB Friends Card
+                                            Every Ally of CPB Receives a <br>
+                                            Digital CPB Allies Card
                                         </b>
                                     </h4>
                                     <p class="">This card is more than a symbol – it's a reminder that:</p>
@@ -406,8 +406,8 @@ if (isset($_POST['form-issue'])) {
             <div class="container">
                 <div class="row text-center justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="main-heading text-uppercase mb-4">Meet Our CPB Friends</h2>
-                        <p class="lead mb-5">We are proud to showcase some of our valued CPB Friends who are part of our
+                        <h2 class="main-heading text-uppercase mb-4">Meet CPB Allies</h2>
+                        <p class="lead mb-5">We are proud to showcase some of our valued CPB Allies who are part of our
                             growing community. Each card represents a commitment to consumer rights and market fairness.
                         </p>
                     </div>
@@ -426,7 +426,7 @@ if (isset($_POST['form-issue'])) {
                                                     alt="CPB Friend Card" class="img-fluid rounded-3  hover-lift">
                                                 <div class="mt-3">
                                                     <h5 class="mb-1">Omar Gouda</h5>
-                                                    <p class="text-muted mb-0">Member since 2025</p>
+                                                    <p class="text-muted mb-0">Ally since 2025</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -443,7 +443,7 @@ if (isset($_POST['form-issue'])) {
                                                     alt="CPB Friend Card" class="img-fluid rounded-3  hover-lift">
                                                 <div class="mt-3">
                                                     <h5 class="mb-1">Li Wei</h5>
-                                                    <p class="text-muted mb-0">Member since 2025</p>
+                                                    <p class="text-muted mb-0">Ally since 2025</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -460,7 +460,7 @@ if (isset($_POST['form-issue'])) {
                                                     alt="CPB Friend Card" class="img-fluid rounded-3  hover-lift">
                                                 <div class="mt-3">
                                                     <h5 class="mb-1">George</h5>
-                                                    <p class="text-muted mb-0">Member since 2025</p>
+                                                    <p class="text-muted mb-0">Ally since 2025</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -478,7 +478,7 @@ if (isset($_POST['form-issue'])) {
                                                     alt="CPB Friend Card" class="img-fluid rounded-3  hover-lift">
                                                 <div class="mt-3">
                                                     <h5 class="mb-1">Michael White</h5>
-                                                    <p class="text-muted mb-0">Member since 2025</p>
+                                                    <p class="text-muted mb-0">Ally since 2025</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -496,7 +496,7 @@ if (isset($_POST['form-issue'])) {
                                                     class="img-fluid rounded-3  hover-lift">
                                                 <div class="mt-3">
                                                     <h5 class="mb-1">Maureen Holder</h5>
-                                                    <p class="text-muted mb-0">Member since 2025</p>
+                                                    <p class="text-muted mb-0">Ally since 2025</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -521,10 +521,10 @@ if (isset($_POST['form-issue'])) {
 
                 <div class="row mt-5">
                     <div class="col-12 text-center">
-                        <p class="lead mb-4">Join our growing community and get your own CPB Friends Card today!</p>
+                        <p class="lead mb-4">Join our growing community and get your own CPB Allies Card today!</p>
                         <button type="button" class="main-btn btn-lg shadow-sm"
                             onclick="document.getElementById('friendPopup').style.display = 'flex';">
-                            <span class="me-2">Become a CPB Friend</span>
+                            <span class="me-2">Become a CPB Ally</span>
                             <i class="bi bi-arrow-right"></i>
                         </button>
                     </div>
@@ -1978,12 +1978,12 @@ document.querySelectorAll('#issue-form input, #issue-form select, #issue-form te
 <div id="friendPopup" class="popup-overlay" style="display: none;">
     <div class="popup-content">
         <h3>
-            Would you like to be a friend of
+            Would you like to be an ally of
             CPB?
         </h3>
         <div class="popup-buttons">
             <button onclick="showFriendForm()">
-                <b>Be friend of CPB</b>
+                <b>Be ally of CPB</b>
             </button>
             <button onclick="closePopup('friendPopup')">
                 <b>No thanks</b>
@@ -1996,7 +1996,7 @@ document.querySelectorAll('#issue-form input, #issue-form select, #issue-form te
 <div id="friendFormPopup" class="popup-overlay" style="display: none;">
     <div class="popup-content">
         <div id="friendFormContent">
-            <h3>Become a friend/supporter of CPB</h3>
+            <h3>Become an ally of CPB</h3>
             <form id="friendForm" onsubmit="submitFriendForm(event)">
                 <div class="form-group">
                     <input type="text" name="name" placeholder="Your Name" required>
@@ -2012,14 +2012,14 @@ document.querySelectorAll('#issue-form input, #issue-form select, #issue-form te
                     </label>
                 </div>
                 <button type="submit">
-                    <b>Be Friend</b>
+                    <b>Be Ally</b>
                 </button>
             </form>
         </div>
         <div id="successMessage" style="display: none;">
             <h2 style="color: var(--secondry);">Congratulations!</h2>
             <p style="color: var(--primary); font-size: 18px; margin: 10px 0;">
-                <b>You are now a friend/supporter of CPB</b>
+                <b>You are now an ally of CPB</b>
             </p>
 
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">

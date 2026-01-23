@@ -12,10 +12,10 @@
                    <a href="https://www.compliance-experts.co.uk/" target="_blank"
                        class="text-decoration-none text-dark">
                        <div class="amenity-card d-flex justify-content-center align-items-center flex-column">
-                           <h3 class="mb-4 text-center text-md" style=" font-weight:500;">CPB is part of</h3>
+                           <h3 class="mb-4 text-center text-md" style=" font-weight:500;">CPB is part of </h3>
                            <img src="assets/images/CRC-logo.png" alt="CRC logo" style="width:130px; height:auto;">
                            <h3 class="mt-4 text-center text-md" style=" font-weight:500;">Compilance and Risk
-                               Consultancy</h3>
+                               Consultancy (CRC)</h3>
                        </div>
                    </a>
                </div>
