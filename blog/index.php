@@ -91,6 +91,32 @@ if (isset($_POST['form-contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4 justify-content-center">
+                 <div class="col-lg-4 mb-3 ">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/blog/yellow-box.png"
+                                style="object-fit:contain; object-position:center;" alt="" class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>9 July 2025</span> -->
+                            <h2 class="mb-0 pb-0">
+                                Yellow Box Junctions:When Traffic Control Becomes a Revenue Trap
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(23 Jan 2026)</span>
+                                <b>LONDON </b> –
+                               Yellow box junctions were created to serve a clear and sensible purpose: to
+                    prevent vehicles from blocking key intersections and to keep traffic flowing.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="
+                           when-traffic-control-becomes-a-revenue-trap.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-4 mb-3 ">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
