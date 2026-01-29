@@ -410,7 +410,7 @@ include_once "includes/functions.php";
                                 <li><a class="dropdown-item nav-link" href="cpb-consumer-champion.php">Become a CPB
                                         Champion</a></li>
 
-                                <li><a class="dropdown-item nav-link" href="#become-frnd">Become a CPB Friend</a></li>
+                                <li><a class="dropdown-item nav-link" href="#become-ally">Become a CPB Ally</a></li>
 
                             </ul>
                         </li>

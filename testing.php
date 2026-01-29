@@ -189,7 +189,7 @@ if (isset($_POST['form-issue'])) {
                         <a class="nav-link" href="/" aria-current="page">Home</a>
                     </li>
                     <!-- <li class="nav-item">
-                            <a class="nav-link" href="#become-frnd">Become a Friend</a>
+                            <a class="nav-link" href="#become-ally">Become a Friend</a>
                         </li> -->
                     <li class="nav-item">
                         <a class="nav-link " href="job-opportunties/">Job Opportunties</a>
@@ -258,7 +258,7 @@ if (isset($_POST['form-issue'])) {
                             <li><a class="dropdown-item nav-link" href="cpb-consumer-champion.php">Become a CPB
                                     Champion</a></li>
 
-                            <li><a class="dropdown-item nav-link" href="#become-frnd">Become a CPB Friend</a></li>
+                            <li><a class="dropdown-item nav-link" href="#become-ally">Become a CPB Ally</a></li>
 
                         </ul>
                     </li>
@@ -487,7 +487,7 @@ if (isset($_POST['form-issue'])) {
 
     </section>
     <!-- CPB Friends Network section -->
-    <section id="become-frnd" class="friends-network-section py-lg-5 py-4 position-relative overflow-hidden">
+    <section id="become-ally" class="friends-network-section py-lg-5 py-4 position-relative overflow-hidden">
         <div class="network-bg-pattern"></div>
         <div class="container position-relative">
             <div class="row justify-content-center align-items-center">

@@ -224,7 +224,7 @@ include_once "includes/functions.php";
                         <a class="nav-link" href="/" aria-current="page">Home</a>
                     </li>
                     <!-- <li class="nav-item">
-                            <a class="nav-link" href="#become-frnd">Become a Friend</a>
+                            <a class="nav-link" href="#become-ally">Become a Friend</a>
                         </li> -->
                     <li class="nav-item">
                         <a class="nav-link " href="job-opportunties/">Job Opportunties</a>
@@ -293,7 +293,7 @@ include_once "includes/functions.php";
                             <li><a class="dropdown-item nav-link" href="cpb-consumer-champion.php">Become a CPB
                                     Champion</a></li>
 
-                            <li><a class="dropdown-item nav-link" href="#become-frnd">Become a CPB Friend</a></li>
+                            <li><a class="dropdown-item nav-link" href="#become-ally">Become a CPB Ally</a></li>
 
                         </ul>
                     </li>
