@@ -63,7 +63,7 @@ include_once "includes/functions.php";
             color: white;
             padding: 5px 15px;
             border-radius: 20px;
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 600;
             z-index: 10;
         }
@@ -74,7 +74,7 @@ include_once "includes/functions.php";
             color: #223a78;
             padding: 5px 15px;
             border-radius: 20px;
-            font-size: 13px;
+            font-size: 16px;
             font-weight: 600;
             margin-bottom: 10px;
         }
@@ -156,6 +156,9 @@ include_once "includes/functions.php";
             color: white;
             font-size: 24px;
             margin: 0 auto 15px;
+        }
+        .card-title{
+            color: #223a78;
         }
     </style>
 </head>
@@ -354,10 +357,12 @@ include_once "includes/functions.php";
                     <h1 class="main-heading text-center text-uppercase  mt-2">
                        CPB Case Studies
                     </h1>
+                    <h4 class="text-center my-2 fw-semibold">Real People. Real Problems. Real Outcomes.</h4>
                     <p class="text-md text-center">
-                        Real stories of how the Consumer Protection Bureau has helped consumers secure justice,
-                            obtain refunds, and hold 
-                            businesses accountable.
+                      Behind every complaint is a real person often stressed, unheard, or unsure where to turn.
+
+At the Consumer Protection Bureau (CPB), we listen first, then act. The case studies below highlight how CPB intervenes, secures redress, and uses real cases to challenge unfair practices and inform national consumer campaigns.
+
                     </p>
 
                 </div>
@@ -378,6 +383,9 @@ include_once "includes/functions.php";
                         <button class="filter-btn" data-filter="travel">Travel</button>
                         <button class="filter-btn" data-filter="property">Property</button>
                         <button class="filter-btn" data-filter="business">Business</button>
+                        <button class="filter-btn" data-filter="retail">Retail</button>
+                        <button class="filter-btn" data-filter="services">Services</button>
+                        <button class="filter-btn" data-filter="entertainment">Entertainment</button>
                         
                     </div>
                 </div>
@@ -391,10 +399,10 @@ include_once "includes/functions.php";
                     <!-- Case Study 1: Roofing Complaint -->  
                     <div class="col-lg-6 mb-4 case-item" data-category="property ongoing">
                         <div class="card case-study-card">
-                            <span class="case-badge" style="background: #ffc107; color: #000;">Case Ongoing</span>
+                            <span class="case-badge" style="background: #ffc107; color: #000;">Ongoing</span>
                             <div class="card-body p-4">
                                 <span class="case-category">Roofing Complaint</span>
-                                <h3 class="card-title mt-2 mb-3">"I Trusted the Recommendation and Lost £8,700"</h3>
+                                <h2 class=" fw-bold card-title mt-2 mb-3">"I Trusted the Recommendation and Lost £8,700"</h2>
                                 <p class="text-muted mb-3"><i class="bi bi-calendar-event me-2"></i>Case Ongoing</p>
                                 <p class="card-text">
                                     What began as a modest roof repair quickly spiralled into a financial and emotional ordeal.
@@ -430,7 +438,7 @@ include_once "includes/functions.php";
                             <span class="case-badge">Resolved</span>
                             <div class="card-body p-4">
                                 <span class="case-category">£11,520 Beauty Equipment Case</span>
-                                <h3 class="card-title mt-2 mb-3">"My Business Was at Risk I Didn't Know What Else to Do"</h3>
+                                <h2 class=" fw-bold card-title mt-2 mb-3">"My Business Was at Risk I Did not Know What Else to Do"</h2>
                                 <p class="text-muted mb-3"><i class="bi bi-calendar-event me-2"></i>Resolved</p>
                                 <p class="card-text">
                                     A professional beauty therapist invested in a high-value treatment machine after being reassured that known defects would be fixed before delivery. Those assurances were never honoured.
@@ -463,12 +471,12 @@ include_once "includes/functions.php";
                     </div>
 
                     <!-- Case Study 3: Hotel Booking Dispute -->
-                    <div class="col-lg-6 mb-4 case-item" data-category="travel resolved">
+                    <!-- <div class="col-lg-6 mb-4 case-item" data-category="travel resolved">
                         <div class="card case-study-card">
                             <span class="case-badge">Resolved</span>
                             <div class="card-body p-4">
                                 <span class="case-category">Overseas Hotel Booking</span>
-                                <h3 class="card-title mt-2 mb-3">"I Landed in London and Had Nowhere to Stay"</h3>
+                                <h2 class=" fw-bold card-title mt-2 mb-3">"I Landed in London and Had Nowhere to Stay"</h2>
                                 <p class="text-muted mb-3"><i class="bi bi-calendar-event me-2"></i>Resolved</p>
                                 <p class="card-text">
                                     An Australian visitor arrived in London after a long international flight only to be refused access to her fully prepaid hotel room.
@@ -496,15 +504,15 @@ include_once "includes/functions.php";
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- Case Study 4: Car Rental Dispute -->
-                    <div class="col-lg-6 mb-4 case-item" data-category="travel resolved">
+                    <!-- <div class="col-lg-6 mb-4 case-item" data-category="travel resolved">
                         <div class="card case-study-card">
                             <span class="case-badge">Resolved</span>
                             <div class="card-body p-4">
                                 <span class="case-category">Expedia Car Rental Dispute</span>
-                                <h3 class="card-title mt-2 mb-3">"We Were Abroad With a Toddler and Suddenly Had No Car"</h3>
+                                <h2 class=" fw-bold card-title mt-2 mb-3">"We Were Abroad With a Toddler and Suddenly Had No Car"</h2>
                                 <p class="text-muted mb-3"><i class="bi bi-calendar-event me-2"></i>Resolved</p>
                                 <p class="card-text">
                                     A family travelling in Italy made two prepaid car rental bookings through a major platform. Both failed.
@@ -531,7 +539,7 @@ include_once "includes/functions.php";
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- Case Study 5: Cleaning Damage -->
                     <div class="col-lg-6 mb-4 case-item" data-category="retail resolved">
@@ -539,7 +547,7 @@ include_once "includes/functions.php";
                             <span class="case-badge">Resolved</span>
                             <div class="card-body p-4">
                                 <span class="case-category">Professional Cleaning Damage</span>
-                                <h3 class="card-title mt-2 mb-3">"They Ruined My Scarves Then Offered £50"</h3>
+                                <h2 class=" fw-bold card-title mt-2 mb-3">"They Ruined My Scarves Then Offered £50"</h2>
                                 <p class="text-muted mb-3"><i class="bi bi-calendar-event me-2"></i>Resolved</p>
                                 <p class="card-text">
                                     Two designer silk scarves were returned damaged after professional cleaning. The initial compensation offered did not reflect their value or the loss suffered.
@@ -564,8 +572,8 @@ include_once "includes/functions.php";
                         <div class="card case-study-card">
                             <span class="case-badge">Resolved</span>
                             <div class="card-body p-4">
-                                <span class="case-category">Heathrow Parking Charge</span>
-                                <h3 class="card-title mt-2 mb-3">"I Paid the Drop-Off Fee Then Got Fined Anyway"</h3>
+                                <span class="case-category">APCOA Heathrow Parking Charge</span>
+                                <h2 class=" fw-bold card-title mt-2 mb-3">"I Paid the Drop-Off Fee Then Got Fined Anyway"</h2>
                                 <p class="text-muted mb-3"><i class="bi bi-calendar-event me-2"></i>Resolved</p>
                                 <p class="card-text">
                                     A motorist paid the Heathrow terminal drop-off charge correctly and on time — then received a penalty notice weeks later.
@@ -589,6 +597,142 @@ include_once "includes/functions.php";
                                     <h5 class="mb-3"><i class="bi bi-info-circle-fill text-primary me-2"></i>Why this case matters</h5>
                                     <p class="mb-0">This case feeds directly into CPB's national campaign on airport drop-off charges and unfair parking enforcement practices.</p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+
+           
+
+
+                    <!-- Case Study 12: Beauty Equipment Case (Short Version) -->
+                    <!-- <div class="col-lg-6 mb-4 case-item" data-category="business resolved">
+                        <div class="card case-study-card">
+                            <span class="case-badge">Resolved</span>
+                            <div class="card-body p-4">
+                                <span class="case-category">£11,520 Beauty Equipment Case</span>
+                                <h2 class="fw-bold card-title mt-2 mb-3">"My Business Was at Risk – I Didn't Know What Else to Do"</h2>
+                                <p class="text-muted mb-3"><i class="bi bi-calendar-event me-2"></i>Resolved</p>
+                                <p class="card-text">
+                                    A beauty therapist invested in high-value equipment based on assurances that defects would be resolved. They were not. The machine repeatedly failed, placing clients and the business at risk.
+                                </p>
+                                <p class="card-text">
+                                    CPB challenged the supplier and secured a replacement without court action.
+                                </p>
+                                <a href="#" class="btn bg-primary text-white mt-3">View Full Case Study</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- Case Study 13: Hotel Booking (Short Version) -->
+                    <div class="col-lg-6 mb-4 case-item" data-category="travel resolved">
+                        <div class="card case-study-card">
+                            <span class="case-badge">Resolved</span>
+                            <div class="card-body p-4">
+                                <span class="case-category">Overseas Hotel Booking</span>
+                                <h2 class="fw-bold card-title mt-2 mb-3">"I Landed in London and Had Nowhere to Stay"</h2>
+                                <p class="text-muted mb-3"><i class="bi bi-calendar-event me-2"></i>Resolved</p>
+                                <p class="card-text">
+                                    An overseas visitor was denied access to fully prepaid accommodation due to undisclosed restrictions. Left stranded, she contacted CPB.
+                                </p>
+                                <p class="card-text">
+                                    CPB intervened directly and secured a full refund.
+                                </p>
+                                <a href="#" class="btn bg-primary text-white mt-3">View Full Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 14: Car Rental (Short Version) -->
+                    <div class="col-lg-6 mb-4 case-item" data-category="travel resolved">
+                        <div class="card case-study-card">
+                            <span class="case-badge">Resolved</span>
+                            <div class="card-body p-4">
+                                <span class="case-category">Expedia Car Rental Dispute</span>
+                                <h2 class="fw-bold card-title mt-2 mb-3">"We Were Abroad With a Toddler – and Suddenly Had No Car"</h2>
+                                <p class="text-muted mb-3"><i class="bi bi-calendar-event me-2"></i>Resolved</p>
+                                <p class="card-text">
+                                    A family's prepaid car rentals failed due to undisclosed card restrictions and missing child safety equipment.
+                                </p>
+                                <p class="card-text">
+                                    CPB challenged the platform's refusal to refund and recovered all charges.
+                                </p>
+                                <a href="#" class="btn bg-primary text-white mt-3">View Full Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 15: Faulty Sofa (Short Version) -->
+                    <div class="col-lg-6 mb-4 case-item" data-category="retail ongoing">
+                        <div class="card case-study-card">
+                            <span class="case-badge" style="background: #ffc107; color: #000;">Ongoing</span>
+                            <div class="card-body p-4">
+                                <span class="case-category">Faulty Sofa Purchase</span>
+                                <h2 class="fw-bold card-title mt-2 mb-3">"They Ignored My Right to Reject"</h2>
+                                <p class="text-muted mb-3"><i class="bi bi-calendar-event me-2"></i>Case Ongoing</p>
+                                <p class="card-text">
+                                    Sofas developed faults within days of delivery. Despite lawful rejection within 30 days, both retailer and finance provider refused a refund.
+                                </p>
+                                <p class="card-text">
+                                    CPB confirmed statutory rights and is pursuing escalation.
+                                </p>
+                                <a href="#" class="btn bg-primary text-white mt-3">View Full Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 16: Emergency Plumbing (Short Version) -->
+                    <div class="col-lg-6 mb-4 case-item" data-category="services ongoing">
+                        <div class="card case-study-card">
+                            <span class="case-badge" style="background: #ffc107; color: #000;">Ongoing</span>
+                            <div class="card-body p-4">
+                                <span class="case-category">Emergency Plumbing Charges</span>
+                                <h2 class="fw-bold card-title mt-2 mb-3">"I Was Pressured to Pay, It Did not Feel Right"</h2>
+                                <p class="text-muted mb-3"><i class="bi bi-calendar-event me-2"></i>Case Ongoing</p>
+                                <p class="card-text">
+                                    An emergency plumber demanded upfront payment, refused card payment, and charged over £2,200 for disputed work.
+                                </p>
+                                <p class="card-text">
+                                    CPB is assessing fairness, transparency, and potential legal breaches.
+                                </p>
+                                <a href="#" class="btn bg-primary text-white mt-3">View Full Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 17: Locksmith Service (Short Version) -->
+                    <div class="col-lg-6 mb-4 case-item" data-category="services ongoing">
+                        <div class="card case-study-card">
+                            <span class="case-badge" style="background: #ffc107; color: #000;">Ongoing</span>
+                            <div class="card-body p-4">
+                                <span class="case-category">Fraudulent Locksmith Service</span>
+                                <h2 class="fw-bold card-title mt-2 mb-3">"My Home Security Was Compromised"</h2>
+                                <p class="text-muted mb-3"><i class="bi bi-calendar-event me-2"></i>Case Ongoing</p>
+                                <p class="card-text">
+                                    A locksmith replaced a lock without proper authorisation, charged £1,447, and supplied only one key, raising security concerns.
+                                </p>
+                                <p class="card-text">
+                                    CPB is pursuing refund and accountability.
+                                </p>
+                                <a href="#" class="btn bg-primary text-white mt-3">View Full Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 18: Viagogo Tickets (Short Version) -->
+                    <div class="col-lg-6 mb-4 case-item" data-category="entertainment ongoing">
+                        <div class="card case-study-card">
+                            <span class="case-badge" style="background: #ffc107; color: #000;">Ongoing</span>
+                            <div class="card-body p-4">
+                                <span class="case-category">Viagogo Ticket Mis‑Sale</span>
+                                <h2 class="fw-bold card-title mt-2 mb-3">"VIP Tickets That Were not VIP"</h2>
+                                <p class="text-muted mb-3"><i class="bi bi-calendar-event me-2"></i>Case Ongoing</p>
+                                <p class="card-text">
+                                    A consumer paid £1,727 for VIP concert tickets that did not deliver the promised experience.
+                                </p>
+                                <p class="card-text">
+                                    CPB is pursuing a full refund and challenging misleading ticket advertising.
+                                </p>
+                                <a href="#" class="btn bg-primary text-white mt-3">View Full Case Study</a>
                             </div>
                         </div>
                     </div>
@@ -719,9 +863,9 @@ include_once "includes/functions.php";
                                     </div>
                                     <h5 class="fw-bold text-primary mb-3">Become a CPB Champion</h5>
                                     <p class="text-muted mb-4">Join our network of advocates fighting for consumer rights.</p>
-                                    <a href="cpb-consumer-champion.php" class="btn btn-primary rounded-pill px-4">Learn More</a>
+                                    <a href="cpb-consumer-champion.php" class="btn bg-primary text-white rounded-pill px-4">Learn More</a>
                                 </div>
-                            </div>
+</div>
                             <div class="col-lg-4">
                                 <div class="text-center h-100 p-4 bg-white rounded-4 shadow-sm">
                                     <div class="mb-4">
@@ -731,7 +875,7 @@ include_once "includes/functions.php";
                                     </div>
                                     <h5 class="fw-bold text-primary mb-3">Support our national campaigns</h5>
                                     <p class="text-muted mb-4">Help us drive systemic change for all consumers.</p>
-                                    <a href="advocacy.php" class="btn btn-primary rounded-pill px-4">Get Involved</a>
+                                    <a href="advocacy.php" class="btn bg-primary text-white rounded-pill px-4">Get Involved</a>
                                 </div>
                             </div>
                             <div class="col-lg-4">
@@ -743,7 +887,7 @@ include_once "includes/functions.php";
                                     </div>
                                     <h5 class="fw-bold text-primary mb-3">Report a concern</h5>
                                     <p class="text-muted mb-4">Even if you're unsure where it fits, share your experience.</p>
-                                    <a href="get-help.php" class="btn btn-primary rounded-pill px-4">Report Now</a>
+                                    <a href="get-help.php" class="btn bg-primary text-white rounded-pill px-4">Report Now</a>
                                 </div>
                             </div>
                         </div>
