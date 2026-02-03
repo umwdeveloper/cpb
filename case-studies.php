@@ -637,7 +637,7 @@ At the Consumer Protection Bureau (CPB), we listen first, then act. The case stu
                                 <p class="card-text">
                                     CPB intervened directly and secured a full refund.
                                 </p>
-                                <a href="#" class="btn bg-primary text-white mt-3">View Full Case Study</a>
+                                <a href="case-study-hotel-booking.php" class="btn bg-primary text-white mt-3">View Full Case Study</a>
                             </div>
                         </div>
                     </div>
