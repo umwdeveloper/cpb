@@ -49,7 +49,7 @@
                 </h1>
                 <h2 class="fw-bold mb-0 subtitle-bullet">Examining Over-Medicalisation and Its Consequences</h2>
                 <p class="text-muted mt-2 small mb-0 pb-0">Published by the <strong>Consumer Protection Bureau
-                        (CPB)</strong> | 27 January 2026</p>
+                        (CPB)</strong> | 5 February 2026</p>
                 <p class="text-muted mt-2 small mb-0 pb-0">Author: <strong>Yousouf Jhugroo</strong> <span
                         class="text-muted small">Founder and Managing Director, Consumer Protection Bureau (CPB)</span>
                 </p>
