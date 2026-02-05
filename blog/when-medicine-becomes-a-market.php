@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>When Medicine Becomes a Market: A Case for Restraint, Integrity and Reform</title>
+    <title>When Medicine Becomes a Market: Why Modern Healthcare Needs Balance, Honesty and Accountability</title>
     <meta name="description" content="">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -29,198 +29,211 @@
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
     <link rel="stylesheet" href="../assets/css/style.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <style>
+        .pull-quote {
+            font-family: 'Georgia', 'Garamond', serif;
+            font-size: 28px;
+            line-height: 1.9;
+            color: #0d47a1;
+            font-weight: 500;
+            font-style: italic;
+            margin: 24px 0;
+            padding: 0;
+            border: none;
+            background: transparent;
+            box-shadow: none;
+        }
+
+        .pull-quote-accent {
+            color: #e65100;
+        }
+
+        .pull-quote-danger {
+            color: #b71c1c;
+        }
+
+        .pull-quote-success {
+            color: #1b5e20;
+        }
+
+        .article-section {
+            margin-top: 2rem;
+        }
+
+        .article-section h3 {
+            color: #223a78;
+            font-weight: 600;
+            margin-top: 2.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.35rem;
+            border-bottom: 2px solid #e5bf20;
+            padding-bottom: 12px;
+        }
+
+        .article-section p {
+            line-height: 1.85;
+            color: #333;
+            margin-bottom: 1.3rem;
+            font-size: 1.05rem;
+        }
+
+        ul.article-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul.article-list li {
+            padding-left: 30px;
+            margin-bottom: 1.2rem;
+            position: relative;
+            line-height: 1.85;
+            color: #333;
+            font-size: 1.05rem;
+        }
+
+        ul.article-list li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #e5bf20;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+  
+    </style>
 </head>
 
 <?php include 'assets/include/header.php'; ?>
 <main>
+    <!-- Hero Section -->
     <section class="py-lg-5 py-4 bg-light about-hero">
         <div class="container py-5 px-3 px-md-5" style="max-width: 980px; background: #E3F2FD; border-radius: 12px;">
             <!-- Hero Image -->
             <div class="mb-4 rounded shadow-sm overflow-hidden">
-                <img src="../assets/images/blog/medicin.png" alt="When Medicine Becomes a Market"
-                    class="img-fluid w-100">
+                <img src="../assets/images/blog/medicin.png" alt="When Medicine Becomes a Market" class="img-fluid w-100">
             </div>
 
             <!-- Title & Meta -->
             <div class="mb-4">
-                <h3>When Medicine Becomes a Market:</h3>
-                <h1 class="display-5 fw-bold text-uppercase" style="color: #0D47A1;">
-                    A Case for Restraint, Integrity and Reform
+                <h1 class="display-4 fw-bold text-uppercase main-heading" style="margin-bottom: 12px;">
+                    When Medicine Becomes a Market
                 </h1>
-                <h2 class="fw-bold mb-0 subtitle-bullet">Examining Over-Medicalisation and Its Consequences</h2>
-                <p class="text-muted mt-2 small mb-0 pb-0">Published by the <strong>Consumer Protection Bureau
-                        (CPB)</strong> | 5 February 2026</p>
-                <p class="text-muted mt-2 small mb-0 pb-0">Author: <strong>Yousouf Jhugroo</strong> <span
-                        class="text-muted small">Founder and Managing Director, Consumer Protection Bureau (CPB)</span>
-                </p>
+                <h2 class="fw-bold mb-3" style="font-size: 1.4rem;">
+                    Why Modern Healthcare Needs Balance, Honesty and Accountability
+                </h2>
+                <p class="text-muted small mb-2" style="font-size: 1rem;"><strong>Published by the Consumer Protection Bureau (CPB)</strong> | 5 February 2026</p>
+                <p class="text-muted small mb-0" style="font-size: 1rem;"><strong>Author:</strong> Yousouf Jhugroo, Founder and Managing Director, Consumer Protection Bureau (CPB)</p>
             </div>
 
             <!-- Editor's Note -->
-            <div class="alert alert-info py-4 px-4 mb-4 fst-italic"
-                style="background:#e3f2fd; border-left:5px solid #1976d2; border-radius: 6px; font-size: 0.95rem;">
-                <strong>Editor's note:</strong> This article reflects the personal views and lived experience of the
-                author. It is published as part of CPB's wider work on consumer rights, informed consent, and regulatory
-                accountability in healthcare. It does not constitute medical advice.
+            <div class="alert py-4 px-4 mb-0" style="background:#fff3cd; border-left:5px solid #ffc107; border-radius: 6px; font-size: 1rem; line-height: 1.75;">
+                <strong>Editor's note:</strong> This article reflects the personal views and lived experience of the author. It is published as part of CPB's wider work on consumer rights, informed consent, and regulatory accountability in healthcare. It does not constitute medical advice.
+            </div>
+        <!-- </div> -->
+    <!-- </section> -->
+
+    <!-- Article Content -->
+    <section>
+        <div class="container" style="max-width: 850px;">
+
+            <!-- Opening -->
+            <div class="article-section">
+                <p style="font-weight: 600; font-size: 1.05rem; line-height: 1.85;">Over many years, I have watched modern healthcare change in a way that should concern us all. Increasingly, medication has become the first response, not the last resort. People in pain, people labelled as "at risk", and people with borderline clinical readings are routinely placed on long-term drug regimens, often without proper discussion of alternatives, without sufficient clinical discretion, and without honest conversations about long-term consequences.</p>
             </div>
 
-            <!-- Main Blog Content -->
-            <div class="fs-5 text-dark" style="line-height: 1.8;">
+            <div class="pull-quote pull-quote-accent">
+                "Medication has become the first response, not the last resort."
+            </div>
 
-                <p style="font-weight:500; font-size: 1.1rem; color: #1a1a1a;">Over many years, I have observed a
-                    troubling shift in modern healthcare. Medication is increasingly
-                    treated as the first response, not the last resort. People in pain, people deemed "at risk", and
-                    people with borderline clinical indicators are routinely placed on long-term drug regimens,
-                    frequently without adequate exploration of alternatives, clinical judgement, or long-term
-                    consequences.</p>
+            <!-- Core Message -->
+            <div class="article-section">
+                <p>This is not an attack on medicine, nor a rejection of science. It is, quite simply, a call for restraint, integrity, and ethical clarity. Somewhere along the way, we have drifted from healing individuals towards "managing populations."</p>
 
-                <div class="alert alert-warning py-4 px-4 my-4"
-                    style="background:#fffde7; border-left:5px solid #fbc02d; border-radius: 6px;">
-                    <strong style="font-size: 1.05rem;">This is not a rejection of medicine.</strong> It is a call for
-                    medical restraint and ethical
-                    clarity.
-                </div>
-                <p style="margin-top: 1.5rem; font-weight: 500;">The tendency is clear. We are moving from healing the
-                    sick to managing populations.</p>
-                <div class="py-4 px-4 my-4"
-                    style="background: linear-gradient(135deg, #f3f6f9 0%, #e3f2fd 100%); border-left:5px solid #1976d2; border-radius: 8px; box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);">
-                    <div style="display: flex; align-items: flex-start; gap: 15px;">
+                <p>By "managing populations," we mean a system where doctors are encouraged to follow broad rules designed for large groups rather than making careful, individual decisions. People are treated not because they are unwell, but because they might become unwell in the future. A borderline reading or a calculated risk score can lead to medication for life, even when the person feels fine. In this approach, patients become "risks to be controlled" instead of individuals receiving personalised care.</p>
+            </div>
 
-                        <div>
-                            <h4 style="margin: 0 0 12px 0; color: #0d47a1; font-weight: 700; font-size: 1.1rem;">This
-                                Concern Is Not Marginal</h4>
-                            <p style="margin: 0 0 12px 0; color: #1a1a1a; line-height: 1.7;">Multiple authoritative
-                                bodies have documented the risks of over-medicalisation:</p>
-                            <ul style="margin: 0; padding-left: 20px; color: #333;">
-                                <li style="margin-bottom: 8px;"><strong>World Health Organisation</strong> Repeatedly
-                                    warned about global harms of over-medicalisation and polypharmacy, particularly
-                                    among older adults and people with chronic but stable conditions</li>
-                                <li style="margin-bottom: 8px;"><strong>The Lancet</strong> Published sustained
-                                    critiques of disease-definition creep and risk inflation</li>
-                                <li><strong>British Medical Journal</strong> Documented the tendency to treat
-                                    probability as pathology</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <p style="margin-top: 1.5rem;">Disease definitions have expanded. Risk thresholds have been lowered.
-                    Normal ageing and moderate
-                    discomfort are increasingly reframed as conditions requiring lifelong pharmaceutical management.</p>
-                <p style="margin-top: 1.5rem;">In everyday clinical practice, pain is commonly pharmaceuticalised before
-                    non-drug interventions are
-                    seriously considered. Borderline cholesterol, early respiratory symptoms, stress-related conditions,
-                    or moderate musculoskeletal pain frequently result in immediate prescriptions, sometimes for life.
-                </p>
-                <p style="margin-top: 1.5rem;">What is rarely acknowledged is that many of these interventions are based
-                    on population-level
-                    evidence. This means statistical risk reduction across large groups rather than clear, individual
-                    pathology. What benefits a population on average may offer only marginal benefit to an individual,
-                    while still carrying real burdens.</p>
-                <div class="alert alert-danger py-4 px-4 my-4"
-                    style="background:#ffebee; border-left:5px solid #d32f2f; border-radius: 6px;">
-                    <strong style="font-size: 1.05rem;">Equally undeniable is the quiet influence of the pharmaceutical
-                        industry.</strong> This
-                    culture did not emerge by accident.
-                </div>
-                <p style="margin-top: 1.5rem;">Industry-funded research, sponsored medical education, overseas
-                    conferences, travel grants, advisory
-                    roles and scholarships have become normalised across healthcare systems worldwide. These
-                    relationships are not always corrupt, but they are rarely neutral.</p>
-                <p style="margin-top: 1.5rem;">Clinical guidelines increasingly rely on studies funded by the
-                    manufacturers of the very drugs being
-                    recommended. The conflict of interest is structural, not incidental, and regulators can no longer
-                    afford to treat it as benign.</p>
-                <div class="py-4 px-4 my-4"
-                    style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); border-left:5px solid #e65100; border-radius: 8px; box-shadow: 0 2px 12px rgba(230, 81, 0, 0.12);">
-                    <div style="display: flex; align-items: flex-start; gap: 15px;">
-                        <div style="font-size: 1.8rem; color: #e65100; flex-shrink: 0;">
-                            </i>
-                        </div>
-                        <div>
-                            <h4 style="margin: 0 0 12px 0; color: #bf360c; font-weight: 700; font-size: 1.15rem;">The
-                                Opioid Crisis: A Stark Warning</h4>
-                            <p style="margin: 0 0 12px 0; color: #1a1a1a; line-height: 1.7;">The United States opioid
-                                epidemic serves as a critical case study in systemic failure:</p>
-                            <ul style="margin: 0; padding-left: 20px; color: #333;">
-                                <li style="margin-bottom: 8px;"><strong>Not a single actor</strong> — The crisis was not
-                                    caused by one rogue company, but arose from systemic issues</li>
-                                <li style="margin-bottom: 8px;"><strong>Regulatory capture</strong> — Weakened oversight
-                                    allowed industry influence over safety protocols</li>
-                                <li style="margin-bottom: 8px;"><strong>Marketing excess</strong> — Aggressive promotion
-                                    downplayed genuine risks</li>
-                                <li style="margin-bottom: 8px;"><strong>Suppressed evidence</strong> — Known harms were
-                                    minimised or withheld</li>
-                                <li><strong>Cultural conditioning</strong> — Healthcare systems became conditioned to
-                                    trust pharmaceutical solutions over clinical scepticism</li>
-                            </ul>
-                            <p
-                                style="margin: 12px 0 0 0; padding-top: 12px; border-top: 1px solid rgba(229, 57, 53, 0.2); color: #555; font-weight: 500; font-style: italic;">
-                                While opioids represent an extreme case, these underlying dynamics are far more
-                                widespread across modern medicine.</p>
-                        </div>
-                    </div>
-                </div>
-                <p style="margin-top: 1.5rem;">Fear remains a powerful driver. Patients warned of heart attacks,
-                    strokes, diabetes, or decline are
-                    understandably anxious. In that emotional space, a prescription can feel like protection, even when
-                    the long-term individual benefit is uncertain or marginal.</p>
-                <p style="margin-top: 1.5rem;">Preventive prescribing exposes all patients to side effects in order to
-                    reduce risk for a small
-                    proportion. Over time, dependency is reframed as "management". Side effects generate further
-                    prescriptions, and withdrawal becomes harder than the original condition.</p>
-                <p style="margin-top: 1.5rem; font-weight: 500;">This approach quietly shifts the burden of systemic
-                    uncertainty onto individuals. Their bodies, their
-                    daily lives, and their quality of living are compromised in the process.</p>
-                <div class="alert alert-primary py-4 px-4 my-4"
-                    style="background:#e3f2fd; border-left:5px solid #1976d2; border-radius: 6px;">
-                    <strong style="font-size: 1.05rem;">It is time to call for clinical balance, transparency and
-                        reform.</strong>
-                </div>
-                <p style="margin-top: 1.5rem; font-weight: 500; font-size: 1.05rem;">However, any credible,
-                    patient-centred healthcare system must:</p>
-                <ul class="mb-4 list-unstyled" style="font-size:1.05rem;">
-                    <li class="mb-3"
-                        style="padding-left: 30px; border-left: 3px solid #e5bf20; padding-top: 8px; padding-bottom: 8px;">
-                        (i) Treat medication as one tool among many, not the default response;</li>
-                    <li class="mb-3"
-                        style="padding-left: 30px; border-left: 3px solid #e5bf20; padding-top: 8px; padding-bottom: 8px;">
-                        (ii) Prioritise informed consent, lifestyle interventions and non-pharmacological care;</li>
-                    <li class="mb-3"
-                        style="padding-left: 30px; border-left: 3px solid #e5bf20; padding-top: 8px; padding-bottom: 8px;">
-                        (iii) Enforce full transparency around industry funding and conflicts of interest; and</li>
-                    <li
-                        style="padding-left: 30px; border-left: 3px solid #e5bf20; padding-top: 8px; padding-bottom: 8px;">
-                        (iv) Re-establish regulatory independence and meaningful post-market surveillance.</li>
+            <div class="pull-quote">
+                "People are increasingly treated not because they are ill, but because they might become ill."
+            </div>
+
+            <!-- Authority Warning -->
+            <div class="article-section">
+                <h3>A Concern Backed by Major Medical Authorities</h3>
+                <p>This concern is not fringe, and it is not ideological. Some of the world's most respected medical authorities have repeatedly warned about what is happening. The World Health Organisation has highlighted the growing harms of over-medicalisation and polypharmacy, particularly among older people and those living with stable, manageable conditions. Leading journals such as The Lancet and the British Medical Journal have questioned how disease definitions continue to expand, how risk thresholds are lowered, and how probability is increasingly treated as pathology.</p>
+            </div>
+
+            <div class="pull-quote pull-quote-accent">
+                "What reduces risk across a population does not necessarily benefit the individual."
+            </div>
+
+            <!-- The Reality of Over-Prescription -->
+            <div class="article-section">
+                <h3>The Reality of Over-Prescription</h3>
+                <p>Normal ageing, moderate discomfort, and early or borderline indicators are now frequently reframed as medical conditions requiring lifelong pharmaceutical intervention. In everyday clinical practice, pain is often medicated before non-drug options are seriously explored. Borderline cholesterol, early respiratory symptoms, stress-related issues, or manageable musculoskeletal pain can all trigger immediate prescriptions, sometimes intended to last a lifetime.</p>
+
+                <p>What is rarely explained to patients is that many of these decisions are based on population-level evidence. In simple terms, what reduces risk across a large group does not necessarily deliver meaningful benefit to the individual sitting in the consultation room. The statistical benefit may be marginal, yet the personal cost, including side effects, dependency, and reduced quality of life, is very real.</p>
+            </div>
+
+            <!-- Industry Influence -->
+            <div class="article-section">
+                <h3>The Industry Influence We Cannot Ignore</h3>
+                <p>Alongside this sits an uncomfortable truth. The pharmaceutical industry now plays a significant and often unseen role in shaping healthcare decisions, influencing research, clinical guidance, and prescribing practices, often without patients being fully aware of it. This culture did not emerge overnight, and it did not happen by accident. Industry-funded research, sponsored education, overseas conferences, travel grants, advisory roles, and scholarships have become normalised across healthcare systems worldwide. These relationships are not always corrupt, but they are rarely neutral.</p>
+
+                <p>Clinical guidelines increasingly rely on studies funded by the manufacturers of the very drugs being recommended. This creates a structural conflict of interest, not an incidental one. Regulators can no longer afford to treat this reality as benign or harmless.</p>
+            </div>
+
+            <div class="pull-quote pull-quote-danger">
+                "Conflicts of interest in healthcare are structural, not incidental."
+            </div>
+
+            <!-- Opioid Crisis Warning -->
+            <div class="article-section">
+                <h3>The Opioid Crisis: A Stark Warning</h3>
+                <p>The opioid crisis in the United States stands as a stark warning of what happens when these dynamics spiral out of control. That crisis was not caused by a single bad actor. It arose from a system that failed at multiple levels. Oversight was weakened, marketing downplayed genuine risks, evidence of harm was suppressed or minimised, and healthcare systems became conditioned to trust pharmaceutical solutions over clinical scepticism. While opioids represent an extreme case, the underlying forces that enabled that catastrophe are far more widespread across modern medicine.</p>
+            </div>
+
+            <!-- Fear and Dependency -->
+            <div class="article-section">
+                <h3>Fear, Dependency, and the Cost of Caution</h3>
+                <p>Fear plays a powerful role in all of this. Patients warned of heart attacks, strokes, diabetes, or decline are understandably anxious. In that emotional space, "a prescription can feel like protection," even when the long-term benefit to the individual is uncertain or modest.</p>
+
+                <p>Preventive prescribing often means exposing everyone to side effects in order to reduce risk for a small proportion. Over time, dependency is reframed as "management". Side effects lead to further prescriptions. Withdrawal becomes harder than the original condition ever was. Quietly, the burden of systemic uncertainty is transferred onto the patient's body and daily life.</p>
+            </div>
+
+            <div class="pull-quote">
+                "Preventive prescribing often exposes everyone to side effects to protect a small few."
+            </div>
+
+            <!-- Call for Reform -->
+            <div class="article-section">
+                <h3>A Call for Balance, Transparency, and Reform</h3>
+                <p>This is why the call for balance, transparency, and reform is no longer optional. A credible, patient-centred healthcare system must:</p>
+                <ul class="article-list">
+                    <li>Treat medication as one tool among many, not the default response</li>
+                    <li>Prioritise informed consent, lifestyle measures, and non-pharmacological care</li>
+                    <li>Enforce full transparency around industry funding and conflicts of interest</li>
+                    <li>Restore genuine regulatory independence, supported by meaningful post-market surveillance</li>
                 </ul>
-                <div class="py-4 px-4 my-4"
-                    style="background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); border-left:5px solid #2e7d32; border-radius: 8px; box-shadow: 0 2px 12px rgba(46, 125, 50, 0.12);">
-                    <div style="display: flex; align-items: flex-start; gap: 15px;">
-
-                        <div>
-                            <h4 style="margin: 0 0 12px 0; color: #1b5e20; font-weight: 700; font-size: 1.15rem;">
-                                Patient-Centered Values Must Prevail</h4>
-                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 12px;">
-                                <div
-                                    style="background: rgba(255, 255, 255, 0.6); padding: 12px 14px; border-radius: 6px; border-left: 3px solid #ff6f00;">
-                                    <p style="margin: 0; font-weight: 600; color: #d84315; font-size: 0.95rem;">Pain</p>
-                                    <p style="margin: 6px 0 0 0; color: #333; line-height: 1.5;">Deserves compassion,
-                                        not commercial exploitation</p>
-                                </div>
-                                <div
-                                    style="background: rgba(255, 255, 255, 0.6); padding: 12px 14px; border-radius: 6px; border-left: 3px solid #0277bd;">
-                                    <p style="margin: 0; font-weight: 600; color: #01579b; font-size: 0.95rem;">Risk</p>
-                                    <p style="margin: 6px 0 0 0; color: #333; line-height: 1.5;">Deserves monitoring,
-                                        not monetisation</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <p style="margin-top: 1.5rem;">For policymakers and regulators, the challenge is clear. The question is
-                    no longer whether
-                    over-medication exists, but why it continues to be tolerated.</p>
-                <p class="fw-bold text-center mt-5 mb-0" style="font-size:1.2rem; color:#0D47A1;">Healthcare must return
-                    to its core purpose: to serve patients, not markets.</p>
             </div>
+
+            <!-- Values -->
+            <div class="article-section">
+                <h3>At Its Heart, This Is About Values</h3>
+            </div>
+
+            <div class="pull-quote pull-quote-success">
+                "Pain deserves compassion, not commercial exploitation. Risk deserves monitoring, not monetisation."
+            </div>
+
+            <!-- Conclusion -->
+            <div class="article-section">
+                <p>For policymakers and regulators, the question is no longer whether over-medication exists. The real question is why it continues to be tolerated.</p>
+
+                <div class="pull-quote ">
+                   " Healthcare must return to its core purpose: to serve patients, not markets."
+                </div>
+            </div>
+
         </div>
     </section>
 
