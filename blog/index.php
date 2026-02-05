@@ -112,7 +112,7 @@ if (isset($_POST['form-contact'])) {
                             </p>
                             <div class="news-card-btn mt-4 mb-2 text-end">
                                 <a href="
-                           when-traffic-control-becomes-a-revenue-trap.php" class="news-alert-btn">Read
+                       when-medicine-becomes-a-market.php" class="news-alert-btn">Read
                                     More</a>
                             </div>
                         </div>
