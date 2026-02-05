@@ -72,6 +72,7 @@ if (isset($_POST['form-contact'])) {
 
 <?php include 'assets/include/header.php'; ?>
 <main>
+    
     <section class="py-lg-5 py-4 bg-light about-hero">
         <div class="container">
             <div class="row justify-content-center align-items-start">
@@ -91,6 +92,32 @@ if (isset($_POST['form-contact'])) {
     <section class="pb-lg-5 pb-4 bg-light position-relative " style="z-index: 1;">
         <div class="container pb-5 ">
             <div class="row mb-lg-0 mb-4 justify-content-center">
+                 <div class="col-lg-4 mb-3 ">
+                    <div class="news-card shadow-sm">
+                        <div class="news-card-image d-flex justify-content-center align-items-center"
+                            style="background-color:#000032;">
+                            <img src="../assets/images/blog/medicin.png"
+                                style="object-fit:contain; object-position:center;"
+                                 alt="When Medicine Becomes a Market" class="">
+                        </div>
+                        <div class="news-card-text">
+                            <!-- <span>9 July 2025</span> -->
+                            <h2 class="mb-0 pb-0">
+                               When Medicine Becomes a Market
+                            </h2>
+                            <p class="text mb-0 pb-0">
+                                <span>(05 February 2026)</span>
+                                <b>LONDON </b> –
+                            Over many years, I have watched modern healthcare change in a way that should concern us all. Increasingly, medication has become the first response, not the last resort. People in pain, people labelled as "at risk", and people with borderline clinical readings are routinely placed on long-term drug regimens, often without proper discussion of alternatives, without sufficient clinical discretion, and without honest conversations about long-term consequences.
+                            </p>
+                            <div class="news-card-btn mt-4 mb-2 text-end">
+                                <a href="
+                           when-traffic-control-becomes-a-revenue-trap.php" class="news-alert-btn">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                  <div class="col-lg-4 mb-3 ">
                     <div class="news-card shadow-sm">
                         <div class="news-card-image d-flex justify-content-center align-items-center"
