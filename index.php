@@ -79,7 +79,7 @@ if (isset($_POST['form-issue'])) {
     }
 }
 
-// $feedbacks = findAll("feedbacks");
+$feedbacks = findAll("feedbacks");
 
 ?>
 
@@ -1226,7 +1226,7 @@ if (isset($_POST['form-issue'])) {
                      <div class="col-lg-3 col-md-6 col-6 mb-3">
                         <a href="consumer-issues.php" class="text-decoration-none text-dark">
                             <div class="amenity-card">
-                                <img src="assets/images/aminities/Scared-pana.png" alt="Consumer Protection for Scam "
+                                <img src="assets/images/aminities/gas.png" alt="Consumer Protection for Scam "
                                     class="img-fluid">
                                 <h3 class="mt-3">Gas and Electricity</h3>
                             </div>
@@ -1235,7 +1235,7 @@ if (isset($_POST['form-issue'])) {
                      <div class="col-lg-3 col-md-6 col-6 mb-3">
                         <a href="consumer-issues.php" class="text-decoration-none text-dark">
                             <div class="amenity-card">
-                                <img src="assets/images/aminities/Scared-pana.png" alt="Consumer Protection for Scam "
+                                <img src="assets/images/aminities/telephone.png" alt="Consumer Protection for Telephone "
                                     class="img-fluid">
                                 <h3 class="mt-3">Telephone</h3>
                             </div>
@@ -1244,7 +1244,7 @@ if (isset($_POST['form-issue'])) {
                      <div class="col-lg-3 col-md-6 col-6 mb-3">
                         <a href="consumer-issues.php" class="text-decoration-none text-dark">
                             <div class="amenity-card">
-                                <img src="assets/images/aminities/Scared-pana.png" alt="Consumer Protection for Scam "
+                                <img src="assets/images/aminities/parking.png" alt="Consumer Protection for Parking Disputes "
                                     class="img-fluid">
                                 <h3 class="mt-3">Parking Disputes</h3>
                             </div>
@@ -1253,7 +1253,7 @@ if (isset($_POST['form-issue'])) {
                      <div class="col-lg-3 col-md-6 col-6 mb-3">
                         <a href="consumer-issues.php" class="text-decoration-none text-dark">
                             <div class="amenity-card">
-                                <img src="assets/images/aminities/Scared-pana.png" alt="Consumer Protection for Scam "
+                                <img src="assets/images/aminities/delivery.png" alt="Consumer Protection for Postal and Parcel Delivery Scams "
                                     class="img-fluid">
                                 <h3 class="mt-3">Postal and Parcel Delivery Scams</h3>
                             </div>
